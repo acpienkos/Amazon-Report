@@ -1,0 +1,141 @@
+ORIGINAL LAB 05: rerun and all twelve values verified BEFORE edits
+FCFF Year 1: 108.0000
+FCFF Year 2: 114.4800
+FCFF Year 3: 120.2040
+FCFF Year 4: 125.0122
+FCFF Year 5: 128.7625
+PV of explicit FCFF: 448.4408
+Terminal value at Year 5: 1894.6486
+PV of terminal value: 1176.4277
+Enterprise value: 1624.8685
+Equity value: 1374.8685
+Value per diluted share: 27.4974
+PV of terminal value / enterprise value: 0.7240
+
+PASS | --lab05 reproduces original pre-edit output byte-for-text
+
+NEW FEATURES: training-only validation passed before first Amazon run
+PASS | Lab 05: exactly twelve standard outputs
+PASS | Lab 05: FCFF Year 1 = 108.0000; expected 108.0000
+PASS | Lab 05: FCFF Year 2 = 114.4800; expected 114.4800
+PASS | Lab 05: FCFF Year 3 = 120.2040; expected 120.2040
+PASS | Lab 05: FCFF Year 4 = 125.0122; expected 125.0122
+PASS | Lab 05: FCFF Year 5 = 128.7625; expected 128.7625
+PASS | Lab 05: PV of explicit FCFF = 448.4408; expected 448.4408
+PASS | Lab 05: Terminal value at Year 5 = 1894.6486; expected 1894.6486
+PASS | Lab 05: PV of terminal value = 1176.4277; expected 1176.4277
+PASS | Lab 05: Enterprise value = 1624.8685; expected 1624.8685
+PASS | Lab 05: Equity value = 1374.8685; expected 1374.8685
+PASS | Lab 05: Value per diluted share = 27.4974; expected 27.4974
+PASS | Lab 05: PV of terminal value / enterprise value = 0.7240; expected 0.7240
+PASS | Lab 05: 11% WACC gives approximately $23.41
+PASS | Training grid WACC=9%, g=2% = 28.60
+PASS | Training grid WACC=9%, g=3% = 32.94
+PASS | Training grid WACC=9%, g=4% = 39.02
+PASS | Training grid WACC=10%, g=2% = 24.36
+PASS | Training grid WACC=10%, g=3% = 27.50
+PASS | Training grid WACC=10%, g=4% = 31.69
+PASS | Training grid WACC=11%, g=2% = 21.06
+PASS | Training grid WACC=11%, g=3% = 23.41
+PASS | Training grid WACC=11%, g=4% = 26.44
+PASS | Training: value rises with terminal growth
+PASS | Training: value falls with WACC
+PASS | Training: center equals base-case value
+PASS | Training: minimum/maximum occur at expected corners
+PASS | Training reverse shift = +1.777948 pp (about +1.78)
+PASS | Training reverse DCF reprices to $30 within 0.0000001
+PASS | Unreachable target returns no solution, not a boundary
+PASS | Base calculation rejects terminal growth >= WACC
+PASS | Base calculation rejects terminal growth >= WACC
+PASS | Invalid grid cells print INVALID
+PASS | Reverse bracket rejects growth at or below -100%
+PASS | Reverse bracket rejects growth at or below -100%
+PASS | An endpoint is accepted only when it actually matches the target
+PASS | Training WACC remains 10%; test calculations do not mutate inputs
+ALL TRAINING VALIDATIONS PASSED
+PASS | Final default case is Amazon; no training placeholders
+PASS | Amazon FCFF = 139514 + 1458*(1-0.21) - 131819 = 8846.82 USD m
+PASS | Amazon WACC exceeds terminal growth
+PASS | All twelve Amazon outputs are finite
+PASS | Terminal value discounted exactly five years
+PASS | Enterprise-to-equity bridge reconciles
+PASS | Equity / EPS-note diluted shares equals value per share
+PASS | Amazon required grid: value rises with terminal growth
+PASS | Amazon required grid: value falls with WACC
+PASS | Amazon required grid: minimum/maximum occur at expected corners
+PASS | Amazon centered grid: value rises with terminal growth
+PASS | Amazon centered grid: value falls with WACC
+PASS | Amazon centered grid: center equals base-case value
+PASS | Amazon centered grid: minimum/maximum occur at expected corners
+PASS | Amazon no solution in required bracket: target 252.1300 outside [3.6173, 12.1885]
+PASS | Supplementary wider bracket actually contains the target
+PASS | Supplementary shift +96.978684 pp reprices to target; not within required bracket
+PASS | Sensitivity and reverse DCF leave Amazon base inputs unchanged
+ALL AMAZON COMPUTATIONAL CHECKS PASSED
+PASS | Every pre-existing file except the authorized dcf.py update is unchanged (SHA-256)
+PASS | Default command produced the saved final Amazon output
+PASS | Model and test cases remain in one dcf.py file
+FINAL AMAZON RUN
+FCFF Year 1: 4423.4100
+FCFF Year 2: 6635.1150
+FCFF Year 3: 9289.1610
+FCFF Year 4: 11611.4513
+FCFF Year 5: 13353.1689
+PV of explicit FCFF: 30988.2064
+Terminal value at Year 5: 156267.0041
+PV of terminal value: 89460.2450
+Enterprise value: 120448.4515
+Equity value: 65341.4515
+Value per diluted share: 5.9930
+PV of terminal value / enterprise value: 0.7427
+
+CASE: AMAZON - sourced inputs and forecasts; see lab06.md
+Monetary totals: USD millions; share value: USD; last standard line: ratio.
+
+Required 9%/10%/11% WACC grid (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+9.000000% | 9.64 | 11.70 | 14.59
+10.000000% | 7.64 | 9.14 | 11.13
+11.000000% | 6.09 | 7.21 | 8.65
+Grid range: 6.0937 to 14.5950
+
+Amazon grid centered on estimated base WACC and terminal growth (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+10.801451% | 6.37 | 7.56 | 9.09
+11.801451% | 5.08 | 5.99 | 7.13
+12.801451% | 4.04 | 4.75 | 5.63
+Grid range: 4.0382 to 9.0873
+Market price quote: 2026-09-10 16:26 EDT; after-hours; Stock Analysis AMZN overview; observed 2026-09-10 16:44:44 EDT (20:44:44 UTC)
+
+Required reverse DCF
+Target share price: 252.1300
+Search shift bounds: -5.00 to +10.00 percentage points
+Endpoint prices (not solutions): 3.6173, 12.1885
+no solution in bracket
+Solved shift: unavailable; shifted growth rates: unavailable in this bracket
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+SUPPLEMENT: explicitly wider bracket; not a solution in the required bracket
+Target share price: 252.1300
+Search shift bounds: -5.00 to +150.00 percentage points
+Endpoint prices (not solutions): 3.6173, 783.4580
+Solved growth-rate shift: +96.978684 percentage points
+Shifted growth rates: 46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%
+Repriced share value: 252.12999999
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+Value / observed market price: 0.023769x
+Reasonableness band: 126.0650 to 504.2600
+Band result: OUTSIDE
+Reverse DCF describes conditional assumptions consistent with price, not proof of mispricing.
+
+FINAL QUALITY REVIEW
+PASS | Both course pages reread after completion; downloaded contents unchanged
+PASS | All twelve Amazon numbers in lab06.md match the final code to four decimals
+PASS | Conditional decision threshold checked using unrounded model value
+PASS | Five merit criteria covered: grid/direction, reverse DCF, sources, reasonableness, conditional call
+LIMITATION | Market debt/borrowing-cost proxies are dated estimates; see lab06.md
+LIMITATION | Required Amazon reverse bracket has no solution; wider result is supplementary
+MANUAL | Individual classroom actions and GitHub/Brightspace checkout remain
