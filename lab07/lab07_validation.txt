@@ -1,0 +1,153 @@
+FIN 43900 LAB 07 - EXECUTED OUTPUT
+Educational use only; not financial or investment advice.
+Python 3.13.7; run date 2026-09-15
+
+COMMAND: python comps.py --validate
+A. TRAINING / VALIDATION ONLY - frozen professor inputs
+PASS | AN P/E = 10.037825x
+PASS | GPI P/E = 11.450149x
+PASS | ABG observed P/E = 11.303721x
+PASS | Median P/E = 10.743987x
+PASS | Implied range = $215.81-$246.18
+PASS | Median-implied price = $231.00
+PASS | Independent rational arithmetic matches full-precision midpoint
+PASS | Remove GPI: $215.81 and change -$15.18
+PASS | Leave-one-out delta uses unrounded values
+PASS | Remove AN: $246.18 and change +$15.18
+PASS | One peer gives reference, no range
+PASS | Removing sole peer gives no estimate
+PASS | No peers gives no estimate
+PASS | Duplicate ticker and target excluded visibly
+PASS | Invalid peer price=None: not meaningful
+PASS | Invalid peer eps=None: not meaningful
+PASS | Invalid target EPS=None: implied prices not meaningful
+PASS | Invalid peer price=0: not meaningful
+PASS | Invalid peer eps=0: not meaningful
+PASS | Invalid target EPS=0: implied prices not meaningful
+PASS | Invalid peer price=-1: not meaningful
+PASS | Invalid peer eps=-1: not meaningful
+PASS | Invalid target EPS=-1: implied prices not meaningful
+PASS | Invalid peer price=nan: not meaningful
+PASS | Invalid peer eps=nan: not meaningful
+PASS | Invalid target EPS=nan: implied prices not meaningful
+PASS | Invalid peer price=inf: not meaningful
+PASS | Invalid peer eps=inf: not meaningful
+PASS | Invalid target EPS=inf: implied prices not meaningful
+PASS | Invalid peer price=missing: not meaningful
+PASS | Invalid peer eps=missing: not meaningful
+PASS | Invalid target EPS=missing: implied prices not meaningful
+PASS | Missing target price affects observed P/E, not EPS-based implied price
+PASS | Missing peer identity excluded
+PASS | Peer order does not change median
+PASS | Consistent peer split adjustment preserves multiple
+PASS | Target split halves per-share implied value
+PASS | Synthetic validation: three-peer median is middle observation
+ALL TRAINING AND EDGE-CASE CHECKS PASSED
+B. AMAZON ONLY - separate input and unit checks
+PASS | FY2025 net income / FY2025 diluted shares rounds to reported EPS
+PASS | Amazon annual P/E independently reconciles
+PASS | Annual EPS uses annual shares, not Lab 06 quarterly share count
+ALL 41 CHECKS PASSED
+
+PRIOR LAB 06 REGRESSION CHECKS (unchanged script)
+COMMAND: python dcf.py --validate
+PASS | Lab 05: exactly twelve standard outputs
+PASS | Lab 05: FCFF Year 1 = 108.0000; expected 108.0000
+PASS | Lab 05: FCFF Year 2 = 114.4800; expected 114.4800
+PASS | Lab 05: FCFF Year 3 = 120.2040; expected 120.2040
+PASS | Lab 05: FCFF Year 4 = 125.0122; expected 125.0122
+PASS | Lab 05: FCFF Year 5 = 128.7625; expected 128.7625
+PASS | Lab 05: PV of explicit FCFF = 448.4408; expected 448.4408
+PASS | Lab 05: Terminal value at Year 5 = 1894.6486; expected 1894.6486
+PASS | Lab 05: PV of terminal value = 1176.4277; expected 1176.4277
+PASS | Lab 05: Enterprise value = 1624.8685; expected 1624.8685
+PASS | Lab 05: Equity value = 1374.8685; expected 1374.8685
+PASS | Lab 05: Value per diluted share = 27.4974; expected 27.4974
+PASS | Lab 05: PV of terminal value / enterprise value = 0.7240; expected 0.7240
+PASS | Lab 05: 11% WACC gives approximately $23.41
+PASS | Training grid WACC=9%, g=2% = 28.60
+PASS | Training grid WACC=9%, g=3% = 32.94
+PASS | Training grid WACC=9%, g=4% = 39.02
+PASS | Training grid WACC=10%, g=2% = 24.36
+PASS | Training grid WACC=10%, g=3% = 27.50
+PASS | Training grid WACC=10%, g=4% = 31.69
+PASS | Training grid WACC=11%, g=2% = 21.06
+PASS | Training grid WACC=11%, g=3% = 23.41
+PASS | Training grid WACC=11%, g=4% = 26.44
+PASS | Training: value rises with terminal growth
+PASS | Training: value falls with WACC
+PASS | Training: center equals base-case value
+PASS | Training: minimum/maximum occur at expected corners
+PASS | Training reverse shift = +1.777948 pp (about +1.78)
+PASS | Training reverse DCF reprices to $30 within 0.0000001
+PASS | Unreachable target returns no solution, not a boundary
+PASS | Base calculation rejects terminal growth >= WACC
+PASS | Base calculation rejects terminal growth >= WACC
+PASS | Invalid grid cells print INVALID
+PASS | Reverse bracket rejects growth at or below -100%
+PASS | Reverse bracket rejects growth at or below -100%
+PASS | An endpoint is accepted only when it actually matches the target
+PASS | Training WACC remains 10%; test calculations do not mutate inputs
+ALL TRAINING VALIDATIONS PASSED
+PASS | Final default case is Amazon; no training placeholders
+PASS | Amazon FCFF = 139514 + 1458*(1-0.21) - 131819 = 8846.82 USD m
+PASS | Amazon WACC exceeds terminal growth
+PASS | All twelve Amazon outputs are finite
+PASS | Terminal value discounted exactly five years
+PASS | Enterprise-to-equity bridge reconciles
+PASS | Equity / EPS-note diluted shares equals value per share
+PASS | Amazon required grid: value rises with terminal growth
+PASS | Amazon required grid: value falls with WACC
+PASS | Amazon required grid: minimum/maximum occur at expected corners
+PASS | Amazon centered grid: value rises with terminal growth
+PASS | Amazon centered grid: value falls with WACC
+PASS | Amazon centered grid: center equals base-case value
+PASS | Amazon centered grid: minimum/maximum occur at expected corners
+PASS | Amazon no solution in required bracket: target 252.1300 outside [3.6173, 12.1885]
+PASS | Supplementary wider bracket actually contains the target
+PASS | Supplementary shift +96.978684 pp reprices to target; not within required bracket
+PASS | Sensitivity and reverse DCF leave Amazon base inputs unchanged
+ALL AMAZON COMPUTATIONAL CHECKS PASSED
+
+FINAL AUDIT
+PASS | Course Lab 07, Session 07 markdown/HTML, README, handout, worked case and prework read.
+PASS | Lab 08 and optional pages inspected: own-company peer application is Lab 08; advanced cases optional.
+PASS | Prior DCF rerun matches saved output exactly; detailed source table reviewed.
+PASS | P/E definition, price/EPS meaning, size normalization, DCF distinction and limitations explained.
+PASS | Partner explanation notes and a specific Amazon research question supplied; no invented personal history.
+PASS | Case economics explained; AN use and GPI qualify decisions have opened primary-source evidence.
+PASS | Frozen case price/EPS inputs, dates, total GAAP diluted definitions, source locators and retrospective timing recorded.
+PASS | One standard-library Python file; editable target/peer inputs at top; no fetch or install.
+PASS | Deduplication, normalized ticker identity and target exclusion verified.
+PASS | P/E, min/median/max implied prices, full precision and six-decimal/cents display verified.
+PASS | Missing/nonpositive/nonfinite price/EPS handling and one/zero-peer cases verified.
+PASS | Every admitted-peer removal prints remaining estimate and unrounded dollar change; no cash/debt bridge.
+PASS | All professor known-answer checks reproduced; worked price calculation provided.
+PASS | GPI removal direction, -$15.18 change, lost range and retained original peer judgment explained.
+PASS | Reflection distinguishes a two-peer conditional band from proof of fair value.
+PASS | Amazon-specific prior DCF and independent annual EPS diagnostic kept separate from training.
+PASS | Amazon annual versus quarterly shares, dated quote limitation, earnings quality and conditional call documented.
+PASS | Thursday prework read; annual Amazon EPS source located; existing DCF preserved.
+PASS | Educational disclaimer in report and script; material AI assistance disclosed.
+PASS | Lab 07 instructions and slides reread top to bottom after work; no private rubric claimed.
+PASS | All 14 previously existing workspace files match pre-work SHA-256 hashes.
+PASS | All four local GitHub lab06 files match the unchanged workspace files byte for byte.
+PASS | Prior DCF rerun exactly equals saved dcf_output_lab06.txt after newline normalization.
+LIMITATION | Saved AMZN quote is a prior observation, not a newly recovered historical tick.
+PERSONAL | Student must handle required before-AI/partner activities and Brightspace checkout; not certified here.
+
+PRESERVATION HASHES - ORIGINAL WORKSPACE FILES
+AGENTS.md: caf15bfb45183a6490b5a1489b44101385ef643c495c10385229d156216a25ed
+amazon most recent 10k.htm: beb1bfc28558135e76882db0cf36ba72a1ab44e2144fe37534f4da1e120ddb57
+dcf.py: a4a7cccba3184c2f9e66851c192a4d34dcc06e381b901b7f6d259bb5326400ff
+dcf_output.txt: 45b435d64e50848bc8645ca4642f0056b61ddf93df01855328f1d9ff31221812
+dcf_output_lab06.txt: 450007043c613ab892d6f55d15911d1c569336002e2ded09e307b1bd8e2d4067
+lab03-rewrite-prompt.md: 31bde966fa6c6a154912270e76c81975dfcd5aafa064d65b4588c3680d437e16
+lab05.md: 7786a9449428fa88e543dbfe35a987696e50b3940c961aa54473f164c82a2686
+lab05_validation.txt: b3f6a367e85ff806332ce8b68ec6b5ca7a5d84f483b725f4a641236407cea99c
+lab06.md: 7d7fa927acc23b7ed15532a22c47355b648f8ec0e0a043d86b03be803811ce9f
+lab06_validation.txt: ac0fef9355ee68323ee33a8d13c02411adaa1d9a11fa5adb50cb210439dfaeb0
+partner-company-brief.md: cf234ea77e07d4cd9e55434b75eaf90b705fda5b9eb837b60ae2d94fbf412a37
+validate_dcf.py: d7cd4d93d40380360e5f595e34f54061391f007b520b8d1150f7ea0b25012985
+amzn-20251231.htm: beb1bfc28558135e76882db0cf36ba72a1ab44e2144fe37534f4da1e120ddb57
+amzn-20260630.htm: d07b8a88fa442c2c55bd65b3f1d336ca16e7d1e9fda831e1063d24adea60e4eb

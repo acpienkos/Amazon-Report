@@ -1,0 +1,84 @@
+FIN 43900 LAB 07 - EXECUTED OUTPUT
+Educational use only; not financial or investment advice.
+Python 3.13.7; run date 2026-09-15
+
+COMMAND: python comps.py
+A. TRAINING / VALIDATION ONLY - required Asbury case, NOT AMAZON
+Prices: 2024-12-31 close; earnings: FY2024 total GAAP diluted EPS.
+Retrospective: annual earnings were published in 2025; not a point-in-time backtest.
+Inputs and prices are USD/share; multiples are x. No cash/debt bridge.
+Target ABG observed P/E: 11.303721x
+AN P/E: 10.037825x
+GPI P/E: 11.450149x
+Peer median P/E: 10.743987x
+Implied range: $215.81 to $246.18
+Median-implied price: $231.00
+Remove AN: reference estimate; no range $246.18; change $+15.18
+Remove GPI: reference estimate; no range $215.81; change $-15.18
+Changes use unrounded estimates, not differences of displayed cents.
+
+COMMAND: python comps.py --amazon-context
+B. AMAZON ANALYSIS ONLY - supplemental earnings diagnostic, no peer valuation
+Saved quote: $252.13, 2026-09-10 16:26 EDT after-hours; not a refreshed quote.
+FY2025 reported total GAAP diluted EPS: $7.17
+Net income / annual diluted shares: 7.173732
+Observed price / FY2025 reported EPS: 35.164575x
+Annual EPS, not LTM or forecast EPS. Investment gains affect earnings quality.
+No dealership multiple, cash/debt adjustment, or peer-implied Amazon range used.
+
+C. UNCHANGED PRIOR AMAZON DCF - 2026-09-10 inputs, rerun 2026-09-15
+COMMAND (parent folder): python dcf.py
+FCFF Year 1: 4423.4100
+FCFF Year 2: 6635.1150
+FCFF Year 3: 9289.1610
+FCFF Year 4: 11611.4513
+FCFF Year 5: 13353.1689
+PV of explicit FCFF: 30988.2064
+Terminal value at Year 5: 156267.0041
+PV of terminal value: 89460.2450
+Enterprise value: 120448.4515
+Equity value: 65341.4515
+Value per diluted share: 5.9930
+PV of terminal value / enterprise value: 0.7427
+
+CASE: AMAZON - sourced inputs and forecasts; see lab06.md
+Monetary totals: USD millions; share value: USD; last standard line: ratio.
+
+Required 9%/10%/11% WACC grid (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+9.000000% | 9.64 | 11.70 | 14.59
+10.000000% | 7.64 | 9.14 | 11.13
+11.000000% | 6.09 | 7.21 | 8.65
+Grid range: 6.0937 to 14.5950
+
+Amazon grid centered on estimated base WACC and terminal growth (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+10.801451% | 6.37 | 7.56 | 9.09
+11.801451% | 5.08 | 5.99 | 7.13
+12.801451% | 4.04 | 4.75 | 5.63
+Grid range: 4.0382 to 9.0873
+Market price quote: 2026-09-10 16:26 EDT; after-hours; Stock Analysis AMZN overview; observed 2026-09-10 16:44:44 EDT (20:44:44 UTC)
+
+Required reverse DCF
+Target share price: 252.1300
+Search shift bounds: -5.00 to +10.00 percentage points
+Endpoint prices (not solutions): 3.6173, 12.1885
+no solution in bracket
+Solved shift: unavailable; shifted growth rates: unavailable in this bracket
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+SUPPLEMENT: explicitly wider bracket; not a solution in the required bracket
+Target share price: 252.1300
+Search shift bounds: -5.00 to +150.00 percentage points
+Endpoint prices (not solutions): 3.6173, 783.4580
+Solved growth-rate shift: +96.978684 percentage points
+Shifted growth rates: 46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%
+Repriced share value: 252.12999999
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+Value / observed market price: 0.023769x
+Reasonableness band: 126.0650 to 504.2600
+Band result: OUTSIDE
+Reverse DCF describes conditional assumptions consistent with price, not proof of mispricing.
