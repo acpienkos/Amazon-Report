@@ -1,0 +1,40 @@
+FIN 43900 LAB 08 - EXECUTED EVIDENCE
+Educational use only; not investment advice.
+Run: September 16, 2026 EDT; Python 3.13.7
+
+COMMAND: python comps_lab08.py
+AMAZON ANALYSIS ONLY - independent AMZN/WMT/MSFT inputs
+Educational use only; not investment advice.
+Valuation date: 2026-09-10; all prices regular-session close, USD/share.
+Policy: qualified peers; min/median/max; no weighting, trimming, or cash/debt bridge.
+AMZN: price=251.89; EPS=7.17; year-end=2025-12-31; published=2026-02-05; target
+WMT: price=105.73; EPS=2.73; year-end=2026-01-31; published=2026-02-19; qualify
+MSFT: price=492.44; EPS=17.95; year-end=2026-06-30; published=2026-07-29; qualify
+AMZN observed annual P/E: 35.131102x
+WMT P/E: 38.728938x
+MSFT P/E: 27.433983x
+Peer median P/E: 33.081461x
+Implied low/high: $196.70 / $277.69
+Median-implied price: $237.19
+Remove WMT: reference; no range $196.70; change $-40.49 (-17.07%)
+Remove MSFT: reference; no range $277.69; change $+40.49 (+17.07%)
+low: unrounded=196.7016601671; vs dated market=-21.91%; vs newer quote=-20.62%
+median: unrounded=237.1940718418; vs dated market=-5.83%; vs newer quote=-4.28%
+high: unrounded=277.6864835165; vs dated market=+10.24%; vs newer quote=+12.06%
+Newer AMZN context only: $247.81; 2026-09-16 19:59 EDT (UTC-04:00), after-hours; Stock Analysis
+Newer quote does not update the historical peer valuation.
+Saved September 10 DCF base: $5.9930
+Saved centered DCF sensitivity: $4.0382-$9.0873
+Saved required fixed-grid DCF: $6.0937-$14.5950
+No averaging of methods. Watch/defer; conditional peer references are not intrinsic value.
+
+COMMAND: python comps_lab08.py --training
+TRAINING / VALIDATION ONLY - Asbury; retrospective frozen 2024 case
+ABG observed annual P/E: 11.303721x
+AN P/E: 10.037825x
+GPI P/E: 11.450149x
+Peer median P/E: 10.743987x
+Implied low/high: $215.81 / $246.18
+Median-implied price: $231.00
+Remove AN: reference; no range $246.18; change $+15.18 (+6.57%)
+Remove GPI: reference; no range $215.81; change $-15.18 (-6.57%)
