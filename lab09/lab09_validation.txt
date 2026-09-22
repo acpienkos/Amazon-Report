@@ -1,0 +1,285 @@
+FIN 43900 LAB 09 - EXECUTED EVIDENCE
+ABG TRAINING / VALIDATION ONLY
+Educational use only; not investment advice.
+Python 3.13.7
+Run timestamp: 2026-09-22T17:07:01-04:00 (EDT)
+
+COMMAND: python -B lab09/validate_lab09.py
+LAB 09 VALIDATION | ABG TRAINING / VALIDATION ONLY | Educational use only
+Independent decimal reconstruction and published checkpoint checks
+PASS | FY2026E revenue = 18323.0, published checkpoint
+PASS | FY2030E revenue = 19678.3, published checkpoint
+PASS | FY2026E operating_income = 844.2, published checkpoint
+PASS | FY2030E operating_income = 971.4, published checkpoint
+PASS | FY2026E net_income = 413.6, published checkpoint
+PASS | FY2030E net_income = 527.5, published checkpoint
+PASS | FY2026E fcfe = 211.4, published checkpoint
+PASS | FY2030E fcfe = 342.3, published checkpoint
+PASS | FY2026E cash = 101.8, published checkpoint
+PASS | FY2030E cash = 719.8, published checkpoint
+PASS | FY2026 handout gross_profit = 3124.1
+PASS | FY2026 handout sga = 2077.5
+PASS | FY2026 handout depreciation = 82.4
+PASS | FY2026 handout impairment = 120.0
+PASS | FY2026 handout interest = 289.0
+PASS | FY2026 handout working-capital investment = 41.5
+PASS | FY2026 handout floor-plan funding increase = 36.9
+PASS | FY2026E revenue: independent Decimal reference
+PASS | FY2026E gross_profit: independent Decimal reference
+PASS | FY2026E depreciation: independent Decimal reference
+PASS | FY2026E operating_income: independent Decimal reference
+PASS | FY2026E interest: independent Decimal reference
+PASS | FY2026E net_income: independent Decimal reference
+PASS | FY2026E inventory: independent Decimal reference
+PASS | FY2026E floor_plan: independent Decimal reference
+PASS | FY2026E ppe: independent Decimal reference
+PASS | FY2026E other_assets: independent Decimal reference
+PASS | FY2026E debt: independent Decimal reference
+PASS | FY2026E other_liabilities: independent Decimal reference
+PASS | FY2026E equity: independent Decimal reference
+PASS | FY2026E fcfe: independent Decimal reference
+PASS | FY2026E cash: independent Decimal reference
+PASS | FY2026E independently summed balance gap = 0.0
+PASS | FY2026E cash >= 25.0
+PASS | FY2026E balance-sheet cash = cash-flow closing cash
+PASS | FY2026E PP&E roll-forward
+PASS | FY2026E term-debt roll-forward
+PASS | FY2026E base requires no revolver
+PASS | FY2027E revenue: independent Decimal reference
+PASS | FY2027E gross_profit: independent Decimal reference
+PASS | FY2027E depreciation: independent Decimal reference
+PASS | FY2027E operating_income: independent Decimal reference
+PASS | FY2027E interest: independent Decimal reference
+PASS | FY2027E net_income: independent Decimal reference
+PASS | FY2027E inventory: independent Decimal reference
+PASS | FY2027E floor_plan: independent Decimal reference
+PASS | FY2027E ppe: independent Decimal reference
+PASS | FY2027E other_assets: independent Decimal reference
+PASS | FY2027E debt: independent Decimal reference
+PASS | FY2027E other_liabilities: independent Decimal reference
+PASS | FY2027E equity: independent Decimal reference
+PASS | FY2027E fcfe: independent Decimal reference
+PASS | FY2027E cash: independent Decimal reference
+PASS | FY2027E independently summed balance gap = 0.0
+PASS | FY2027E cash >= 25.0
+PASS | FY2027E balance-sheet cash = cash-flow closing cash
+PASS | FY2027E PP&E roll-forward
+PASS | FY2027E term-debt roll-forward
+PASS | FY2027E base requires no revolver
+PASS | FY2028E revenue: independent Decimal reference
+PASS | FY2028E gross_profit: independent Decimal reference
+PASS | FY2028E depreciation: independent Decimal reference
+PASS | FY2028E operating_income: independent Decimal reference
+PASS | FY2028E interest: independent Decimal reference
+PASS | FY2028E net_income: independent Decimal reference
+PASS | FY2028E inventory: independent Decimal reference
+PASS | FY2028E floor_plan: independent Decimal reference
+PASS | FY2028E ppe: independent Decimal reference
+PASS | FY2028E other_assets: independent Decimal reference
+PASS | FY2028E debt: independent Decimal reference
+PASS | FY2028E other_liabilities: independent Decimal reference
+PASS | FY2028E equity: independent Decimal reference
+PASS | FY2028E fcfe: independent Decimal reference
+PASS | FY2028E cash: independent Decimal reference
+PASS | FY2028E independently summed balance gap = 0.0
+PASS | FY2028E cash >= 25.0
+PASS | FY2028E balance-sheet cash = cash-flow closing cash
+PASS | FY2028E PP&E roll-forward
+PASS | FY2028E term-debt roll-forward
+PASS | FY2028E base requires no revolver
+PASS | FY2029E revenue: independent Decimal reference
+PASS | FY2029E gross_profit: independent Decimal reference
+PASS | FY2029E depreciation: independent Decimal reference
+PASS | FY2029E operating_income: independent Decimal reference
+PASS | FY2029E interest: independent Decimal reference
+PASS | FY2029E net_income: independent Decimal reference
+PASS | FY2029E inventory: independent Decimal reference
+PASS | FY2029E floor_plan: independent Decimal reference
+PASS | FY2029E ppe: independent Decimal reference
+PASS | FY2029E other_assets: independent Decimal reference
+PASS | FY2029E debt: independent Decimal reference
+PASS | FY2029E other_liabilities: independent Decimal reference
+PASS | FY2029E equity: independent Decimal reference
+PASS | FY2029E fcfe: independent Decimal reference
+PASS | FY2029E cash: independent Decimal reference
+PASS | FY2029E independently summed balance gap = 0.0
+PASS | FY2029E cash >= 25.0
+PASS | FY2029E balance-sheet cash = cash-flow closing cash
+PASS | FY2029E PP&E roll-forward
+PASS | FY2029E term-debt roll-forward
+PASS | FY2029E base requires no revolver
+PASS | FY2030E revenue: independent Decimal reference
+PASS | FY2030E gross_profit: independent Decimal reference
+PASS | FY2030E depreciation: independent Decimal reference
+PASS | FY2030E operating_income: independent Decimal reference
+PASS | FY2030E interest: independent Decimal reference
+PASS | FY2030E net_income: independent Decimal reference
+PASS | FY2030E inventory: independent Decimal reference
+PASS | FY2030E floor_plan: independent Decimal reference
+PASS | FY2030E ppe: independent Decimal reference
+PASS | FY2030E other_assets: independent Decimal reference
+PASS | FY2030E debt: independent Decimal reference
+PASS | FY2030E other_liabilities: independent Decimal reference
+PASS | FY2030E equity: independent Decimal reference
+PASS | FY2030E fcfe: independent Decimal reference
+PASS | FY2030E cash: independent Decimal reference
+PASS | FY2030E independently summed balance gap = 0.0
+PASS | FY2030E cash >= 25.0
+PASS | FY2030E balance-sheet cash = cash-flow closing cash
+PASS | FY2030E PP&E roll-forward
+PASS | FY2030E term-debt roll-forward
+PASS | FY2030E base requires no revolver
+PASS | pv_years: independent Decimal valuation
+PASS | terminal_value: independent Decimal valuation
+PASS | pv_terminal: independent Decimal valuation
+PASS | equity_value: independent Decimal valuation
+PASS | terminal_share: independent Decimal valuation
+PASS | per_share: independent Decimal valuation
+PASS | Equity value rounds to 5237.3 million
+PASS | Terminal share rounds to 79.8%
+PASS | Value per share = 291.75
+PASS | Handout explicit/terminal PV checkpoints = 1059.9 / 4177.5
+
+DELIBERATE CASH-LINK BREAK
+PASS | Independent deliberate FY2026 gap = -61.4
+PASS | Broken gap = negative of FY2026 cash increase
+PASS | Valuation call refuses and names FY2026E and -61.4
+Observed exception: FY2026E balance_gap = -61.4 million; valuation refused
+PASS | Actual broken CLI exits 1
+PASS | Actual CLI reports required year and gap
+PASS | Actual broken CLI never prints valuation
+COMMAND: python -B lab09/proforma.py --break-cash
+CHECK BLOCK (USD millions; zero gaps, nonnegative cash headroom required)
+Year       Balance gap   Cash-flow gap    PP&E gap    Debt gap   Cash headroom   Status
+FY2026E         -61.4         -61.4           0.0           0.0          15.4   FAIL
+FY2027E           0.0           0.0           0.0           0.0         181.9   PASS
+FY2028E           0.0           0.0           0.0           0.0         331.6   PASS
+FY2029E           0.0           0.0           0.0           0.0         502.5   PASS
+FY2030E           0.0           0.0           0.0           0.0         694.8   PASS
+ERROR: FY2026E balance_gap = -61.4 million; valuation refused
+PASS | Undo run-time override: corrected CLI passes and prints $291.75 again
+PASS | Break test leaves original source unchanged
+COMMAND: python -B lab09/proforma.py (override removed)
+CHECK BLOCK (USD millions; zero gaps, nonnegative cash headroom required)
+Year       Balance gap   Cash-flow gap    PP&E gap    Debt gap   Cash headroom   Status
+FY2026E           0.0           0.0           0.0           0.0          76.8   PASS
+FY2027E           0.0           0.0           0.0           0.0         181.9   PASS
+FY2028E           0.0           0.0           0.0           0.0         331.6   PASS
+FY2029E           0.0           0.0           0.0           0.0         502.5   PASS
+FY2030E           0.0           0.0           0.0           0.0         694.8   PASS
+
+VALUATION (USD millions except per share; annual end-period discounting)
+pv_years: 1,059.87
+terminal_cf: 504.59
+terminal_value: 6,727.85
+pv_terminal: 4,177.46
+equity_value: 5,237.34
+Share of value after 2030: 79.76%
+Value per share: $291.75
+PASS | Cash floor independently blocks a balanced but illiquid sheet
+PASS | Roll-forward check rejects isolated ppe error
+PASS | Roll-forward check rejects isolated debt error
+PASS | Roll-forward check rejects isolated cash error
+PASS | Terminal growth 10% >= cost of equity rejected
+PASS | Terminal growth 11% >= cost of equity rejected
+PASS | Revolver draws only to fund cash floor
+PASS | Draw restores cash exactly to floor
+PASS | Later excess cash repays revolver first
+PASS | Revolver interest uses opening drawn balance
+PASS | Removing floor plan exhausts revolver limit
+PASS | Removing floor plan repays opening inventory loans
+PASS | No-floor-plan diagnostic still balances
+PASS | Missing floor-plan funding is rejected for insufficient cash
+Floor-plan omission diagnostic FY2026 cash: -1112.0 million; FY2026E cash_headroom = -1137.0 million; valuation refused
+PASS | Every input has a valid label and explanation
+
+UNCHANGED PRIOR DCF EVIDENCE
+PASS | Root dcf.py reproduces existing training value; not misidentified as Amazon
+COMMAND: python -B dcf.py
+FCFF Year 1: 108.0000
+FCFF Year 2: 114.4800
+FCFF Year 3: 120.2040
+FCFF Year 4: 125.0122
+FCFF Year 5: 128.7625
+PV of explicit FCFF: 448.4408
+Terminal value at Year 5: 1894.6486
+PV of terminal value: 1176.4277
+Enterprise value: 1624.8685
+Equity value: 1374.8685
+Value per diluted share: 27.4974
+PV of terminal value / enterprise value: 0.7240
+PASS | Unchanged lab06/dcf.py exactly reproduces saved Week 3 output (newline-normalized)
+COMMAND: python -B lab06/dcf.py
+FCFF Year 1: 4423.4100
+FCFF Year 2: 6635.1150
+FCFF Year 3: 9289.1610
+FCFF Year 4: 11611.4513
+FCFF Year 5: 13353.1689
+PV of explicit FCFF: 30988.2064
+Terminal value at Year 5: 156267.0041
+PV of terminal value: 89460.2450
+Enterprise value: 120448.4515
+Equity value: 65341.4515
+Value per diluted share: 5.9930
+PV of terminal value / enterprise value: 0.7427
+
+CASE: AMAZON - sourced inputs and forecasts; see lab06.md
+Monetary totals: USD millions; share value: USD; last standard line: ratio.
+
+Required 9%/10%/11% WACC grid (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+9.000000% | 9.64 | 11.70 | 14.59
+10.000000% | 7.64 | 9.14 | 11.13
+11.000000% | 6.09 | 7.21 | 8.65
+Grid range: 6.0937 to 14.5950
+
+Amazon grid centered on estimated base WACC and terminal growth (USD per diluted share)
+WACC / g | 2.00% | 3.00% | 4.00%
+10.801451% | 6.37 | 7.56 | 9.09
+11.801451% | 5.08 | 5.99 | 7.13
+12.801451% | 4.04 | 4.75 | 5.63
+Grid range: 4.0382 to 9.0873
+Market price quote: 2026-09-10 16:26 EDT; after-hours; Stock Analysis AMZN overview; observed 2026-09-10 16:44:44 EDT (20:44:44 UTC)
+
+Required reverse DCF
+Target share price: 252.1300
+Search shift bounds: -5.00 to +10.00 percentage points
+Endpoint prices (not solutions): 3.6173, 12.1885
+no solution in bracket
+Solved shift: unavailable; shifted growth rates: unavailable in this bracket
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+SUPPLEMENT: explicitly wider bracket; not a solution in the required bracket
+Target share price: 252.1300
+Search shift bounds: -5.00 to +150.00 percentage points
+Endpoint prices (not solutions): 3.6173, 783.4580
+Solved growth-rate shift: +96.978684 percentage points
+Shifted growth rates: 46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%
+Repriced share value: 252.12999999
+Held fixed: starting FCFF=8846.8200 USD m; WACC=11.80145113%; terminal growth=3.00%; cash=78213.0000 USD m; debt=133320.0000 USD m; diluted shares=10903.0000 m; five end-of-year cash flows; terminal discount=5 years.
+Only the uniform explicit-growth shift changes; WACC weights are not recalculated.
+
+Value / observed market price: 0.023769x
+Reasonableness band: 126.0650 to 504.2600
+Band result: OUTSIDE
+Reverse DCF describes conditional assumptions consistent with price, not proof of mispricing.
+PASS | All pre-existing repository files unchanged during validation
+
+PRESERVATION SHA-256
+Amazon_2026-09-03_report.md: e450f1e144703d7c5026f139de9b254ce1105ad1c953ee0077e3f56d32a57d8b
+dcf.py: 1ee0fcb5b1b6205b8edbe561ea49a1e25c03f69d2cde9b3b56ac885a9dffe858
+lab06/dcf.py: a4a7cccba3184c2f9e66851c192a4d34dcc06e381b901b7f6d259bb5326400ff
+lab06/dcf_output_lab06.txt: 450007043c613ab892d6f55d15911d1c569336002e2ded09e307b1bd8e2d4067
+lab06/lab06.md: 7d7fa927acc23b7ed15532a22c47355b648f8ec0e0a043d86b03be803811ce9f
+lab06/lab06_validation.txt: ac0fef9355ee68323ee33a8d13c02411adaa1d9a11fa5adb50cb210439dfaeb0
+lab07/comps.py: 0eec20d0d3a7bb57a0c817c4ad9c94fe44782574b6a40c5ca7c44c37dcc9d81b
+lab07/lab07.md: bf10705108157ee663c2c0e91a07d7e8c6ad2fe9da6e3b12265bdab9a461f4ee
+lab07/lab07_output.txt: 84ecfca6472739257ab821482920d9b13a40f742ec870a00792e9d22328b2091
+lab07/lab07_validation.txt: 597961cc02fc1bb9ddec838e22070b0d6f5fafa4d499b3f7ccdc161cf497158a
+lab08/comps_lab08.py: f62a96cfb383e1f7ff4726fcbaf3dfb44c89042256885aa38c3b650af0f3d1a9
+lab08/lab08.md: 59401d981e4be08b54f78516bb768bdce1e37496205242190e02af17470ac548
+lab08/lab08_output.txt: 04deb5952aa2aaf3bc38c0400f742d22aea004a0dcac1368c9be4feafbeb0362
+lab08/lab08_validation.txt: c6bde178a6b8dd27b89edfa0750b697a98dda22be6e2ce09f79179c8d2fd1e48
+
+ALL 158 CHECKS PASSED
