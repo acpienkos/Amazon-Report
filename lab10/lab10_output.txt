@@ -1,0 +1,121 @@
+AMAZON.COM, INC. (AMZN) | FIN439 Lab10 | Educational use only
+Financial inputs: amazon_assumptions.csv (single input register).
+Forecast 2026-2030 from audited December31 2025; full-year discounting, not September2026 stub valuation.
+Course positive-only convention; negative flows remain in statements and liquidity checks.
+
+INCOME STATEMENT (USD million; expense/investment/principal rows positive unless cash-flow subtotal)
+Line                                   2026          2027          2028          2029          2030
+revenue                           831,631.8     948,060.3   1,061,827.5   1,168,010.3   1,261,451.1
+cost_of_sales                     407,499.6     455,068.9     499,058.9     543,124.8     580,267.5
+gross_profit                      424,132.2     492,991.4     562,768.6     624,885.5     681,183.6
+sga                                67,861.2      77,892.6      87,791.9      96,232.4     103,539.9
+other_operating_cost              192,986.9     220,005.0     246,405.6     271,046.2     292,729.9
+depreciation                       53,553.8      81,850.9     104,825.5     122,222.7     135,510.4
+operating_lease_expense            14,006.0      14,700.4      15,429.5      16,195.0      16,998.9
+operating_income                   95,724.5      98,542.4     108,316.0     119,189.1     132,404.5
+interest_income                     3,690.9       3,067.2       1,797.1         927.9       1,106.6
+debt_interest                       4,543.8       6,551.9       7,114.4       7,114.4       7,114.4
+finance_lease_interest                417.7         464.2         504.8         540.4         571.4
+financing_interest                    236.6         226.7         216.4         205.5         194.0
+revolver_interest                       0.0           0.0           0.0           0.0           0.0
+interest_expense                    5,198.1       7,242.8       7,835.6       7,860.2       7,879.8
+other_income                            0.0           0.0           0.0           0.0           0.0
+pretax_income                      94,217.2      94,366.8     102,277.5     112,256.8     125,631.3
+income_tax                         20,727.8      20,760.7      22,501.0      24,696.5      27,638.9
+net_income                         73,489.4      73,606.1      79,776.4      87,560.3      97,992.4
+
+BALANCE SHEET (USD million; expense/investment/principal rows positive unless cash-flow subtotal)
+Line                                   2026          2027          2028          2029          2030
+cash                               66,022.2      25,000.0      25,000.0      30,957.1      69,208.9
+securities                         36,219.0      34,901.8       5,929.2       5,929.2       5,929.2
+inventory                          43,818.2      48,933.3      53,663.5      58,401.9      62,395.8
+receivables                        78,565.6      89,564.8     100,312.6     110,343.9     119,171.4
+ppe                               545,672.8     698,837.0     814,818.3     903,402.5     968,699.0
+operating_rou                      90,356.7      94,874.5      99,618.3     104,599.2     109,829.1
+goodwill                           23,273.0      23,273.0      23,273.0      23,273.0      23,273.0
+other_assets                      122,607.0     122,607.0     122,607.0     122,607.0     122,607.0
+total_assets                    1,006,534.5   1,137,991.4   1,245,221.9   1,359,513.6   1,481,113.4
+trade_payables                    108,512.5     121,179.7     132,893.7     144,628.0     154,518.6
+capex_payables                     46,290.5      48,394.6      46,290.5      44,186.4      42,082.3
+operating_accruals                 67,001.6      76,381.8      85,547.6      94,102.4     101,630.6
+unearned                           23,868.2      27,209.7      30,474.9      33,522.4      36,204.1
+operating_lease                    93,554.7      98,072.5     102,816.3     107,797.2     113,027.1
+finance_lease                      13,653.0      14,848.2      15,893.2      16,806.9      17,605.7
+financing_obligation                7,817.6       7,462.3       7,086.7       6,691.2       6,273.3
+debt                              133,097.0     158,097.0     158,097.0     158,097.0     158,097.0
+revolver                                0.0           0.0           0.0           0.0           0.0
+other_liabilities                  28,185.0      28,185.0      28,185.0      28,185.0      28,185.0
+total_liabilities                 521,980.1     579,830.9     607,284.9     634,016.4     657,623.8
+equity                            484,554.4     558,160.5     637,936.9     725,497.2     823,489.6
+liabilities_equity              1,006,534.5   1,137,991.4   1,245,221.9   1,359,513.6   1,481,113.4
+
+CASH FLOW / EQUITY CASH FLOW (USD million; expense/investment/principal rows positive unless cash-flow subtotal)
+Line                                   2026          2027          2028          2029          2030
+net_income                         73,489.4      73,606.1      79,776.4      87,560.3      97,992.4
+depreciation                       53,553.8      81,850.9     104,825.5     122,222.7     135,510.4
+change_operating_wc                -9,807.4      -9,274.6      -8,667.0      -8,566.8      -7,279.2
+operating_cash_flow               136,850.6     164,731.7     193,269.0     218,349.9     240,782.0
+capex                             220,000.0     230,000.0     220,000.0     210,000.0     200,000.0
+change_other_net_assets                 0.0           0.0           0.0           0.0           0.0
+securities_sale                         0.0       1,317.2      28,972.6           0.0           0.0
+investing_cash_flow              -220,000.0    -228,682.8    -191,027.4    -210,000.0    -200,000.0
+debt_net_change                    64,246.0      25,000.0           0.0           0.0           0.0
+finance_lease_principal             1,544.0       1,715.8       1,866.0       1,997.3       2,112.1
+financing_principal                   340.4         355.3         375.6         395.5         418.0
+fcfe_before_revolver              -20,787.8     -42,339.4     -28,972.6       5,957.1      38,251.9
+revolver_draw                           0.0           0.0           0.0           0.0           0.0
+revolver_repayment                      0.0           0.0           0.0           0.0           0.0
+fcfe                              -20,787.8     -42,339.4     -28,972.6       5,957.1      38,251.9
+distributions                           0.0           0.0           0.0           0.0           0.0
+financing_cash_flow                62,361.6      22,928.9      -2,241.6      -2,392.8      -2,530.1
+opening_cash                       86,810.0      66,022.2      25,000.0      25,000.0      30,957.1
+net_cash_change                   -20,787.8     -41,022.2          -0.0       5,957.1      38,251.9
+cash                               66,022.2      25,000.0      25,000.0      30,957.1      69,208.9
+
+NONCASH INVESTMENT AND LEASE SCHEDULE (USD million; expense/investment/principal rows positive unless cash-flow subtotal)
+Line                                   2026          2027          2028          2029          2030
+change_capex_payables              19,290.5       2,104.1      -2,104.1      -2,104.1      -2,104.1
+finance_lease_addition              2,911.0       2,911.0       2,911.0       2,911.0       2,911.0
+financing_addition                      0.0           0.0           0.0           0.0           0.0
+ppe_additions                     242,201.5     235,015.1     220,806.9     210,806.9     200,806.9
+operating_lease_addition           15,006.4      15,756.7      16,544.5      17,371.8      18,240.3
+rou_amortization                   10,703.7      11,238.9      11,800.8      12,390.8      13,010.4
+operating_lease_accretion           3,302.3       3,461.5       3,628.7       3,804.2       3,988.5
+operating_lease_cash               14,006.0      14,700.4      15,429.5      16,195.0      16,998.9
+
+CHECK BLOCK: USD million; tolerance 0.000001 ($1); headroom must be nonnegative
+Check                                  2026          2027          2028          2029          2030
+balance_gap                             0.0           0.0           0.0           0.0           0.0
+cash_gap                                0.0           0.0           0.0           0.0           0.0
+fcfe_gap                                0.0           0.0           0.0           0.0           0.0
+securities_gap                          0.0           0.0           0.0           0.0           0.0
+ppe_gap                                 0.0           0.0           0.0           0.0           0.0
+capital_ap_gap                          0.0           0.0           0.0           0.0           0.0
+debt_gap                                0.0           0.0           0.0           0.0           0.0
+finance_lease_gap                       0.0           0.0           0.0           0.0           0.0
+financing_gap                           0.0           0.0           0.0           0.0           0.0
+rou_gap                                 0.0           0.0           0.0           0.0           0.0
+operating_lease_gap                     0.0           0.0           0.0           0.0           0.0
+equity_gap                              0.0           0.0           0.0           0.0           0.0
+revolver_gap                            0.0           0.0           0.0           0.0           0.0
+cash_headroom                      41,022.2           0.0           0.0       5,957.1      44,208.9
+revolver_headroom                  15,000.0      15,000.0      15,000.0      15,000.0      15,000.0
+FY2026: negative FCFE -20,787.8; revolver draw 0.0, repayment 0.0
+FY2027: negative FCFE -42,339.4; revolver draw 0.0, repayment 0.0
+FY2028: negative FCFE -28,972.6; revolver draw 0.0, repayment 0.0
+FY2029: positive FCFE 5,957.1; revolver draw 0.0, repayment 0.0
+FY2030: positive FCFE 38,251.9; revolver draw 0.0, repayment 0.0
+
+ALL REQUIRED STATEMENT CHECKS PASS; valuation permitted.
+pv_explicit: 27,820.16 USD million
+excluded_negative_pv: 75,656.81 USD million
+sustainable_fcfe: 38,251.88 USD million
+terminal_cf: 39,208.18 USD million
+terminal_value: 522,775.72 USD million
+pv_terminal: 324,602.59 USD million
+equity_value: 352,422.75 USD million
+Value after 2030: 92.11%
+Fixed common shares: 10,786.313572 million
+Value per share: $32.67
+The model says $32.67 per share, while the market says $249.38 as of September 24, 2026, 16:00 EDT, using the same disclosed share-count basis.
+Market price times the same shares: 2,689,890.88 USD million

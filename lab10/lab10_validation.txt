@@ -1,0 +1,76 @@
+FIN439 LAB10 FINAL EXECUTED VALIDATION
+UTC run: 2026-09-24T21:10:57.470193+00:00
+Command: python -B lab10/validate_lab10.py
+Exit code: 0
+
+PASS: all 81 history rows, 48 source fixtures, all derived ratios and provider reconciliation.
+PASS: every forecast financial line independently rebuilt using 40-digit Decimal arithmetic.
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 cash_headroom = -3329.3 million; valuation refused
+PASS: finite liquidity scenario ($15bn 2027 term issuance) draws and repays revolver while preserving the cash floor.
+EXPECTED REFUSAL: FY2028 cash_headroom = -23690.3 million; valuation refused
+EXPECTED REFUSAL: FY2030 negative or zero sustainable FCFE -267013.1; terminal value refused
+EXPECTED REFUSAL: Require finite equity return > terminal growth > -100%; valuation refused
+EXPECTED REFUSAL: Invalid share count; valuation refused
+EXPECTED REFUSAL: Changing cash compensation requires an explicit dilution model; valuation refused
+SENSITIVITY cost of equity 9%: $39.04/share
+SENSITIVITY cost of equity 11%: $27.85/share
+SENSITIVITY +0.5 percentage point gross margin in all years: $36.63/share
+DELIBERATE BREAK COMMAND: python -B lab10/amazon_proforma.py --break-cash
+Exit code: 1
+ERROR: FY2026 balance_gap = 20787.8 million; valuation refused
+Explanation: substituted opening cash 86,810.0 minus computed cash 66,022.2 = 20,787.8 million.
+RESTORED: normal run exit0, all checks pass, same source hash and output.
+PASS: all 19 pre-existing tracked files unchanged from 347750c3bc4e8965b40312c5b18c1f49760a63d1
+PASS: unchanged ABG $291.75 / 79.76%; unchanged Amazon Lab06 $5.9930 and exact saved output.
+PERSONAL REQUIREMENTS: report status governs; default run does not certify manual checks or partner work.
+PASS: 822 required computational, source-arithmetic, refusal, artifact, and preservation checks.
+BASE: equity $352,422.75 million; $32.67/share; terminal 92.11%.
+
+SUBMISSION-READINESS VALIDATION
+Command: python -B lab10/validate_lab10.py --submission-ready
+Exit code: 0
+PASS: all 81 history rows, 48 source fixtures, all derived ratios and provider reconciliation.
+PASS: every forecast financial line independently rebuilt using 40-digit Decimal arithmetic.
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = -1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 balance_gap = 1.0 million; valuation refused
+EXPECTED REFUSAL: FY2028 cash_headroom = -3329.3 million; valuation refused
+PASS: finite liquidity scenario ($15bn 2027 term issuance) draws and repays revolver while preserving the cash floor.
+EXPECTED REFUSAL: FY2028 cash_headroom = -23690.3 million; valuation refused
+EXPECTED REFUSAL: FY2030 negative or zero sustainable FCFE -267013.1; terminal value refused
+EXPECTED REFUSAL: Require finite equity return > terminal growth > -100%; valuation refused
+EXPECTED REFUSAL: Invalid share count; valuation refused
+EXPECTED REFUSAL: Changing cash compensation requires an explicit dilution model; valuation refused
+SENSITIVITY cost of equity 9%: $39.04/share
+SENSITIVITY cost of equity 11%: $27.85/share
+SENSITIVITY +0.5 percentage point gross margin in all years: $36.63/share
+DELIBERATE BREAK COMMAND: python -B lab10/amazon_proforma.py --break-cash
+Exit code: 1
+ERROR: FY2026 balance_gap = 20787.8 million; valuation refused
+Explanation: substituted opening cash 86,810.0 minus computed cash 66,022.2 = 20,787.8 million.
+RESTORED: normal run exit0, all checks pass, same source hash and output.
+PASS: all 19 pre-existing tracked files unchanged from 347750c3bc4e8965b40312c5b18c1f49760a63d1
+PASS: unchanged ABG $291.75 / 79.76%; unchanged Amazon Lab06 $5.9930 and exact saved output.
+PASS: 823 required computational, source-arithmetic, refusal, artifact, and preservation checks.
+BASE: equity $352,422.75 million; $32.67/share; terminal 92.11%.
+
+Personal completion is supported by the student’s explicit confirmation in the conversation.
