@@ -1,0 +1,71 @@
+{
+  "status": "LOCKED",
+  "recorded_at_utc": "2026-09-29T21:04:48.155628+00:00",
+  "exact_user_response": "I approve the two proposed sensitivity drivers: gross margin and net cash capital expenditures.\n\nGross-margin paths for 2026–2030:\n\n- Lower: 50%, 51%, 52%, 52.5%, 53%\n- Base: 51%, 52%, 53%, 53.5%, 54%\n- Higher: 52%, 53%, 54%, 54.5%, 55%\n\nReason: Amazon’s historical gross margins were 46.98%, 48.85%, and 50.29%. A one-percentage-point change around the base forecast tests a meaningful but not extreme variation.\n\nNet-cash-capex paths in USD millions for 2027–2030:\n\n- Lower: 207,000; 198,000; 189,000; 180,000\n- Base: 230,000; 220,000; 210,000; 200,000\n- Higher: 253,000; 242,000; 231,000; 220,000\n\nKeep the separate 2026 net-cash-capex input unchanged at $220,000 million.\n\nReason: The lower and higher paths are 10% below and above the base path. Historical net capex was $48,133 million, $77,658 million, and $128,320 million, so the timing and magnitude of Amazon’s spending taper remain uncertain.\n\nMy predictions, recorded before running any changed case:\n\n- Lower gross margin: FY2030 operating income will decrease by approximately $12,000 million; FY2030 FCFE will decrease by approximately $9,500 million; and value per share will decrease by approximately $7.50.\n- Higher gross margin: FY2030 operating income will increase by approximately $12,000 million; FY2030 FCFE will increase by approximately $9,500 million; and value per share will increase by approximately $7.50.\n- Lower net cash capex: FY2030 operating income will increase by approximately $6,000 million because of lower depreciation; FY2030 FCFE will increase by approximately $18,000 million; and value per share will increase by approximately $14.00.\n- Higher net cash capex: FY2030 operating income will decrease by approximately $6,000 million because of higher depreciation; FY2030 FCFE will decrease by approximately $18,000 million; and value per share will decrease by approximately $14.00.\n\nThese are rough, directional estimates made before seeing any changed-case results. I expect gross margin to affect operating income most directly because it applies across Amazon’s entire revenue base. I expect net cash capex to affect FCFE and valuation more because capital expenditures directly reduce cash flow and 92.11% of the base valuation comes from value after 2030.\n\nPartner exchange 1:\n\nI asked my partner: “Why are those ranges reasonable, and how do you know we are changing only one assumption at a time?”\n\nMy partner initially said they did not know.\n\nI explained: “The gross-margin range is one percentage point above and below the exact base path, which is meaningful relative to Amazon’s recent margins without being extreme. The capex range is 10% above and below the post-2026 base path because the timing and size of Amazon’s spending taper are uncertain. The cases follow a one-input-at-a-time design because each sensitivity changes only its named assumption path while every other input remains at its base value.”\n\nAfter hearing my explanation, my partner said they agreed that the ranges were reasonable and that the cases followed a one-input-at-a-time design with units stated in percentages for gross margin and USD millions for net cash capex.\n\nSave this response verbatim with the actual timestamp as my locked pre-run prediction and input record. Do not replace my predictions with calculated results.\n\nThen run each sensitivity case one input at a time. Preserve the base case, restore all inputs between cases, print all accounting and liquidity checks, and refuse to calculate a valuation whenever a required check fails. Compare the actual results with my predictions and complete the remaining Lab 11 requirements.\n\nInclude an honest AI disclosure explaining that AI helped construct, test, validate, and document the analysis, while I selected the sensitivity drivers and ranges, recorded the pre-run predictions, reviewed the results, and remain responsible for the judgments and any errors. Do not invent partner activity, personal verification, or attendance information. After validation, show me the completed report and results before committing or pushing anything.",
+  "locked_record_sha256": "d3f6f8b3d8581ca9f373499491bc93de8f0fe38ed29a287e62bb668885758a18",
+  "partner_pre_run_confirmed": true,
+  "drivers": [
+    {
+      "key": "gross_margin",
+      "units": "decimal ratio",
+      "years": [
+        2026,
+        2027,
+        2028,
+        2029,
+        2030
+      ],
+      "base": [
+        0.51,
+        0.52,
+        0.53,
+        0.535,
+        0.54
+      ],
+      "lower": [
+        0.5,
+        0.51,
+        0.52,
+        0.525,
+        0.53
+      ],
+      "higher": [
+        0.52,
+        0.53,
+        0.54,
+        0.545,
+        0.55
+      ],
+      "reason": "Student-selected +/-1 percentage point versus exact base; historical margins 46.98%, 48.85%, 50.29%; meaningful but not extreme variation (judgment)."
+    },
+    {
+      "key": "capex_later",
+      "units": "USD million",
+      "years": [
+        2027,
+        2028,
+        2029,
+        2030
+      ],
+      "base": [
+        230000,
+        220000,
+        210000,
+        200000
+      ],
+      "lower": [
+        207000,
+        198000,
+        189000,
+        180000
+      ],
+      "higher": [
+        253000,
+        242000,
+        231000,
+        220000
+      ],
+      "reason": "Student-selected +/-10% versus post-2026 base; historical net capex 48133, 77658, 128320 USD million; uncertain timing and magnitude of spending taper (judgment)."
+    }
+  ]
+}

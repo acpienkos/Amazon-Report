@@ -1,0 +1,2 @@
+# Preserve the byte-hashed pre-run record across Windows checkouts.
+locked_prediction.md text eol=lf
