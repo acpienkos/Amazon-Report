@@ -1,4 +1,4 @@
-FIN439 LAB12 VALIDATION | 2026-10-01T20:56:02.860482+00:00
+FIN439 LAB12 VALIDATION | 2026-10-01T21:17:05.786453+00:00
 PASS | reviewed report text unchanged since contextual evidence audit
 PASS | starting inventory contains all 40 prior tracked files
 PASS | 27-file pre-Lab11 inventory explicitly included
@@ -2230,7 +2230,31 @@ PASS | GitHub target exists locally lab12/lab12.md
 PASS | GitHub target exists locally lab12/lab12_validation.txt
 PASS | GitHub target exists locally lab12/publication_checks.json
 PASS | GitHub target exists locally lab12/validate_lab12.py
-PUBLICATION | Live GitHub checks not run in local mode; use --published after push.
+PASS | published HTTP 200 https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-06/lab-12-proforma-present.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/Amazon_2026-09-03_report.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab06/dcf_output_lab06.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab06/lab06.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab07/lab07.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08_output.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab09/lab09.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_assumptions.csv
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_history.csv
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_proforma.py
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab10/lab10.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab10/sources.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/approved_ranges.json
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/base_output.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_output.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_validation.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/locked_prediction.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab11/sensitivity_results.json
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab12/audit_manifest.json
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12.md
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12_validation.txt
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab12/publication_checks.json
+PASS | published HTTP 200 https://github.com/acpienkos/Amazon-Report/blob/main/lab12/validate_lab12.py
 PASS | post-execution preservation Amazon_2026-09-03_report.md
 PASS | post-execution preservation dcf.py
 PASS | post-execution preservation lab06/dcf.py
@@ -2272,4 +2296,4 @@ PASS | post-execution preservation lab11/preservation_manifest.json
 PASS | post-execution preservation lab11/sensitivity_results.json
 PASS | post-execution preservation lab11/validate_lab11.py
 SCOPE | Automated coverage and arithmetic, plus bound contextual review; not proof of external-source truth, forecast accuracy, human conduct, or grading.
-ALL 2270 CHECKS PASSED | local validation
+ALL 2295 CHECKS PASSED | publication verified

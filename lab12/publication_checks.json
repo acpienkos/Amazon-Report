@@ -1,5 +1,156 @@
 {
-  "checked_after_publication": false,
-  "status": "Pending first push; replaced with actual HTTP results after publication.",
-  "links": []
+  "checked_after_publication": true,
+  "published_commit_checked": "efe4e1dd10da09778de78eac8399e81225549a78",
+  "links": [
+    {
+      "url": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-06/lab-12-proforma-present.md",
+      "status": 200,
+      "final_url": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-06/lab-12-proforma-present.md",
+      "checked_at_utc": "2026-10-01T21:17:07.900386+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/Amazon_2026-09-03_report.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/Amazon_2026-09-03_report.md",
+      "checked_at_utc": "2026-10-01T21:17:09.714140+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab06/dcf_output_lab06.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab06/dcf_output_lab06.txt",
+      "checked_at_utc": "2026-10-01T21:17:11.306397+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab06/lab06.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab06/lab06.md",
+      "checked_at_utc": "2026-10-01T21:17:13.304165+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab07/lab07.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab07/lab07.md",
+      "checked_at_utc": "2026-10-01T21:17:15.261343+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08.md",
+      "checked_at_utc": "2026-10-01T21:17:17.286840+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08_output.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab08/lab08_output.txt",
+      "checked_at_utc": "2026-10-01T21:17:18.793902+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab09/lab09.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab09/lab09.md",
+      "checked_at_utc": "2026-10-01T21:17:20.704908+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_assumptions.csv",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_assumptions.csv",
+      "checked_at_utc": "2026-10-01T21:17:22.423788+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_history.csv",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_history.csv",
+      "checked_at_utc": "2026-10-01T21:17:24.062491+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_proforma.py",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/amazon_proforma.py",
+      "checked_at_utc": "2026-10-01T21:17:26.461228+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/lab10.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/lab10.md",
+      "checked_at_utc": "2026-10-01T21:17:29.360858+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/sources.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab10/sources.md",
+      "checked_at_utc": "2026-10-01T21:17:31.026701+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/approved_ranges.json",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/approved_ranges.json",
+      "checked_at_utc": "2026-10-01T21:17:32.632012+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/base_output.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/base_output.txt",
+      "checked_at_utc": "2026-10-01T21:17:34.565042+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11.md",
+      "checked_at_utc": "2026-10-01T21:17:36.919266+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_output.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_output.txt",
+      "checked_at_utc": "2026-10-01T21:17:39.994965+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_validation.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/lab11_validation.txt",
+      "checked_at_utc": "2026-10-01T21:17:41.505787+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/locked_prediction.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/locked_prediction.md",
+      "checked_at_utc": "2026-10-01T21:17:43.273269+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/sensitivity_results.json",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab11/sensitivity_results.json",
+      "checked_at_utc": "2026-10-01T21:17:46.121063+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/audit_manifest.json",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/audit_manifest.json",
+      "checked_at_utc": "2026-10-01T21:17:48.179796+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12.md",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12.md",
+      "checked_at_utc": "2026-10-01T21:17:49.947781+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12_validation.txt",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/lab12_validation.txt",
+      "checked_at_utc": "2026-10-01T21:17:51.645118+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/publication_checks.json",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/publication_checks.json",
+      "checked_at_utc": "2026-10-01T21:17:53.076454+00:00"
+    },
+    {
+      "url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/validate_lab12.py",
+      "status": 200,
+      "final_url": "https://github.com/acpienkos/Amazon-Report/blob/main/lab12/validate_lab12.py",
+      "checked_at_utc": "2026-10-01T21:17:54.881786+00:00"
+    }
+  ]
 }
