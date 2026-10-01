@@ -1,0 +1,2275 @@
+FIN439 LAB12 VALIDATION | 2026-10-01T20:56:02.860482+00:00
+PASS | reviewed report text unchanged since contextual evidence audit
+PASS | starting inventory contains all 40 prior tracked files
+PASS | 27-file pre-Lab11 inventory explicitly included
+PASS | prior bytes unchanged: Amazon_2026-09-03_report.md
+PASS | prior bytes unchanged: dcf.py
+PASS | prior bytes unchanged: lab06/dcf.py
+PASS | prior bytes unchanged: lab06/dcf_output_lab06.txt
+PASS | prior bytes unchanged: lab06/lab06.md
+PASS | prior bytes unchanged: lab06/lab06_validation.txt
+PASS | prior bytes unchanged: lab07/comps.py
+PASS | prior bytes unchanged: lab07/lab07.md
+PASS | prior bytes unchanged: lab07/lab07_output.txt
+PASS | prior bytes unchanged: lab07/lab07_validation.txt
+PASS | prior bytes unchanged: lab08/comps_lab08.py
+PASS | prior bytes unchanged: lab08/lab08.md
+PASS | prior bytes unchanged: lab08/lab08_output.txt
+PASS | prior bytes unchanged: lab08/lab08_validation.txt
+PASS | prior bytes unchanged: lab09/lab09.md
+PASS | prior bytes unchanged: lab09/lab09_output.txt
+PASS | prior bytes unchanged: lab09/lab09_validation.txt
+PASS | prior bytes unchanged: lab09/proforma.py
+PASS | prior bytes unchanged: lab09/validate_lab09.py
+PASS | prior bytes unchanged: lab10/amazon_assumptions.csv
+PASS | prior bytes unchanged: lab10/amazon_history.csv
+PASS | prior bytes unchanged: lab10/amazon_proforma.py
+PASS | prior bytes unchanged: lab10/lab10.md
+PASS | prior bytes unchanged: lab10/lab10_output.txt
+PASS | prior bytes unchanged: lab10/lab10_validation.txt
+PASS | prior bytes unchanged: lab10/sources.md
+PASS | prior bytes unchanged: lab10/validate_lab10.py
+PASS | prior bytes unchanged: lab11/.gitattributes
+PASS | prior bytes unchanged: lab11/amazon_sensitivity.py
+PASS | prior bytes unchanged: lab11/approved_ranges.json
+PASS | prior bytes unchanged: lab11/base_output.txt
+PASS | prior bytes unchanged: lab11/base_snapshot.json
+PASS | prior bytes unchanged: lab11/independent_reference.py
+PASS | prior bytes unchanged: lab11/lab11.md
+PASS | prior bytes unchanged: lab11/lab11_output.txt
+PASS | prior bytes unchanged: lab11/lab11_validation.txt
+PASS | prior bytes unchanged: lab11/locked_prediction.md
+PASS | prior bytes unchanged: lab11/preservation_manifest.json
+PASS | prior bytes unchanged: lab11/sensitivity_results.json
+PASS | prior bytes unchanged: lab11/validate_lab11.py
+PASS | all 27 earlier hashes match their original preservation manifest
+PASS | all tracked additions/changes confined to lab12
+PASS | presentation stop: Target selection
+PASS | presentation stop: Company and evidence
+PASS | presentation stop: My pro-forma
+PASS | presentation stop: Valuation
+PASS | presentation stop: Sensitivity and drivers
+PASS | presentation stop: Interpretation
+PASS | specific Partner question and sourced answer: Selection and evidence
+PASS | specific Partner question and sourced answer: Model and valuation
+PASS | specific Partner question and sourced answer: Sensitivity and interpretation
+PASS | actual calculation check and bounded conclusion
+PASS | explanation back
+PASS | strength and actionable improvement
+PASS | reciprocal questioning and review
+PASS | keep revise investigate and conclusion effect
+PASS | reconsideration and unresolved evidence
+PASS | valuation basis
+PASS | ranges and qualified ranking
+PASS | impact versus uncertainty
+PASS | invalid case has no valuation
+PASS | no fabricated classroom or human exchange
+PASS | honest disclosure
+PASS | critical conventions
+PASS | Partner is the sole partner speaker label
+PASS | contextual attribution audit recorded with honest scope
+PASS | numeric coverage ledger covers every visible number
+PASS | numeric provenance 0.000001 in lab11/lab11.md
+PASS | numeric provenance 00 in lab11/lab11.md
+PASS | structural/inventory number 03
+PASS | structural/inventory number 04
+PASS | numeric provenance 06 in lab11/lab11.md
+PASS | numeric provenance 07 in lab11/lab11.md
+PASS | numeric provenance 08 in lab10/lab10.md
+PASS | numeric provenance 09 in lab11/lab11.md
+PASS | structural/inventory number 1
+PASS | numeric provenance 1,309.67 in lab11/lab11.md
+PASS | numeric provenance 10 in lab11/lab11.md
+PASS | numeric provenance 10, in lab11/lab11.md
+PASS | numeric provenance 10,786.313572 in lab11/lab11.md
+PASS | numeric provenance 10,903 in lab06/lab06.md
+PASS | numeric provenance 105.73 in lab08/lab08.md
+PASS | numeric provenance 11 in lab11/lab11.md
+PASS | numeric provenance 11,194 in Amazon_2026-09-03_report.md
+PASS | numeric provenance 11.80145113 in lab08/lab08.md
+PASS | numeric provenance 111.978684 in lab06/lab06.md
+PASS | structural/inventory number 12
+PASS | numeric provenance 120,448.4515 in lab06/lab06.md
+PASS | numeric provenance 121,707.43 in lab11/lab11.md
+PASS | numeric provenance 121.978684 in lab06/lab06.md
+PASS | numeric provenance 123,490.82 in lab11/lab11.md
+PASS | numeric provenance 128,320 in lab11/lab11.md
+PASS | numeric provenance 128,725 in lab08/lab08.md
+PASS | structural/inventory number 13
+PASS | numeric provenance 13,596.59 in lab11/lab11.md
+PASS | numeric provenance 131,819 in lab10/lab10.md
+PASS | numeric provenance 132,404.53 in lab11/lab11.md
+PASS | numeric provenance 133,320 in lab06/lab06.md
+PASS | numeric provenance 136.978684 in lab06/lab06.md
+PASS | numeric provenance 14 in lab11/lab11.md
+PASS | numeric provenance 141,318.25 in lab11/lab11.md
+PASS | numeric provenance 143,101.64 in lab11/lab11.md
+PASS | numeric provenance 146.978684 in lab06/lab06.md
+PASS | numeric provenance 15 in lab11/lab11.md
+PASS | numeric provenance 15,000 in lab11/lab11.md
+PASS | numeric provenance 15,598.46 in lab11/lab11.md
+PASS | numeric provenance 15.2 in lab11/lab11.md
+PASS | numeric provenance 15.4 in lab09/lab09_validation.txt
+PASS | numeric provenance 15.6 in lab10/lab10.md
+PASS | numeric provenance 15.8 in lab10/lab10.md
+PASS | numeric provenance 150 in lab06/lab06.md
+PASS | numeric provenance 16 in lab10/lab10.md
+PASS | numeric provenance 16.73 in lab11/lab11.md
+PASS | numeric provenance 17.07 in lab08/lab08.md
+PASS | numeric provenance 17.82 in lab11/lab11.md
+PASS | numeric provenance 17.95 in lab08/lab08.md
+PASS | numeric provenance 18,388.73 in lab11/lab11.md
+PASS | numeric provenance 180,000 in lab11/lab11.md
+PASS | numeric provenance 189,000 in lab11/lab11.md
+PASS | numeric provenance 19,563.81 in lab11/lab11.md
+PASS | numeric provenance 196.70 in lab08/lab08.md
+PASS | numeric provenance 198,000 in lab11/lab11.md
+PASS | structural/inventory number 2
+PASS | numeric provenance 2.5 in lab11/lab11.md
+PASS | numeric provenance 2.73 in lab08/lab08.md
+PASS | numeric provenance 20,000 in lab11/lab11.md
+PASS | numeric provenance 20,787.84 in lab11/lab11.md
+PASS | numeric provenance 200,000 in lab11/lab11.md
+PASS | numeric provenance 2023 in lab10/lab10.md
+PASS | numeric provenance 2024 in lab10/lab10.md
+PASS | numeric provenance 2025 in lab11/lab11.md
+PASS | numeric provenance 2026 in lab11/lab11.md
+PASS | numeric provenance 2026, in lab11/lab11.md
+PASS | numeric provenance 2027 in lab11/lab11.md
+PASS | numeric provenance 2028 in lab11/lab11.md
+PASS | numeric provenance 2029 in lab11/lab11.md
+PASS | numeric provenance 2030 in lab11/lab11.md
+PASS | numeric provenance 2030, in lab11/lab11.md
+PASS | numeric provenance 207,000 in lab11/lab11.md
+PASS | numeric provenance 21,394.21 in lab11/lab11.md
+PASS | numeric provenance 210,000 in lab11/lab11.md
+PASS | numeric provenance 22 in lab11/lab11.md
+PASS | numeric provenance 22, in lab11/lab11.md
+PASS | numeric provenance 22,653.42 in lab11/lab11.md
+PASS | numeric provenance 220,000 in lab11/lab11.md
+PASS | numeric provenance 23 in Amazon_2026-09-03_report.md
+PASS | numeric provenance 23,690.33 in lab11/lab11.md
+PASS | numeric provenance 23.87 in lab11/lab11.md
+PASS | numeric provenance 230,000 in lab11/lab11.md
+PASS | numeric provenance 231,000 in lab11/lab11.md
+PASS | numeric provenance 237.19 in lab08/lab08.md
+PASS | numeric provenance 24, in lab11/lab11.md
+PASS | numeric provenance 242,000 in lab11/lab11.md
+PASS | numeric provenance 249.38 in lab11/lab11.md
+PASS | numeric provenance 25 in lab10/lab10.md
+PASS | numeric provenance 25,000 in lab11/lab11.md
+PASS | numeric provenance 251.89 in lab08/lab08.md
+PASS | numeric provenance 252.13 in lab08/lab08.md
+PASS | numeric provenance 253,000 in lab11/lab11.md
+PASS | numeric provenance 26 in lab08/lab08.md
+PASS | numeric provenance 27 in lab11/lab11.md
+PASS | numeric provenance 27,820.16 in lab10/lab10.md
+PASS | numeric provenance 27.433983 in lab08/lab08.md
+PASS | numeric provenance 277.69 in lab08/lab08.md
+PASS | numeric provenance 28,972.61 in lab11/lab11.md
+PASS | numeric provenance 29 in lab11/lab11.md
+PASS | numeric provenance 29,195.05 in lab11/lab11.md
+PASS | structural/inventory number 3
+PASS | numeric provenance 3,499 in lab10/lab10.md
+PASS | numeric provenance 30, in lab10/lab10.md
+PASS | numeric provenance 31, in lab11/lab11.md
+PASS | numeric provenance 31,439.92 in lab11/lab11.md
+PASS | numeric provenance 32.67 in lab11/lab11.md
+PASS | numeric provenance 324,602.59 in lab10/lab10.md
+PASS | numeric provenance 35.131102 in lab08/lab08.md
+PASS | numeric provenance 352,422.75 in lab11/lab11.md
+PASS | numeric provenance 36, in lab11/lab11.md
+PASS | numeric provenance 37, in lab11/lab11.md
+PASS | numeric provenance 38,251.88 in lab11/lab11.md
+PASS | numeric provenance 38.728938 in lab08/lab08.md
+PASS | structural/inventory number 4
+PASS | numeric provenance 4,596 in lab10/lab10.md
+PASS | structural/inventory number 40
+PASS | numeric provenance 40.59 in lab11/lab11.md
+PASS | numeric provenance 42,339.39 in lab11/lab11.md
+PASS | numeric provenance 436.19 in lab11/lab11.md
+PASS | numeric provenance 45,606 in lab08/lab08.md
+PASS | numeric provenance 46.978684 in lab06/lab06.md
+PASS | numeric provenance 46.98 in lab11/lab11.md
+PASS | numeric provenance 47,038.38 in lab11/lab11.md
+PASS | numeric provenance 48,133 in lab11/lab11.md
+PASS | numeric provenance 48.85 in lab11/lab11.md
+PASS | numeric provenance 492.44 in lab08/lab08.md
+PASS | structural/inventory number 5
+PASS | numeric provenance 5,341 in lab10/lab10.md
+PASS | numeric provenance 5,957.06 in lab11/lab11.md
+PASS | numeric provenance 5.9930 in lab10/lab10.md
+PASS | numeric provenance 50 in lab11/lab11.md
+PASS | numeric provenance 50.29 in lab11/lab11.md
+PASS | numeric provenance 50.49 in lab11/lab11.md
+PASS | numeric provenance 51 in lab11/lab11.md
+PASS | numeric provenance 52 in lab11/lab11.md
+PASS | numeric provenance 52,729 in lab10/lab10.md
+PASS | numeric provenance 52.5 in lab11/lab11.md
+PASS | numeric provenance 522,775.72 in lab10/lab10.md
+PASS | numeric provenance 53 in lab11/lab11.md
+PASS | numeric provenance 53.5 in lab11/lab11.md
+PASS | numeric provenance 54 in lab11/lab11.md
+PASS | numeric provenance 54.5 in lab11/lab11.md
+PASS | numeric provenance 55 in lab11/lab11.md
+PASS | numeric provenance 57,815.69 in lab11/lab11.md
+PASS | numeric provenance 574,785 in lab10/lab10.md
+PASS | structural/inventory number 6
+PASS | numeric provenance 637,959 in lab10/lab10.md
+PASS | numeric provenance 65,341.4515 in lab06/lab06.md
+PASS | numeric provenance 7.17 in lab08/lab08.md
+PASS | numeric provenance 716,924 in lab10/lab10.md
+PASS | numeric provenance 75,656.81 in lab10/lab10.md
+PASS | numeric provenance 77,658 in lab11/lab11.md
+PASS | numeric provenance 78,213 in lab06/lab06.md
+PASS | numeric provenance 79,975 in lab10/lab10.md
+PASS | numeric provenance 8 in lab10/lab10.md
+PASS | numeric provenance 8,477.53 in lab11/lab11.md
+PASS | numeric provenance 8,846.82 in lab08/lab08.md
+PASS | numeric provenance 8,913.71 in lab11/lab11.md
+PASS | numeric provenance 82,999 in lab10/lab10.md
+PASS | numeric provenance 9,500 in lab11/lab11.md
+PASS | numeric provenance 92.11 in lab11/lab11.md
+PASS | numeric provenance 96.978684 in lab06/lab06.md
+PASS | base assumptions equal saved independent inputs
+PASS | entire base statements reproduce saved evidence
+PASS | entire base valuation reproduces saved evidence
+PASS | base report operating_income
+PASS | base report fcfe
+PASS | base valuation report per_share
+PASS | base valuation report pv_explicit
+PASS | base valuation report terminal_value
+PASS | base valuation report pv_terminal
+PASS | base valuation report equity_value
+PASS | base valuation report excluded_negative_pv
+PASS | terminal percentage exact to displayed precision
+PASS | saved market price and share basis
+PASS | signed FCFE display
+PASS | only approved input differs gross_margin/lower
+PASS | complete case rerun gross_margin/lower
+PASS | independent gross_margin/lower FY2026 revenue
+PASS | independent gross_margin/lower FY2026 gross_profit
+PASS | independent gross_margin/lower FY2026 cost_of_sales
+PASS | independent gross_margin/lower FY2026 sga
+PASS | independent gross_margin/lower FY2026 other_operating_cost
+PASS | independent gross_margin/lower FY2026 depreciation
+PASS | independent gross_margin/lower FY2026 rou_amortization
+PASS | independent gross_margin/lower FY2026 operating_lease_accretion
+PASS | independent gross_margin/lower FY2026 operating_lease_expense
+PASS | independent gross_margin/lower FY2026 operating_lease_cash
+PASS | independent gross_margin/lower FY2026 operating_income
+PASS | independent gross_margin/lower FY2026 debt_net_change
+PASS | independent gross_margin/lower FY2026 debt
+PASS | independent gross_margin/lower FY2026 debt_interest
+PASS | independent gross_margin/lower FY2026 finance_lease_interest
+PASS | independent gross_margin/lower FY2026 financing_interest
+PASS | independent gross_margin/lower FY2026 revolver_interest
+PASS | independent gross_margin/lower FY2026 interest_expense
+PASS | independent gross_margin/lower FY2026 interest_income
+PASS | independent gross_margin/lower FY2026 other_income
+PASS | independent gross_margin/lower FY2026 pretax_income
+PASS | independent gross_margin/lower FY2026 income_tax
+PASS | independent gross_margin/lower FY2026 net_income
+PASS | independent gross_margin/lower FY2026 inventory
+PASS | independent gross_margin/lower FY2026 receivables
+PASS | independent gross_margin/lower FY2026 trade_payables
+PASS | independent gross_margin/lower FY2026 operating_accruals
+PASS | independent gross_margin/lower FY2026 unearned
+PASS | independent gross_margin/lower FY2026 capex
+PASS | independent gross_margin/lower FY2026 capex_payables
+PASS | independent gross_margin/lower FY2026 change_capex_payables
+PASS | independent gross_margin/lower FY2026 finance_lease_addition
+PASS | independent gross_margin/lower FY2026 finance_lease_principal
+PASS | independent gross_margin/lower FY2026 finance_lease
+PASS | independent gross_margin/lower FY2026 financing_addition
+PASS | independent gross_margin/lower FY2026 financing_principal
+PASS | independent gross_margin/lower FY2026 financing_obligation
+PASS | independent gross_margin/lower FY2026 ppe_additions
+PASS | independent gross_margin/lower FY2026 ppe
+PASS | independent gross_margin/lower FY2026 operating_lease_addition
+PASS | independent gross_margin/lower FY2026 operating_rou
+PASS | independent gross_margin/lower FY2026 operating_lease
+PASS | independent gross_margin/lower FY2026 goodwill
+PASS | independent gross_margin/lower FY2026 other_assets
+PASS | independent gross_margin/lower FY2026 other_liabilities
+PASS | independent gross_margin/lower FY2026 distributions
+PASS | independent gross_margin/lower FY2026 equity
+PASS | independent gross_margin/lower FY2026 change_operating_wc
+PASS | independent gross_margin/lower FY2026 change_other_net_assets
+PASS | independent gross_margin/lower FY2026 operating_cash_flow
+PASS | independent gross_margin/lower FY2026 fcfe_before_revolver
+PASS | independent gross_margin/lower FY2026 securities_sale
+PASS | independent gross_margin/lower FY2026 securities
+PASS | independent gross_margin/lower FY2026 cash_before_revolver
+PASS | independent gross_margin/lower FY2026 revolver_draw
+PASS | independent gross_margin/lower FY2026 revolver_repayment
+PASS | independent gross_margin/lower FY2026 revolver
+PASS | independent gross_margin/lower FY2026 fcfe
+PASS | independent gross_margin/lower FY2026 investing_cash_flow
+PASS | independent gross_margin/lower FY2026 financing_cash_flow
+PASS | independent gross_margin/lower FY2026 net_cash_change
+PASS | independent gross_margin/lower FY2026 cash
+PASS | independent gross_margin/lower FY2027 revenue
+PASS | independent gross_margin/lower FY2027 gross_profit
+PASS | independent gross_margin/lower FY2027 cost_of_sales
+PASS | independent gross_margin/lower FY2027 sga
+PASS | independent gross_margin/lower FY2027 other_operating_cost
+PASS | independent gross_margin/lower FY2027 depreciation
+PASS | independent gross_margin/lower FY2027 rou_amortization
+PASS | independent gross_margin/lower FY2027 operating_lease_accretion
+PASS | independent gross_margin/lower FY2027 operating_lease_expense
+PASS | independent gross_margin/lower FY2027 operating_lease_cash
+PASS | independent gross_margin/lower FY2027 operating_income
+PASS | independent gross_margin/lower FY2027 debt_net_change
+PASS | independent gross_margin/lower FY2027 debt
+PASS | independent gross_margin/lower FY2027 debt_interest
+PASS | independent gross_margin/lower FY2027 finance_lease_interest
+PASS | independent gross_margin/lower FY2027 financing_interest
+PASS | independent gross_margin/lower FY2027 revolver_interest
+PASS | independent gross_margin/lower FY2027 interest_expense
+PASS | independent gross_margin/lower FY2027 interest_income
+PASS | independent gross_margin/lower FY2027 other_income
+PASS | independent gross_margin/lower FY2027 pretax_income
+PASS | independent gross_margin/lower FY2027 income_tax
+PASS | independent gross_margin/lower FY2027 net_income
+PASS | independent gross_margin/lower FY2027 inventory
+PASS | independent gross_margin/lower FY2027 receivables
+PASS | independent gross_margin/lower FY2027 trade_payables
+PASS | independent gross_margin/lower FY2027 operating_accruals
+PASS | independent gross_margin/lower FY2027 unearned
+PASS | independent gross_margin/lower FY2027 capex
+PASS | independent gross_margin/lower FY2027 capex_payables
+PASS | independent gross_margin/lower FY2027 change_capex_payables
+PASS | independent gross_margin/lower FY2027 finance_lease_addition
+PASS | independent gross_margin/lower FY2027 finance_lease_principal
+PASS | independent gross_margin/lower FY2027 finance_lease
+PASS | independent gross_margin/lower FY2027 financing_addition
+PASS | independent gross_margin/lower FY2027 financing_principal
+PASS | independent gross_margin/lower FY2027 financing_obligation
+PASS | independent gross_margin/lower FY2027 ppe_additions
+PASS | independent gross_margin/lower FY2027 ppe
+PASS | independent gross_margin/lower FY2027 operating_lease_addition
+PASS | independent gross_margin/lower FY2027 operating_rou
+PASS | independent gross_margin/lower FY2027 operating_lease
+PASS | independent gross_margin/lower FY2027 goodwill
+PASS | independent gross_margin/lower FY2027 other_assets
+PASS | independent gross_margin/lower FY2027 other_liabilities
+PASS | independent gross_margin/lower FY2027 distributions
+PASS | independent gross_margin/lower FY2027 equity
+PASS | independent gross_margin/lower FY2027 change_operating_wc
+PASS | independent gross_margin/lower FY2027 change_other_net_assets
+PASS | independent gross_margin/lower FY2027 operating_cash_flow
+PASS | independent gross_margin/lower FY2027 fcfe_before_revolver
+PASS | independent gross_margin/lower FY2027 securities_sale
+PASS | independent gross_margin/lower FY2027 securities
+PASS | independent gross_margin/lower FY2027 cash_before_revolver
+PASS | independent gross_margin/lower FY2027 revolver_draw
+PASS | independent gross_margin/lower FY2027 revolver_repayment
+PASS | independent gross_margin/lower FY2027 revolver
+PASS | independent gross_margin/lower FY2027 fcfe
+PASS | independent gross_margin/lower FY2027 investing_cash_flow
+PASS | independent gross_margin/lower FY2027 financing_cash_flow
+PASS | independent gross_margin/lower FY2027 net_cash_change
+PASS | independent gross_margin/lower FY2027 cash
+PASS | independent gross_margin/lower FY2028 revenue
+PASS | independent gross_margin/lower FY2028 gross_profit
+PASS | independent gross_margin/lower FY2028 cost_of_sales
+PASS | independent gross_margin/lower FY2028 sga
+PASS | independent gross_margin/lower FY2028 other_operating_cost
+PASS | independent gross_margin/lower FY2028 depreciation
+PASS | independent gross_margin/lower FY2028 rou_amortization
+PASS | independent gross_margin/lower FY2028 operating_lease_accretion
+PASS | independent gross_margin/lower FY2028 operating_lease_expense
+PASS | independent gross_margin/lower FY2028 operating_lease_cash
+PASS | independent gross_margin/lower FY2028 operating_income
+PASS | independent gross_margin/lower FY2028 debt_net_change
+PASS | independent gross_margin/lower FY2028 debt
+PASS | independent gross_margin/lower FY2028 debt_interest
+PASS | independent gross_margin/lower FY2028 finance_lease_interest
+PASS | independent gross_margin/lower FY2028 financing_interest
+PASS | independent gross_margin/lower FY2028 revolver_interest
+PASS | independent gross_margin/lower FY2028 interest_expense
+PASS | independent gross_margin/lower FY2028 interest_income
+PASS | independent gross_margin/lower FY2028 other_income
+PASS | independent gross_margin/lower FY2028 pretax_income
+PASS | independent gross_margin/lower FY2028 income_tax
+PASS | independent gross_margin/lower FY2028 net_income
+PASS | independent gross_margin/lower FY2028 inventory
+PASS | independent gross_margin/lower FY2028 receivables
+PASS | independent gross_margin/lower FY2028 trade_payables
+PASS | independent gross_margin/lower FY2028 operating_accruals
+PASS | independent gross_margin/lower FY2028 unearned
+PASS | independent gross_margin/lower FY2028 capex
+PASS | independent gross_margin/lower FY2028 capex_payables
+PASS | independent gross_margin/lower FY2028 change_capex_payables
+PASS | independent gross_margin/lower FY2028 finance_lease_addition
+PASS | independent gross_margin/lower FY2028 finance_lease_principal
+PASS | independent gross_margin/lower FY2028 finance_lease
+PASS | independent gross_margin/lower FY2028 financing_addition
+PASS | independent gross_margin/lower FY2028 financing_principal
+PASS | independent gross_margin/lower FY2028 financing_obligation
+PASS | independent gross_margin/lower FY2028 ppe_additions
+PASS | independent gross_margin/lower FY2028 ppe
+PASS | independent gross_margin/lower FY2028 operating_lease_addition
+PASS | independent gross_margin/lower FY2028 operating_rou
+PASS | independent gross_margin/lower FY2028 operating_lease
+PASS | independent gross_margin/lower FY2028 goodwill
+PASS | independent gross_margin/lower FY2028 other_assets
+PASS | independent gross_margin/lower FY2028 other_liabilities
+PASS | independent gross_margin/lower FY2028 distributions
+PASS | independent gross_margin/lower FY2028 equity
+PASS | independent gross_margin/lower FY2028 change_operating_wc
+PASS | independent gross_margin/lower FY2028 change_other_net_assets
+PASS | independent gross_margin/lower FY2028 operating_cash_flow
+PASS | independent gross_margin/lower FY2028 fcfe_before_revolver
+PASS | independent gross_margin/lower FY2028 securities_sale
+PASS | independent gross_margin/lower FY2028 securities
+PASS | independent gross_margin/lower FY2028 cash_before_revolver
+PASS | independent gross_margin/lower FY2028 revolver_draw
+PASS | independent gross_margin/lower FY2028 revolver_repayment
+PASS | independent gross_margin/lower FY2028 revolver
+PASS | independent gross_margin/lower FY2028 fcfe
+PASS | independent gross_margin/lower FY2028 investing_cash_flow
+PASS | independent gross_margin/lower FY2028 financing_cash_flow
+PASS | independent gross_margin/lower FY2028 net_cash_change
+PASS | independent gross_margin/lower FY2028 cash
+PASS | independent gross_margin/lower FY2029 revenue
+PASS | independent gross_margin/lower FY2029 gross_profit
+PASS | independent gross_margin/lower FY2029 cost_of_sales
+PASS | independent gross_margin/lower FY2029 sga
+PASS | independent gross_margin/lower FY2029 other_operating_cost
+PASS | independent gross_margin/lower FY2029 depreciation
+PASS | independent gross_margin/lower FY2029 rou_amortization
+PASS | independent gross_margin/lower FY2029 operating_lease_accretion
+PASS | independent gross_margin/lower FY2029 operating_lease_expense
+PASS | independent gross_margin/lower FY2029 operating_lease_cash
+PASS | independent gross_margin/lower FY2029 operating_income
+PASS | independent gross_margin/lower FY2029 debt_net_change
+PASS | independent gross_margin/lower FY2029 debt
+PASS | independent gross_margin/lower FY2029 debt_interest
+PASS | independent gross_margin/lower FY2029 finance_lease_interest
+PASS | independent gross_margin/lower FY2029 financing_interest
+PASS | independent gross_margin/lower FY2029 revolver_interest
+PASS | independent gross_margin/lower FY2029 interest_expense
+PASS | independent gross_margin/lower FY2029 interest_income
+PASS | independent gross_margin/lower FY2029 other_income
+PASS | independent gross_margin/lower FY2029 pretax_income
+PASS | independent gross_margin/lower FY2029 income_tax
+PASS | independent gross_margin/lower FY2029 net_income
+PASS | independent gross_margin/lower FY2029 inventory
+PASS | independent gross_margin/lower FY2029 receivables
+PASS | independent gross_margin/lower FY2029 trade_payables
+PASS | independent gross_margin/lower FY2029 operating_accruals
+PASS | independent gross_margin/lower FY2029 unearned
+PASS | independent gross_margin/lower FY2029 capex
+PASS | independent gross_margin/lower FY2029 capex_payables
+PASS | independent gross_margin/lower FY2029 change_capex_payables
+PASS | independent gross_margin/lower FY2029 finance_lease_addition
+PASS | independent gross_margin/lower FY2029 finance_lease_principal
+PASS | independent gross_margin/lower FY2029 finance_lease
+PASS | independent gross_margin/lower FY2029 financing_addition
+PASS | independent gross_margin/lower FY2029 financing_principal
+PASS | independent gross_margin/lower FY2029 financing_obligation
+PASS | independent gross_margin/lower FY2029 ppe_additions
+PASS | independent gross_margin/lower FY2029 ppe
+PASS | independent gross_margin/lower FY2029 operating_lease_addition
+PASS | independent gross_margin/lower FY2029 operating_rou
+PASS | independent gross_margin/lower FY2029 operating_lease
+PASS | independent gross_margin/lower FY2029 goodwill
+PASS | independent gross_margin/lower FY2029 other_assets
+PASS | independent gross_margin/lower FY2029 other_liabilities
+PASS | independent gross_margin/lower FY2029 distributions
+PASS | independent gross_margin/lower FY2029 equity
+PASS | independent gross_margin/lower FY2029 change_operating_wc
+PASS | independent gross_margin/lower FY2029 change_other_net_assets
+PASS | independent gross_margin/lower FY2029 operating_cash_flow
+PASS | independent gross_margin/lower FY2029 fcfe_before_revolver
+PASS | independent gross_margin/lower FY2029 securities_sale
+PASS | independent gross_margin/lower FY2029 securities
+PASS | independent gross_margin/lower FY2029 cash_before_revolver
+PASS | independent gross_margin/lower FY2029 revolver_draw
+PASS | independent gross_margin/lower FY2029 revolver_repayment
+PASS | independent gross_margin/lower FY2029 revolver
+PASS | independent gross_margin/lower FY2029 fcfe
+PASS | independent gross_margin/lower FY2029 investing_cash_flow
+PASS | independent gross_margin/lower FY2029 financing_cash_flow
+PASS | independent gross_margin/lower FY2029 net_cash_change
+PASS | independent gross_margin/lower FY2029 cash
+PASS | independent gross_margin/lower FY2030 revenue
+PASS | independent gross_margin/lower FY2030 gross_profit
+PASS | independent gross_margin/lower FY2030 cost_of_sales
+PASS | independent gross_margin/lower FY2030 sga
+PASS | independent gross_margin/lower FY2030 other_operating_cost
+PASS | independent gross_margin/lower FY2030 depreciation
+PASS | independent gross_margin/lower FY2030 rou_amortization
+PASS | independent gross_margin/lower FY2030 operating_lease_accretion
+PASS | independent gross_margin/lower FY2030 operating_lease_expense
+PASS | independent gross_margin/lower FY2030 operating_lease_cash
+PASS | independent gross_margin/lower FY2030 operating_income
+PASS | independent gross_margin/lower FY2030 debt_net_change
+PASS | independent gross_margin/lower FY2030 debt
+PASS | independent gross_margin/lower FY2030 debt_interest
+PASS | independent gross_margin/lower FY2030 finance_lease_interest
+PASS | independent gross_margin/lower FY2030 financing_interest
+PASS | independent gross_margin/lower FY2030 revolver_interest
+PASS | independent gross_margin/lower FY2030 interest_expense
+PASS | independent gross_margin/lower FY2030 interest_income
+PASS | independent gross_margin/lower FY2030 other_income
+PASS | independent gross_margin/lower FY2030 pretax_income
+PASS | independent gross_margin/lower FY2030 income_tax
+PASS | independent gross_margin/lower FY2030 net_income
+PASS | independent gross_margin/lower FY2030 inventory
+PASS | independent gross_margin/lower FY2030 receivables
+PASS | independent gross_margin/lower FY2030 trade_payables
+PASS | independent gross_margin/lower FY2030 operating_accruals
+PASS | independent gross_margin/lower FY2030 unearned
+PASS | independent gross_margin/lower FY2030 capex
+PASS | independent gross_margin/lower FY2030 capex_payables
+PASS | independent gross_margin/lower FY2030 change_capex_payables
+PASS | independent gross_margin/lower FY2030 finance_lease_addition
+PASS | independent gross_margin/lower FY2030 finance_lease_principal
+PASS | independent gross_margin/lower FY2030 finance_lease
+PASS | independent gross_margin/lower FY2030 financing_addition
+PASS | independent gross_margin/lower FY2030 financing_principal
+PASS | independent gross_margin/lower FY2030 financing_obligation
+PASS | independent gross_margin/lower FY2030 ppe_additions
+PASS | independent gross_margin/lower FY2030 ppe
+PASS | independent gross_margin/lower FY2030 operating_lease_addition
+PASS | independent gross_margin/lower FY2030 operating_rou
+PASS | independent gross_margin/lower FY2030 operating_lease
+PASS | independent gross_margin/lower FY2030 goodwill
+PASS | independent gross_margin/lower FY2030 other_assets
+PASS | independent gross_margin/lower FY2030 other_liabilities
+PASS | independent gross_margin/lower FY2030 distributions
+PASS | independent gross_margin/lower FY2030 equity
+PASS | independent gross_margin/lower FY2030 change_operating_wc
+PASS | independent gross_margin/lower FY2030 change_other_net_assets
+PASS | independent gross_margin/lower FY2030 operating_cash_flow
+PASS | independent gross_margin/lower FY2030 fcfe_before_revolver
+PASS | independent gross_margin/lower FY2030 securities_sale
+PASS | independent gross_margin/lower FY2030 securities
+PASS | independent gross_margin/lower FY2030 cash_before_revolver
+PASS | independent gross_margin/lower FY2030 revolver_draw
+PASS | independent gross_margin/lower FY2030 revolver_repayment
+PASS | independent gross_margin/lower FY2030 revolver
+PASS | independent gross_margin/lower FY2030 fcfe
+PASS | independent gross_margin/lower FY2030 investing_cash_flow
+PASS | independent gross_margin/lower FY2030 financing_cash_flow
+PASS | independent gross_margin/lower FY2030 net_cash_change
+PASS | independent gross_margin/lower FY2030 cash
+PASS | valid valuation rerun gross_margin/lower
+PASS | only approved input differs gross_margin/base
+PASS | complete case rerun gross_margin/base
+PASS | independent gross_margin/base FY2026 revenue
+PASS | independent gross_margin/base FY2026 gross_profit
+PASS | independent gross_margin/base FY2026 cost_of_sales
+PASS | independent gross_margin/base FY2026 sga
+PASS | independent gross_margin/base FY2026 other_operating_cost
+PASS | independent gross_margin/base FY2026 depreciation
+PASS | independent gross_margin/base FY2026 rou_amortization
+PASS | independent gross_margin/base FY2026 operating_lease_accretion
+PASS | independent gross_margin/base FY2026 operating_lease_expense
+PASS | independent gross_margin/base FY2026 operating_lease_cash
+PASS | independent gross_margin/base FY2026 operating_income
+PASS | independent gross_margin/base FY2026 debt_net_change
+PASS | independent gross_margin/base FY2026 debt
+PASS | independent gross_margin/base FY2026 debt_interest
+PASS | independent gross_margin/base FY2026 finance_lease_interest
+PASS | independent gross_margin/base FY2026 financing_interest
+PASS | independent gross_margin/base FY2026 revolver_interest
+PASS | independent gross_margin/base FY2026 interest_expense
+PASS | independent gross_margin/base FY2026 interest_income
+PASS | independent gross_margin/base FY2026 other_income
+PASS | independent gross_margin/base FY2026 pretax_income
+PASS | independent gross_margin/base FY2026 income_tax
+PASS | independent gross_margin/base FY2026 net_income
+PASS | independent gross_margin/base FY2026 inventory
+PASS | independent gross_margin/base FY2026 receivables
+PASS | independent gross_margin/base FY2026 trade_payables
+PASS | independent gross_margin/base FY2026 operating_accruals
+PASS | independent gross_margin/base FY2026 unearned
+PASS | independent gross_margin/base FY2026 capex
+PASS | independent gross_margin/base FY2026 capex_payables
+PASS | independent gross_margin/base FY2026 change_capex_payables
+PASS | independent gross_margin/base FY2026 finance_lease_addition
+PASS | independent gross_margin/base FY2026 finance_lease_principal
+PASS | independent gross_margin/base FY2026 finance_lease
+PASS | independent gross_margin/base FY2026 financing_addition
+PASS | independent gross_margin/base FY2026 financing_principal
+PASS | independent gross_margin/base FY2026 financing_obligation
+PASS | independent gross_margin/base FY2026 ppe_additions
+PASS | independent gross_margin/base FY2026 ppe
+PASS | independent gross_margin/base FY2026 operating_lease_addition
+PASS | independent gross_margin/base FY2026 operating_rou
+PASS | independent gross_margin/base FY2026 operating_lease
+PASS | independent gross_margin/base FY2026 goodwill
+PASS | independent gross_margin/base FY2026 other_assets
+PASS | independent gross_margin/base FY2026 other_liabilities
+PASS | independent gross_margin/base FY2026 distributions
+PASS | independent gross_margin/base FY2026 equity
+PASS | independent gross_margin/base FY2026 change_operating_wc
+PASS | independent gross_margin/base FY2026 change_other_net_assets
+PASS | independent gross_margin/base FY2026 operating_cash_flow
+PASS | independent gross_margin/base FY2026 fcfe_before_revolver
+PASS | independent gross_margin/base FY2026 securities_sale
+PASS | independent gross_margin/base FY2026 securities
+PASS | independent gross_margin/base FY2026 cash_before_revolver
+PASS | independent gross_margin/base FY2026 revolver_draw
+PASS | independent gross_margin/base FY2026 revolver_repayment
+PASS | independent gross_margin/base FY2026 revolver
+PASS | independent gross_margin/base FY2026 fcfe
+PASS | independent gross_margin/base FY2026 investing_cash_flow
+PASS | independent gross_margin/base FY2026 financing_cash_flow
+PASS | independent gross_margin/base FY2026 net_cash_change
+PASS | independent gross_margin/base FY2026 cash
+PASS | independent gross_margin/base FY2027 revenue
+PASS | independent gross_margin/base FY2027 gross_profit
+PASS | independent gross_margin/base FY2027 cost_of_sales
+PASS | independent gross_margin/base FY2027 sga
+PASS | independent gross_margin/base FY2027 other_operating_cost
+PASS | independent gross_margin/base FY2027 depreciation
+PASS | independent gross_margin/base FY2027 rou_amortization
+PASS | independent gross_margin/base FY2027 operating_lease_accretion
+PASS | independent gross_margin/base FY2027 operating_lease_expense
+PASS | independent gross_margin/base FY2027 operating_lease_cash
+PASS | independent gross_margin/base FY2027 operating_income
+PASS | independent gross_margin/base FY2027 debt_net_change
+PASS | independent gross_margin/base FY2027 debt
+PASS | independent gross_margin/base FY2027 debt_interest
+PASS | independent gross_margin/base FY2027 finance_lease_interest
+PASS | independent gross_margin/base FY2027 financing_interest
+PASS | independent gross_margin/base FY2027 revolver_interest
+PASS | independent gross_margin/base FY2027 interest_expense
+PASS | independent gross_margin/base FY2027 interest_income
+PASS | independent gross_margin/base FY2027 other_income
+PASS | independent gross_margin/base FY2027 pretax_income
+PASS | independent gross_margin/base FY2027 income_tax
+PASS | independent gross_margin/base FY2027 net_income
+PASS | independent gross_margin/base FY2027 inventory
+PASS | independent gross_margin/base FY2027 receivables
+PASS | independent gross_margin/base FY2027 trade_payables
+PASS | independent gross_margin/base FY2027 operating_accruals
+PASS | independent gross_margin/base FY2027 unearned
+PASS | independent gross_margin/base FY2027 capex
+PASS | independent gross_margin/base FY2027 capex_payables
+PASS | independent gross_margin/base FY2027 change_capex_payables
+PASS | independent gross_margin/base FY2027 finance_lease_addition
+PASS | independent gross_margin/base FY2027 finance_lease_principal
+PASS | independent gross_margin/base FY2027 finance_lease
+PASS | independent gross_margin/base FY2027 financing_addition
+PASS | independent gross_margin/base FY2027 financing_principal
+PASS | independent gross_margin/base FY2027 financing_obligation
+PASS | independent gross_margin/base FY2027 ppe_additions
+PASS | independent gross_margin/base FY2027 ppe
+PASS | independent gross_margin/base FY2027 operating_lease_addition
+PASS | independent gross_margin/base FY2027 operating_rou
+PASS | independent gross_margin/base FY2027 operating_lease
+PASS | independent gross_margin/base FY2027 goodwill
+PASS | independent gross_margin/base FY2027 other_assets
+PASS | independent gross_margin/base FY2027 other_liabilities
+PASS | independent gross_margin/base FY2027 distributions
+PASS | independent gross_margin/base FY2027 equity
+PASS | independent gross_margin/base FY2027 change_operating_wc
+PASS | independent gross_margin/base FY2027 change_other_net_assets
+PASS | independent gross_margin/base FY2027 operating_cash_flow
+PASS | independent gross_margin/base FY2027 fcfe_before_revolver
+PASS | independent gross_margin/base FY2027 securities_sale
+PASS | independent gross_margin/base FY2027 securities
+PASS | independent gross_margin/base FY2027 cash_before_revolver
+PASS | independent gross_margin/base FY2027 revolver_draw
+PASS | independent gross_margin/base FY2027 revolver_repayment
+PASS | independent gross_margin/base FY2027 revolver
+PASS | independent gross_margin/base FY2027 fcfe
+PASS | independent gross_margin/base FY2027 investing_cash_flow
+PASS | independent gross_margin/base FY2027 financing_cash_flow
+PASS | independent gross_margin/base FY2027 net_cash_change
+PASS | independent gross_margin/base FY2027 cash
+PASS | independent gross_margin/base FY2028 revenue
+PASS | independent gross_margin/base FY2028 gross_profit
+PASS | independent gross_margin/base FY2028 cost_of_sales
+PASS | independent gross_margin/base FY2028 sga
+PASS | independent gross_margin/base FY2028 other_operating_cost
+PASS | independent gross_margin/base FY2028 depreciation
+PASS | independent gross_margin/base FY2028 rou_amortization
+PASS | independent gross_margin/base FY2028 operating_lease_accretion
+PASS | independent gross_margin/base FY2028 operating_lease_expense
+PASS | independent gross_margin/base FY2028 operating_lease_cash
+PASS | independent gross_margin/base FY2028 operating_income
+PASS | independent gross_margin/base FY2028 debt_net_change
+PASS | independent gross_margin/base FY2028 debt
+PASS | independent gross_margin/base FY2028 debt_interest
+PASS | independent gross_margin/base FY2028 finance_lease_interest
+PASS | independent gross_margin/base FY2028 financing_interest
+PASS | independent gross_margin/base FY2028 revolver_interest
+PASS | independent gross_margin/base FY2028 interest_expense
+PASS | independent gross_margin/base FY2028 interest_income
+PASS | independent gross_margin/base FY2028 other_income
+PASS | independent gross_margin/base FY2028 pretax_income
+PASS | independent gross_margin/base FY2028 income_tax
+PASS | independent gross_margin/base FY2028 net_income
+PASS | independent gross_margin/base FY2028 inventory
+PASS | independent gross_margin/base FY2028 receivables
+PASS | independent gross_margin/base FY2028 trade_payables
+PASS | independent gross_margin/base FY2028 operating_accruals
+PASS | independent gross_margin/base FY2028 unearned
+PASS | independent gross_margin/base FY2028 capex
+PASS | independent gross_margin/base FY2028 capex_payables
+PASS | independent gross_margin/base FY2028 change_capex_payables
+PASS | independent gross_margin/base FY2028 finance_lease_addition
+PASS | independent gross_margin/base FY2028 finance_lease_principal
+PASS | independent gross_margin/base FY2028 finance_lease
+PASS | independent gross_margin/base FY2028 financing_addition
+PASS | independent gross_margin/base FY2028 financing_principal
+PASS | independent gross_margin/base FY2028 financing_obligation
+PASS | independent gross_margin/base FY2028 ppe_additions
+PASS | independent gross_margin/base FY2028 ppe
+PASS | independent gross_margin/base FY2028 operating_lease_addition
+PASS | independent gross_margin/base FY2028 operating_rou
+PASS | independent gross_margin/base FY2028 operating_lease
+PASS | independent gross_margin/base FY2028 goodwill
+PASS | independent gross_margin/base FY2028 other_assets
+PASS | independent gross_margin/base FY2028 other_liabilities
+PASS | independent gross_margin/base FY2028 distributions
+PASS | independent gross_margin/base FY2028 equity
+PASS | independent gross_margin/base FY2028 change_operating_wc
+PASS | independent gross_margin/base FY2028 change_other_net_assets
+PASS | independent gross_margin/base FY2028 operating_cash_flow
+PASS | independent gross_margin/base FY2028 fcfe_before_revolver
+PASS | independent gross_margin/base FY2028 securities_sale
+PASS | independent gross_margin/base FY2028 securities
+PASS | independent gross_margin/base FY2028 cash_before_revolver
+PASS | independent gross_margin/base FY2028 revolver_draw
+PASS | independent gross_margin/base FY2028 revolver_repayment
+PASS | independent gross_margin/base FY2028 revolver
+PASS | independent gross_margin/base FY2028 fcfe
+PASS | independent gross_margin/base FY2028 investing_cash_flow
+PASS | independent gross_margin/base FY2028 financing_cash_flow
+PASS | independent gross_margin/base FY2028 net_cash_change
+PASS | independent gross_margin/base FY2028 cash
+PASS | independent gross_margin/base FY2029 revenue
+PASS | independent gross_margin/base FY2029 gross_profit
+PASS | independent gross_margin/base FY2029 cost_of_sales
+PASS | independent gross_margin/base FY2029 sga
+PASS | independent gross_margin/base FY2029 other_operating_cost
+PASS | independent gross_margin/base FY2029 depreciation
+PASS | independent gross_margin/base FY2029 rou_amortization
+PASS | independent gross_margin/base FY2029 operating_lease_accretion
+PASS | independent gross_margin/base FY2029 operating_lease_expense
+PASS | independent gross_margin/base FY2029 operating_lease_cash
+PASS | independent gross_margin/base FY2029 operating_income
+PASS | independent gross_margin/base FY2029 debt_net_change
+PASS | independent gross_margin/base FY2029 debt
+PASS | independent gross_margin/base FY2029 debt_interest
+PASS | independent gross_margin/base FY2029 finance_lease_interest
+PASS | independent gross_margin/base FY2029 financing_interest
+PASS | independent gross_margin/base FY2029 revolver_interest
+PASS | independent gross_margin/base FY2029 interest_expense
+PASS | independent gross_margin/base FY2029 interest_income
+PASS | independent gross_margin/base FY2029 other_income
+PASS | independent gross_margin/base FY2029 pretax_income
+PASS | independent gross_margin/base FY2029 income_tax
+PASS | independent gross_margin/base FY2029 net_income
+PASS | independent gross_margin/base FY2029 inventory
+PASS | independent gross_margin/base FY2029 receivables
+PASS | independent gross_margin/base FY2029 trade_payables
+PASS | independent gross_margin/base FY2029 operating_accruals
+PASS | independent gross_margin/base FY2029 unearned
+PASS | independent gross_margin/base FY2029 capex
+PASS | independent gross_margin/base FY2029 capex_payables
+PASS | independent gross_margin/base FY2029 change_capex_payables
+PASS | independent gross_margin/base FY2029 finance_lease_addition
+PASS | independent gross_margin/base FY2029 finance_lease_principal
+PASS | independent gross_margin/base FY2029 finance_lease
+PASS | independent gross_margin/base FY2029 financing_addition
+PASS | independent gross_margin/base FY2029 financing_principal
+PASS | independent gross_margin/base FY2029 financing_obligation
+PASS | independent gross_margin/base FY2029 ppe_additions
+PASS | independent gross_margin/base FY2029 ppe
+PASS | independent gross_margin/base FY2029 operating_lease_addition
+PASS | independent gross_margin/base FY2029 operating_rou
+PASS | independent gross_margin/base FY2029 operating_lease
+PASS | independent gross_margin/base FY2029 goodwill
+PASS | independent gross_margin/base FY2029 other_assets
+PASS | independent gross_margin/base FY2029 other_liabilities
+PASS | independent gross_margin/base FY2029 distributions
+PASS | independent gross_margin/base FY2029 equity
+PASS | independent gross_margin/base FY2029 change_operating_wc
+PASS | independent gross_margin/base FY2029 change_other_net_assets
+PASS | independent gross_margin/base FY2029 operating_cash_flow
+PASS | independent gross_margin/base FY2029 fcfe_before_revolver
+PASS | independent gross_margin/base FY2029 securities_sale
+PASS | independent gross_margin/base FY2029 securities
+PASS | independent gross_margin/base FY2029 cash_before_revolver
+PASS | independent gross_margin/base FY2029 revolver_draw
+PASS | independent gross_margin/base FY2029 revolver_repayment
+PASS | independent gross_margin/base FY2029 revolver
+PASS | independent gross_margin/base FY2029 fcfe
+PASS | independent gross_margin/base FY2029 investing_cash_flow
+PASS | independent gross_margin/base FY2029 financing_cash_flow
+PASS | independent gross_margin/base FY2029 net_cash_change
+PASS | independent gross_margin/base FY2029 cash
+PASS | independent gross_margin/base FY2030 revenue
+PASS | independent gross_margin/base FY2030 gross_profit
+PASS | independent gross_margin/base FY2030 cost_of_sales
+PASS | independent gross_margin/base FY2030 sga
+PASS | independent gross_margin/base FY2030 other_operating_cost
+PASS | independent gross_margin/base FY2030 depreciation
+PASS | independent gross_margin/base FY2030 rou_amortization
+PASS | independent gross_margin/base FY2030 operating_lease_accretion
+PASS | independent gross_margin/base FY2030 operating_lease_expense
+PASS | independent gross_margin/base FY2030 operating_lease_cash
+PASS | independent gross_margin/base FY2030 operating_income
+PASS | independent gross_margin/base FY2030 debt_net_change
+PASS | independent gross_margin/base FY2030 debt
+PASS | independent gross_margin/base FY2030 debt_interest
+PASS | independent gross_margin/base FY2030 finance_lease_interest
+PASS | independent gross_margin/base FY2030 financing_interest
+PASS | independent gross_margin/base FY2030 revolver_interest
+PASS | independent gross_margin/base FY2030 interest_expense
+PASS | independent gross_margin/base FY2030 interest_income
+PASS | independent gross_margin/base FY2030 other_income
+PASS | independent gross_margin/base FY2030 pretax_income
+PASS | independent gross_margin/base FY2030 income_tax
+PASS | independent gross_margin/base FY2030 net_income
+PASS | independent gross_margin/base FY2030 inventory
+PASS | independent gross_margin/base FY2030 receivables
+PASS | independent gross_margin/base FY2030 trade_payables
+PASS | independent gross_margin/base FY2030 operating_accruals
+PASS | independent gross_margin/base FY2030 unearned
+PASS | independent gross_margin/base FY2030 capex
+PASS | independent gross_margin/base FY2030 capex_payables
+PASS | independent gross_margin/base FY2030 change_capex_payables
+PASS | independent gross_margin/base FY2030 finance_lease_addition
+PASS | independent gross_margin/base FY2030 finance_lease_principal
+PASS | independent gross_margin/base FY2030 finance_lease
+PASS | independent gross_margin/base FY2030 financing_addition
+PASS | independent gross_margin/base FY2030 financing_principal
+PASS | independent gross_margin/base FY2030 financing_obligation
+PASS | independent gross_margin/base FY2030 ppe_additions
+PASS | independent gross_margin/base FY2030 ppe
+PASS | independent gross_margin/base FY2030 operating_lease_addition
+PASS | independent gross_margin/base FY2030 operating_rou
+PASS | independent gross_margin/base FY2030 operating_lease
+PASS | independent gross_margin/base FY2030 goodwill
+PASS | independent gross_margin/base FY2030 other_assets
+PASS | independent gross_margin/base FY2030 other_liabilities
+PASS | independent gross_margin/base FY2030 distributions
+PASS | independent gross_margin/base FY2030 equity
+PASS | independent gross_margin/base FY2030 change_operating_wc
+PASS | independent gross_margin/base FY2030 change_other_net_assets
+PASS | independent gross_margin/base FY2030 operating_cash_flow
+PASS | independent gross_margin/base FY2030 fcfe_before_revolver
+PASS | independent gross_margin/base FY2030 securities_sale
+PASS | independent gross_margin/base FY2030 securities
+PASS | independent gross_margin/base FY2030 cash_before_revolver
+PASS | independent gross_margin/base FY2030 revolver_draw
+PASS | independent gross_margin/base FY2030 revolver_repayment
+PASS | independent gross_margin/base FY2030 revolver
+PASS | independent gross_margin/base FY2030 fcfe
+PASS | independent gross_margin/base FY2030 investing_cash_flow
+PASS | independent gross_margin/base FY2030 financing_cash_flow
+PASS | independent gross_margin/base FY2030 net_cash_change
+PASS | independent gross_margin/base FY2030 cash
+PASS | valid valuation rerun gross_margin/base
+PASS | only approved input differs gross_margin/higher
+PASS | complete case rerun gross_margin/higher
+PASS | independent gross_margin/higher FY2026 revenue
+PASS | independent gross_margin/higher FY2026 gross_profit
+PASS | independent gross_margin/higher FY2026 cost_of_sales
+PASS | independent gross_margin/higher FY2026 sga
+PASS | independent gross_margin/higher FY2026 other_operating_cost
+PASS | independent gross_margin/higher FY2026 depreciation
+PASS | independent gross_margin/higher FY2026 rou_amortization
+PASS | independent gross_margin/higher FY2026 operating_lease_accretion
+PASS | independent gross_margin/higher FY2026 operating_lease_expense
+PASS | independent gross_margin/higher FY2026 operating_lease_cash
+PASS | independent gross_margin/higher FY2026 operating_income
+PASS | independent gross_margin/higher FY2026 debt_net_change
+PASS | independent gross_margin/higher FY2026 debt
+PASS | independent gross_margin/higher FY2026 debt_interest
+PASS | independent gross_margin/higher FY2026 finance_lease_interest
+PASS | independent gross_margin/higher FY2026 financing_interest
+PASS | independent gross_margin/higher FY2026 revolver_interest
+PASS | independent gross_margin/higher FY2026 interest_expense
+PASS | independent gross_margin/higher FY2026 interest_income
+PASS | independent gross_margin/higher FY2026 other_income
+PASS | independent gross_margin/higher FY2026 pretax_income
+PASS | independent gross_margin/higher FY2026 income_tax
+PASS | independent gross_margin/higher FY2026 net_income
+PASS | independent gross_margin/higher FY2026 inventory
+PASS | independent gross_margin/higher FY2026 receivables
+PASS | independent gross_margin/higher FY2026 trade_payables
+PASS | independent gross_margin/higher FY2026 operating_accruals
+PASS | independent gross_margin/higher FY2026 unearned
+PASS | independent gross_margin/higher FY2026 capex
+PASS | independent gross_margin/higher FY2026 capex_payables
+PASS | independent gross_margin/higher FY2026 change_capex_payables
+PASS | independent gross_margin/higher FY2026 finance_lease_addition
+PASS | independent gross_margin/higher FY2026 finance_lease_principal
+PASS | independent gross_margin/higher FY2026 finance_lease
+PASS | independent gross_margin/higher FY2026 financing_addition
+PASS | independent gross_margin/higher FY2026 financing_principal
+PASS | independent gross_margin/higher FY2026 financing_obligation
+PASS | independent gross_margin/higher FY2026 ppe_additions
+PASS | independent gross_margin/higher FY2026 ppe
+PASS | independent gross_margin/higher FY2026 operating_lease_addition
+PASS | independent gross_margin/higher FY2026 operating_rou
+PASS | independent gross_margin/higher FY2026 operating_lease
+PASS | independent gross_margin/higher FY2026 goodwill
+PASS | independent gross_margin/higher FY2026 other_assets
+PASS | independent gross_margin/higher FY2026 other_liabilities
+PASS | independent gross_margin/higher FY2026 distributions
+PASS | independent gross_margin/higher FY2026 equity
+PASS | independent gross_margin/higher FY2026 change_operating_wc
+PASS | independent gross_margin/higher FY2026 change_other_net_assets
+PASS | independent gross_margin/higher FY2026 operating_cash_flow
+PASS | independent gross_margin/higher FY2026 fcfe_before_revolver
+PASS | independent gross_margin/higher FY2026 securities_sale
+PASS | independent gross_margin/higher FY2026 securities
+PASS | independent gross_margin/higher FY2026 cash_before_revolver
+PASS | independent gross_margin/higher FY2026 revolver_draw
+PASS | independent gross_margin/higher FY2026 revolver_repayment
+PASS | independent gross_margin/higher FY2026 revolver
+PASS | independent gross_margin/higher FY2026 fcfe
+PASS | independent gross_margin/higher FY2026 investing_cash_flow
+PASS | independent gross_margin/higher FY2026 financing_cash_flow
+PASS | independent gross_margin/higher FY2026 net_cash_change
+PASS | independent gross_margin/higher FY2026 cash
+PASS | independent gross_margin/higher FY2027 revenue
+PASS | independent gross_margin/higher FY2027 gross_profit
+PASS | independent gross_margin/higher FY2027 cost_of_sales
+PASS | independent gross_margin/higher FY2027 sga
+PASS | independent gross_margin/higher FY2027 other_operating_cost
+PASS | independent gross_margin/higher FY2027 depreciation
+PASS | independent gross_margin/higher FY2027 rou_amortization
+PASS | independent gross_margin/higher FY2027 operating_lease_accretion
+PASS | independent gross_margin/higher FY2027 operating_lease_expense
+PASS | independent gross_margin/higher FY2027 operating_lease_cash
+PASS | independent gross_margin/higher FY2027 operating_income
+PASS | independent gross_margin/higher FY2027 debt_net_change
+PASS | independent gross_margin/higher FY2027 debt
+PASS | independent gross_margin/higher FY2027 debt_interest
+PASS | independent gross_margin/higher FY2027 finance_lease_interest
+PASS | independent gross_margin/higher FY2027 financing_interest
+PASS | independent gross_margin/higher FY2027 revolver_interest
+PASS | independent gross_margin/higher FY2027 interest_expense
+PASS | independent gross_margin/higher FY2027 interest_income
+PASS | independent gross_margin/higher FY2027 other_income
+PASS | independent gross_margin/higher FY2027 pretax_income
+PASS | independent gross_margin/higher FY2027 income_tax
+PASS | independent gross_margin/higher FY2027 net_income
+PASS | independent gross_margin/higher FY2027 inventory
+PASS | independent gross_margin/higher FY2027 receivables
+PASS | independent gross_margin/higher FY2027 trade_payables
+PASS | independent gross_margin/higher FY2027 operating_accruals
+PASS | independent gross_margin/higher FY2027 unearned
+PASS | independent gross_margin/higher FY2027 capex
+PASS | independent gross_margin/higher FY2027 capex_payables
+PASS | independent gross_margin/higher FY2027 change_capex_payables
+PASS | independent gross_margin/higher FY2027 finance_lease_addition
+PASS | independent gross_margin/higher FY2027 finance_lease_principal
+PASS | independent gross_margin/higher FY2027 finance_lease
+PASS | independent gross_margin/higher FY2027 financing_addition
+PASS | independent gross_margin/higher FY2027 financing_principal
+PASS | independent gross_margin/higher FY2027 financing_obligation
+PASS | independent gross_margin/higher FY2027 ppe_additions
+PASS | independent gross_margin/higher FY2027 ppe
+PASS | independent gross_margin/higher FY2027 operating_lease_addition
+PASS | independent gross_margin/higher FY2027 operating_rou
+PASS | independent gross_margin/higher FY2027 operating_lease
+PASS | independent gross_margin/higher FY2027 goodwill
+PASS | independent gross_margin/higher FY2027 other_assets
+PASS | independent gross_margin/higher FY2027 other_liabilities
+PASS | independent gross_margin/higher FY2027 distributions
+PASS | independent gross_margin/higher FY2027 equity
+PASS | independent gross_margin/higher FY2027 change_operating_wc
+PASS | independent gross_margin/higher FY2027 change_other_net_assets
+PASS | independent gross_margin/higher FY2027 operating_cash_flow
+PASS | independent gross_margin/higher FY2027 fcfe_before_revolver
+PASS | independent gross_margin/higher FY2027 securities_sale
+PASS | independent gross_margin/higher FY2027 securities
+PASS | independent gross_margin/higher FY2027 cash_before_revolver
+PASS | independent gross_margin/higher FY2027 revolver_draw
+PASS | independent gross_margin/higher FY2027 revolver_repayment
+PASS | independent gross_margin/higher FY2027 revolver
+PASS | independent gross_margin/higher FY2027 fcfe
+PASS | independent gross_margin/higher FY2027 investing_cash_flow
+PASS | independent gross_margin/higher FY2027 financing_cash_flow
+PASS | independent gross_margin/higher FY2027 net_cash_change
+PASS | independent gross_margin/higher FY2027 cash
+PASS | independent gross_margin/higher FY2028 revenue
+PASS | independent gross_margin/higher FY2028 gross_profit
+PASS | independent gross_margin/higher FY2028 cost_of_sales
+PASS | independent gross_margin/higher FY2028 sga
+PASS | independent gross_margin/higher FY2028 other_operating_cost
+PASS | independent gross_margin/higher FY2028 depreciation
+PASS | independent gross_margin/higher FY2028 rou_amortization
+PASS | independent gross_margin/higher FY2028 operating_lease_accretion
+PASS | independent gross_margin/higher FY2028 operating_lease_expense
+PASS | independent gross_margin/higher FY2028 operating_lease_cash
+PASS | independent gross_margin/higher FY2028 operating_income
+PASS | independent gross_margin/higher FY2028 debt_net_change
+PASS | independent gross_margin/higher FY2028 debt
+PASS | independent gross_margin/higher FY2028 debt_interest
+PASS | independent gross_margin/higher FY2028 finance_lease_interest
+PASS | independent gross_margin/higher FY2028 financing_interest
+PASS | independent gross_margin/higher FY2028 revolver_interest
+PASS | independent gross_margin/higher FY2028 interest_expense
+PASS | independent gross_margin/higher FY2028 interest_income
+PASS | independent gross_margin/higher FY2028 other_income
+PASS | independent gross_margin/higher FY2028 pretax_income
+PASS | independent gross_margin/higher FY2028 income_tax
+PASS | independent gross_margin/higher FY2028 net_income
+PASS | independent gross_margin/higher FY2028 inventory
+PASS | independent gross_margin/higher FY2028 receivables
+PASS | independent gross_margin/higher FY2028 trade_payables
+PASS | independent gross_margin/higher FY2028 operating_accruals
+PASS | independent gross_margin/higher FY2028 unearned
+PASS | independent gross_margin/higher FY2028 capex
+PASS | independent gross_margin/higher FY2028 capex_payables
+PASS | independent gross_margin/higher FY2028 change_capex_payables
+PASS | independent gross_margin/higher FY2028 finance_lease_addition
+PASS | independent gross_margin/higher FY2028 finance_lease_principal
+PASS | independent gross_margin/higher FY2028 finance_lease
+PASS | independent gross_margin/higher FY2028 financing_addition
+PASS | independent gross_margin/higher FY2028 financing_principal
+PASS | independent gross_margin/higher FY2028 financing_obligation
+PASS | independent gross_margin/higher FY2028 ppe_additions
+PASS | independent gross_margin/higher FY2028 ppe
+PASS | independent gross_margin/higher FY2028 operating_lease_addition
+PASS | independent gross_margin/higher FY2028 operating_rou
+PASS | independent gross_margin/higher FY2028 operating_lease
+PASS | independent gross_margin/higher FY2028 goodwill
+PASS | independent gross_margin/higher FY2028 other_assets
+PASS | independent gross_margin/higher FY2028 other_liabilities
+PASS | independent gross_margin/higher FY2028 distributions
+PASS | independent gross_margin/higher FY2028 equity
+PASS | independent gross_margin/higher FY2028 change_operating_wc
+PASS | independent gross_margin/higher FY2028 change_other_net_assets
+PASS | independent gross_margin/higher FY2028 operating_cash_flow
+PASS | independent gross_margin/higher FY2028 fcfe_before_revolver
+PASS | independent gross_margin/higher FY2028 securities_sale
+PASS | independent gross_margin/higher FY2028 securities
+PASS | independent gross_margin/higher FY2028 cash_before_revolver
+PASS | independent gross_margin/higher FY2028 revolver_draw
+PASS | independent gross_margin/higher FY2028 revolver_repayment
+PASS | independent gross_margin/higher FY2028 revolver
+PASS | independent gross_margin/higher FY2028 fcfe
+PASS | independent gross_margin/higher FY2028 investing_cash_flow
+PASS | independent gross_margin/higher FY2028 financing_cash_flow
+PASS | independent gross_margin/higher FY2028 net_cash_change
+PASS | independent gross_margin/higher FY2028 cash
+PASS | independent gross_margin/higher FY2029 revenue
+PASS | independent gross_margin/higher FY2029 gross_profit
+PASS | independent gross_margin/higher FY2029 cost_of_sales
+PASS | independent gross_margin/higher FY2029 sga
+PASS | independent gross_margin/higher FY2029 other_operating_cost
+PASS | independent gross_margin/higher FY2029 depreciation
+PASS | independent gross_margin/higher FY2029 rou_amortization
+PASS | independent gross_margin/higher FY2029 operating_lease_accretion
+PASS | independent gross_margin/higher FY2029 operating_lease_expense
+PASS | independent gross_margin/higher FY2029 operating_lease_cash
+PASS | independent gross_margin/higher FY2029 operating_income
+PASS | independent gross_margin/higher FY2029 debt_net_change
+PASS | independent gross_margin/higher FY2029 debt
+PASS | independent gross_margin/higher FY2029 debt_interest
+PASS | independent gross_margin/higher FY2029 finance_lease_interest
+PASS | independent gross_margin/higher FY2029 financing_interest
+PASS | independent gross_margin/higher FY2029 revolver_interest
+PASS | independent gross_margin/higher FY2029 interest_expense
+PASS | independent gross_margin/higher FY2029 interest_income
+PASS | independent gross_margin/higher FY2029 other_income
+PASS | independent gross_margin/higher FY2029 pretax_income
+PASS | independent gross_margin/higher FY2029 income_tax
+PASS | independent gross_margin/higher FY2029 net_income
+PASS | independent gross_margin/higher FY2029 inventory
+PASS | independent gross_margin/higher FY2029 receivables
+PASS | independent gross_margin/higher FY2029 trade_payables
+PASS | independent gross_margin/higher FY2029 operating_accruals
+PASS | independent gross_margin/higher FY2029 unearned
+PASS | independent gross_margin/higher FY2029 capex
+PASS | independent gross_margin/higher FY2029 capex_payables
+PASS | independent gross_margin/higher FY2029 change_capex_payables
+PASS | independent gross_margin/higher FY2029 finance_lease_addition
+PASS | independent gross_margin/higher FY2029 finance_lease_principal
+PASS | independent gross_margin/higher FY2029 finance_lease
+PASS | independent gross_margin/higher FY2029 financing_addition
+PASS | independent gross_margin/higher FY2029 financing_principal
+PASS | independent gross_margin/higher FY2029 financing_obligation
+PASS | independent gross_margin/higher FY2029 ppe_additions
+PASS | independent gross_margin/higher FY2029 ppe
+PASS | independent gross_margin/higher FY2029 operating_lease_addition
+PASS | independent gross_margin/higher FY2029 operating_rou
+PASS | independent gross_margin/higher FY2029 operating_lease
+PASS | independent gross_margin/higher FY2029 goodwill
+PASS | independent gross_margin/higher FY2029 other_assets
+PASS | independent gross_margin/higher FY2029 other_liabilities
+PASS | independent gross_margin/higher FY2029 distributions
+PASS | independent gross_margin/higher FY2029 equity
+PASS | independent gross_margin/higher FY2029 change_operating_wc
+PASS | independent gross_margin/higher FY2029 change_other_net_assets
+PASS | independent gross_margin/higher FY2029 operating_cash_flow
+PASS | independent gross_margin/higher FY2029 fcfe_before_revolver
+PASS | independent gross_margin/higher FY2029 securities_sale
+PASS | independent gross_margin/higher FY2029 securities
+PASS | independent gross_margin/higher FY2029 cash_before_revolver
+PASS | independent gross_margin/higher FY2029 revolver_draw
+PASS | independent gross_margin/higher FY2029 revolver_repayment
+PASS | independent gross_margin/higher FY2029 revolver
+PASS | independent gross_margin/higher FY2029 fcfe
+PASS | independent gross_margin/higher FY2029 investing_cash_flow
+PASS | independent gross_margin/higher FY2029 financing_cash_flow
+PASS | independent gross_margin/higher FY2029 net_cash_change
+PASS | independent gross_margin/higher FY2029 cash
+PASS | independent gross_margin/higher FY2030 revenue
+PASS | independent gross_margin/higher FY2030 gross_profit
+PASS | independent gross_margin/higher FY2030 cost_of_sales
+PASS | independent gross_margin/higher FY2030 sga
+PASS | independent gross_margin/higher FY2030 other_operating_cost
+PASS | independent gross_margin/higher FY2030 depreciation
+PASS | independent gross_margin/higher FY2030 rou_amortization
+PASS | independent gross_margin/higher FY2030 operating_lease_accretion
+PASS | independent gross_margin/higher FY2030 operating_lease_expense
+PASS | independent gross_margin/higher FY2030 operating_lease_cash
+PASS | independent gross_margin/higher FY2030 operating_income
+PASS | independent gross_margin/higher FY2030 debt_net_change
+PASS | independent gross_margin/higher FY2030 debt
+PASS | independent gross_margin/higher FY2030 debt_interest
+PASS | independent gross_margin/higher FY2030 finance_lease_interest
+PASS | independent gross_margin/higher FY2030 financing_interest
+PASS | independent gross_margin/higher FY2030 revolver_interest
+PASS | independent gross_margin/higher FY2030 interest_expense
+PASS | independent gross_margin/higher FY2030 interest_income
+PASS | independent gross_margin/higher FY2030 other_income
+PASS | independent gross_margin/higher FY2030 pretax_income
+PASS | independent gross_margin/higher FY2030 income_tax
+PASS | independent gross_margin/higher FY2030 net_income
+PASS | independent gross_margin/higher FY2030 inventory
+PASS | independent gross_margin/higher FY2030 receivables
+PASS | independent gross_margin/higher FY2030 trade_payables
+PASS | independent gross_margin/higher FY2030 operating_accruals
+PASS | independent gross_margin/higher FY2030 unearned
+PASS | independent gross_margin/higher FY2030 capex
+PASS | independent gross_margin/higher FY2030 capex_payables
+PASS | independent gross_margin/higher FY2030 change_capex_payables
+PASS | independent gross_margin/higher FY2030 finance_lease_addition
+PASS | independent gross_margin/higher FY2030 finance_lease_principal
+PASS | independent gross_margin/higher FY2030 finance_lease
+PASS | independent gross_margin/higher FY2030 financing_addition
+PASS | independent gross_margin/higher FY2030 financing_principal
+PASS | independent gross_margin/higher FY2030 financing_obligation
+PASS | independent gross_margin/higher FY2030 ppe_additions
+PASS | independent gross_margin/higher FY2030 ppe
+PASS | independent gross_margin/higher FY2030 operating_lease_addition
+PASS | independent gross_margin/higher FY2030 operating_rou
+PASS | independent gross_margin/higher FY2030 operating_lease
+PASS | independent gross_margin/higher FY2030 goodwill
+PASS | independent gross_margin/higher FY2030 other_assets
+PASS | independent gross_margin/higher FY2030 other_liabilities
+PASS | independent gross_margin/higher FY2030 distributions
+PASS | independent gross_margin/higher FY2030 equity
+PASS | independent gross_margin/higher FY2030 change_operating_wc
+PASS | independent gross_margin/higher FY2030 change_other_net_assets
+PASS | independent gross_margin/higher FY2030 operating_cash_flow
+PASS | independent gross_margin/higher FY2030 fcfe_before_revolver
+PASS | independent gross_margin/higher FY2030 securities_sale
+PASS | independent gross_margin/higher FY2030 securities
+PASS | independent gross_margin/higher FY2030 cash_before_revolver
+PASS | independent gross_margin/higher FY2030 revolver_draw
+PASS | independent gross_margin/higher FY2030 revolver_repayment
+PASS | independent gross_margin/higher FY2030 revolver
+PASS | independent gross_margin/higher FY2030 fcfe
+PASS | independent gross_margin/higher FY2030 investing_cash_flow
+PASS | independent gross_margin/higher FY2030 financing_cash_flow
+PASS | independent gross_margin/higher FY2030 net_cash_change
+PASS | independent gross_margin/higher FY2030 cash
+PASS | valid valuation rerun gross_margin/higher
+PASS | only approved input differs capex_later/lower
+PASS | complete case rerun capex_later/lower
+PASS | independent capex_later/lower FY2026 revenue
+PASS | independent capex_later/lower FY2026 gross_profit
+PASS | independent capex_later/lower FY2026 cost_of_sales
+PASS | independent capex_later/lower FY2026 sga
+PASS | independent capex_later/lower FY2026 other_operating_cost
+PASS | independent capex_later/lower FY2026 depreciation
+PASS | independent capex_later/lower FY2026 rou_amortization
+PASS | independent capex_later/lower FY2026 operating_lease_accretion
+PASS | independent capex_later/lower FY2026 operating_lease_expense
+PASS | independent capex_later/lower FY2026 operating_lease_cash
+PASS | independent capex_later/lower FY2026 operating_income
+PASS | independent capex_later/lower FY2026 debt_net_change
+PASS | independent capex_later/lower FY2026 debt
+PASS | independent capex_later/lower FY2026 debt_interest
+PASS | independent capex_later/lower FY2026 finance_lease_interest
+PASS | independent capex_later/lower FY2026 financing_interest
+PASS | independent capex_later/lower FY2026 revolver_interest
+PASS | independent capex_later/lower FY2026 interest_expense
+PASS | independent capex_later/lower FY2026 interest_income
+PASS | independent capex_later/lower FY2026 other_income
+PASS | independent capex_later/lower FY2026 pretax_income
+PASS | independent capex_later/lower FY2026 income_tax
+PASS | independent capex_later/lower FY2026 net_income
+PASS | independent capex_later/lower FY2026 inventory
+PASS | independent capex_later/lower FY2026 receivables
+PASS | independent capex_later/lower FY2026 trade_payables
+PASS | independent capex_later/lower FY2026 operating_accruals
+PASS | independent capex_later/lower FY2026 unearned
+PASS | independent capex_later/lower FY2026 capex
+PASS | independent capex_later/lower FY2026 capex_payables
+PASS | independent capex_later/lower FY2026 change_capex_payables
+PASS | independent capex_later/lower FY2026 finance_lease_addition
+PASS | independent capex_later/lower FY2026 finance_lease_principal
+PASS | independent capex_later/lower FY2026 finance_lease
+PASS | independent capex_later/lower FY2026 financing_addition
+PASS | independent capex_later/lower FY2026 financing_principal
+PASS | independent capex_later/lower FY2026 financing_obligation
+PASS | independent capex_later/lower FY2026 ppe_additions
+PASS | independent capex_later/lower FY2026 ppe
+PASS | independent capex_later/lower FY2026 operating_lease_addition
+PASS | independent capex_later/lower FY2026 operating_rou
+PASS | independent capex_later/lower FY2026 operating_lease
+PASS | independent capex_later/lower FY2026 goodwill
+PASS | independent capex_later/lower FY2026 other_assets
+PASS | independent capex_later/lower FY2026 other_liabilities
+PASS | independent capex_later/lower FY2026 distributions
+PASS | independent capex_later/lower FY2026 equity
+PASS | independent capex_later/lower FY2026 change_operating_wc
+PASS | independent capex_later/lower FY2026 change_other_net_assets
+PASS | independent capex_later/lower FY2026 operating_cash_flow
+PASS | independent capex_later/lower FY2026 fcfe_before_revolver
+PASS | independent capex_later/lower FY2026 securities_sale
+PASS | independent capex_later/lower FY2026 securities
+PASS | independent capex_later/lower FY2026 cash_before_revolver
+PASS | independent capex_later/lower FY2026 revolver_draw
+PASS | independent capex_later/lower FY2026 revolver_repayment
+PASS | independent capex_later/lower FY2026 revolver
+PASS | independent capex_later/lower FY2026 fcfe
+PASS | independent capex_later/lower FY2026 investing_cash_flow
+PASS | independent capex_later/lower FY2026 financing_cash_flow
+PASS | independent capex_later/lower FY2026 net_cash_change
+PASS | independent capex_later/lower FY2026 cash
+PASS | independent capex_later/lower FY2027 revenue
+PASS | independent capex_later/lower FY2027 gross_profit
+PASS | independent capex_later/lower FY2027 cost_of_sales
+PASS | independent capex_later/lower FY2027 sga
+PASS | independent capex_later/lower FY2027 other_operating_cost
+PASS | independent capex_later/lower FY2027 depreciation
+PASS | independent capex_later/lower FY2027 rou_amortization
+PASS | independent capex_later/lower FY2027 operating_lease_accretion
+PASS | independent capex_later/lower FY2027 operating_lease_expense
+PASS | independent capex_later/lower FY2027 operating_lease_cash
+PASS | independent capex_later/lower FY2027 operating_income
+PASS | independent capex_later/lower FY2027 debt_net_change
+PASS | independent capex_later/lower FY2027 debt
+PASS | independent capex_later/lower FY2027 debt_interest
+PASS | independent capex_later/lower FY2027 finance_lease_interest
+PASS | independent capex_later/lower FY2027 financing_interest
+PASS | independent capex_later/lower FY2027 revolver_interest
+PASS | independent capex_later/lower FY2027 interest_expense
+PASS | independent capex_later/lower FY2027 interest_income
+PASS | independent capex_later/lower FY2027 other_income
+PASS | independent capex_later/lower FY2027 pretax_income
+PASS | independent capex_later/lower FY2027 income_tax
+PASS | independent capex_later/lower FY2027 net_income
+PASS | independent capex_later/lower FY2027 inventory
+PASS | independent capex_later/lower FY2027 receivables
+PASS | independent capex_later/lower FY2027 trade_payables
+PASS | independent capex_later/lower FY2027 operating_accruals
+PASS | independent capex_later/lower FY2027 unearned
+PASS | independent capex_later/lower FY2027 capex
+PASS | independent capex_later/lower FY2027 capex_payables
+PASS | independent capex_later/lower FY2027 change_capex_payables
+PASS | independent capex_later/lower FY2027 finance_lease_addition
+PASS | independent capex_later/lower FY2027 finance_lease_principal
+PASS | independent capex_later/lower FY2027 finance_lease
+PASS | independent capex_later/lower FY2027 financing_addition
+PASS | independent capex_later/lower FY2027 financing_principal
+PASS | independent capex_later/lower FY2027 financing_obligation
+PASS | independent capex_later/lower FY2027 ppe_additions
+PASS | independent capex_later/lower FY2027 ppe
+PASS | independent capex_later/lower FY2027 operating_lease_addition
+PASS | independent capex_later/lower FY2027 operating_rou
+PASS | independent capex_later/lower FY2027 operating_lease
+PASS | independent capex_later/lower FY2027 goodwill
+PASS | independent capex_later/lower FY2027 other_assets
+PASS | independent capex_later/lower FY2027 other_liabilities
+PASS | independent capex_later/lower FY2027 distributions
+PASS | independent capex_later/lower FY2027 equity
+PASS | independent capex_later/lower FY2027 change_operating_wc
+PASS | independent capex_later/lower FY2027 change_other_net_assets
+PASS | independent capex_later/lower FY2027 operating_cash_flow
+PASS | independent capex_later/lower FY2027 fcfe_before_revolver
+PASS | independent capex_later/lower FY2027 securities_sale
+PASS | independent capex_later/lower FY2027 securities
+PASS | independent capex_later/lower FY2027 cash_before_revolver
+PASS | independent capex_later/lower FY2027 revolver_draw
+PASS | independent capex_later/lower FY2027 revolver_repayment
+PASS | independent capex_later/lower FY2027 revolver
+PASS | independent capex_later/lower FY2027 fcfe
+PASS | independent capex_later/lower FY2027 investing_cash_flow
+PASS | independent capex_later/lower FY2027 financing_cash_flow
+PASS | independent capex_later/lower FY2027 net_cash_change
+PASS | independent capex_later/lower FY2027 cash
+PASS | independent capex_later/lower FY2028 revenue
+PASS | independent capex_later/lower FY2028 gross_profit
+PASS | independent capex_later/lower FY2028 cost_of_sales
+PASS | independent capex_later/lower FY2028 sga
+PASS | independent capex_later/lower FY2028 other_operating_cost
+PASS | independent capex_later/lower FY2028 depreciation
+PASS | independent capex_later/lower FY2028 rou_amortization
+PASS | independent capex_later/lower FY2028 operating_lease_accretion
+PASS | independent capex_later/lower FY2028 operating_lease_expense
+PASS | independent capex_later/lower FY2028 operating_lease_cash
+PASS | independent capex_later/lower FY2028 operating_income
+PASS | independent capex_later/lower FY2028 debt_net_change
+PASS | independent capex_later/lower FY2028 debt
+PASS | independent capex_later/lower FY2028 debt_interest
+PASS | independent capex_later/lower FY2028 finance_lease_interest
+PASS | independent capex_later/lower FY2028 financing_interest
+PASS | independent capex_later/lower FY2028 revolver_interest
+PASS | independent capex_later/lower FY2028 interest_expense
+PASS | independent capex_later/lower FY2028 interest_income
+PASS | independent capex_later/lower FY2028 other_income
+PASS | independent capex_later/lower FY2028 pretax_income
+PASS | independent capex_later/lower FY2028 income_tax
+PASS | independent capex_later/lower FY2028 net_income
+PASS | independent capex_later/lower FY2028 inventory
+PASS | independent capex_later/lower FY2028 receivables
+PASS | independent capex_later/lower FY2028 trade_payables
+PASS | independent capex_later/lower FY2028 operating_accruals
+PASS | independent capex_later/lower FY2028 unearned
+PASS | independent capex_later/lower FY2028 capex
+PASS | independent capex_later/lower FY2028 capex_payables
+PASS | independent capex_later/lower FY2028 change_capex_payables
+PASS | independent capex_later/lower FY2028 finance_lease_addition
+PASS | independent capex_later/lower FY2028 finance_lease_principal
+PASS | independent capex_later/lower FY2028 finance_lease
+PASS | independent capex_later/lower FY2028 financing_addition
+PASS | independent capex_later/lower FY2028 financing_principal
+PASS | independent capex_later/lower FY2028 financing_obligation
+PASS | independent capex_later/lower FY2028 ppe_additions
+PASS | independent capex_later/lower FY2028 ppe
+PASS | independent capex_later/lower FY2028 operating_lease_addition
+PASS | independent capex_later/lower FY2028 operating_rou
+PASS | independent capex_later/lower FY2028 operating_lease
+PASS | independent capex_later/lower FY2028 goodwill
+PASS | independent capex_later/lower FY2028 other_assets
+PASS | independent capex_later/lower FY2028 other_liabilities
+PASS | independent capex_later/lower FY2028 distributions
+PASS | independent capex_later/lower FY2028 equity
+PASS | independent capex_later/lower FY2028 change_operating_wc
+PASS | independent capex_later/lower FY2028 change_other_net_assets
+PASS | independent capex_later/lower FY2028 operating_cash_flow
+PASS | independent capex_later/lower FY2028 fcfe_before_revolver
+PASS | independent capex_later/lower FY2028 securities_sale
+PASS | independent capex_later/lower FY2028 securities
+PASS | independent capex_later/lower FY2028 cash_before_revolver
+PASS | independent capex_later/lower FY2028 revolver_draw
+PASS | independent capex_later/lower FY2028 revolver_repayment
+PASS | independent capex_later/lower FY2028 revolver
+PASS | independent capex_later/lower FY2028 fcfe
+PASS | independent capex_later/lower FY2028 investing_cash_flow
+PASS | independent capex_later/lower FY2028 financing_cash_flow
+PASS | independent capex_later/lower FY2028 net_cash_change
+PASS | independent capex_later/lower FY2028 cash
+PASS | independent capex_later/lower FY2029 revenue
+PASS | independent capex_later/lower FY2029 gross_profit
+PASS | independent capex_later/lower FY2029 cost_of_sales
+PASS | independent capex_later/lower FY2029 sga
+PASS | independent capex_later/lower FY2029 other_operating_cost
+PASS | independent capex_later/lower FY2029 depreciation
+PASS | independent capex_later/lower FY2029 rou_amortization
+PASS | independent capex_later/lower FY2029 operating_lease_accretion
+PASS | independent capex_later/lower FY2029 operating_lease_expense
+PASS | independent capex_later/lower FY2029 operating_lease_cash
+PASS | independent capex_later/lower FY2029 operating_income
+PASS | independent capex_later/lower FY2029 debt_net_change
+PASS | independent capex_later/lower FY2029 debt
+PASS | independent capex_later/lower FY2029 debt_interest
+PASS | independent capex_later/lower FY2029 finance_lease_interest
+PASS | independent capex_later/lower FY2029 financing_interest
+PASS | independent capex_later/lower FY2029 revolver_interest
+PASS | independent capex_later/lower FY2029 interest_expense
+PASS | independent capex_later/lower FY2029 interest_income
+PASS | independent capex_later/lower FY2029 other_income
+PASS | independent capex_later/lower FY2029 pretax_income
+PASS | independent capex_later/lower FY2029 income_tax
+PASS | independent capex_later/lower FY2029 net_income
+PASS | independent capex_later/lower FY2029 inventory
+PASS | independent capex_later/lower FY2029 receivables
+PASS | independent capex_later/lower FY2029 trade_payables
+PASS | independent capex_later/lower FY2029 operating_accruals
+PASS | independent capex_later/lower FY2029 unearned
+PASS | independent capex_later/lower FY2029 capex
+PASS | independent capex_later/lower FY2029 capex_payables
+PASS | independent capex_later/lower FY2029 change_capex_payables
+PASS | independent capex_later/lower FY2029 finance_lease_addition
+PASS | independent capex_later/lower FY2029 finance_lease_principal
+PASS | independent capex_later/lower FY2029 finance_lease
+PASS | independent capex_later/lower FY2029 financing_addition
+PASS | independent capex_later/lower FY2029 financing_principal
+PASS | independent capex_later/lower FY2029 financing_obligation
+PASS | independent capex_later/lower FY2029 ppe_additions
+PASS | independent capex_later/lower FY2029 ppe
+PASS | independent capex_later/lower FY2029 operating_lease_addition
+PASS | independent capex_later/lower FY2029 operating_rou
+PASS | independent capex_later/lower FY2029 operating_lease
+PASS | independent capex_later/lower FY2029 goodwill
+PASS | independent capex_later/lower FY2029 other_assets
+PASS | independent capex_later/lower FY2029 other_liabilities
+PASS | independent capex_later/lower FY2029 distributions
+PASS | independent capex_later/lower FY2029 equity
+PASS | independent capex_later/lower FY2029 change_operating_wc
+PASS | independent capex_later/lower FY2029 change_other_net_assets
+PASS | independent capex_later/lower FY2029 operating_cash_flow
+PASS | independent capex_later/lower FY2029 fcfe_before_revolver
+PASS | independent capex_later/lower FY2029 securities_sale
+PASS | independent capex_later/lower FY2029 securities
+PASS | independent capex_later/lower FY2029 cash_before_revolver
+PASS | independent capex_later/lower FY2029 revolver_draw
+PASS | independent capex_later/lower FY2029 revolver_repayment
+PASS | independent capex_later/lower FY2029 revolver
+PASS | independent capex_later/lower FY2029 fcfe
+PASS | independent capex_later/lower FY2029 investing_cash_flow
+PASS | independent capex_later/lower FY2029 financing_cash_flow
+PASS | independent capex_later/lower FY2029 net_cash_change
+PASS | independent capex_later/lower FY2029 cash
+PASS | independent capex_later/lower FY2030 revenue
+PASS | independent capex_later/lower FY2030 gross_profit
+PASS | independent capex_later/lower FY2030 cost_of_sales
+PASS | independent capex_later/lower FY2030 sga
+PASS | independent capex_later/lower FY2030 other_operating_cost
+PASS | independent capex_later/lower FY2030 depreciation
+PASS | independent capex_later/lower FY2030 rou_amortization
+PASS | independent capex_later/lower FY2030 operating_lease_accretion
+PASS | independent capex_later/lower FY2030 operating_lease_expense
+PASS | independent capex_later/lower FY2030 operating_lease_cash
+PASS | independent capex_later/lower FY2030 operating_income
+PASS | independent capex_later/lower FY2030 debt_net_change
+PASS | independent capex_later/lower FY2030 debt
+PASS | independent capex_later/lower FY2030 debt_interest
+PASS | independent capex_later/lower FY2030 finance_lease_interest
+PASS | independent capex_later/lower FY2030 financing_interest
+PASS | independent capex_later/lower FY2030 revolver_interest
+PASS | independent capex_later/lower FY2030 interest_expense
+PASS | independent capex_later/lower FY2030 interest_income
+PASS | independent capex_later/lower FY2030 other_income
+PASS | independent capex_later/lower FY2030 pretax_income
+PASS | independent capex_later/lower FY2030 income_tax
+PASS | independent capex_later/lower FY2030 net_income
+PASS | independent capex_later/lower FY2030 inventory
+PASS | independent capex_later/lower FY2030 receivables
+PASS | independent capex_later/lower FY2030 trade_payables
+PASS | independent capex_later/lower FY2030 operating_accruals
+PASS | independent capex_later/lower FY2030 unearned
+PASS | independent capex_later/lower FY2030 capex
+PASS | independent capex_later/lower FY2030 capex_payables
+PASS | independent capex_later/lower FY2030 change_capex_payables
+PASS | independent capex_later/lower FY2030 finance_lease_addition
+PASS | independent capex_later/lower FY2030 finance_lease_principal
+PASS | independent capex_later/lower FY2030 finance_lease
+PASS | independent capex_later/lower FY2030 financing_addition
+PASS | independent capex_later/lower FY2030 financing_principal
+PASS | independent capex_later/lower FY2030 financing_obligation
+PASS | independent capex_later/lower FY2030 ppe_additions
+PASS | independent capex_later/lower FY2030 ppe
+PASS | independent capex_later/lower FY2030 operating_lease_addition
+PASS | independent capex_later/lower FY2030 operating_rou
+PASS | independent capex_later/lower FY2030 operating_lease
+PASS | independent capex_later/lower FY2030 goodwill
+PASS | independent capex_later/lower FY2030 other_assets
+PASS | independent capex_later/lower FY2030 other_liabilities
+PASS | independent capex_later/lower FY2030 distributions
+PASS | independent capex_later/lower FY2030 equity
+PASS | independent capex_later/lower FY2030 change_operating_wc
+PASS | independent capex_later/lower FY2030 change_other_net_assets
+PASS | independent capex_later/lower FY2030 operating_cash_flow
+PASS | independent capex_later/lower FY2030 fcfe_before_revolver
+PASS | independent capex_later/lower FY2030 securities_sale
+PASS | independent capex_later/lower FY2030 securities
+PASS | independent capex_later/lower FY2030 cash_before_revolver
+PASS | independent capex_later/lower FY2030 revolver_draw
+PASS | independent capex_later/lower FY2030 revolver_repayment
+PASS | independent capex_later/lower FY2030 revolver
+PASS | independent capex_later/lower FY2030 fcfe
+PASS | independent capex_later/lower FY2030 investing_cash_flow
+PASS | independent capex_later/lower FY2030 financing_cash_flow
+PASS | independent capex_later/lower FY2030 net_cash_change
+PASS | independent capex_later/lower FY2030 cash
+PASS | valid valuation rerun capex_later/lower
+PASS | only approved input differs capex_later/base
+PASS | complete case rerun capex_later/base
+PASS | independent capex_later/base FY2026 revenue
+PASS | independent capex_later/base FY2026 gross_profit
+PASS | independent capex_later/base FY2026 cost_of_sales
+PASS | independent capex_later/base FY2026 sga
+PASS | independent capex_later/base FY2026 other_operating_cost
+PASS | independent capex_later/base FY2026 depreciation
+PASS | independent capex_later/base FY2026 rou_amortization
+PASS | independent capex_later/base FY2026 operating_lease_accretion
+PASS | independent capex_later/base FY2026 operating_lease_expense
+PASS | independent capex_later/base FY2026 operating_lease_cash
+PASS | independent capex_later/base FY2026 operating_income
+PASS | independent capex_later/base FY2026 debt_net_change
+PASS | independent capex_later/base FY2026 debt
+PASS | independent capex_later/base FY2026 debt_interest
+PASS | independent capex_later/base FY2026 finance_lease_interest
+PASS | independent capex_later/base FY2026 financing_interest
+PASS | independent capex_later/base FY2026 revolver_interest
+PASS | independent capex_later/base FY2026 interest_expense
+PASS | independent capex_later/base FY2026 interest_income
+PASS | independent capex_later/base FY2026 other_income
+PASS | independent capex_later/base FY2026 pretax_income
+PASS | independent capex_later/base FY2026 income_tax
+PASS | independent capex_later/base FY2026 net_income
+PASS | independent capex_later/base FY2026 inventory
+PASS | independent capex_later/base FY2026 receivables
+PASS | independent capex_later/base FY2026 trade_payables
+PASS | independent capex_later/base FY2026 operating_accruals
+PASS | independent capex_later/base FY2026 unearned
+PASS | independent capex_later/base FY2026 capex
+PASS | independent capex_later/base FY2026 capex_payables
+PASS | independent capex_later/base FY2026 change_capex_payables
+PASS | independent capex_later/base FY2026 finance_lease_addition
+PASS | independent capex_later/base FY2026 finance_lease_principal
+PASS | independent capex_later/base FY2026 finance_lease
+PASS | independent capex_later/base FY2026 financing_addition
+PASS | independent capex_later/base FY2026 financing_principal
+PASS | independent capex_later/base FY2026 financing_obligation
+PASS | independent capex_later/base FY2026 ppe_additions
+PASS | independent capex_later/base FY2026 ppe
+PASS | independent capex_later/base FY2026 operating_lease_addition
+PASS | independent capex_later/base FY2026 operating_rou
+PASS | independent capex_later/base FY2026 operating_lease
+PASS | independent capex_later/base FY2026 goodwill
+PASS | independent capex_later/base FY2026 other_assets
+PASS | independent capex_later/base FY2026 other_liabilities
+PASS | independent capex_later/base FY2026 distributions
+PASS | independent capex_later/base FY2026 equity
+PASS | independent capex_later/base FY2026 change_operating_wc
+PASS | independent capex_later/base FY2026 change_other_net_assets
+PASS | independent capex_later/base FY2026 operating_cash_flow
+PASS | independent capex_later/base FY2026 fcfe_before_revolver
+PASS | independent capex_later/base FY2026 securities_sale
+PASS | independent capex_later/base FY2026 securities
+PASS | independent capex_later/base FY2026 cash_before_revolver
+PASS | independent capex_later/base FY2026 revolver_draw
+PASS | independent capex_later/base FY2026 revolver_repayment
+PASS | independent capex_later/base FY2026 revolver
+PASS | independent capex_later/base FY2026 fcfe
+PASS | independent capex_later/base FY2026 investing_cash_flow
+PASS | independent capex_later/base FY2026 financing_cash_flow
+PASS | independent capex_later/base FY2026 net_cash_change
+PASS | independent capex_later/base FY2026 cash
+PASS | independent capex_later/base FY2027 revenue
+PASS | independent capex_later/base FY2027 gross_profit
+PASS | independent capex_later/base FY2027 cost_of_sales
+PASS | independent capex_later/base FY2027 sga
+PASS | independent capex_later/base FY2027 other_operating_cost
+PASS | independent capex_later/base FY2027 depreciation
+PASS | independent capex_later/base FY2027 rou_amortization
+PASS | independent capex_later/base FY2027 operating_lease_accretion
+PASS | independent capex_later/base FY2027 operating_lease_expense
+PASS | independent capex_later/base FY2027 operating_lease_cash
+PASS | independent capex_later/base FY2027 operating_income
+PASS | independent capex_later/base FY2027 debt_net_change
+PASS | independent capex_later/base FY2027 debt
+PASS | independent capex_later/base FY2027 debt_interest
+PASS | independent capex_later/base FY2027 finance_lease_interest
+PASS | independent capex_later/base FY2027 financing_interest
+PASS | independent capex_later/base FY2027 revolver_interest
+PASS | independent capex_later/base FY2027 interest_expense
+PASS | independent capex_later/base FY2027 interest_income
+PASS | independent capex_later/base FY2027 other_income
+PASS | independent capex_later/base FY2027 pretax_income
+PASS | independent capex_later/base FY2027 income_tax
+PASS | independent capex_later/base FY2027 net_income
+PASS | independent capex_later/base FY2027 inventory
+PASS | independent capex_later/base FY2027 receivables
+PASS | independent capex_later/base FY2027 trade_payables
+PASS | independent capex_later/base FY2027 operating_accruals
+PASS | independent capex_later/base FY2027 unearned
+PASS | independent capex_later/base FY2027 capex
+PASS | independent capex_later/base FY2027 capex_payables
+PASS | independent capex_later/base FY2027 change_capex_payables
+PASS | independent capex_later/base FY2027 finance_lease_addition
+PASS | independent capex_later/base FY2027 finance_lease_principal
+PASS | independent capex_later/base FY2027 finance_lease
+PASS | independent capex_later/base FY2027 financing_addition
+PASS | independent capex_later/base FY2027 financing_principal
+PASS | independent capex_later/base FY2027 financing_obligation
+PASS | independent capex_later/base FY2027 ppe_additions
+PASS | independent capex_later/base FY2027 ppe
+PASS | independent capex_later/base FY2027 operating_lease_addition
+PASS | independent capex_later/base FY2027 operating_rou
+PASS | independent capex_later/base FY2027 operating_lease
+PASS | independent capex_later/base FY2027 goodwill
+PASS | independent capex_later/base FY2027 other_assets
+PASS | independent capex_later/base FY2027 other_liabilities
+PASS | independent capex_later/base FY2027 distributions
+PASS | independent capex_later/base FY2027 equity
+PASS | independent capex_later/base FY2027 change_operating_wc
+PASS | independent capex_later/base FY2027 change_other_net_assets
+PASS | independent capex_later/base FY2027 operating_cash_flow
+PASS | independent capex_later/base FY2027 fcfe_before_revolver
+PASS | independent capex_later/base FY2027 securities_sale
+PASS | independent capex_later/base FY2027 securities
+PASS | independent capex_later/base FY2027 cash_before_revolver
+PASS | independent capex_later/base FY2027 revolver_draw
+PASS | independent capex_later/base FY2027 revolver_repayment
+PASS | independent capex_later/base FY2027 revolver
+PASS | independent capex_later/base FY2027 fcfe
+PASS | independent capex_later/base FY2027 investing_cash_flow
+PASS | independent capex_later/base FY2027 financing_cash_flow
+PASS | independent capex_later/base FY2027 net_cash_change
+PASS | independent capex_later/base FY2027 cash
+PASS | independent capex_later/base FY2028 revenue
+PASS | independent capex_later/base FY2028 gross_profit
+PASS | independent capex_later/base FY2028 cost_of_sales
+PASS | independent capex_later/base FY2028 sga
+PASS | independent capex_later/base FY2028 other_operating_cost
+PASS | independent capex_later/base FY2028 depreciation
+PASS | independent capex_later/base FY2028 rou_amortization
+PASS | independent capex_later/base FY2028 operating_lease_accretion
+PASS | independent capex_later/base FY2028 operating_lease_expense
+PASS | independent capex_later/base FY2028 operating_lease_cash
+PASS | independent capex_later/base FY2028 operating_income
+PASS | independent capex_later/base FY2028 debt_net_change
+PASS | independent capex_later/base FY2028 debt
+PASS | independent capex_later/base FY2028 debt_interest
+PASS | independent capex_later/base FY2028 finance_lease_interest
+PASS | independent capex_later/base FY2028 financing_interest
+PASS | independent capex_later/base FY2028 revolver_interest
+PASS | independent capex_later/base FY2028 interest_expense
+PASS | independent capex_later/base FY2028 interest_income
+PASS | independent capex_later/base FY2028 other_income
+PASS | independent capex_later/base FY2028 pretax_income
+PASS | independent capex_later/base FY2028 income_tax
+PASS | independent capex_later/base FY2028 net_income
+PASS | independent capex_later/base FY2028 inventory
+PASS | independent capex_later/base FY2028 receivables
+PASS | independent capex_later/base FY2028 trade_payables
+PASS | independent capex_later/base FY2028 operating_accruals
+PASS | independent capex_later/base FY2028 unearned
+PASS | independent capex_later/base FY2028 capex
+PASS | independent capex_later/base FY2028 capex_payables
+PASS | independent capex_later/base FY2028 change_capex_payables
+PASS | independent capex_later/base FY2028 finance_lease_addition
+PASS | independent capex_later/base FY2028 finance_lease_principal
+PASS | independent capex_later/base FY2028 finance_lease
+PASS | independent capex_later/base FY2028 financing_addition
+PASS | independent capex_later/base FY2028 financing_principal
+PASS | independent capex_later/base FY2028 financing_obligation
+PASS | independent capex_later/base FY2028 ppe_additions
+PASS | independent capex_later/base FY2028 ppe
+PASS | independent capex_later/base FY2028 operating_lease_addition
+PASS | independent capex_later/base FY2028 operating_rou
+PASS | independent capex_later/base FY2028 operating_lease
+PASS | independent capex_later/base FY2028 goodwill
+PASS | independent capex_later/base FY2028 other_assets
+PASS | independent capex_later/base FY2028 other_liabilities
+PASS | independent capex_later/base FY2028 distributions
+PASS | independent capex_later/base FY2028 equity
+PASS | independent capex_later/base FY2028 change_operating_wc
+PASS | independent capex_later/base FY2028 change_other_net_assets
+PASS | independent capex_later/base FY2028 operating_cash_flow
+PASS | independent capex_later/base FY2028 fcfe_before_revolver
+PASS | independent capex_later/base FY2028 securities_sale
+PASS | independent capex_later/base FY2028 securities
+PASS | independent capex_later/base FY2028 cash_before_revolver
+PASS | independent capex_later/base FY2028 revolver_draw
+PASS | independent capex_later/base FY2028 revolver_repayment
+PASS | independent capex_later/base FY2028 revolver
+PASS | independent capex_later/base FY2028 fcfe
+PASS | independent capex_later/base FY2028 investing_cash_flow
+PASS | independent capex_later/base FY2028 financing_cash_flow
+PASS | independent capex_later/base FY2028 net_cash_change
+PASS | independent capex_later/base FY2028 cash
+PASS | independent capex_later/base FY2029 revenue
+PASS | independent capex_later/base FY2029 gross_profit
+PASS | independent capex_later/base FY2029 cost_of_sales
+PASS | independent capex_later/base FY2029 sga
+PASS | independent capex_later/base FY2029 other_operating_cost
+PASS | independent capex_later/base FY2029 depreciation
+PASS | independent capex_later/base FY2029 rou_amortization
+PASS | independent capex_later/base FY2029 operating_lease_accretion
+PASS | independent capex_later/base FY2029 operating_lease_expense
+PASS | independent capex_later/base FY2029 operating_lease_cash
+PASS | independent capex_later/base FY2029 operating_income
+PASS | independent capex_later/base FY2029 debt_net_change
+PASS | independent capex_later/base FY2029 debt
+PASS | independent capex_later/base FY2029 debt_interest
+PASS | independent capex_later/base FY2029 finance_lease_interest
+PASS | independent capex_later/base FY2029 financing_interest
+PASS | independent capex_later/base FY2029 revolver_interest
+PASS | independent capex_later/base FY2029 interest_expense
+PASS | independent capex_later/base FY2029 interest_income
+PASS | independent capex_later/base FY2029 other_income
+PASS | independent capex_later/base FY2029 pretax_income
+PASS | independent capex_later/base FY2029 income_tax
+PASS | independent capex_later/base FY2029 net_income
+PASS | independent capex_later/base FY2029 inventory
+PASS | independent capex_later/base FY2029 receivables
+PASS | independent capex_later/base FY2029 trade_payables
+PASS | independent capex_later/base FY2029 operating_accruals
+PASS | independent capex_later/base FY2029 unearned
+PASS | independent capex_later/base FY2029 capex
+PASS | independent capex_later/base FY2029 capex_payables
+PASS | independent capex_later/base FY2029 change_capex_payables
+PASS | independent capex_later/base FY2029 finance_lease_addition
+PASS | independent capex_later/base FY2029 finance_lease_principal
+PASS | independent capex_later/base FY2029 finance_lease
+PASS | independent capex_later/base FY2029 financing_addition
+PASS | independent capex_later/base FY2029 financing_principal
+PASS | independent capex_later/base FY2029 financing_obligation
+PASS | independent capex_later/base FY2029 ppe_additions
+PASS | independent capex_later/base FY2029 ppe
+PASS | independent capex_later/base FY2029 operating_lease_addition
+PASS | independent capex_later/base FY2029 operating_rou
+PASS | independent capex_later/base FY2029 operating_lease
+PASS | independent capex_later/base FY2029 goodwill
+PASS | independent capex_later/base FY2029 other_assets
+PASS | independent capex_later/base FY2029 other_liabilities
+PASS | independent capex_later/base FY2029 distributions
+PASS | independent capex_later/base FY2029 equity
+PASS | independent capex_later/base FY2029 change_operating_wc
+PASS | independent capex_later/base FY2029 change_other_net_assets
+PASS | independent capex_later/base FY2029 operating_cash_flow
+PASS | independent capex_later/base FY2029 fcfe_before_revolver
+PASS | independent capex_later/base FY2029 securities_sale
+PASS | independent capex_later/base FY2029 securities
+PASS | independent capex_later/base FY2029 cash_before_revolver
+PASS | independent capex_later/base FY2029 revolver_draw
+PASS | independent capex_later/base FY2029 revolver_repayment
+PASS | independent capex_later/base FY2029 revolver
+PASS | independent capex_later/base FY2029 fcfe
+PASS | independent capex_later/base FY2029 investing_cash_flow
+PASS | independent capex_later/base FY2029 financing_cash_flow
+PASS | independent capex_later/base FY2029 net_cash_change
+PASS | independent capex_later/base FY2029 cash
+PASS | independent capex_later/base FY2030 revenue
+PASS | independent capex_later/base FY2030 gross_profit
+PASS | independent capex_later/base FY2030 cost_of_sales
+PASS | independent capex_later/base FY2030 sga
+PASS | independent capex_later/base FY2030 other_operating_cost
+PASS | independent capex_later/base FY2030 depreciation
+PASS | independent capex_later/base FY2030 rou_amortization
+PASS | independent capex_later/base FY2030 operating_lease_accretion
+PASS | independent capex_later/base FY2030 operating_lease_expense
+PASS | independent capex_later/base FY2030 operating_lease_cash
+PASS | independent capex_later/base FY2030 operating_income
+PASS | independent capex_later/base FY2030 debt_net_change
+PASS | independent capex_later/base FY2030 debt
+PASS | independent capex_later/base FY2030 debt_interest
+PASS | independent capex_later/base FY2030 finance_lease_interest
+PASS | independent capex_later/base FY2030 financing_interest
+PASS | independent capex_later/base FY2030 revolver_interest
+PASS | independent capex_later/base FY2030 interest_expense
+PASS | independent capex_later/base FY2030 interest_income
+PASS | independent capex_later/base FY2030 other_income
+PASS | independent capex_later/base FY2030 pretax_income
+PASS | independent capex_later/base FY2030 income_tax
+PASS | independent capex_later/base FY2030 net_income
+PASS | independent capex_later/base FY2030 inventory
+PASS | independent capex_later/base FY2030 receivables
+PASS | independent capex_later/base FY2030 trade_payables
+PASS | independent capex_later/base FY2030 operating_accruals
+PASS | independent capex_later/base FY2030 unearned
+PASS | independent capex_later/base FY2030 capex
+PASS | independent capex_later/base FY2030 capex_payables
+PASS | independent capex_later/base FY2030 change_capex_payables
+PASS | independent capex_later/base FY2030 finance_lease_addition
+PASS | independent capex_later/base FY2030 finance_lease_principal
+PASS | independent capex_later/base FY2030 finance_lease
+PASS | independent capex_later/base FY2030 financing_addition
+PASS | independent capex_later/base FY2030 financing_principal
+PASS | independent capex_later/base FY2030 financing_obligation
+PASS | independent capex_later/base FY2030 ppe_additions
+PASS | independent capex_later/base FY2030 ppe
+PASS | independent capex_later/base FY2030 operating_lease_addition
+PASS | independent capex_later/base FY2030 operating_rou
+PASS | independent capex_later/base FY2030 operating_lease
+PASS | independent capex_later/base FY2030 goodwill
+PASS | independent capex_later/base FY2030 other_assets
+PASS | independent capex_later/base FY2030 other_liabilities
+PASS | independent capex_later/base FY2030 distributions
+PASS | independent capex_later/base FY2030 equity
+PASS | independent capex_later/base FY2030 change_operating_wc
+PASS | independent capex_later/base FY2030 change_other_net_assets
+PASS | independent capex_later/base FY2030 operating_cash_flow
+PASS | independent capex_later/base FY2030 fcfe_before_revolver
+PASS | independent capex_later/base FY2030 securities_sale
+PASS | independent capex_later/base FY2030 securities
+PASS | independent capex_later/base FY2030 cash_before_revolver
+PASS | independent capex_later/base FY2030 revolver_draw
+PASS | independent capex_later/base FY2030 revolver_repayment
+PASS | independent capex_later/base FY2030 revolver
+PASS | independent capex_later/base FY2030 fcfe
+PASS | independent capex_later/base FY2030 investing_cash_flow
+PASS | independent capex_later/base FY2030 financing_cash_flow
+PASS | independent capex_later/base FY2030 net_cash_change
+PASS | independent capex_later/base FY2030 cash
+PASS | valid valuation rerun capex_later/base
+PASS | only approved input differs capex_later/higher
+PASS | complete case rerun capex_later/higher
+PASS | independent capex_later/higher FY2026 revenue
+PASS | independent capex_later/higher FY2026 gross_profit
+PASS | independent capex_later/higher FY2026 cost_of_sales
+PASS | independent capex_later/higher FY2026 sga
+PASS | independent capex_later/higher FY2026 other_operating_cost
+PASS | independent capex_later/higher FY2026 depreciation
+PASS | independent capex_later/higher FY2026 rou_amortization
+PASS | independent capex_later/higher FY2026 operating_lease_accretion
+PASS | independent capex_later/higher FY2026 operating_lease_expense
+PASS | independent capex_later/higher FY2026 operating_lease_cash
+PASS | independent capex_later/higher FY2026 operating_income
+PASS | independent capex_later/higher FY2026 debt_net_change
+PASS | independent capex_later/higher FY2026 debt
+PASS | independent capex_later/higher FY2026 debt_interest
+PASS | independent capex_later/higher FY2026 finance_lease_interest
+PASS | independent capex_later/higher FY2026 financing_interest
+PASS | independent capex_later/higher FY2026 revolver_interest
+PASS | independent capex_later/higher FY2026 interest_expense
+PASS | independent capex_later/higher FY2026 interest_income
+PASS | independent capex_later/higher FY2026 other_income
+PASS | independent capex_later/higher FY2026 pretax_income
+PASS | independent capex_later/higher FY2026 income_tax
+PASS | independent capex_later/higher FY2026 net_income
+PASS | independent capex_later/higher FY2026 inventory
+PASS | independent capex_later/higher FY2026 receivables
+PASS | independent capex_later/higher FY2026 trade_payables
+PASS | independent capex_later/higher FY2026 operating_accruals
+PASS | independent capex_later/higher FY2026 unearned
+PASS | independent capex_later/higher FY2026 capex
+PASS | independent capex_later/higher FY2026 capex_payables
+PASS | independent capex_later/higher FY2026 change_capex_payables
+PASS | independent capex_later/higher FY2026 finance_lease_addition
+PASS | independent capex_later/higher FY2026 finance_lease_principal
+PASS | independent capex_later/higher FY2026 finance_lease
+PASS | independent capex_later/higher FY2026 financing_addition
+PASS | independent capex_later/higher FY2026 financing_principal
+PASS | independent capex_later/higher FY2026 financing_obligation
+PASS | independent capex_later/higher FY2026 ppe_additions
+PASS | independent capex_later/higher FY2026 ppe
+PASS | independent capex_later/higher FY2026 operating_lease_addition
+PASS | independent capex_later/higher FY2026 operating_rou
+PASS | independent capex_later/higher FY2026 operating_lease
+PASS | independent capex_later/higher FY2026 goodwill
+PASS | independent capex_later/higher FY2026 other_assets
+PASS | independent capex_later/higher FY2026 other_liabilities
+PASS | independent capex_later/higher FY2026 distributions
+PASS | independent capex_later/higher FY2026 equity
+PASS | independent capex_later/higher FY2026 change_operating_wc
+PASS | independent capex_later/higher FY2026 change_other_net_assets
+PASS | independent capex_later/higher FY2026 operating_cash_flow
+PASS | independent capex_later/higher FY2026 fcfe_before_revolver
+PASS | independent capex_later/higher FY2026 securities_sale
+PASS | independent capex_later/higher FY2026 securities
+PASS | independent capex_later/higher FY2026 cash_before_revolver
+PASS | independent capex_later/higher FY2026 revolver_draw
+PASS | independent capex_later/higher FY2026 revolver_repayment
+PASS | independent capex_later/higher FY2026 revolver
+PASS | independent capex_later/higher FY2026 fcfe
+PASS | independent capex_later/higher FY2026 investing_cash_flow
+PASS | independent capex_later/higher FY2026 financing_cash_flow
+PASS | independent capex_later/higher FY2026 net_cash_change
+PASS | independent capex_later/higher FY2026 cash
+PASS | independent capex_later/higher FY2027 revenue
+PASS | independent capex_later/higher FY2027 gross_profit
+PASS | independent capex_later/higher FY2027 cost_of_sales
+PASS | independent capex_later/higher FY2027 sga
+PASS | independent capex_later/higher FY2027 other_operating_cost
+PASS | independent capex_later/higher FY2027 depreciation
+PASS | independent capex_later/higher FY2027 rou_amortization
+PASS | independent capex_later/higher FY2027 operating_lease_accretion
+PASS | independent capex_later/higher FY2027 operating_lease_expense
+PASS | independent capex_later/higher FY2027 operating_lease_cash
+PASS | independent capex_later/higher FY2027 operating_income
+PASS | independent capex_later/higher FY2027 debt_net_change
+PASS | independent capex_later/higher FY2027 debt
+PASS | independent capex_later/higher FY2027 debt_interest
+PASS | independent capex_later/higher FY2027 finance_lease_interest
+PASS | independent capex_later/higher FY2027 financing_interest
+PASS | independent capex_later/higher FY2027 revolver_interest
+PASS | independent capex_later/higher FY2027 interest_expense
+PASS | independent capex_later/higher FY2027 interest_income
+PASS | independent capex_later/higher FY2027 other_income
+PASS | independent capex_later/higher FY2027 pretax_income
+PASS | independent capex_later/higher FY2027 income_tax
+PASS | independent capex_later/higher FY2027 net_income
+PASS | independent capex_later/higher FY2027 inventory
+PASS | independent capex_later/higher FY2027 receivables
+PASS | independent capex_later/higher FY2027 trade_payables
+PASS | independent capex_later/higher FY2027 operating_accruals
+PASS | independent capex_later/higher FY2027 unearned
+PASS | independent capex_later/higher FY2027 capex
+PASS | independent capex_later/higher FY2027 capex_payables
+PASS | independent capex_later/higher FY2027 change_capex_payables
+PASS | independent capex_later/higher FY2027 finance_lease_addition
+PASS | independent capex_later/higher FY2027 finance_lease_principal
+PASS | independent capex_later/higher FY2027 finance_lease
+PASS | independent capex_later/higher FY2027 financing_addition
+PASS | independent capex_later/higher FY2027 financing_principal
+PASS | independent capex_later/higher FY2027 financing_obligation
+PASS | independent capex_later/higher FY2027 ppe_additions
+PASS | independent capex_later/higher FY2027 ppe
+PASS | independent capex_later/higher FY2027 operating_lease_addition
+PASS | independent capex_later/higher FY2027 operating_rou
+PASS | independent capex_later/higher FY2027 operating_lease
+PASS | independent capex_later/higher FY2027 goodwill
+PASS | independent capex_later/higher FY2027 other_assets
+PASS | independent capex_later/higher FY2027 other_liabilities
+PASS | independent capex_later/higher FY2027 distributions
+PASS | independent capex_later/higher FY2027 equity
+PASS | independent capex_later/higher FY2027 change_operating_wc
+PASS | independent capex_later/higher FY2027 change_other_net_assets
+PASS | independent capex_later/higher FY2027 operating_cash_flow
+PASS | independent capex_later/higher FY2027 fcfe_before_revolver
+PASS | independent capex_later/higher FY2027 securities_sale
+PASS | independent capex_later/higher FY2027 securities
+PASS | independent capex_later/higher FY2027 cash_before_revolver
+PASS | independent capex_later/higher FY2027 revolver_draw
+PASS | independent capex_later/higher FY2027 revolver_repayment
+PASS | independent capex_later/higher FY2027 revolver
+PASS | independent capex_later/higher FY2027 fcfe
+PASS | independent capex_later/higher FY2027 investing_cash_flow
+PASS | independent capex_later/higher FY2027 financing_cash_flow
+PASS | independent capex_later/higher FY2027 net_cash_change
+PASS | independent capex_later/higher FY2027 cash
+PASS | independent capex_later/higher FY2028 revenue
+PASS | independent capex_later/higher FY2028 gross_profit
+PASS | independent capex_later/higher FY2028 cost_of_sales
+PASS | independent capex_later/higher FY2028 sga
+PASS | independent capex_later/higher FY2028 other_operating_cost
+PASS | independent capex_later/higher FY2028 depreciation
+PASS | independent capex_later/higher FY2028 rou_amortization
+PASS | independent capex_later/higher FY2028 operating_lease_accretion
+PASS | independent capex_later/higher FY2028 operating_lease_expense
+PASS | independent capex_later/higher FY2028 operating_lease_cash
+PASS | independent capex_later/higher FY2028 operating_income
+PASS | independent capex_later/higher FY2028 debt_net_change
+PASS | independent capex_later/higher FY2028 debt
+PASS | independent capex_later/higher FY2028 debt_interest
+PASS | independent capex_later/higher FY2028 finance_lease_interest
+PASS | independent capex_later/higher FY2028 financing_interest
+PASS | independent capex_later/higher FY2028 revolver_interest
+PASS | independent capex_later/higher FY2028 interest_expense
+PASS | independent capex_later/higher FY2028 interest_income
+PASS | independent capex_later/higher FY2028 other_income
+PASS | independent capex_later/higher FY2028 pretax_income
+PASS | independent capex_later/higher FY2028 income_tax
+PASS | independent capex_later/higher FY2028 net_income
+PASS | independent capex_later/higher FY2028 inventory
+PASS | independent capex_later/higher FY2028 receivables
+PASS | independent capex_later/higher FY2028 trade_payables
+PASS | independent capex_later/higher FY2028 operating_accruals
+PASS | independent capex_later/higher FY2028 unearned
+PASS | independent capex_later/higher FY2028 capex
+PASS | independent capex_later/higher FY2028 capex_payables
+PASS | independent capex_later/higher FY2028 change_capex_payables
+PASS | independent capex_later/higher FY2028 finance_lease_addition
+PASS | independent capex_later/higher FY2028 finance_lease_principal
+PASS | independent capex_later/higher FY2028 finance_lease
+PASS | independent capex_later/higher FY2028 financing_addition
+PASS | independent capex_later/higher FY2028 financing_principal
+PASS | independent capex_later/higher FY2028 financing_obligation
+PASS | independent capex_later/higher FY2028 ppe_additions
+PASS | independent capex_later/higher FY2028 ppe
+PASS | independent capex_later/higher FY2028 operating_lease_addition
+PASS | independent capex_later/higher FY2028 operating_rou
+PASS | independent capex_later/higher FY2028 operating_lease
+PASS | independent capex_later/higher FY2028 goodwill
+PASS | independent capex_later/higher FY2028 other_assets
+PASS | independent capex_later/higher FY2028 other_liabilities
+PASS | independent capex_later/higher FY2028 distributions
+PASS | independent capex_later/higher FY2028 equity
+PASS | independent capex_later/higher FY2028 change_operating_wc
+PASS | independent capex_later/higher FY2028 change_other_net_assets
+PASS | independent capex_later/higher FY2028 operating_cash_flow
+PASS | independent capex_later/higher FY2028 fcfe_before_revolver
+PASS | independent capex_later/higher FY2028 securities_sale
+PASS | independent capex_later/higher FY2028 securities
+PASS | independent capex_later/higher FY2028 cash_before_revolver
+PASS | independent capex_later/higher FY2028 revolver_draw
+PASS | independent capex_later/higher FY2028 revolver_repayment
+PASS | independent capex_later/higher FY2028 revolver
+PASS | independent capex_later/higher FY2028 fcfe
+PASS | independent capex_later/higher FY2028 investing_cash_flow
+PASS | independent capex_later/higher FY2028 financing_cash_flow
+PASS | independent capex_later/higher FY2028 net_cash_change
+PASS | independent capex_later/higher FY2028 cash
+PASS | independent capex_later/higher FY2029 revenue
+PASS | independent capex_later/higher FY2029 gross_profit
+PASS | independent capex_later/higher FY2029 cost_of_sales
+PASS | independent capex_later/higher FY2029 sga
+PASS | independent capex_later/higher FY2029 other_operating_cost
+PASS | independent capex_later/higher FY2029 depreciation
+PASS | independent capex_later/higher FY2029 rou_amortization
+PASS | independent capex_later/higher FY2029 operating_lease_accretion
+PASS | independent capex_later/higher FY2029 operating_lease_expense
+PASS | independent capex_later/higher FY2029 operating_lease_cash
+PASS | independent capex_later/higher FY2029 operating_income
+PASS | independent capex_later/higher FY2029 debt_net_change
+PASS | independent capex_later/higher FY2029 debt
+PASS | independent capex_later/higher FY2029 debt_interest
+PASS | independent capex_later/higher FY2029 finance_lease_interest
+PASS | independent capex_later/higher FY2029 financing_interest
+PASS | independent capex_later/higher FY2029 revolver_interest
+PASS | independent capex_later/higher FY2029 interest_expense
+PASS | independent capex_later/higher FY2029 interest_income
+PASS | independent capex_later/higher FY2029 other_income
+PASS | independent capex_later/higher FY2029 pretax_income
+PASS | independent capex_later/higher FY2029 income_tax
+PASS | independent capex_later/higher FY2029 net_income
+PASS | independent capex_later/higher FY2029 inventory
+PASS | independent capex_later/higher FY2029 receivables
+PASS | independent capex_later/higher FY2029 trade_payables
+PASS | independent capex_later/higher FY2029 operating_accruals
+PASS | independent capex_later/higher FY2029 unearned
+PASS | independent capex_later/higher FY2029 capex
+PASS | independent capex_later/higher FY2029 capex_payables
+PASS | independent capex_later/higher FY2029 change_capex_payables
+PASS | independent capex_later/higher FY2029 finance_lease_addition
+PASS | independent capex_later/higher FY2029 finance_lease_principal
+PASS | independent capex_later/higher FY2029 finance_lease
+PASS | independent capex_later/higher FY2029 financing_addition
+PASS | independent capex_later/higher FY2029 financing_principal
+PASS | independent capex_later/higher FY2029 financing_obligation
+PASS | independent capex_later/higher FY2029 ppe_additions
+PASS | independent capex_later/higher FY2029 ppe
+PASS | independent capex_later/higher FY2029 operating_lease_addition
+PASS | independent capex_later/higher FY2029 operating_rou
+PASS | independent capex_later/higher FY2029 operating_lease
+PASS | independent capex_later/higher FY2029 goodwill
+PASS | independent capex_later/higher FY2029 other_assets
+PASS | independent capex_later/higher FY2029 other_liabilities
+PASS | independent capex_later/higher FY2029 distributions
+PASS | independent capex_later/higher FY2029 equity
+PASS | independent capex_later/higher FY2029 change_operating_wc
+PASS | independent capex_later/higher FY2029 change_other_net_assets
+PASS | independent capex_later/higher FY2029 operating_cash_flow
+PASS | independent capex_later/higher FY2029 fcfe_before_revolver
+PASS | independent capex_later/higher FY2029 securities_sale
+PASS | independent capex_later/higher FY2029 securities
+PASS | independent capex_later/higher FY2029 cash_before_revolver
+PASS | independent capex_later/higher FY2029 revolver_draw
+PASS | independent capex_later/higher FY2029 revolver_repayment
+PASS | independent capex_later/higher FY2029 revolver
+PASS | independent capex_later/higher FY2029 fcfe
+PASS | independent capex_later/higher FY2029 investing_cash_flow
+PASS | independent capex_later/higher FY2029 financing_cash_flow
+PASS | independent capex_later/higher FY2029 net_cash_change
+PASS | independent capex_later/higher FY2029 cash
+PASS | independent capex_later/higher FY2030 revenue
+PASS | independent capex_later/higher FY2030 gross_profit
+PASS | independent capex_later/higher FY2030 cost_of_sales
+PASS | independent capex_later/higher FY2030 sga
+PASS | independent capex_later/higher FY2030 other_operating_cost
+PASS | independent capex_later/higher FY2030 depreciation
+PASS | independent capex_later/higher FY2030 rou_amortization
+PASS | independent capex_later/higher FY2030 operating_lease_accretion
+PASS | independent capex_later/higher FY2030 operating_lease_expense
+PASS | independent capex_later/higher FY2030 operating_lease_cash
+PASS | independent capex_later/higher FY2030 operating_income
+PASS | independent capex_later/higher FY2030 debt_net_change
+PASS | independent capex_later/higher FY2030 debt
+PASS | independent capex_later/higher FY2030 debt_interest
+PASS | independent capex_later/higher FY2030 finance_lease_interest
+PASS | independent capex_later/higher FY2030 financing_interest
+PASS | independent capex_later/higher FY2030 revolver_interest
+PASS | independent capex_later/higher FY2030 interest_expense
+PASS | independent capex_later/higher FY2030 interest_income
+PASS | independent capex_later/higher FY2030 other_income
+PASS | independent capex_later/higher FY2030 pretax_income
+PASS | independent capex_later/higher FY2030 income_tax
+PASS | independent capex_later/higher FY2030 net_income
+PASS | independent capex_later/higher FY2030 inventory
+PASS | independent capex_later/higher FY2030 receivables
+PASS | independent capex_later/higher FY2030 trade_payables
+PASS | independent capex_later/higher FY2030 operating_accruals
+PASS | independent capex_later/higher FY2030 unearned
+PASS | independent capex_later/higher FY2030 capex
+PASS | independent capex_later/higher FY2030 capex_payables
+PASS | independent capex_later/higher FY2030 change_capex_payables
+PASS | independent capex_later/higher FY2030 finance_lease_addition
+PASS | independent capex_later/higher FY2030 finance_lease_principal
+PASS | independent capex_later/higher FY2030 finance_lease
+PASS | independent capex_later/higher FY2030 financing_addition
+PASS | independent capex_later/higher FY2030 financing_principal
+PASS | independent capex_later/higher FY2030 financing_obligation
+PASS | independent capex_later/higher FY2030 ppe_additions
+PASS | independent capex_later/higher FY2030 ppe
+PASS | independent capex_later/higher FY2030 operating_lease_addition
+PASS | independent capex_later/higher FY2030 operating_rou
+PASS | independent capex_later/higher FY2030 operating_lease
+PASS | independent capex_later/higher FY2030 goodwill
+PASS | independent capex_later/higher FY2030 other_assets
+PASS | independent capex_later/higher FY2030 other_liabilities
+PASS | independent capex_later/higher FY2030 distributions
+PASS | independent capex_later/higher FY2030 equity
+PASS | independent capex_later/higher FY2030 change_operating_wc
+PASS | independent capex_later/higher FY2030 change_other_net_assets
+PASS | independent capex_later/higher FY2030 operating_cash_flow
+PASS | independent capex_later/higher FY2030 fcfe_before_revolver
+PASS | independent capex_later/higher FY2030 securities_sale
+PASS | independent capex_later/higher FY2030 securities
+PASS | independent capex_later/higher FY2030 cash_before_revolver
+PASS | independent capex_later/higher FY2030 revolver_draw
+PASS | independent capex_later/higher FY2030 revolver_repayment
+PASS | independent capex_later/higher FY2030 revolver
+PASS | independent capex_later/higher FY2030 fcfe
+PASS | independent capex_later/higher FY2030 investing_cash_flow
+PASS | independent capex_later/higher FY2030 financing_cash_flow
+PASS | independent capex_later/higher FY2030 net_cash_change
+PASS | independent capex_later/higher FY2030 cash
+PASS | higher capex refuses valuation on funding failure
+PASS | correct approved range gross_margin/lower
+PASS | correct approved range gross_margin/higher
+PASS | separate FY2026 capex unchanged gross_margin/lower
+PASS | separate FY2026 capex unchanged gross_margin/base
+PASS | separate FY2026 capex unchanged gross_margin/higher
+PASS | correct approved range capex_later/lower
+PASS | correct approved range capex_later/higher
+PASS | separate FY2026 capex unchanged capex_later/lower
+PASS | separate FY2026 capex unchanged capex_later/base
+PASS | separate FY2026 capex unchanged capex_later/higher
+PASS | valid-subset span gross_margin/operating_income
+PASS | span displayed gross_margin/operating_income
+PASS | full-range eligibility gross_margin/operating_income
+PASS | valid-subset span gross_margin/fcfe
+PASS | span displayed gross_margin/fcfe
+PASS | full-range eligibility gross_margin/fcfe
+PASS | valid-subset span gross_margin/per_share
+PASS | span displayed gross_margin/per_share
+PASS | full-range eligibility gross_margin/per_share
+PASS | valid-subset span capex_later/operating_income
+PASS | span displayed capex_later/operating_income
+PASS | full-range eligibility capex_later/operating_income
+PASS | valid-subset span capex_later/fcfe
+PASS | span displayed capex_later/fcfe
+PASS | full-range eligibility capex_later/fcfe
+PASS | valid-subset span capex_later/per_share
+PASS | span displayed capex_later/per_share
+PASS | full-range eligibility capex_later/per_share
+PASS | exact sensitivity table row count
+PASS | contextual table Base/operating_income
+PASS | contextual table Base/fcfe
+PASS | contextual table Base/per_share
+PASS | contextual table Lower gross margin/operating_income
+PASS | contextual table Lower gross margin/fcfe
+PASS | contextual table Lower gross margin/per_share
+PASS | contextual table Higher gross margin/operating_income
+PASS | contextual table Higher gross margin/fcfe
+PASS | contextual table Higher gross margin/per_share
+PASS | contextual table Lower capex/operating_income
+PASS | contextual table Lower capex/fcfe
+PASS | contextual table Lower capex/per_share
+PASS | contextual table Higher capex/operating_income
+PASS | contextual table Higher capex/fcfe
+PASS | contextual table Higher capex/per_share
+PASS | invalid FY2028 cash
+PASS | invalid cash headroom
+PASS | invalid funding exhausted
+PASS | trace capex saving
+PASS | trace opening PP&E to depreciation
+PASS | trace depreciation to operating income
+PASS | trace CFO
+PASS | trace working capital unchanged
+PASS | trace CFO plus capex saving to FCFE
+PASS | trace displayed delta operating_income
+PASS | trace displayed delta depreciation
+PASS | trace displayed delta net_income
+PASS | trace displayed delta operating_cash_flow
+PASS | trace displayed delta fcfe
+PASS | trace growth held fixed
+PASS | independent PV to share value base
+PASS | independent PV to share value lower capex
+PASS | trace price delta
+TRACE | Supported: capex saving 20,000.00; CFO delta -436.19; FCFE delta +19,563.81 USD million; value delta +17.82 USD/share. Full precision used.
+PASS | prior DCF base and bridge
+PASS | required reverse bracket has no solution
+PASS | supplementary reverse shift
+PASS | reverse target reprices
+PASS | reverse held-fixed input labels
+PASS | peer min median max from saved inputs
+PASS | peer removal sensitivity
+PASS | historical margin calculation 2023
+PASS | historical net capex definition 2023
+PASS | historical margin calculation 2024
+PASS | historical net capex definition 2024
+PASS | historical margin calculation 2025
+PASS | historical net capex definition 2025
+PASS | historical table by year revenue
+PASS | historical table by year gross_cash_capex
+PASS | historical table by year capex_proceeds_incentives
+PASS | historical table by year net_cash_capex
+PASS | forecast table assumption path growth
+PASS | forecast table assumption path gross_margin
+PASS | forecast table assumption path sga_to_gp
+PASS | GitHub target exists locally Amazon_2026-09-03_report.md
+PASS | GitHub target exists locally lab06/dcf_output_lab06.txt
+PASS | GitHub target exists locally lab06/lab06.md
+PASS | GitHub target exists locally lab07/lab07.md
+PASS | GitHub target exists locally lab08/lab08.md
+PASS | GitHub target exists locally lab08/lab08_output.txt
+PASS | GitHub target exists locally lab09/lab09.md
+PASS | GitHub target exists locally lab10/amazon_assumptions.csv
+PASS | GitHub target exists locally lab10/amazon_history.csv
+PASS | GitHub target exists locally lab10/amazon_proforma.py
+PASS | GitHub target exists locally lab10/lab10.md
+PASS | GitHub target exists locally lab10/sources.md
+PASS | GitHub target exists locally lab11/approved_ranges.json
+PASS | GitHub target exists locally lab11/base_output.txt
+PASS | GitHub target exists locally lab11/lab11.md
+PASS | GitHub target exists locally lab11/lab11_output.txt
+PASS | GitHub target exists locally lab11/lab11_validation.txt
+PASS | GitHub target exists locally lab11/locked_prediction.md
+PASS | GitHub target exists locally lab11/sensitivity_results.json
+PASS | GitHub target exists locally lab12/audit_manifest.json
+PASS | GitHub target exists locally lab12/lab12.md
+PASS | GitHub target exists locally lab12/lab12_validation.txt
+PASS | GitHub target exists locally lab12/publication_checks.json
+PASS | GitHub target exists locally lab12/validate_lab12.py
+PUBLICATION | Live GitHub checks not run in local mode; use --published after push.
+PASS | post-execution preservation Amazon_2026-09-03_report.md
+PASS | post-execution preservation dcf.py
+PASS | post-execution preservation lab06/dcf.py
+PASS | post-execution preservation lab06/dcf_output_lab06.txt
+PASS | post-execution preservation lab06/lab06.md
+PASS | post-execution preservation lab06/lab06_validation.txt
+PASS | post-execution preservation lab07/comps.py
+PASS | post-execution preservation lab07/lab07.md
+PASS | post-execution preservation lab07/lab07_output.txt
+PASS | post-execution preservation lab07/lab07_validation.txt
+PASS | post-execution preservation lab08/comps_lab08.py
+PASS | post-execution preservation lab08/lab08.md
+PASS | post-execution preservation lab08/lab08_output.txt
+PASS | post-execution preservation lab08/lab08_validation.txt
+PASS | post-execution preservation lab09/lab09.md
+PASS | post-execution preservation lab09/lab09_output.txt
+PASS | post-execution preservation lab09/lab09_validation.txt
+PASS | post-execution preservation lab09/proforma.py
+PASS | post-execution preservation lab09/validate_lab09.py
+PASS | post-execution preservation lab10/amazon_assumptions.csv
+PASS | post-execution preservation lab10/amazon_history.csv
+PASS | post-execution preservation lab10/amazon_proforma.py
+PASS | post-execution preservation lab10/lab10.md
+PASS | post-execution preservation lab10/lab10_output.txt
+PASS | post-execution preservation lab10/lab10_validation.txt
+PASS | post-execution preservation lab10/sources.md
+PASS | post-execution preservation lab10/validate_lab10.py
+PASS | post-execution preservation lab11/.gitattributes
+PASS | post-execution preservation lab11/amazon_sensitivity.py
+PASS | post-execution preservation lab11/approved_ranges.json
+PASS | post-execution preservation lab11/base_output.txt
+PASS | post-execution preservation lab11/base_snapshot.json
+PASS | post-execution preservation lab11/independent_reference.py
+PASS | post-execution preservation lab11/lab11.md
+PASS | post-execution preservation lab11/lab11_output.txt
+PASS | post-execution preservation lab11/lab11_validation.txt
+PASS | post-execution preservation lab11/locked_prediction.md
+PASS | post-execution preservation lab11/preservation_manifest.json
+PASS | post-execution preservation lab11/sensitivity_results.json
+PASS | post-execution preservation lab11/validate_lab11.py
+SCOPE | Automated coverage and arithmetic, plus bound contextual review; not proof of external-source truth, forecast accuracy, human conduct, or grading.
+ALL 2270 CHECKS PASSED | local validation

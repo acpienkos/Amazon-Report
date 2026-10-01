@@ -1,0 +1,847 @@
+{
+  "starting_commit": "770679349bb5691108abb6363fce05fc2c3f1301",
+  "sha256": {
+    "Amazon_2026-09-03_report.md": "e450f1e144703d7c5026f139de9b254ce1105ad1c953ee0077e3f56d32a57d8b",
+    "dcf.py": "1ee0fcb5b1b6205b8edbe561ea49a1e25c03f69d2cde9b3b56ac885a9dffe858",
+    "lab06/dcf.py": "a4a7cccba3184c2f9e66851c192a4d34dcc06e381b901b7f6d259bb5326400ff",
+    "lab06/dcf_output_lab06.txt": "450007043c613ab892d6f55d15911d1c569336002e2ded09e307b1bd8e2d4067",
+    "lab06/lab06.md": "7d7fa927acc23b7ed15532a22c47355b648f8ec0e0a043d86b03be803811ce9f",
+    "lab06/lab06_validation.txt": "ac0fef9355ee68323ee33a8d13c02411adaa1d9a11fa5adb50cb210439dfaeb0",
+    "lab07/comps.py": "0eec20d0d3a7bb57a0c817c4ad9c94fe44782574b6a40c5ca7c44c37dcc9d81b",
+    "lab07/lab07.md": "bf10705108157ee663c2c0e91a07d7e8c6ad2fe9da6e3b12265bdab9a461f4ee",
+    "lab07/lab07_output.txt": "84ecfca6472739257ab821482920d9b13a40f742ec870a00792e9d22328b2091",
+    "lab07/lab07_validation.txt": "597961cc02fc1bb9ddec838e22070b0d6f5fafa4d499b3f7ccdc161cf497158a",
+    "lab08/comps_lab08.py": "f62a96cfb383e1f7ff4726fcbaf3dfb44c89042256885aa38c3b650af0f3d1a9",
+    "lab08/lab08.md": "59401d981e4be08b54f78516bb768bdce1e37496205242190e02af17470ac548",
+    "lab08/lab08_output.txt": "04deb5952aa2aaf3bc38c0400f742d22aea004a0dcac1368c9be4feafbeb0362",
+    "lab08/lab08_validation.txt": "c6bde178a6b8dd27b89edfa0750b697a98dda22be6e2ce09f79179c8d2fd1e48",
+    "lab09/lab09.md": "6d5abcefceb9520b494eba94acb31162e5facc9b5bcb07b4c16bbb8b1b1ab26d",
+    "lab09/lab09_output.txt": "186e3a11a059699f7508213034b263d0674142dbeb31cd3d912234075a742d10",
+    "lab09/lab09_validation.txt": "606fba741c210449f9a99c3f802d91f98d15b4b7bf67450c43bee277e6a1f009",
+    "lab09/proforma.py": "c2fe8509fc880684941b09f4ac5ea5cb3897d5d720d4bd498028fedade03d4c9",
+    "lab09/validate_lab09.py": "140a4b674e8ac0f834500579115abf01c4e74731dffb382697e81cd6bf292cea",
+    "lab10/amazon_assumptions.csv": "cbe5b8b189db6aba1f78797429c2934af731e310f525af84aed108cdb753673b",
+    "lab10/amazon_history.csv": "19f800a9e8d26c71762043d03eedbf4fcd426535cb655b9d0902c1561cfa7c0d",
+    "lab10/amazon_proforma.py": "f0c0058578dce0c7c787e71cb1339d1705fb72a3722c625ffe0629502209650a",
+    "lab10/lab10.md": "a794f8556eb7946ead9a091399ffffc050854943a863c58cc87429c02f21e582",
+    "lab10/lab10_output.txt": "3076f7265516c894675f3ec9306585757a5078c3f6987c0758c4a5e898d10850",
+    "lab10/lab10_validation.txt": "fc126f34bfb2c3f19b3035a6f98c6bc1a7cfe81a4d638eaf7e04c918db2d81c7",
+    "lab10/sources.md": "950fe9909b75ddc1974c852211b157c0fe08e26df1253b3161ca36bcfee15ac0",
+    "lab10/validate_lab10.py": "50a2edcef178c7f397212c8509014812656bddd227642e1545e1a4a186ebbc46",
+    "lab11/.gitattributes": "04a0e4e628ab6177a75d51a5269a1b65f358035c25731f6b925752976bb473b4",
+    "lab11/amazon_sensitivity.py": "0e6eb2d63f3dcc673d284ccd340379862f092f80b264ddb6f90182bb45b2ce51",
+    "lab11/approved_ranges.json": "c78fdf817538a9c05c4bdf1486eb930b39cf79f21fb881d9566f7e993282ddd1",
+    "lab11/base_output.txt": "3076f7265516c894675f3ec9306585757a5078c3f6987c0758c4a5e898d10850",
+    "lab11/base_snapshot.json": "4243f3f02f1810f734d47d8982dfc62bf6c29361cf4c95c5321e9145ff63c8b2",
+    "lab11/independent_reference.py": "f3371849ded4f5931068a3f94becf4db1767d47846b919a2a304011e066184df",
+    "lab11/lab11.md": "dba30855dde63b3921e262ef0072d326a201c52814b361b3b329df95c687577d",
+    "lab11/lab11_output.txt": "81b551a9fa0caad956c3deab1e0f0228730f3dfff57288cec810c189a51ce291",
+    "lab11/lab11_validation.txt": "2d53af17ac64c1a9c43a64a32b1b9bd8c4ebab3d604eda188be2752fdb36c7cc",
+    "lab11/locked_prediction.md": "bc3fb0008bab0eb7ebeaf3499c55c543402c77f0702c162577a5d7a31cc0c141",
+    "lab11/preservation_manifest.json": "2ed2986eabe3b9d738d77c7f630d1890f242e70e99c1e1079ce7f980c072e070",
+    "lab11/sensitivity_results.json": "c9c1d22ae23748af6d57b0377a5b118cb71d901b0bae063fac59ffefd89c5917",
+    "lab11/validate_lab11.py": "2fa1d64f095a93d6d59558ae1a7e7d46c81144053d105a80e41c6c6dc0517f0d"
+  },
+  "reviewed_report_sha256": "2614f751b0e5e3a6b3f361cdc46607818d9e34a40308d7280c637d66bb577076",
+  "numeric_evidence": {
+    "0.000001": {
+      "file": "lab11/lab11.md",
+      "line": 126,
+      "source_line": "Initial and ending assumptions, all five-year rows, all checks, and all valuation fields match **exactly**, including full-precision 32.67314175381166/share and 38,251.882151184334 FY2030 FCFE. Maximum difference is **0**. Tolerance: 0.000001 USD million ($1) for statement amounts and 0.000001 USD/share for price; inputs must be exactly equal."
+    },
+    "00": {
+      "file": "lab11/lab11.md",
+      "line": 58,
+      "source_line": "Saved at actual UTC time **2026-09-29T21:04:48.155628+00:00**, before execution began at **2026-09-29T21:05:33.216405+00:00**. The [verbatim locked response](locked_prediction.md) retains every prediction and the actual partner discussion. The pre-run record SHA-256 is `d3f6f8b3d8581ca9f373499491bc93de8f0fe38ed29a287e62bb668885758a18`. No backdated timestamp or Git commit is claimed. Reconciliation below supplements rather than replaces the predictions."
+    },
+    "03": {
+      "derivation": "document_structure"
+    },
+    "04": {
+      "derivation": "document_structure"
+    },
+    "06": {
+      "file": "lab11/lab11.md",
+      "line": 14,
+      "source_line": "- [Week 6 README](https://github.com/CinderZhang/FIN43900-Fall2026/blob/69eac1e8cbd63b35e801d48d990c4b594bfdbbc8/lessons/week-06/README.md)"
+    },
+    "07": {
+      "file": "lab11/lab11.md",
+      "line": 222,
+      "source_line": "The default command tests computation; the final command additionally checks that required student-confirmed evidence is documented. The runtime used here is portable Python 3.13.7. The runner prints full output; the saved text is the actual executed stdout."
+    },
+    "08": {
+      "file": "lab10/lab10.md",
+      "line": 38,
+      "source_line": "1. **FY2025 gross cash purchases of PP&E: $131,819 million.** Open the [2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm), Item 8, Consolidated Statements of Cash Flows, printed p.36, FY2025 column, “Purchases of property and equipment.” It is a cash outflow, shown in parentheses. It is not the $128,320 million net-capex number."
+    },
+    "09": {
+      "file": "lab11/lab11.md",
+      "line": 15,
+      "source_line": "- [Part 2 captions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/69eac1e8cbd63b35e801d48d990c4b594bfdbbc8/lessons/week-05/pro-forma-abg-tutorial/video-2-captions.vtt), especially 09:15–13:22: one-at-a-time operating assumptions, full statement reruns, liquidity effects and interactions. The current worksheet governs; wider tutorial scenarios are not added to this assignment."
+    },
+    "1": {
+      "derivation": "document_structure"
+    },
+    "1,309.67": {
+      "file": "lab11/lab11.md",
+      "line": 82,
+      "source_line": "The higher-capex path still satisfies the balance identities, but this does not establish solvency. FY2028 cash is **1,309.67** against a **25,000** minimum, a **−23,690.33** headroom, with the **15,000** revolver fully drawn and securities exhausted. FY2029 cash becomes **−13,569.92**, and FY2030 remains below the cash minimum at **4,818.81**. Its later arithmetic includes effects of an infeasible cash balance, so all final-year amounts are diagnostics only. No extra debt is introduced to rescue the case; no price is forced."
+    },
+    "10": {
+      "file": "lab11/lab11.md",
+      "line": 20,
+      "source_line": "The existing Amazon-Report `main` was pulled before work. Starting commit: `d3991925d141bb3896f2c0059e4bc43eac14e4c5`. SHA-256 fingerprints of all **27** existing tracked files are in [preservation_manifest.json](preservation_manifest.json). Every prior file remains unchanged. All additions are inside `lab11/`. Lab 10 already contains earlier sensitivity tests; the locked record is a pre-run record for this Lab 11 analysis, not a claim that sensitivity results never existed before."
+    },
+    "10,": {
+      "file": "lab11/lab11.md",
+      "line": 20,
+      "source_line": "The existing Amazon-Report `main` was pulled before work. Starting commit: `d3991925d141bb3896f2c0059e4bc43eac14e4c5`. SHA-256 fingerprints of all **27** existing tracked files are in [preservation_manifest.json](preservation_manifest.json). Every prior file remains unchanged. All additions are inside `lab11/`. Lab 10 already contains earlier sensitivity tests; the locked record is a pre-run record for this Lab 11 analysis, not a claim that sensitivity results never existed before."
+    },
+    "10,786.313572": {
+      "file": "lab11/lab11.md",
+      "line": 33,
+      "source_line": "| Shares, millions | 10,786.313572 |"
+    },
+    "10,903": {
+      "file": "lab06/lab06.md",
+      "line": 42,
+      "source_line": "| Diluted weighted-average shares | 10,903 | million shares | Three months ended 2026-06-30 | Reported | [Q], Note 1 - Earnings Per Share, diluted EPS denominator, Q2 2026 column; not the cover-page basic count |"
+    },
+    "105.73": {
+      "file": "lab08/lab08.md",
+      "line": 51,
+      "source_line": "| Walmart / WMT | $105.73 | [ChartExchange WMT][WP], same date and column; cross-check [Investing.com][WX], historical `Price` column | $2.73 | Feb. 1, 2025–Jan. 31, 2026 | Feb. 19, 2026 [release][WR], Consolidated Statements of Income, **fiscal year** diluted net income per common share attributable to Walmart; [10-K][WK], Note 2, p. 63. |"
+    },
+    "11": {
+      "file": "lab11/lab11.md",
+      "line": 1,
+      "source_line": "# Lab 11 — Amazon.com, Inc. (AMZN)"
+    },
+    "11,194": {
+      "file": "Amazon_2026-09-03_report.md",
+      "line": 25,
+      "source_line": "That spending affected current cash generation. Amazon's reported free cash flow was $36.813 billion in 2023, $38.219 billion in 2024, and $11.194 billion in 2025. Amazon defines this non-GAAP measure as operating cash flow minus cash purchases of property and equipment, net of proceeds and incentives, and warns that the measure has limitations. ([Amazon 2023 Form 10-K, Item 7, pp. 31–33](https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm); [Amazon 2024 Form 10-K, Item 7, pp. 31–33](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm); [Amazon 2025 Form 10-K, Item 7, pp. 29–30](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm))",
+      "scale": 1000
+    },
+    "11.80145113": {
+      "file": "lab08/lab08.md",
+      "line": 93,
+      "source_line": "| Week 3 DCF | Sept. 10, 2026: **$5.9930/share** base; centered sensitivity **$4.0382–$9.0873**. Required fixed WACC grid separately: **$6.0937–$14.5950**. | Starting FCFF $8,846.82 million; growth −50%, +50%, +40%, +25%, +15%; WACC 11.80145113%; terminal growth 3%. The centered and fixed grids answer different questions. |"
+    },
+    "111.978684": {
+      "file": "lab06/lab06.md",
+      "line": 207,
+      "source_line": "  **46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%** in Years 1-5."
+    },
+    "12": {
+      "derivation": "document_structure"
+    },
+    "120,448.4515": {
+      "file": "lab06/lab06.md",
+      "line": 159,
+      "source_line": "| Enterprise value | 120,448.4515 | USD million |"
+    },
+    "121,707.43": {
+      "file": "lab11/lab11.md",
+      "line": 70,
+      "source_line": "| lower | 121,707.43 | -10,697.11 | 15,598.46 | -22,653.42 | 23.87 | -8.81 | PASS: accounting/liquidity |"
+    },
+    "121.978684": {
+      "file": "lab06/lab06.md",
+      "line": 207,
+      "source_line": "  **46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%** in Years 1-5."
+    },
+    "123,490.82": {
+      "file": "lab11/lab11.md",
+      "line": 80,
+      "source_line": "| higher **diagnostic only** | 123,490.82 | -8,913.71 | 18,388.73 | -19,863.16 | Unavailable | Unavailable | **INVALID: liquidity FAIL; valuation refused** |"
+    },
+    "128,320": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "128,725": {
+      "file": "lab08/lab08.md",
+      "line": 17,
+      "source_line": "Amazon earns revenue from product sales, third-party seller services, advertising, subscriptions, and AWS. FY2025 revenue was $716.924 billion. AWS contributed $128.725 billion of revenue and $45.606 billion of $79.975 billion consolidated operating income: its profit importance exceeds its revenue weight. Annual reported EPS is positive. [Amazon 10-K][AK], Item 1; Item 8, statement of operations; Note 10, segment information. The research needs were compatible prices, annual EPS available by the comparison date, business evidence, and investment-related earnings effects.",
+      "scale": 1000
+    },
+    "13": {
+      "derivation": "lab11_file_count"
+    },
+    "13,596.59": {
+      "file": "lab11/lab11.md",
+      "line": 101,
+      "source_line": "Earlier shortages exhaust securities and draw the revolver: 11,387.49 in 2028 and another 2,209.10 in 2029. In 2030, FCFE before revolver repayment is **29,195.05**; repayment of **13,596.59** leaves final FCFE of **15,598.46**. Its change is −9,056.83 in operating cash minus 13,596.59 in repayment = **−22,653.42**. FY2030 ending cash is **40,598.46**, equity **786,947.30**, and the balance and cash links pass. FY2029 FCFE is effectively zero within the $1 tolerance; its tiny negative floating-point residue is not an economic negative cash flow."
+    },
+    "131,819": {
+      "file": "lab10/lab10.md",
+      "line": 38,
+      "source_line": "1. **FY2025 gross cash purchases of PP&E: $131,819 million.** Open the [2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm), Item 8, Consolidated Statements of Cash Flows, printed p.36, FY2025 column, “Purchases of property and equipment.” It is a cash outflow, shown in parentheses. It is not the $128,320 million net-capex number."
+    },
+    "132,404.53": {
+      "file": "lab11/lab11.md",
+      "line": 28,
+      "source_line": "| FY2030 operating income, USD million | 132,404.53 |"
+    },
+    "133,320": {
+      "file": "lab06/lab06.md",
+      "line": 41,
+      "source_line": "| **Total debt deducted** | **133,320** | **USD million** | **2026-06-30** | **Calculated** | **132,995 + 325; [Q] Note 5** |"
+    },
+    "136.978684": {
+      "file": "lab06/lab06.md",
+      "line": 207,
+      "source_line": "  **46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%** in Years 1-5."
+    },
+    "14": {
+      "file": "lab11/lab11.md",
+      "line": 117,
+      "source_line": "| capex_later lower | +6,000.00 → +8,913.71 (+2,913.71) | +18,000.00 → +19,563.81 (+1,563.81) | +14.00 → +17.82 (+3.82) |"
+    },
+    "141,318.25": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "143,101.64": {
+      "file": "lab11/lab11.md",
+      "line": 72,
+      "source_line": "| higher | 143,101.64 | +10,697.11 | 47,038.38 | +8,786.50 | 40.59 | +7.92 | PASS: accounting/liquidity |"
+    },
+    "146.978684": {
+      "file": "lab06/lab06.md",
+      "line": 207,
+      "source_line": "  **46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%** in Years 1-5."
+    },
+    "15": {
+      "file": "lab11/lab11.md",
+      "line": 15,
+      "source_line": "- [Part 2 captions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/69eac1e8cbd63b35e801d48d990c4b594bfdbbc8/lessons/week-05/pro-forma-abg-tutorial/video-2-captions.vtt), especially 09:15–13:22: one-at-a-time operating assumptions, full statement reruns, liquidity effects and interactions. The current worksheet governs; wider tutorial scenarios are not added to this assignment."
+    },
+    "15,000": {
+      "file": "lab11/lab11.md",
+      "line": 82,
+      "source_line": "The higher-capex path still satisfies the balance identities, but this does not establish solvency. FY2028 cash is **1,309.67** against a **25,000** minimum, a **−23,690.33** headroom, with the **15,000** revolver fully drawn and securities exhausted. FY2029 cash becomes **−13,569.92**, and FY2030 remains below the cash minimum at **4,818.81**. Its later arithmetic includes effects of an infeasible cash balance, so all final-year amounts are diagnostics only. No extra debt is introduced to rescue the case; no price is forced."
+    },
+    "15,598.46": {
+      "file": "lab11/lab11.md",
+      "line": 70,
+      "source_line": "| lower | 121,707.43 | -10,697.11 | 15,598.46 | -22,653.42 | 23.87 | -8.81 | PASS: accounting/liquidity |"
+    },
+    "15.2": {
+      "file": "lab11/lab11.md",
+      "line": 97,
+      "source_line": "FY2030 gross margin moves from 54% to 53%, with the approved one-point reduction also applied in 2026–2029. Revenue stays at 1,261,451.11. Gross profit falls **12,614.51**; SG&A falls **1,917.41** because its base ratio of 15.2% applies to lower gross profit. Thus operating income falls **10,697.11**, not the entire gross-profit loss. Depreciation, capex and residual cost ratios remain unchanged."
+    },
+    "15.4": {
+      "file": "lab09/lab09_validation.txt",
+      "line": 154,
+      "source_line": "FY2026E         -61.4         -61.4           0.0           0.0          15.4   FAIL"
+    },
+    "15.6": {
+      "file": "lab10/lab10.md",
+      "line": 98,
+      "source_line": "| sga_to_gp | [0.16, 0.158, 0.156, 0.154, 0.152] | judgment | Small scale efficiencies from 2025 16.17% of gross profit; retain substantial marketing and corporate costs. | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm ; p37: (47129+11172)/(716924-356414) |",
+      "scale": 100
+    },
+    "15.8": {
+      "file": "lab10/lab10.md",
+      "line": 98,
+      "source_line": "| sga_to_gp | [0.16, 0.158, 0.156, 0.154, 0.152] | judgment | Small scale efficiencies from 2025 16.17% of gross profit; retain substantial marketing and corporate costs. | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm ; p37: (47129+11172)/(716924-356414) |",
+      "scale": 100
+    },
+    "150": {
+      "file": "lab06/lab06.md",
+      "line": 205,
+      "source_line": "  supplementary bracket **[-5, +150] points** is explicitly specified at the top"
+    },
+    "16": {
+      "file": "lab10/lab10.md",
+      "line": 68,
+      "source_line": "The ABG tutorial's 1.8% judgment differs from its 4.7% reported growth because the latter can include acquired operations; Amazon gets its own 16%→8% forecast instead. This comparison is **TRAINING / VALIDATION ONLY**, not an Amazon input. [Part 1 captions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/6bcbc3c929de59c547b2e421fe0f4ef2dc5d564f/lessons/week-05/pro-forma-abg-tutorial/video-1-captions.vtt)."
+    },
+    "16.73": {
+      "file": "lab11/lab11.md",
+      "line": 90,
+      "source_line": "| gross_margin | 21,394.21 | 31,439.92 | 16.73 | 3/3 |"
+    },
+    "17.07": {
+      "file": "lab08/lab08.md",
+      "line": 7,
+      "source_line": "The two qualified peers imply **$196.70–$277.69 per Amazon share**, with a **$237.19 median-based midpoint**. That midpoint is 5.83% below Amazon's same-date closing price of $251.89. This is a conditional reported-earnings comparison, not a defensible claim of intrinsic fair value. Removing either peer moves the midpoint 17.07%, and neither company reproduces Amazon's consolidated economics."
+    },
+    "17.82": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "17.95": {
+      "file": "lab08/lab08.md",
+      "line": 52,
+      "source_line": "| Microsoft / MSFT | $492.44 | [ChartExchange MSFT][MP], same date and column; cross-check [Investing.com][MX], historical `Price` column | $17.95 | July 1, 2025–June 30, 2026 | July 29, 2026 [release][MR], Fiscal Year 2026 Results and Income Statements, **year ended June 30, 2026**, diluted EPS row. |"
+    },
+    "18,388.73": {
+      "file": "lab11/lab11.md",
+      "line": 80,
+      "source_line": "| higher **diagnostic only** | 123,490.82 | -8,913.71 | 18,388.73 | -19,863.16 | Unavailable | Unavailable | **INVALID: liquidity FAIL; valuation refused** |"
+    },
+    "180,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "189,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "19,563.81": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "196.70": {
+      "file": "lab08/lab08.md",
+      "line": 7,
+      "source_line": "The two qualified peers imply **$196.70–$277.69 per Amazon share**, with a **$237.19 median-based midpoint**. That midpoint is 5.83% below Amazon's same-date closing price of $251.89. This is a conditional reported-earnings comparison, not a defensible claim of intrinsic fair value. Removing either peer moves the midpoint 17.07%, and neither company reproduces Amazon's consolidated economics."
+    },
+    "198,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "2": {
+      "derivation": "document_structure"
+    },
+    "2.5": {
+      "file": "lab11/lab11.md",
+      "line": 34,
+      "source_line": "| Equity return / terminal growth | 10% / 2.5% |"
+    },
+    "2.73": {
+      "file": "lab08/lab08.md",
+      "line": 51,
+      "source_line": "| Walmart / WMT | $105.73 | [ChartExchange WMT][WP], same date and column; cross-check [Investing.com][WX], historical `Price` column | $2.73 | Feb. 1, 2025–Jan. 31, 2026 | Feb. 19, 2026 [release][WR], Consolidated Statements of Income, **fiscal year** diluted net income per common share attributable to Walmart; [10-K][WK], Note 2, p. 63. |"
+    },
+    "20,000": {
+      "file": "lab11/lab11.md",
+      "line": 50,
+      "source_line": "Margin changes are **±1 percentage point** in each year (±0.01 in decimal form), not ±1% relative. The relative changes have magnitudes 1.960784%, 1.923077%, 1.886792%, 1.869159%, and 1.851852% respectively. Capex changes are **±10% relative**, or ±23,000 / 22,000 / 21,000 / 20,000 USD million. The separate **2026 capex remains 220,000 USD million**. The executed output prints each path, units, years and signed input differences."
+    },
+    "20,787.84": {
+      "file": "lab11/lab11.md",
+      "line": 37,
+      "source_line": "Base FCFE (USD million) in 2026–2030: **−20,787.84; −42,339.39; −28,972.61; +5,957.06; +38,251.88**. Negative signs are retained in every statement and check."
+    },
+    "200,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "2023": {
+      "file": "lab10/lab10.md",
+      "line": 19,
+      "source_line": "All amounts are **USD millions**, fiscal years ending December 31. Each year is taken from that year's own annual filing. Income and cash-flow comparisons for 2023–24 in the 2025 filing agree; balance-sheet 2023 comparisons in the 2024 filing and 2024 comparisons in the 2025 filing also agree. PP&E depreciation uses the precise consolidated segment-note number, not the rounded billion-dollar note summary. The 81-row [history CSV](amazon_history.csv) gives a source, exact statement/note/page where available, units, period, and arithmetic for every item. [Sources](sources.md) records source-file hashes and the reconciliation method."
+    },
+    "2024": {
+      "file": "lab10/lab10.md",
+      "line": 19,
+      "source_line": "All amounts are **USD millions**, fiscal years ending December 31. Each year is taken from that year's own annual filing. Income and cash-flow comparisons for 2023–24 in the 2025 filing agree; balance-sheet 2023 comparisons in the 2024 filing and 2024 comparisons in the 2025 filing also agree. PP&E depreciation uses the precise consolidated segment-note number, not the rounded billion-dollar note summary. The 81-row [history CSV](amazon_history.csv) gives a source, exact statement/note/page where available, units, period, and arithmetic for every item. [Sources](sources.md) records source-file hashes and the reconciliation method."
+    },
+    "2025": {
+      "file": "lab11/lab11.md",
+      "line": 39,
+      "source_line": "FCFE = net income + depreciation − operating working-capital investment − net cash capex − other net-asset investment + net term borrowing − finance-lease/facility principal + net revolver borrowing. Sales of the existing securities reserve fund cash but are excluded from FCFE. Valuation retains the original course **positive-only** explicit-flow convention, full-year discounting from December 31, 2025, and fixed shares. The terminal proxy removes temporary revolver movements and new term borrowing. A failed check or nonpositive sustainable terminal FCFE prevents valuation. Nothing in Lab 10 is rewritten."
+    },
+    "2026": {
+      "file": "lab11/lab11.md",
+      "line": 18,
+      "source_line": "The current official Lab 11 worksheet was reread after execution on September 29, 2026. The worksheet requires pre-run partner review, unlike the original request to defer every partner note until after computation. The student has now supplied a real pre-run discussion and confirmed the partner agreed on ranges, units and one-input-at-a-time design. The account identifies the **student** as the questioner; it is not rewritten as a question received from the partner. Remaining reciprocal checks are not inferred. The worksheet requests closing AI to write the prediction; no unconfirmed claim about doing so is made."
+    },
+    "2026,": {
+      "file": "lab11/lab11.md",
+      "line": 18,
+      "source_line": "The current official Lab 11 worksheet was reread after execution on September 29, 2026. The worksheet requires pre-run partner review, unlike the original request to defer every partner note until after computation. The student has now supplied a real pre-run discussion and confirmed the partner agreed on ranges, units and one-input-at-a-time design. The account identifies the **student** as the questioner; it is not rewritten as a question received from the partner. Remaining reciprocal checks are not inferred. The worksheet requests closing AI to write the prediction; no unconfirmed claim about doing so is made."
+    },
+    "2027": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "2028": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "2029": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "2030": {
+      "file": "lab11/lab11.md",
+      "line": 28,
+      "source_line": "| FY2030 operating income, USD million | 132,404.53 |"
+    },
+    "2030,": {
+      "file": "lab11/lab11.md",
+      "line": 28,
+      "source_line": "| FY2030 operating income, USD million | 132,404.53 |"
+    },
+    "207,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "21,394.21": {
+      "file": "lab11/lab11.md",
+      "line": 90,
+      "source_line": "| gross_margin | 21,394.21 | 31,439.92 | 16.73 | 3/3 |"
+    },
+    "210,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "22": {
+      "file": "lab11/lab11.md",
+      "line": 15,
+      "source_line": "- [Part 2 captions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/69eac1e8cbd63b35e801d48d990c4b594bfdbbc8/lessons/week-05/pro-forma-abg-tutorial/video-2-captions.vtt), especially 09:15–13:22: one-at-a-time operating assumptions, full statement reruns, liquidity effects and interactions. The current worksheet governs; wider tutorial scenarios are not added to this assignment."
+    },
+    "22,": {
+      "file": "lab11/lab11.md",
+      "line": 15,
+      "source_line": "- [Part 2 captions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/69eac1e8cbd63b35e801d48d990c4b594bfdbbc8/lessons/week-05/pro-forma-abg-tutorial/video-2-captions.vtt), especially 09:15–13:22: one-at-a-time operating assumptions, full statement reruns, liquidity effects and interactions. The current worksheet governs; wider tutorial scenarios are not added to this assignment."
+    },
+    "22,653.42": {
+      "file": "lab11/lab11.md",
+      "line": 70,
+      "source_line": "| lower | 121,707.43 | -10,697.11 | 15,598.46 | -22,653.42 | 23.87 | -8.81 | PASS: accounting/liquidity |"
+    },
+    "220,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "23": {
+      "file": "Amazon_2026-09-03_report.md",
+      "line": 9,
+      "source_line": "Amazon makes money by selling products from its own inventory, collecting fees and fulfillment revenue from third-party sellers, and providing services including AWS cloud computing, advertising, subscriptions, digital content, and publishing. Management organizes the company into three segments: North America, International, and AWS. ([Amazon 2025 Form 10-K, Item 7, pp. 20 and 23](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm))"
+    },
+    "23,690.33": {
+      "file": "lab11/lab11.md",
+      "line": 82,
+      "source_line": "The higher-capex path still satisfies the balance identities, but this does not establish solvency. FY2028 cash is **1,309.67** against a **25,000** minimum, a **−23,690.33** headroom, with the **15,000** revolver fully drawn and securities exhausted. FY2029 cash becomes **−13,569.92**, and FY2030 remains below the cash minimum at **4,818.81**. Its later arithmetic includes effects of an infeasible cash balance, so all final-year amounts are diagnostics only. No extra debt is introduced to rescue the case; no price is forced."
+    },
+    "23.87": {
+      "file": "lab11/lab11.md",
+      "line": 70,
+      "source_line": "| lower | 121,707.43 | -10,697.11 | 15,598.46 | -22,653.42 | 23.87 | -8.81 | PASS: accounting/liquidity |"
+    },
+    "230,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "231,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "237.19": {
+      "file": "lab08/lab08.md",
+      "line": 7,
+      "source_line": "The two qualified peers imply **$196.70–$277.69 per Amazon share**, with a **$237.19 median-based midpoint**. That midpoint is 5.83% below Amazon's same-date closing price of $251.89. This is a conditional reported-earnings comparison, not a defensible claim of intrinsic fair value. Removing either peer moves the midpoint 17.07%, and neither company reproduces Amazon's consolidated economics."
+    },
+    "24,": {
+      "file": "lab11/lab11.md",
+      "line": 142,
+      "source_line": "The $249.38 comparison is the preserved September 24, 2026 market observation, not a newly retrieved price. Post-2026 capex combines demonstrated model impact with weak forward evidence: its taper remains judgment rather than management guidance. The student retains watch-defer and directs further research toward internal funding and investment cash conversion."
+    },
+    "242,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "249.38": {
+      "file": "lab11/lab11.md",
+      "line": 136,
+      "source_line": "> Amazon’s base modeled value remains $32.67 per share, compared with the previously recorded market price of $249.38. Even the highest valid sensitivity value, $50.49 under lower capex, remains substantially below the market price. In addition, 92.11% of the base valuation comes from value after 2030, while the higher-capex case exhausts available funding and fails the model’s liquidity checks. These results do not provide enough support to initiate a position."
+    },
+    "25": {
+      "file": "lab10/lab10.md",
+      "line": 119,
+      "source_line": "| debt_net_change | [64246, 25000, 0, 0, 0] | judgment | Carry observed H1 2026 net issuance into 2026; issue $25bn additional term debt in 2027 to fund planned infrastructure, then refinance maturities without net growth. This finite funding assumption is below H1 2026 net issuance but requires market access; cash proceeds approximate carrying changes, excluding FX/discount. | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm ; p3 six-month proceeds 66998 minus repayments 2752; Note 5 debt; 2027 amount is analyst judgment |"
+    },
+    "25,000": {
+      "file": "lab11/lab11.md",
+      "line": 82,
+      "source_line": "The higher-capex path still satisfies the balance identities, but this does not establish solvency. FY2028 cash is **1,309.67** against a **25,000** minimum, a **−23,690.33** headroom, with the **15,000** revolver fully drawn and securities exhausted. FY2029 cash becomes **−13,569.92**, and FY2030 remains below the cash minimum at **4,818.81**. Its later arithmetic includes effects of an infeasible cash balance, so all final-year amounts are diagnostics only. No extra debt is introduced to rescue the case; no price is forced."
+    },
+    "251.89": {
+      "file": "lab08/lab08.md",
+      "line": 7,
+      "source_line": "The two qualified peers imply **$196.70–$277.69 per Amazon share**, with a **$237.19 median-based midpoint**. That midpoint is 5.83% below Amazon's same-date closing price of $251.89. This is a conditional reported-earnings comparison, not a defensible claim of intrinsic fair value. Removing either peer moves the midpoint 17.07%, and neither company reproduces Amazon's consolidated economics."
+    },
+    "252.13": {
+      "file": "lab08/lab08.md",
+      "line": 60,
+      "source_line": "**Newer market observation, separate from the historical valuation:** [Stock Analysis AMZN overview][CURRENT] displayed **$247.81, September 16, 2026, 7:59 p.m. EDT**, after-hours; its regular close was $245.96 at 4:00 p.m. EDT. Retrieved approximately 9:07 p.m. EDT (September 17, 01:07 UTC). This is the latest displayed observation obtained, not a continuously live quote. It does not change the September 10 peer inputs. Lab 06's saved $252.13 at 4:26 p.m. EDT on September 10 is preserved in that lab; using $251.89 here aligns regular-session closes across all three companies."
+    },
+    "253,000": {
+      "file": "lab11/lab11.md",
+      "line": 48,
+      "source_line": "| `capex_later` | USD million, net cash capital spending | 2027; 2028; 2029; 2030 | 207,000; 198,000; 189,000; 180,000 | 230,000; 220,000; 210,000; 200,000 | 253,000; 242,000; 231,000; 220,000 |"
+    },
+    "26": {
+      "file": "lab08/lab08.md",
+      "line": 60,
+      "source_line": "**Newer market observation, separate from the historical valuation:** [Stock Analysis AMZN overview][CURRENT] displayed **$247.81, September 16, 2026, 7:59 p.m. EDT**, after-hours; its regular close was $245.96 at 4:00 p.m. EDT. Retrieved approximately 9:07 p.m. EDT (September 17, 01:07 UTC). This is the latest displayed observation obtained, not a continuously live quote. It does not change the September 10 peer inputs. Lab 06's saved $252.13 at 4:26 p.m. EDT on September 10 is preserved in that lab; using $251.89 here aligns regular-session closes across all three companies."
+    },
+    "27": {
+      "file": "lab11/lab11.md",
+      "line": 20,
+      "source_line": "The existing Amazon-Report `main` was pulled before work. Starting commit: `d3991925d141bb3896f2c0059e4bc43eac14e4c5`. SHA-256 fingerprints of all **27** existing tracked files are in [preservation_manifest.json](preservation_manifest.json). Every prior file remains unchanged. All additions are inside `lab11/`. Lab 10 already contains earlier sensitivity tests; the locked record is a pre-run record for this Lab 11 analysis, not a claim that sensitivity results never existed before."
+    },
+    "27,820.16": {
+      "file": "lab10/lab10.md",
+      "line": 294,
+      "source_line": "- Explicit positive FCFE PV = Σ max(FCFE_t, 0)/(1.10)^t = **$27,820.16m**."
+    },
+    "27.433983": {
+      "file": "lab08/lab08.md",
+      "line": 71,
+      "source_line": "| Microsoft annual P/E | 27.433983× |"
+    },
+    "277.69": {
+      "file": "lab08/lab08.md",
+      "line": 7,
+      "source_line": "The two qualified peers imply **$196.70–$277.69 per Amazon share**, with a **$237.19 median-based midpoint**. That midpoint is 5.83% below Amazon's same-date closing price of $251.89. This is a conditional reported-earnings comparison, not a defensible claim of intrinsic fair value. Removing either peer moves the midpoint 17.07%, and neither company reproduces Amazon's consolidated economics."
+    },
+    "28,972.61": {
+      "file": "lab11/lab11.md",
+      "line": 37,
+      "source_line": "Base FCFE (USD million) in 2026–2030: **−20,787.84; −42,339.39; −28,972.61; +5,957.06; +38,251.88**. Negative signs are retained in every statement and check."
+    },
+    "29": {
+      "file": "lab11/lab11.md",
+      "line": 18,
+      "source_line": "The current official Lab 11 worksheet was reread after execution on September 29, 2026. The worksheet requires pre-run partner review, unlike the original request to defer every partner note until after computation. The student has now supplied a real pre-run discussion and confirmed the partner agreed on ranges, units and one-input-at-a-time design. The account identifies the **student** as the questioner; it is not rewritten as a question received from the partner. Remaining reciprocal checks are not inferred. The worksheet requests closing AI to write the prediction; no unconfirmed claim about doing so is made."
+    },
+    "29,195.05": {
+      "file": "lab11/lab11.md",
+      "line": 101,
+      "source_line": "Earlier shortages exhaust securities and draw the revolver: 11,387.49 in 2028 and another 2,209.10 in 2029. In 2030, FCFE before revolver repayment is **29,195.05**; repayment of **13,596.59** leaves final FCFE of **15,598.46**. Its change is −9,056.83 in operating cash minus 13,596.59 in repayment = **−22,653.42**. FY2030 ending cash is **40,598.46**, equity **786,947.30**, and the balance and cash links pass. FY2029 FCFE is effectively zero within the $1 tolerance; its tiny negative floating-point residue is not an economic negative cash flow."
+    },
+    "3": {
+      "derivation": "document_structure"
+    },
+    "3,499": {
+      "file": "lab10/lab10.md",
+      "line": 53,
+      "source_line": "| Sales/incentives ($m) | 4,596.00 | 5,341.00 | 3,499.00 |"
+    },
+    "30,": {
+      "file": "lab10/lab10.md",
+      "line": 101,
+      "source_line": "| capex_2026_guidance | 220000 | guidance | Latest management cash-capex outlook; replaces earlier $200bn. A third-party transcript of management remarks, cross-checked against AP reporting. | https://earningscalls.dev/transcripts/amazon-com-inc_amzn_earnings_call_transcript_2026-07-30 ; July 30 2026 Andy Jassy cash-capex remarks; https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee |"
+    },
+    "31,": {
+      "file": "lab11/lab11.md",
+      "line": 39,
+      "source_line": "FCFE = net income + depreciation − operating working-capital investment − net cash capex − other net-asset investment + net term borrowing − finance-lease/facility principal + net revolver borrowing. Sales of the existing securities reserve fund cash but are excluded from FCFE. Valuation retains the original course **positive-only** explicit-flow convention, full-year discounting from December 31, 2025, and fixed shares. The terminal proxy removes temporary revolver movements and new term borrowing. A failed check or nonpositive sustainable terminal FCFE prevents valuation. Nothing in Lab 10 is rewritten."
+    },
+    "31,439.92": {
+      "file": "lab11/lab11.md",
+      "line": 90,
+      "source_line": "| gross_margin | 21,394.21 | 31,439.92 | 16.73 | 3/3 |"
+    },
+    "32.67": {
+      "file": "lab11/lab11.md",
+      "line": 31,
+      "source_line": "| Value per share, USD | 32.67 |"
+    },
+    "324,602.59": {
+      "file": "lab10/lab10.md",
+      "line": 296,
+      "source_line": "- Terminal value = 38,251.88 × 1.025 / (0.10 − 0.025) = **$522,775.72m** at year-end 2030; PV = **$324,602.59m**."
+    },
+    "35.131102": {
+      "file": "lab08/lab08.md",
+      "line": 73,
+      "source_line": "| Amazon observed price / annual EPS = 251.89 / 7.17 | 35.131102× |"
+    },
+    "352,422.75": {
+      "file": "lab11/lab11.md",
+      "line": 30,
+      "source_line": "| Equity value, USD million | 352,422.75 |"
+    },
+    "36,": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "37,": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "38,251.88": {
+      "file": "lab11/lab11.md",
+      "line": 29,
+      "source_line": "| FY2030 FCFE, USD million | 38,251.88 |"
+    },
+    "38.728938": {
+      "file": "lab08/lab08.md",
+      "line": 70,
+      "source_line": "| Walmart annual P/E | 38.728938× |"
+    },
+    "4": {
+      "derivation": "document_structure"
+    },
+    "4,596": {
+      "file": "lab10/lab10.md",
+      "line": 53,
+      "source_line": "| Sales/incentives ($m) | 4,596.00 | 5,341.00 | 3,499.00 |"
+    },
+    "40": {
+      "derivation": "starting_file_count"
+    },
+    "40.59": {
+      "file": "lab11/lab11.md",
+      "line": 72,
+      "source_line": "| higher | 143,101.64 | +10,697.11 | 47,038.38 | +8,786.50 | 40.59 | +7.92 | PASS: accounting/liquidity |"
+    },
+    "42,339.39": {
+      "file": "lab11/lab11.md",
+      "line": 37,
+      "source_line": "Base FCFE (USD million) in 2026–2030: **−20,787.84; −42,339.39; −28,972.61; +5,957.06; +38,251.88**. Negative signs are retained in every statement and check."
+    },
+    "436.19": {
+      "file": "lab11/lab11.md",
+      "line": 107,
+      "source_line": "FY2030 spending falls **20,000**, capital AP falls **4,208.23**, and cumulative net PP&E falls **70,300.63**. Opening-PPE depreciation falls **8,913.71**, so operating income rises by that amount. Net income rises **8,477.53**, but depreciation's addback falls **8,913.71**, giving **−436.19** CFO change. Working capital is unchanged. The 20,000 cash investment saving yields **+19,563.81** FCFE and **+17.82/share** course value. It does not create extra modeled sales: investment and revenue are independent in this exercise."
+    },
+    "45,606": {
+      "file": "lab08/lab08.md",
+      "line": 17,
+      "source_line": "Amazon earns revenue from product sales, third-party seller services, advertising, subscriptions, and AWS. FY2025 revenue was $716.924 billion. AWS contributed $128.725 billion of revenue and $45.606 billion of $79.975 billion consolidated operating income: its profit importance exceeds its revenue weight. Annual reported EPS is positive. [Amazon 10-K][AK], Item 1; Item 8, statement of operations; Note 10, segment information. The research needs were compatible prices, annual EPS available by the comparison date, business evidence, and investment-related earnings effects.",
+      "scale": 1000
+    },
+    "46.978684": {
+      "file": "lab06/lab06.md",
+      "line": 207,
+      "source_line": "  **46.978684%, 146.978684%, 136.978684%, 121.978684%, 111.978684%** in Years 1-5."
+    },
+    "46.98": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "47,038.38": {
+      "file": "lab11/lab11.md",
+      "line": 72,
+      "source_line": "| higher | 143,101.64 | +10,697.11 | 47,038.38 | +8,786.50 | 40.59 | +7.92 | PASS: accounting/liquidity |"
+    },
+    "48,133": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "48.85": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "492.44": {
+      "file": "lab08/lab08.md",
+      "line": 52,
+      "source_line": "| Microsoft / MSFT | $492.44 | [ChartExchange MSFT][MP], same date and column; cross-check [Investing.com][MX], historical `Price` column | $17.95 | July 1, 2025–June 30, 2026 | July 29, 2026 [release][MR], Fiscal Year 2026 Results and Income Statements, **year ended June 30, 2026**, diluted EPS row. |"
+    },
+    "5": {
+      "derivation": "document_structure"
+    },
+    "5,341": {
+      "file": "lab10/lab10.md",
+      "line": 53,
+      "source_line": "| Sales/incentives ($m) | 4,596.00 | 5,341.00 | 3,499.00 |"
+    },
+    "5,957.06": {
+      "file": "lab11/lab11.md",
+      "line": 37,
+      "source_line": "Base FCFE (USD million) in 2026–2030: **−20,787.84; −42,339.39; −28,972.61; +5,957.06; +38,251.88**. Negative signs are retained in every statement and check."
+    },
+    "5.9930": {
+      "file": "lab10/lab10.md",
+      "line": 15,
+      "source_line": "The repository was pulled from `main`; starting commit was `347750c3bc4e8965b40312c5b18c1f49760a63d1`. SHA256 hashes were recorded for all 19 pre-existing tracked files. The unchanged Lab 09 run reproduced **$291.75**, **79.76%** after 2030, and zero balance gaps. The unchanged **lab06/dcf.py** reproduced its complete saved output, including **$5.9930**. The root-level `dcf.py` is an earlier training model, so it was not substituted for Amazon's Lab 06. See [validation evidence](lab10_validation.txt) and the embedded preservation manifest in [validate_lab10.py](validate_lab10.py)."
+    },
+    "50": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "50.29": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "50.49": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "51": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "52": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "52,729": {
+      "file": "lab10/lab10.md",
+      "line": 52,
+      "source_line": "| Gross cash capex ($m) | 52,729.00 | 82,999.00 | 131,819.00 |"
+    },
+    "52.5": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "522,775.72": {
+      "file": "lab10/lab10.md",
+      "line": 296,
+      "source_line": "- Terminal value = 38,251.88 × 1.025 / (0.10 − 0.025) = **$522,775.72m** at year-end 2030; PV = **$324,602.59m**."
+    },
+    "53": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "53.5": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "54": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "54.5": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "55": {
+      "file": "lab11/lab11.md",
+      "line": 47,
+      "source_line": "| `gross_margin` | Percent of sales (stored as decimal ratios) | 2026; 2027; 2028; 2029; 2030 | 50%; 51%; 52%; 52.5%; 53% | 51%; 52%; 53%; 53.5%; 54% | 52%; 53%; 54%; 54.5%; 55% |"
+    },
+    "57,815.69": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "574,785": {
+      "file": "lab10/lab10.md",
+      "line": 23,
+      "source_line": "| Revenue | 574,785 ([2023 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm)) | 637,959 ([2024 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm)) | 716,924 ([2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)) |"
+    },
+    "6": {
+      "derivation": "document_structure"
+    },
+    "637,959": {
+      "file": "lab10/lab10.md",
+      "line": 23,
+      "source_line": "| Revenue | 574,785 ([2023 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm)) | 637,959 ([2024 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm)) | 716,924 ([2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)) |"
+    },
+    "65,341.4515": {
+      "file": "lab06/lab06.md",
+      "line": 160,
+      "source_line": "| Equity value: EV + 78,213 - 133,320 | 65,341.4515 | USD million |"
+    },
+    "7.17": {
+      "file": "lab08/lab08.md",
+      "line": 50,
+      "source_line": "| Amazon / AMZN | $251.89 | [ChartExchange AMZN][AP], Historical Prices, `2026-09-10`, **Close** column | $7.17 | Jan. 1–Dec. 31, 2025 | Feb. 5, 2026 [annual release][AR], Full Year 2025; [10-K][AK], Item 8, Consolidated Statements of Operations, p. 37, 2025 diluted EPS row. [SEC index][AI]: accepted Feb. 5, filed Feb. 6. |"
+    },
+    "716,924": {
+      "file": "lab10/lab10.md",
+      "line": 23,
+      "source_line": "| Revenue | 574,785 ([2023 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm)) | 637,959 ([2024 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm)) | 716,924 ([2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)) |"
+    },
+    "75,656.81": {
+      "file": "lab10/lab10.md",
+      "line": 292,
+      "source_line": "Negative FCFE remains in **2026, 2027, and 2028**; it is not silently removed from the cash roll-forward. FCFE available from operations and financing excludes selling the existing marketable-securities reserve, which funds retained liquidity rather than a shareholder distribution here. The official course instruction says to value only positive flows, so explicit PV uses `max(FCFE, 0)`. **This omits $75,656.81m of discounted negative flows and is not a complete signed-flow intrinsic valuation.** No opening excess-cash/private-investment value is added separately. [Official rule](https://github.com/CinderZhang/FIN43900-Fall2026/blob/6bcbc3c929de59c547b2e421fe0f4ef2dc5d564f/lessons/week-05/lab-10-proforma-your-company.md); [output](lab10_output.txt)."
+    },
+    "77,658": {
+      "file": "lab11/lab11.md",
+      "line": 52,
+      "source_line": "**Student's range evidence:** historical cost-of-sales margins of 46.98%, 48.85%, 50.29% support a meaningful but not extreme one-point test around the forecast. Historical net cash capex of 48,133 / 77,658 / 128,320 USD million supports questioning the timing and size of the spending taper. The endpoint widths are labeled student judgments, not guidance, probabilities or forecasts. [History and exact filing locators](../lab10/amazon_history.csv); [2025 SEC filing, Operations p.37 and Cash Flows p.36](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "78,213": {
+      "file": "lab06/lab06.md",
+      "line": 38,
+      "source_line": "| Cash and equivalents | 78,213 | USD million | 2026-06-30 | Reported; treated as non-operating in this lab | [Q], Item 1, Consolidated Balance Sheets, cash/equivalents row; Note 2 cash reconciliation |"
+    },
+    "79,975": {
+      "file": "lab10/lab10.md",
+      "line": 159,
+      "source_line": "Amazon embeds depreciation and rent in multiple operating expense functions. To avoid subtracting them twice, the model removes total PP&E D&A and fixed operating lease cost from the **consolidated residual operating-cost baseline** before adding explicit schedules. This is an algebraic consolidated reclassification, not a claim that all historical D&A belongs to fulfillment/technology. At the historical base, gross profit 360,510 − SG&A 58,301 − residual 166,368 − PPE D&A 41,860 − lease cost 14,006 = operating income 79,975. Forecast gross-margin and SG&A rows are simplified presentation drivers; no functional D&A allocation is asserted. [2025 pp.37,55,71](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)."
+    },
+    "8": {
+      "file": "lab10/lab10.md",
+      "line": 38,
+      "source_line": "1. **FY2025 gross cash purchases of PP&E: $131,819 million.** Open the [2025 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm), Item 8, Consolidated Statements of Cash Flows, printed p.36, FY2025 column, “Purchases of property and equipment.” It is a cash outflow, shown in parentheses. It is not the $128,320 million net-capex number."
+    },
+    "8,477.53": {
+      "file": "lab11/lab11.md",
+      "line": 107,
+      "source_line": "FY2030 spending falls **20,000**, capital AP falls **4,208.23**, and cumulative net PP&E falls **70,300.63**. Opening-PPE depreciation falls **8,913.71**, so operating income rises by that amount. Net income rises **8,477.53**, but depreciation's addback falls **8,913.71**, giving **−436.19** CFO change. Working capital is unchanged. The 20,000 cash investment saving yields **+19,563.81** FCFE and **+17.82/share** course value. It does not create extra modeled sales: investment and revenue are independent in this exercise."
+    },
+    "8,846.82": {
+      "file": "lab08/lab08.md",
+      "line": 93,
+      "source_line": "| Week 3 DCF | Sept. 10, 2026: **$5.9930/share** base; centered sensitivity **$4.0382–$9.0873**. Required fixed WACC grid separately: **$6.0937–$14.5950**. | Starting FCFF $8,846.82 million; growth −50%, +50%, +40%, +25%, +15%; WACC 11.80145113%; terminal growth 3%. The centered and fixed grids answer different questions. |"
+    },
+    "8,913.71": {
+      "file": "lab11/lab11.md",
+      "line": 78,
+      "source_line": "| lower | 141,318.25 | +8,913.71 | 57,815.69 | +19,563.81 | 50.49 | +17.82 | PASS: accounting/liquidity |"
+    },
+    "82,999": {
+      "file": "lab10/lab10.md",
+      "line": 52,
+      "source_line": "| Gross cash capex ($m) | 52,729.00 | 82,999.00 | 131,819.00 |"
+    },
+    "9,500": {
+      "file": "lab11/lab11.md",
+      "line": 115,
+      "source_line": "| gross_margin lower | -12,000.00 → -10,697.11 (+1,302.89) | -9,500.00 → -22,653.42 (-13,153.42) | -7.50 → -8.81 (-1.31) |"
+    },
+    "92.11": {
+      "file": "lab11/lab11.md",
+      "line": 32,
+      "source_line": "| Value after FY2030 | 92.11% |"
+    },
+    "96.978684": {
+      "file": "lab06/lab06.md",
+      "line": 206,
+      "source_line": "  of the same file. Bisection solves **+96.978684 points**, implying growth of"
+    }
+  },
+  "contextual_review": {
+    "status": "reviewed",
+    "reviewer": "Partner",
+    "scope": "All report numbers, periods, units and associated claims checked against cited repository evidence; tables and causal trace additionally recomputed by validator. Forecasts/inferences and original-selection reconstruction explicitly labeled; separate-company and classroom activity not invented.",
+    "limitation": "This attestation binds reviewed prose and locators; it is not software proof of absence of all unsupported facts, nor independent verification of every external filing."
+  }
+}
