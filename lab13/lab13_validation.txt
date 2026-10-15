@@ -1,0 +1,12 @@
+test_attack_passes (__main__.MandateTests.test_attack_passes) ... ok
+test_course_known_answers (__main__.MandateTests.test_course_known_answers) ... ok
+test_exact_boundaries_and_company_aggregation (__main__.MandateTests.test_exact_boundaries_and_company_aggregation) ... ok
+test_invalid_sum_and_data (__main__.MandateTests.test_invalid_sum_and_data) ... ok
+test_output_defers_loss_rule (__main__.MandateTests.test_output_defers_loss_rule) ... ok
+test_required_negative_weight_probe (__main__.MandateTests.test_required_negative_weight_probe) ... ok
+test_threshold_computed_from_inputs (__main__.MandateTests.test_threshold_computed_from_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
