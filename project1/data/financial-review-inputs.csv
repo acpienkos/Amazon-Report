@@ -1,0 +1,9 @@
+item,old,new,unit,classification,source,locator
+H1 acquisition/nonmarketable cash uses,0,39767,USD million,reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm,Cash-flow statement p3; six months ended June30 2026
+Subsequent OpenAI investment payment,0,21300,USD million,reported subsequent event,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm,Note2 Non-Marketable Investments; subsequent to June30
+Subsequent July notes,0,25000,USD million,reported subsequent event,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm,Note5 Debt; subsequent issuance; July pricing source
+Strategic gross assets incl subsequent purchase,0,246195,USD million,reported carrying references,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm,Note2 private equity122300 / notes97900 / equity-method395 / warrants4300 + subsequent21300
+Strategic haircut diagnostic,none,0.22,fraction of preexisting gross carrying assets,"sensitivity assumption, not reported tax",Inherited normalized tax proxy; not issuer tax basis,Explicit diagnostic only
+FY2031 D&A,138898.12673419295,145304.84520673845,USD million,formula correction,"Forecast opening PP&E policy, model.py",15% * ending2030 PP&E
+Recurring residual cost ratio,0.23205807031149744,0.22857095033783217,fraction of revenue,Named nonrecurring-charge normalization judgment,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm,Note1 Q3 2025 FTC settlement2500; remove2500/716924 from recurring residual cost only
+WACC,0.1173810818887901,0.1167257986116932,annual decimal rate,known debt-weight correction,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm,Known July issuance included; other CAPM assumptions unchanged

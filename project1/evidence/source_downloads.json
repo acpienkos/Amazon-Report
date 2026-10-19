@@ -1,0 +1,134 @@
+[
+  {
+    "id": "amazon_2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+    "retrieved_at_utc": "2026-10-19T19:05:26.153084+00:00",
+    "http_status": 200,
+    "path": "sources\\amazon_2025.html",
+    "sha256": "5be901fa6f86bce97c4ec243fafcceed1ffecd288ee6b22cd3794ec1b138159b",
+    "bytes": 1968824
+  },
+  {
+    "id": "amazon_2026q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+    "retrieved_at_utc": "2026-10-19T19:05:26.680426+00:00",
+    "http_status": 200,
+    "path": "sources\\amazon_2026q2.html",
+    "sha256": "9c20a3acd93c8791eb1240bdd76aa41f175bcd01d2c727b25cb8b08863dfe8ad",
+    "bytes": 1591904
+  },
+  {
+    "id": "amazon_release",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+    "retrieved_at_utc": "2026-10-19T19:05:26.999026+00:00",
+    "http_status": 200,
+    "path": "sources\\amazon_release.html",
+    "sha256": "a4cfc827faa3759fded3278e7e0974103c31e27d401abc419be7982166165546",
+    "bytes": 649064
+  },
+  {
+    "id": "microsoft_release",
+    "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "retrieved_at_utc": "2026-10-19T19:05:27.297127+00:00",
+    "http_status": 200,
+    "path": "sources\\microsoft_release.html",
+    "sha256": "8f094eb9dc7d8b2d776a81a13513497192e87f75f53326bd1fe3b862df9514ee",
+    "bytes": 809204
+  },
+  {
+    "id": "walmart_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000032/earningsreleasefy26q4.htm",
+    "retrieved_at_utc": "2026-10-19T19:05:27.595872+00:00",
+    "http_status": 200,
+    "path": "sources\\walmart_release.html",
+    "sha256": "54708bff460e34ef1c646e7c7a07723b824d51b95951174a93ef9629265b1ed3",
+    "bytes": 798801
+  },
+  {
+    "id": "walmart_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000033/wmt-20260131.htm",
+    "retrieved_at_utc": "2026-10-19T19:05:28.111966+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "retrieved_at_utc": "2026-10-19T19:05:28.312764+00:00",
+    "http_status": 200,
+    "path": "sources\\treasury.html",
+    "sha256": "3c5e891033bfa0cc427323a32ac2e2281ab88dabe2cab07e095ca54647b83691",
+    "bytes": 1282919
+  },
+  {
+    "id": "amazon_debt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926081334/tm2619352d3_fwp.htm",
+    "retrieved_at_utc": "2026-10-19T19:05:28.919665+00:00",
+    "http_status": 200,
+    "path": "sources\\amazon_debt.html",
+    "sha256": "059d265faba1c9c940b17d5bde2795de1fd0727a3e421d8d12d4369be1320564",
+    "bytes": 39325
+  },
+  {
+    "id": "amzn_price",
+    "url": "https://chartexchange.com/symbol/nasdaq-amzn/historical/",
+    "retrieved_at_utc": "2026-10-19T19:05:29.332673+00:00",
+    "http_status": 200,
+    "path": "sources\\amzn_price.html",
+    "sha256": "5b19c78aa0b4cf54312d1501f40e8f1cff4fb3653df14ed17f5b1942d7003fa8",
+    "bytes": 338601
+  },
+  {
+    "id": "msft_price",
+    "url": "https://chartexchange.com/symbol/nasdaq-msft/historical/",
+    "retrieved_at_utc": "2026-10-19T19:05:31.713443+00:00",
+    "http_status": 200,
+    "path": "sources\\msft_price.html",
+    "sha256": "22d366228548608af3d4b5ed79ae2dea933d93c7441bb1c8a3176956047ff3d8",
+    "bytes": 380397
+  },
+  {
+    "id": "wmt_price",
+    "url": "https://chartexchange.com/symbol/nasdaq-wmt/historical/",
+    "retrieved_at_utc": "2026-10-19T19:05:32.143495+00:00",
+    "http_status": 200,
+    "path": "sources\\wmt_price.html",
+    "sha256": "4031049614d8f5d2a77c0109f4fee3b54fa2e544e5cc522fe15f3d3e048a909e",
+    "bytes": 379845
+  },
+  {
+    "id": "course_readme",
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/README.md",
+    "retrieved_at_utc": "2026-10-19T19:05:32.525511+00:00",
+    "http_status": 200,
+    "path": "sources\\course_readme.html",
+    "sha256": "d2190790b825d76a49c864342b104f73c86616b220b1949fc9f66555f4efb5b3",
+    "bytes": 5251
+  },
+  {
+    "id": "course_boundary",
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/projects/AI-BOUNDARY-CARD.md",
+    "retrieved_at_utc": "2026-10-19T19:05:32.643502+00:00",
+    "http_status": 200,
+    "path": "sources\\course_boundary.html",
+    "sha256": "9189364be813204ac97e5d08a9f81d733c116c381f711a471e3b6454451ea7ed",
+    "bytes": 5238
+  },
+  {
+    "id": "walmart_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "retrieved_at_utc": "2026-10-19T19:06:44.813601+00:00",
+    "http_status": 200,
+    "path": "sources\\walmart_10k.html",
+    "sha256": "25c3fa9a17d6ed34e9281aa9cff85cedfb8e1fd3ced15cda9599b9b628242a67",
+    "bytes": 2324463
+  },
+  {
+    "id": "microsoft_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "retrieved_at_utc": "2026-10-19T19:06:45.444260+00:00",
+    "http_status": 200,
+    "path": "sources\\microsoft_10k.html",
+    "sha256": "50155582ee3056eb6452445e64c69069551b3d6c54b4150184b525aa23bf1dc0",
+    "bytes": 8585983
+  }
+]

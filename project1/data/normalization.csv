@@ -1,0 +1,12 @@
+item,reported,adjustment,normalized,unit,reason
+Reported net income,77670,0,77670,USDm,Reported annual net income; starting point of operating-income bridge.
+Remove equity-method loss after tax,-554,554,0,USDm,Nonoperating equity-method activity: NI +554 +19087 tax -17336 other net nonoperating income = EBIT79975.
+FY2025 EBIT,79975,2500,82475,USDm,Exclude only identified Q3 FTC settlement from recurring outlook; reported history and opening balances unchanged.
+Nonoperating income net,17336,-17336,0,USDm,"Operating valuation excludes other income, investment interest and financing interest; use normalized NOPAT, not GAAP NI."
+Operating tax proxy,not separately reported,22% of normalized EBIT,18144.5,USDm,Provision-as-cash judgment; not a claimed reported cash-tax number.
+Normalized NOPAT,not reported,77670 +554 +19087 -17336 +2500 -18144.5,64330.5,USDm,Reported NI to normalized economic NOPAT; does not restate reported retained earnings.
+Net cash capex,131819,-3499,128320,USDm,Gross purchases less proceeds/incentives; asset-addition and payable reconciliations separate.
+FY2025 net PP&E,357025,0,357025,USDm,Audited opening assets retained; no synthetic fair-value reset.
+FY2025 total assets,818042,0,818042,USDm,Reclassification does not alter total.
+FY2025 total equity,411065,0,411065,USDm,Reported opening equity retained. Economic NOPAT normalization is not booked as GAAP equity.
+Trade / capital AP,121909,split 94909 / 27000,121909,USDm,Capital AP separated from operating working capital; not new debt.

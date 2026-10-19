@@ -1,0 +1,185 @@
+{
+  "audited_at_utc": "2026-10-19T19:48:18.995793+00:00",
+  "source_checks": [
+    {
+      "item": "Cost of sales",
+      "value": 356414,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Fulfillment",
+      "value": 109074,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Technology and infrastructure",
+      "value": 108521,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Sales and marketing",
+      "value": 47129,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "General and administrative",
+      "value": 11172,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Other operating expense (income), net",
+      "value": 4639,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Operating income",
+      "value": 79975,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Interest income",
+      "value": 4381,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Interest expense",
+      "value": 2274,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Other income (expense), net",
+      "value": 15229,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Income before income taxes",
+      "value": 97311,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    },
+    {
+      "item": "Net income",
+      "value": 77670,
+      "matched": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "locator": "FY2025 consolidated annual statement row"
+    }
+  ],
+  "old_per_share": 40.74278633478349,
+  "old_wacc": 0.1173810818887901,
+  "new_core_per_share": 39.045021524942285,
+  "waterfall": [
+    {
+      "step": "Prior published incomplete core subtotal",
+      "per_share": 40.74278633478349
+    },
+    {
+      "step": "Remove named FY2025 FTC settlement from recurring forecast costs",
+      "per_share": 43.770991333957745
+    },
+    {
+      "step": "Apply terminal opening-asset D&A/rental policies",
+      "per_share": 40.49884611682203
+    },
+    {
+      "step": "Include reported July notes in market-value debt proxy/WACC",
+      "per_share": 40.99551496632238
+    },
+    {
+      "step": "Known July debt/cash and OpenAI payment in core bridge",
+      "per_share": 39.045021524942285
+    }
+  ],
+  "old_terminal": {
+    "year": 2031,
+    "revenue": 1292987.3873140228,
+    "ebit": 135714.64706886097,
+    "operating_cash_taxes": 29857.222355149413,
+    "nopat": 105857.42471371156,
+    "eligible_da": 138898.12673419295,
+    "capital_investment": 163115.60093531603,
+    "capital_payable_credit": 1052.0573566084788,
+    "change_operating_nwc": -2769.654124388964,
+    "operating_cash_investment": 625.0,
+    "net_reinvestment": 21020.76272012564,
+    "fcff": 84836.66199358592,
+    "invested_capital": 840830.5088050254,
+    "implied_return_on_capital": 0.1258962699440514,
+    "convention": "Constant normalized margin and net capital/sales ratios after 2030; steady-state transition is provisional and separately challenged."
+  },
+  "new_terminal": {
+    "year": 2031,
+    "revenue": 1292987.3873140228,
+    "ebit": 133397.6750266913,
+    "operating_cash_taxes": 29347.488505872083,
+    "nopat": 104050.1865208192,
+    "eligible_da": 145304.84520673845,
+    "operating_lease_expense": 17842.908272210625,
+    "capital_investment": 169522.31940786153,
+    "capital_payable_credit": 1052.0573566084788,
+    "change_operating_nwc": -2769.654124388964,
+    "operating_cash_investment": 625.0,
+    "net_reinvestment": 21020.76272012564,
+    "fcff": 83029.42380069356,
+    "invested_capital": 840830.5088050254,
+    "implied_return_on_capital": 0.12374692096828603,
+    "convention": "FY2031 EBIT rebuilt with forecast opening-asset D&A/rental policies; net capital ratios stabilize and subsequent operating cash flow grows at g. Investment normalization remains a judgment, not guidance."
+  },
+  "strategic": {
+    "components": {
+      "private_equity": 122300,
+      "anthropic_notes": 97900,
+      "equity_method": 395,
+      "warrants": 4300,
+      "subsequent_openai": 21300
+    },
+    "gross_assets": 246195,
+    "additional_cash_adjustment": 0,
+    "known_subsequent_payment_already_in_core": 21300,
+    "cases": [
+      {
+        "case": "No tax/liquidity haircut (gross carrying reference)",
+        "haircut": 0,
+        "equity_value": 672578.8784778593,
+        "per_share": 61.58970381604893
+      },
+      {
+        "case": "22% of pre-existing gross assets haircut (conservative diagnostic)",
+        "haircut": 49476.9,
+        "equity_value": 623101.9784778593,
+        "per_share": 57.05898226910909
+      }
+    ],
+    "status": "Carrying-value references only: net investment taxes, restrictions, correlated AWS exposure and exact-date changes not appraised. No comprehensive verified equity point value."
+  },
+  "old_funding": true,
+  "new_funding": false,
+  "new_funding_errors": [
+    "2028 cash_headroom: -11184.33 USDm",
+    "2029 cash_headroom: -3971.80 USDm"
+  ],
+  "recommendation": "do not initiate",
+  "annual_fcff_change": "Exactly after-tax named settlement normalization; no financing or nonoperating-purchase contamination",
+  "comprehensive_point_value_verified": false
+}

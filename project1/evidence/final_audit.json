@@ -1,0 +1,87 @@
+{
+  "audited_at_utc": "2026-10-19T19:48:52.546564+00:00",
+  "checks": [
+    {
+      "check": "Historical preservation",
+      "passed": true
+    },
+    {
+      "check": "Required technical/local draft files exist",
+      "passed": true
+    },
+    {
+      "check": "Latest automated tests passed",
+      "passed": true
+    },
+    {
+      "check": "All dashboard pages executed",
+      "passed": true
+    },
+    {
+      "check": "Fresh environment technical cold run",
+      "passed": true
+    },
+    {
+      "check": "Visible JSON matches financial JSON",
+      "passed": true
+    },
+    {
+      "check": "Memo agrees with base result",
+      "passed": true
+    },
+    {
+      "check": "Committee memo <=2 pages",
+      "passed": true
+    },
+    {
+      "check": "PDF source/content copies identical",
+      "passed": true
+    },
+    {
+      "check": "Official 12-row manifest retained",
+      "passed": true
+    },
+    {
+      "check": "Unrecorded transcripts clearly labeled",
+      "passed": true
+    },
+    {
+      "check": "Only dated market observations claimed",
+      "passed": true
+    },
+    {
+      "check": "Reviewed recommendation consistent",
+      "passed": true
+    },
+    {
+      "check": "Base funding failure disclosed",
+      "passed": true
+    },
+    {
+      "check": "Strategic references separately disclosed",
+      "passed": true
+    },
+    {
+      "check": "Student exercise not fabricated",
+      "passed": true
+    }
+  ],
+  "passed": 16,
+  "failed": 0,
+  "student_tasks": [
+    "Student AI-off Locked Changed-Input Record and actual execution",
+    "Personal source/definition verification and review of provisional financial judgments",
+    "Actual recordings, corrected transcripts, stable video links and evidence timestamps",
+    "Full Brightspace assignment/rubric/access requirements; precise separate early-AI recovery clarification",
+    "Human independently observed cold run if required",
+    "Final PDF review, permission for commit/push, grader access and personal submission"
+  ],
+  "material_financial_limitations": [
+    "Seasonal/actual-period stub reconciliation",
+    "Exact valuation-date balance and diluted-share bridge",
+    "Separate strategic-investment value and related taxes/commitments",
+    "Evidence for terminal capital-turnover transition"
+  ],
+  "submission_ready": false,
+  "conclusion": "Technical local draft built and tested; provisional financial results and essential student evidence prevent a claim of submission readiness."
+}

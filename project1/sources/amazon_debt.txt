@@ -1,0 +1,257 @@
+FWP
+1
+tm2619352d3_fwp.htm
+FWP
+bazadebezolkohpepadr="805457233"
+Final Term Sheet Dated July 7, 2026
+Issuer Free Writing Prospectus
+Filed Pursuant to Rule 433
+relating to the
+Preliminary Prospectus Supplement
+dated July 7, 2026 and
+Prospectus dated February 6, 2026
+Registration Statement No. 333-293246
+Amazon.com, Inc.
+Floating Rate Notes due 2029
+4.600% Notes due 2029
+4.800% Notes due 2031
+5.100% Notes due 2033
+5.300% Notes due 2036
+6.000% Notes due 2046
+6.100% Notes due 2056
+6.250% Notes due 2066
+Pricing Term Sheet
+Issuer:
+Amazon.com, Inc. (the “Issuer”)
+Security Type:
+SEC registered
+Ratings*:
+A1 by Moody’s Investor Service, Inc.
+AA by Standard & Poor’s Ratings Services
+AA- by Fitch Ratings Inc.
+Trade Date:
+July 7, 2026
+Settlement Date (T+2)**:
+July 9, 2026
+Joint Book-Running Managers:
+Barclays Capital Inc.
+Goldman Sachs & Co. LLC
+J.P. Morgan Securities LLC
+Morgan Stanley & Co. LLC
+BofA Securities, Inc.
+Citigroup Global Markets Inc.
+HSBC Securities (USA) Inc.
+Wells Fargo Securities, LLC
+Deutsche Bank Securities Inc.
+BNP Paribas Securities Corp.
+RBC Capital Markets, LLC
+Scotia Capital (USA) Inc.
+SG Americas Securities, LLC
+TD Securities (USA) LLC
+Co-Managers:
+Bank of China (Europe) S.A.***
+BBVA Securities Inc.
+NatWest Markets Securities Inc.
+Santander US Capital Markets LLC
+Standard Chartered Bank***
+U.S. Bancorp Investments, Inc.
+ING Financial Markets LLC
+Intesa Sanpaolo IMI Securities Corp.
+Mizuho Securities USA LLC
+PNC Capital Markets LLC
+SMBC Nikko Securities America, Inc.
+UniCredit Capital Markets LLC
+Academy Securities, Inc.
+Drexel Hamilton, LLC
+Loop Capital Markets LLC
+R. Seelaus & Co., LLC
+Samuel A. Ramirez & Company, Inc.
+Siebert Williams Shank & Co., LLC
+CastleOak Securities, L.P.
+Independence Point Securities LLC
+Floating Rate Notes
+Title:
+Floating Rate Notes due 2029 (the “Floating
+    Rate Notes”)
+Size:
+$750,000,000
+Maturity Date:
+July 9, 2029
+Coupon (Interest Rate):
+Compounded SOFR (as defined under “Description of the Notes—Information
+    About the SOFR and the SOFR Index” in the prospectus supplement to which this pricing term sheet relates), reset quarterly, on each
+    floating rate interest payment date plus 0.58% per annum.
+Interest Payment Dates:
+Quarterly in arrears on January 9, April 9, July 9, and October 9 of
+    each year, beginning on October 9, 2026
+Price to Public:
+100.000% of the principal amount, plus accrued
+    interest, if any
+Floating Rate Interest Determination Date:
+The date two U.S. Government Securities Business Days (as defined under
+    “Description of the Notes—Information About the SOFR and the SOFR Index” in the prospectus supplement to which this
+    pricing term sheet relates) preceding each floating rate interest payment date (or in the final floating rate interest period, preceding
+    the maturity date of the Floating Rate Notes)
+Floating Rate Interest Period:
+(i) The period from and including any floating rate interest payment
+    date (or, with respect to the initial floating rate interest period only, from and including July 9, 2026) to, but not including, the
+    next succeeding floating rate interest payment date, or (ii) in the case of the last such period, from and including the floating rate
+    interest payment date immediately preceding the maturity date of the Floating Rate Notes to, but not including, such maturity date
+Observation Period:
+In respect of each floating rate interest period, the period from and
+    including the date two U.S. Government Securities Business Days preceding the first date in such floating rate interest period to, but
+    not including, the date two U.S. Government Securities Business Days preceding the floating rate interest payment date for such floating
+    rate interest period (or in the final floating rate interest period, preceding the maturity date of the Floating Rate Notes)
+CUSIP / ISIN:
+023135EA0 / US023135EA04
+Calculation Agent:
+Computershare Trust Company, National Association
+Fixed Rate Notes
+Title:
+4.600% Notes due 2029 (the “2029 Notes”)
+4.800% Notes due 2031 (the “2031 Notes”)
+5.100% Notes due 2033 (the “2033 Notes”)
+5.300% Notes due 2036 (the “2036 Notes”)
+6.000% Notes due 2046 (the “2046 Notes”)
+6.100% Notes due 2056 (the “2056 Notes”)
+6.250% Notes due 2066 (the “2066 Notes”)
+Size:
+2029 Notes: $3,500,000,000
+2031 Notes: $4,250,000,000
+2033 Notes: $3,000,000,000
+2036 Notes: $4,500,000,000
+2046 Notes: $2,750,000,000
+2056 Notes: $4,000,000,000
+2066 Notes: $2,250,000,000
+Maturity Date:
+2029 Notes: July 9, 2029
+2031 Notes: July 9, 2031
+2033 Notes: July 9, 2033
+2036 Notes: July 9, 2036
+2046 Notes: July 9, 2046
+2056 Notes: July 9, 2056
+2066 Notes: July 9, 2066
+Coupon (Interest Rate):
+2029 Notes: 4.600% per annum, accruing from July
+    9, 2026
+2031 Notes: 4.800% per annum, accruing from July
+    9, 2026
+2033 Notes: 5.100% per annum, accruing from July
+    9, 2026
+2036 Notes: 5.300% per annum, accruing from July
+    9, 2026
+2046 Notes: 6.000% per annum, accruing from July
+    9, 2026
+2056 Notes: 6.100% per annum, accruing from July
+    9, 2026
+2066 Notes: 6.250% per annum, accruing from July
+    9, 2026
+Yield to Maturity:
+2029 Notes: 4.610%
+2031 Notes: 4.829%
+2033 Notes: 5.103%
+2036 Notes: 5.341%
+2046 Notes: 6.046%
+2056 Notes: 6.147%
+2066 Notes: 6.297%
+Spread to Benchmark Treasury:
+2029 Notes: T + 40 bps
+2031 Notes: T + 55 bps
+2033 Notes: T + 70 bps
+2036 Notes: T + 80 bps
+2046 Notes: T + 100 bps
+2056 Notes: T + 110 bps
+2066 Notes: T + 125 bps
+Benchmark Treasury:
+2029 Notes: 4.125% due June 15, 2029
+2031 Notes: 4.125% due June 30, 2031
+2033 Notes: 4.250% due June 30, 2033
+2036 Notes: 4.375% due May 15, 2036
+2046 Notes: 5.000% due May 15, 2046
+2056 Notes: 4.750% due February 15, 2056
+2066 Notes: 4.750% due February 15, 2056
+Benchmark Treasury Yield:
+2029 Notes: 4.210%
+2031 Notes: 4.279%
+2033 Notes: 4.403%
+2036 Notes: 4.541%
+2046 Notes: 5.046%
+2056 Notes: 5.047%
+2066 Notes: 5.047%
+Interest Payment Dates:
+Semi-annually in arrears on January 9 and July 9 of each year, beginning
+    on January 9, 2027
+Optional Redemption:
+Each series of fixed rate notes may be redeemed in whole at any time
+    or in part from time to time prior to the applicable Par Call Date (as set forth below), at the Issuer’s option, at a redemption
+    price (expressed as a percentage of principal amount and rounded to three decimal places) equal to the greater of:
+(1) (a) the sum of the present values of the remaining scheduled payments
+    of principal and interest thereon discounted to the redemption date (assuming such notes matured on the applicable Par Call Date) on a
+    semi-annual basis (assuming a 360-day year consisting of twelve 30-day months) at the Treasury Rate (as defined in the prospectus supplement
+    to which this pricing term sheet relates) plus 10 basis points in the case of the 2029 Notes, plus 10 basis points in the case of the
+    2031 Notes, plus 15 basis points in the case of the 2033 Notes, plus 15 basis points in the case of the 2036 Notes, plus 15 basis points
+    in the case of the 2046 Notes, plus 20 basis points in the case of the 2056 Notes, and plus 20 basis points in the case of the 2066 Notes
+    less (b) interest accrued and unpaid thereon to, but not including, the redemption date, and
+(2) 100% of the principal amount of the notes of the applicable
+series to be redeemed, plus, in either case, accrued and unpaid interest thereon to, but not including, the redemption date.
+On or after the applicable Par Call Date, the
+    Issuer may redeem each series of fixed rate notes, in whole or in part, at any time and from time to time, at a redemption price equal
+    to 100% of the principal amount of the notes being redeemed plus accrued and unpaid interest thereon to, but not including, the redemption
+    date.
+Par Call Date:
+2029 Notes: June 9, 2029 (one month prior to the
+    maturity date of the 2029 Notes)
+2031 Notes: June 9, 2031 (one month prior to the
+    maturity date of the 2031 Notes)
+2033 Notes: May 9, 2033 (two months prior to the
+    maturity date of the 2033 Notes)
+2036 Notes: April 9, 2036 (three months prior
+    to the maturity date of the 2036 Notes)
+2046 Notes: January 9, 2046 (six months prior
+    to the maturity date of the 2046 Notes)
+2056 Notes: January 9, 2056 (six months prior
+    to the maturity date of the 2056 Notes)
+2066 Notes: January 9, 2066 (six months prior
+    to the maturity date of the 2066 Notes)
+Price to Public:
+2029 Notes: 99.972% of the principal amount, plus
+    accrued interest, if any
+2031 Notes: 99.873% of the principal amount, plus
+    accrued interest, if any
+2033 Notes: 99.983% of the principal amount, plus
+    accrued interest, if any
+2036 Notes: 99.686% of the principal amount, plus
+    accrued interest, if any
+2046 Notes: 99.470% of the principal amount, plus
+    accrued interest, if any
+2056 Notes: 99.360% of the principal amount, plus
+    accrued interest, if any
+2066 Notes: 99.316% of the principal amount, plus
+    accrued interest, if any
+CUSIP / ISIN:
+2029 Notes: 023135EB8 / US023135EB86
+2031 Notes: 023135EC6 / US023135EC69
+2033 Notes: 023135ED4 / US023135ED43
+2036 Notes: 023135EE2 / US023135EE26
+2046 Notes: 023135EF9 / US023135EF90
+2056 Notes: 023135EG7 / US023135EG73
+2066 Notes: 023135EH5 / US023135EH56
+* A securities rating is not a recommendation
+to buy, sell or hold securities and may be subject to revision or withdrawal by the assigning rating organization at any time. Each rating
+should be evaluated independently of any other rating.
+** Under Rule 15c6-1 under the Securities
+Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in one business day, unless the parties
+to any such trade expressly agree otherwise. Accordingly, purchasers who wish to trade notes on any day prior to the business date before
+delivery will be required, by virtue of the fact that the notes initially will settle T+2, to specify an alternate settlement cycle at
+the time of any such trade to prevent a failed settlement and should consult their own advisors.
+*** Standard Chartered Bank and Bank of China
+(Europe) S.A. will not effect any offers or sales of any notes in the United States unless it is through one or more U.S. registered broker-dealers
+as permitted by the regulations of FINRA.
+The Issuer has filed a registration statement
+(including a prospectus) and a preliminary prospectus supplement with the SEC for the offering to which this communication relates. Before
+you invest, you should read the prospectus in that registration statement, the related preliminary prospectus supplement, and other documents
+the Issuer has filed with the SEC for more complete information about the Issuer and this offering. You may get these documents for free
+by visiting the SEC website at www.sec.gov. Alternatively, the Issuer, any underwriter, or any dealer participating in the offering will
+arrange to send you the prospectus and related preliminary prospectus supplement if you request them by contacting Barclays Capital Inc.
+toll-free at 1-888-603-5847; Goldman Sachs & Co. LLC toll-free at 1-866-471-2526; J.P. Morgan Securities LLC collect at 1-212-834-4533;
+or Morgan Stanley & Co. LLC toll-free at 1-800-718-1649.

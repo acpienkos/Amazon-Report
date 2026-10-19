@@ -1,0 +1,13 @@
+item,required,location_or_url,title,duration_or_as_of,timestamp_index,access_checked,frozen_or_commit_id,notes,status
+Research-Evolution.pdf,yes,Research-Evolution.pdf,,2026-09-10,,Local file only,Local uncommitted build; not uploaded,Reviewed local draft; requires student review; no upload/receipt claimed.,LOCAL DRAFT / STUDENT REVIEW REQUIRED
+Repository,yes,https://github.com/acpienkos/Amazon-Report,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,Local additions are not on GitHub. No submission receipt claimed.,LOCAL DRAFT / STUDENT REVIEW REQUIRED
+Visible executed output,yes,../outputs/valuation-report.md,,2026-09-10,,Local file only,Local uncommitted build; not uploaded,Local additions are not on GitHub. No submission receipt claimed.,LOCAL DRAFT / STUDENT REVIEW REQUIRED
+Decision memo or deck,yes,Decision-Memo.pdf,,2026-09-10,,Local file only,Local uncommitted build; not uploaded,Reviewed local draft; requires student review; no upload/receipt claimed.,LOCAL DRAFT / STUDENT REVIEW REQUIRED
+Validation-and-AI-Use.pdf,yes,Validation-and-AI-Use.pdf,,2026-09-10,,Local file only,Local uncommitted build; not uploaded,Automated evidence included; student AI-off record and source verification pending.,LOCAL DRAFT / STUDENT REVIEW REQUIRED
+Video 1,yes,,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Await actual recording, stable URL, title, duration, timestamps and access check.",AWAITING STUDENT ACTION
+Transcript Video 1,yes,../docs/transcript-video-1.txt,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Template only, not completed transcript.",AWAITING STUDENT ACTION
+Video 2,yes,,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Await actual recording, stable URL, title, duration, timestamps and access check.",AWAITING STUDENT ACTION
+Transcript Video 2,yes,../docs/transcript-video-2.txt,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Template only, not completed transcript.",AWAITING STUDENT ACTION
+Video 3,yes,,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Await actual recording, stable URL, title, duration, timestamps and access check.",AWAITING STUDENT ACTION
+Transcript Video 3,yes,../docs/transcript-video-3.txt,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,"Template only, not completed transcript.",AWAITING STUDENT ACTION
+Optional deployed output,no,,,2026-09-10,,Not verified for final package,Local uncommitted build; not uploaded,No deployment authorized.,NOT REQUIRED / NOT DEPLOYED

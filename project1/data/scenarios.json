@@ -1,0 +1,32 @@
+{
+  "base": {
+    "reason": "Preserved Lab10 consolidated growth/margin/capex paths; provisional analyst judgments."
+  },
+  "low": {
+    "margin_pp": -0.01,
+    "capex_scale": 1.1,
+    "aws_growth_pp": -0.1,
+    "reason": "Combined adverse legacy margin/capex endpoints plus slower AWS; illustrative joint stress, not a probability forecast."
+  },
+  "high": {
+    "margin_pp": 0.01,
+    "capex_scale": 0.9,
+    "reason": "Legacy favorable margin/capex endpoints; fixed growth under lower investment is an unproven joint assumption."
+  },
+  "aws_slowdown": {
+    "aws_growth_pp": -0.1,
+    "reason": "Illustrative 10 percentage-point annual AWS growth reduction; other business revenue paths fixed, capex unchanged. Severity is judgment."
+  },
+  "infrastructure_stress": {
+    "capex_scale": 1.1,
+    "reason": "Legacy +10% FY2027-2030 capex test; FY2026 $220bn unchanged."
+  },
+  "margin_downside": {
+    "margin_pp": -0.01,
+    "reason": "Legacy one-percentage-point gross-margin reduction across forecast."
+  },
+  "funding_stress": {
+    "no_2027_issuance": true,
+    "reason": "Remove assumed $25bn FY2027 new term funding; do not add replacement funding."
+  }
+}

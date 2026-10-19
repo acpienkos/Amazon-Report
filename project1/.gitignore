@@ -1,0 +1,8 @@
+.runtime/
+.cold-runtime/
+.review-runtime/
+.venv/
+__pycache__/
+*.pyc
+tmp/
+.streamlit/secrets.toml

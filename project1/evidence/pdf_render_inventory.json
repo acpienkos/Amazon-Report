@@ -1,0 +1,50 @@
+[
+  {
+    "file": "decision-memo",
+    "page": 1,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\decision-memo-1.png",
+    "text_length": 1832
+  },
+  {
+    "file": "decision-memo",
+    "page": 2,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\decision-memo-2.png",
+    "text_length": 2107
+  },
+  {
+    "file": "research-evolution",
+    "page": 1,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\research-evolution-1.png",
+    "text_length": 2957
+  },
+  {
+    "file": "research-evolution",
+    "page": 2,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\research-evolution-2.png",
+    "text_length": 1829
+  },
+  {
+    "file": "research-evolution",
+    "page": 3,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\research-evolution-3.png",
+    "text_length": 2170
+  },
+  {
+    "file": "research-evolution",
+    "page": 4,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\research-evolution-4.png",
+    "text_length": 1059
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 1,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-1.png",
+    "text_length": 3055
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 2,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-2.png",
+    "text_length": 1991
+  }
+]

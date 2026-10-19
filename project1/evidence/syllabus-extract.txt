@@ -1,0 +1,555 @@
+C ON TE N TS
+FIN 43900 — AI Finance Applications · Fall 2026 Syllabus
+Course Information
+Instructor(s) Contact Information
+Course Description
+Course Learning Outcomes
+Course Learning Outcomes (continued)
+Teaching Philosophy
+How to Succeed in this Course
+Learning Resources, Technology & Texts
+Assignments
+Grading Scale
+Attendance Policy
+Course Schedule
+Academic Integrity
+AI Policy
+Nondiscrimination Statement
+Notes for entry
+
+FIN 43900 — AI Finance Applications, Fall 2026
+2 of 17
+FIN 43900 — AI Finance Applications ·
+Fall 2026 Syllabus
+Generated copy for offline reading. The course syllabus of record is on Brightspace
+(Syllabus tab). If this PDF and Brightspace disagree, Brightspace wins.
+Course Information
+(Meeting times/rooms auto-populate for the CRN being edited. Because the two
+sections are taught as one course, add the block below so students in either section see
+both.)
+FIN 43900 — AI Finance Applications is taught as one combined course across two
+sections. Both sections follow the same syllabus, schedule, assignments, rubrics, and
+deadlines.
+Section
+CRN
+Meets
+Room
+001
+12506
+Tuesday & Thursday, 1:30–2:45 pm
+Lilly Hall G-420
+002
+12507
+Tuesday & Thursday, 4:30–5:45 pm
+Rawls Hall 2070
+Term: August 25 – December 10, 2026. Credits: 3.
+Instructor(s) Contact Information
+(Instructor name and email auto-populate and are editable. Add the rest.)
+Dr. Xinde “Cinder” Zhang — Instructor Office: Krannert Building, Room 432 Email:
+zhan6028@purdue.edu Office hours: By appointment
+Beckett Thomas — Teaching Assistant Email: thom1214@purdue.edu Office hours: By
+appointment
+
+FIN 43900 — AI Finance Applications, Fall 2026
+3 of 17
+Edward Ter-Hovhannisyan — Teaching Assistant Email: eterhovh@purdue.edu Office
+hours: By appointment
+How to reach us. Include “FIN 43900” in the subject line and copy both teaching
+assistants on every email — messages sent without them may not receive a timely
+reply. Expect a response within 48 hours, Monday through Friday. Questions about
+course content belong in the Brightspace Q&A discussion forum, where the whole class
+benefits from the answer; email is for personal matters. To meet, request an
+appointment by email.
+Course Description
+Auto-populated from Purdue’s systems and NOT editable by the instructor
+(verified in the live tool 2026-08-12). Recorded here so the official text is known; do not
+attempt to change it.
+Credit Hours: 3.00. Applied problem-solving course developing AI-augmented
+finance competency. Students tackle real corporate finance and investment
+challenges using current market data and AI tools. The DRIVER framework provides
+systematic methodology for AI collaboration while maintaining financial judgment.
+Three major projects build portfolio-ready applications across finance domains.
+Prerequisites: Undergraduate level MGMT 31000, minimum grade C−; and
+undergraduate level MGMT 41100, minimum grade D−.
+Course Learning Outcomes
+Auto-populated and NOT editable. The official catalog list has SIX outcomes
+(verified in the live tool 2026-08-12), not the eight in the Spring 2026 syllabus:
+
+FIN 43900 — AI Finance Applications, Fall 2026
+4 of 17
+By the end of the course, you will be able to:
+1. Apply the DRIVER framework systematically to solve complex finance problems
+with AI collaboration.
+2. Orchestrate AI tools effectively for financial data analysis, modeling, forecasting,
+and decision support.
+3. Validate AI-generated outputs using financial domain knowledge, business
+judgment, and sanity testing.
+4. Build practical financial applications that solve classes of problems using current
+market data.
+5. Integrate corporate finance and investment concepts in comprehensive
+analytical solutions.
+6. Communicate solutions professionally through structured video presentations
+and documentation.
+⚠️ Spring 2026 outcomes 7 and 8 are NOT in the catalog — “Exercise professional
+judgment…” and “Analyze real-time financial data…”. They exist only in the instructor’s
+own syllabus. They are not lost: the tool’s help text states that further explanation of
+these outcomes may be added to the optional block below, which is exactly where they
+belong.
+Course Learning Outcomes (continued)
+In addition to the University outcomes above, this course develops two further
+capabilities:
+7. Exercise professional judgment in determining appropriate AI use, maintaining
+human centrality in financial decisions.
+8. Analyze real-time financial data to make evidence-based recommendations on
+current business situations.
+
+FIN 43900 — AI Finance Applications, Fall 2026
+5 of 17
+Teaching Philosophy
+AI makes answers cheap; it does not make understanding, judgment, or growth
+automatic. The scarce work shifts to choosing questions worth answering, deciding
+what to trust and do, and developing the capacity to own the consequences. My role is
+not to hand you finished answers or complete code. I design problems, tools, and
+feedback loops that let you build, test, fail, explain, and improve. That is why this course
+emphasizes the D stage of DRIVER: discover and define the right problem before AI
+accelerates the wrong one. We build to learn—not learn merely to build. The goal is not
+to outperform AI. It is to use AI as a studio for developing your own understanding,
+judgment, and capacity to act.
+Growth and wisdom matter deeply, but I do not grade them as personality traits or ask
+you to perform transformation. I grade visible acts of judgment: asking better questions,
+surfacing assumptions, calibrating confidence to evidence, testing independently,
+revising after failure, naming limitations, and transferring what you learned to a new
+problem. You are not penalized for where you begin or rewarded for merely claiming
+growth.
+How to Succeed in this Course
+Start with D: discover and define. Before you build, write down the problem, who it is for,
+what you know, what you need to learn, the real constraints, and what success looks
+like. A polished solution to the wrong problem is still failure.
+Use the best available AI models and harnesses—but do not confuse capability with
+reliability. Working at the frontier reveals both AI’s capacity and its shortcomings. Treat
+every output as an experiment: prompt, run, inspect, challenge, revise, and document.
+Test it against known answers, reasonable ranges, edge cases, and a second
+independent model. Practice through many small cycles; failure is data. Never submit
+work you cannot explain. Success is turning an AI-produced result into your own
+defensible financial judgment.
+Build locally from the beginning. Use AI to help you plan, write, debug, and test code,
+but you must be able to run that code on your own computer, inspect errors, install
+dependencies, manage a multi-file project, and turn analysis into a working web
+
+FIN 43900 — AI Finance Applications, Fall 2026
+6 of 17
+application. Use GitHub as the durable home for your code and development history,
+not as a last-minute upload site. Google Colab is an alternative for notebook-based
+work; it is not a substitute for the required local environment or for testing a web
+application locally.
+Learning Resources, Technology & Texts
+REQUIRED: OpenAI ChatGPT Plus subscription — must include Codex access
+REQUIRED: Google AI Pro subscription — must include Gemini Pro models
+No textbook purchase required — all readings and materials provided on Brightspace
+Both AI platforms are required for the full semester. This course is built around working
+across two independent AI systems: you will use each to cross-examine the other,
+which is central to the validation skill this course teaches and to how your projects are
+assessed.
+Subscribe to the correct tier. Free accounts on either platform will not carry you through
+this course. Before the first lab, sign in to each platform and confirm you can reach
+Codex on OpenAI and Gemini Pro models on Google. If you cannot, you are on the
+wrong tier; fix it before the first assignment is due, not after. Subscription tier names
+change periodically; what matters is access to the two capabilities named above. You
+may use additional AI tools at your own discretion — only these two are required, and
+all AI use must be disclosed in your submissions.
+Reference materials, DRIVER framework guides, templates, problem statements, and
+data sources are provided through Brightspace. Optional reference texts are available in
+the DRIVER series at cinderzhang.github.io.
+Computing and coding environment: Bring a personal laptop and charger to the first
+class; create or recover the accounts named in Start Here, but do not guess at package
+versions or buy an unlisted tool. Week 1 supplies the tested Python, package-manager,
+editor/harness, Git, browser, and GitHub setup path and records an actual readiness
+result before later project work depends on it. Students with a blocker preserve the
+exact symptom and use the published Colab/offline route while the instructional team
+assigns an owner and next action; a setup failure is not represented as success. The
+
+FIN 43900 — AI Finance Applications, Fall 2026
+7 of 17
+eventual project environment must run Python scripts, isolated packages, multi-file
+work, Git/GitHub, and a local web application. Google Colab is an acceptable
+notebook/troubleshooting route but does not by itself verify that later local-web-app
+requirement. The required-technology access/equity route remains a release gate and
+must be published before students are held responsible for equipment or connectivity
+beyond the announced baseline. It must close before Start Here becomes learner-
+visible and no later than Thursday, August 20 at 11:59 p.m. ET. If it does not, a non-
+possession posture activates automatically on August 21: dual-platform work uses
+accessible full-chain output packets and at least one student-authored follow-up probe
+executed through a free or course-run session, while local work uses the
+loaner/Colab/offline route. One grading standard applies; no criterion may require
+evidence available only from an individually purchased tier, and no student is graded on
+possession of a paid tier or capable personal device. The Start Here object AI Access
+— No Purchase Required and No-Cost Comparison Route supplies the executable
+route and Week 1 dual-system packet.
+Video recording: Screen recording with webcam and clear audio, at 720p or better.
+Kaltura Capture is available at no cost through Purdue; Zoom recording or other tools
+are acceptable.
+Data sources — all free: SEC EDGAR company filings and API, market data APIs, and
+economic indicators from FRED, the Bureau of Labor Statistics, and the Census
+Bureau. Course-specific datasets are provided when needed.
+Assignments
+Total: 1,400 points. Both sections follow identical assignments and deadlines.
+
+FIN 43900 — AI Finance Applications, Fall 2026
+8 of 17
+Component
+Points
+Due
+In-class labs (best 8 Tuesday + best 8
+Thursday, at 25 points each)
+400
+In class, Aug 25–Nov 17,
+excluding studio weeks
+Project 1 — Corporate Finance Application
+300
+Monday, October 19
+Project 2 — Investment Management
+Application
+300
+Monday, November 23
+Capstone — Integrated Financial Analysis
+System
+400
+Thursday, December 10
+All project deadlines are 11:59 PM Eastern. This syllabus governs course points,
+grading, and policies. Brightspace assignment pages govern detailed specifications,
+required files, and submission procedures; announced changes will follow the syllabus-
+change policy.
+In-class labs. Twenty live labs are offered at 25 points each: 10 Tuesday completion
+labs and 10 Thursday merit-based labs. Your best eight Tuesday scores and best eight
+Thursday scores count, for 400 points total. This split ensures that neither attendance
+alone nor merit alone can replace the other. Project studio weeks (7 and 12) are open
+Q&A and consultation sessions and have no lab checkout.
+The two drops in each category are an absence and recovery buffer, not replacement
+learning. Later sessions deliberately re-probe earlier capabilities on changed inputs;
+skipping one may remove that practice opportunity even when the score is ultimately
+dropped.
+Each learner submits only for themself through the dated individual Brightspace lab
+checkout quiz before leaving class. The checkout records the Lab Date ( mm/dd/yyyy ),
+teammates/learning partners, financial problem or decision, personal contribution,
+changed-input test, data and evidence, validation, and—only when the session
+produces a durable artifact—an optional repository or output link. Teammate names
+help reconstruct collaboration but never grant or deny attendance credit for another
+student. Tuesday labs earn 25 points when the authenticated Brightspace attempt is on
+time, contains the required work record, and includes the in-person attendance
+declaration and truth attestation; otherwise they earn 0. Thursday labs earn 0–25 points
+across problem and decision definition, data and evidence integrity, validation and
+
+FIN 43900 — AI Finance Applications, Fall 2026
+9 of 17
+robustness, financial judgment, and explanation and transfer. Reflection, confidence,
+effort, personality, and claimed growth or wisdom are not graded. The submitted
+Brightspace attempt and receipt are the authoritative checkout record. Lab checkouts
+are never accepted late, and no make-up lab or substitute assignment will be offered
+except when an equal-credit alternative is required by University policy or an approved
+accommodation.
+Dropping a cold-run or readiness checkout from the counted lab grade does not waive
+the same evidence in a major project. An ungraded readiness-feedback path remains
+available before each project deadline; it earns no lab points and does not recreate or
+replace a missed checkout.
+Projects. Each project delivers a locally runnable financial web application or
+application component plus a professional evidence package. The same submission
+architecture applies to every student on Project 1, Project 2, and the Capstone: a
+timestamped Edition A baseline checkpoint declared before permitted project-specific AI
+work; an after-AI Edition B research-evolution brief; an accessible GitHub repository; a
+validation and AI-use record; an investment-committee memo or decision deck; and
+three short videos covering research evolution, technical ownership, and investment
+judgment. Detailed specifications, filenames, video limits, and submission procedures
+are published on the Brightspace assignment page.
+The submitted files and setup instructions must allow the work to be run and tested on a
+local computer. The repository contains the runnable source, dependency file, README
+setup instructions, meaningful development history, and visible executed output. Never
+commit passwords, API keys, tokens, credentials, or private data; use environment
+variables and an appropriate .gitignore . DRIVER is taught as a problem-solving
+scaffold, but students are not graded on adherence to the framework itself. Project 1 is
+scaffolded; Project 2 expects greater independence; the Capstone expects
+professional-level integration across corporate finance and investment management.
+Every project is assessed on the same six criteria:
+
+FIN 43900 — AI Finance Applications, Fall 2026
+10 of 17
+Criterion
+Weight
+Problem definition and decision usefulness
+15%
+Data integrity and traceability
+15%
+Financial soundness and judgment
+20%
+Technical execution and usability
+15%
+Validation, sensitivity, and reproducibility
+25%
+Professional communication
+10%
+The published major-project analytic rubric supplies the authoritative performance
+levels, descriptors, 300/400-point mappings, calibration procedure, no-double-deduction
+examples, and visible-output cap examples. Assignment pages use copies of that one
+source.
+What the criteria mean. Data integrity includes the correct company or security,
+reporting period and as-of date, source, units, currency, definitions, transformations,
+missing-data treatment, and reconciliation to authoritative data. Financial soundness
+includes correct finance principles, internally consistent assumptions, accounting and
+cash-flow treatment, time value of money, defensible discount rates, and economically
+plausible constraints. For example, a perpetual growth rate must not exceed a
+defensible long-run nominal growth rate for the relevant economy; no company can
+outgrow the economy forever. Validation includes independent checks, known-answer
+comparisons, sensitivity and stress testing, edge cases, and reproducibility. Technical
+execution covers whether the application runs reliably and is usable. A polished
+application cannot compensate for materially inaccurate data or financially impossible
+assumptions. These criteria grade evidence in the work, not personality, confidence, or
+claimed transformation.
+Every project submission requires: the unchanged timestamped Edition A baseline;
+the Edition B research-evolution brief ending with what changed and why; a
+reproducible GitHub repository and visible executed output; a validation and named AI-
+use record; a concise investment-committee memo or decision deck; and three
+separately titled videos with transcripts: (1) research before and after project-specific AI,
+with course/own/peer/AI change attribution, (2) a detailed codebase and validation
+
+FIN 43900 — AI Finance Applications, Fall 2026
+11 of 17
+walkthrough, and (3) a formal buy-side investment-committee presentation. The
+Brightspace assignment page specifies the duration cap and exact manifest. These
+artifacts provide evidence for the rubric criteria; their conformity to DRIVER is not
+graded separately. Work submitted without visible executed output receives at most
+50% credit — the result is the deliverable, not the code alone.
+Late project submissions. The first late project submission in the course may be
+accepted for up to four calendar days, with 20% of the earned score deducted for each
+day or fraction of a day late. At five days late, it earns zero. Any second late project
+submission automatically earns zero. Technical problems do not stop the late clock;
+submit early and verify the Brightspace receipt. University-approved absences and DRC
+accommodations are handled as required by University policy.
+Grading Scale
+Grade
+Approximate reference range
+Grade
+Approximate reference range
+A
+93–100%
+C
+73–76%
+A−
+90–92%
+C−
+70–72%
+B+
+87–89%
+D+
+67–69%
+B
+83–86%
+D
+63–66%
+B−
+80–82%
+D−
+60–62%
+C+
+77–79%
+F
+Below 60%
+The percentage ranges above are planning estimates, not guaranteed or fixed cutoffs.
+Under Daniels School of Business undergraduate grading guidance, this course targets
+a mean GPA of approximately 3.0, with a target distribution of 20–25% A/A−, 60–70%
+B+/B/B−, and 10–20% C+ and below. Final letter grades depend on relative
+performance and may be adjusted upward or downward based on class performance
+and the DSB grading guide. A numerical total or rounding convention alone does not
+guarantee a particular letter grade.
+
+FIN 43900 — AI Finance Applications, Fall 2026
+12 of 17
+Regrade requests must be submitted in writing within seven days of a grade being
+released and must identify the specific rubric criterion in dispute.
+Attendance Policy
+Attendance is not graded separately. Twenty class meetings between August 25 and
+November 17 include an individual lab checkout: 10 Tuesday completion labs and 10
+Thursday merit-based labs. Your best eight Tuesday scores and best eight Thursday
+scores count. The other ten meetings — the Project 1 and Project 2 studio weeks (Oct
+6, Oct 8, Nov 10, Nov 12) and the six meetings after November 17 — are Q&A, studio,
+and consultation sessions with no lab checkout and no lab points.
+Each learner must submit only for themself before leaving the session through the dated
+Brightspace checkout, record the Lab Date ( mm/dd/yyyy ), declare their in-person
+attendance, and truthfully record their own participation, teammates/learning partners,
+contribution, tests, and evidence. A repository/output link is optional and appears only
+when the session produces a durable artifact. Being named on another student’s
+checkout has no effect on your grade. A mismatch between records is a review flag, not
+an automatic attendance decision or misconduct finding. Because each lab depends on
+live work with classmates, there are no late lab submissions or ordinary make-up labs.
+The two-drop buffers in each category provide general flexibility for missed or weaker
+lab sessions; they are not represented as a substitute for an approved accommodation.
+University-approved absences and Disability Resource Center accommodations will be
+handled as required by University policy, but not by recreating a past interactive lab. If
+an approved accommodation or official absence requires a different response, contact
+me promptly so I can coordinate the documented course-level response with the Office
+of the Dean of Students or the Disability Resource Center. That plan may change how
+the affected checkout is counted or provide an approved equal-credit alternative. Do not
+send medical documentation to the instructional team.
+Be realistic about fit. This course is built on live, in-class work, and beyond the built-in
+buffers there are no make-ups; sustained absence is very difficult to recover from. If
+your semester schedule will not allow regular Tuesday/Thursday attendance, take that
+seriously while the registrar’s drop/add period is open — a course whose grade lives in
+the classroom may not be the right choice this term, and deciding early protects your
+
+FIN 43900 — AI Finance Applications, Fall 2026
+13 of 17
+GPA and your tuition. If your absences stem from circumstances the University
+recognizes — illness, an approved accommodation, an official absence — use the
+routes above with the Office of the Dean of Students or the Disability Resource Center
+early, and they will be handled as University policy requires.
+Course Schedule
+(Generated from MASTER-SCHEDULE.md. All sessions meet Tuesday and Thursday.
+No class Tuesday, October 13 (Fall Break) or Thursday, November 26 (Thanksgiving
+Break). Every class meeting is an interactive working session; this schedule lists topics
+and major deadlines only.)
+
+FIN 43900 — AI Finance Applications, Fall 2026
+14 of 17
+Weeks
+Dates
+Topic
+Major
+milestone
+1
+Aug 25, Aug 27
+Technology readiness, DRIVER, and
+company screening
+—
+2–4
+Sep 1, Sep 3,
+Sep 8, Sep 10,
+Sep 15, Sep 17
+Valuation and deal analysis
+—
+5–6
+Sep 22, Sep 24,
+Sep 29, Oct 1
+Credit risk assessment and transaction
+screening
+—
+7
+Oct 6, Oct 8
+Project 1 studio — open Q&A/consultation
+(no lab checkout)
+—
+8
+Oct 15 (Fall
+Break Oct 12–
+13)
+Portfolio construction opens
+Project 1 due
+Mon Oct 19
+9
+Oct 20, Oct 22
+Portfolio construction and optimization
+—
+10–11
+Oct 27, Oct 29,
+Nov 3, Nov 5
+Alternative data and market analysis
+—
+12
+Nov 10, Nov 12
+Project 2 studio — open Q&A/consultation
+(no lab checkout)
+—
+13
+Nov 17, Nov 19
+Applied decision-system studio — student-
+selected track (final lab checkout Tue Nov
+17; no checkout Nov 19)
+Project 2 due
+Mon Nov 23
+14
+Nov 24
+Applied decision-system studio continues
+(no lab checkout)
+No class Thu
+Nov 26
+15
+Dec 1, Dec 3
+Integrated capstone development (no lab
+checkouts)
+—
+16
+Dec 8, Dec 10
+Capstone consultation studios (no lab
+checkouts)
+Capstone due
+Thu Dec 10
+
+FIN 43900 — AI Finance Applications, Fall 2026
+15 of 17
+Twenty meetings through November 17 include a graded lab checkout. Ten meetings
+run none: the project studio weeks (Oct 6, Oct 8, Nov 10, Nov 12) and the six meetings
+after November 17 (Nov 19, Nov 24, Dec 1, Dec 3, Dec 8, Dec 10). Tuesday labs are
+primarily completion based; Thursday labs are primarily merit based. Tuesday points
+measure the authenticated required work record, not physical presence by itself. The
+final six class meetings are project and capstone sessions. Deadlines are published
+here and in the Brightspace calendar and will not move earlier.
+Academic Integrity
+Purdue prohibits dishonesty in connection with any University activity. Cheating,
+plagiarism, and knowingly furnishing false information to the University are examples of
+dishonesty (Part 5, Section III-B-2-a, University Regulations).
+Specific to this course:
+You are responsible for every submitted claim, assumption, output, and material code
+path, regardless of whether AI produced it. Instructors may request a live demonstration
+or oral explanation to assess authorship and understanding. Inability to explain the work
+affects the relevant grading criteria and may prompt an academic-integrity review, but it
+is not by itself an automatic misconduct finding; any misconduct determination follows
+Purdue procedures.
+Undisclosed AI use is an academic integrity violation. Disclosed AI use that contains
+unedited AI text or factual errors is a quality problem and is graded down, not referred
+— the difference is disclosure.
+Collaboration is encouraged during in-class labs. Individual project submissions must be
+your own work; sharing project deliverables between students is not permitted.
+Knowingly submitting a lab checkout for a session you did not attend, submitting on
+another student’s behalf, or falsifying teammates/learning partners, contribution, the in-
+person attendance declaration, or evidence is also prohibited. A discrepancy is reviewed
+rather than treated as automatic proof of misconduct.
+
+FIN 43900 — AI Finance Applications, Fall 2026
+16 of 17
+AI Policy
+AI use is required in this course, not merely permitted. Learning to direct AI toward
+correct, verifiable financial analysis is the central skill being taught and assessed.
+The same requirements apply to every student on every assignment:
+Disclose. Every submission states which AI access path you used and for what. Record
+only model identifiers the interface actually exposed. If you used a published packet or a
+course-run response, name that path and do not claim its collection tools as your own
+use. A vague or unnamed access path does not satisfy the disclosure element.
+Document. Every project includes an AI-use and validation record — key prompts, what
+the AI produced, and how you verified it — plus a reflection on what AI did well, where it
+struggled, and what you checked independently.
+Validate. Every AI-produced result is a hypothesis until you test it. Check it against a
+known answer, check it for reasonableness, check the edge cases, and check for the
+failure modes specific to AI, such as fabricated sources and confidently wrong figures.
+This course requires comparison of two independent system outputs—through packets,
+available free interfaces, a funded Purdue route if announced, or course-run responses
+—partly so you can cross-examine one with the other.
+Own it. You are responsible for everything you submit. AI is a collaborator, not an
+author, and human judgment stays central to every financial decision you present.
+Nondiscrimination Statement
+(Use Purdue’s standard statement as provided in the template. Do not paraphrase.)
+Purdue University is committed to maintaining a community which recognizes and
+values the inherent worth and dignity of every person; fosters tolerance, sensitivity,
+understanding, and mutual respect among its members; and encourages each
+individual to strive to reach his or her own potential. Purdue University prohibits
+discrimination against any member of the University community on the basis of race,
+
+FIN 43900 — AI Finance Applications, Fall 2026
+17 of 17
+religion, color, sex, age, national origin or ancestry, genetic information, marital status,
+parental status, sexual orientation, gender identity and expression, disability, or status
+as a veteran.
+Notes for entry
+Word, which is a common source of accessibility-checker failures.
+Keep tables simple with a header row. Do not nest tables.
+Make link text descriptive — never “click here.”
+Watch the live accessibility checker as you go and clear every flag before
+submitting.
+Two items still marked TBD: office hours, and teaching assistants. Both must be
+filled before submission.

@@ -1,0 +1,35 @@
+{
+  "command": "python -B project1/test_app.py",
+  "pages": [
+    {
+      "page": "Decision",
+      "status": "PASS"
+    },
+    {
+      "page": "Financial statements",
+      "status": "PASS"
+    },
+    {
+      "page": "FCFF & capital",
+      "status": "PASS"
+    },
+    {
+      "page": "Scenarios & funding",
+      "status": "PASS"
+    },
+    {
+      "page": "Sensitivity & reverse DCF",
+      "status": "PASS"
+    },
+    {
+      "page": "Comparable companies",
+      "status": "PASS"
+    },
+    {
+      "page": "Sources & validation",
+      "status": "PASS"
+    }
+  ],
+  "passed": 7,
+  "failed": 0
+}

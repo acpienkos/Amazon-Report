@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-09-10",
+  "price": 251.89,
+  "wacc": {
+    "risk_free": 0.0495,
+    "beta": 1.44,
+    "equity_risk_premium": 0.05,
+    "debt_cost": 0.05341,
+    "marginal_tax": 0.22,
+    "market_debt": 172746,
+    "market_equity": 2716129.8699999996
+  },
+  "bridge": {
+    "cash": 78213,
+    "operating_cash": 25000,
+    "securities": 44775,
+    "debt": 158320,
+    "finance_leases": 13451,
+    "facility_financing": 9315,
+    "operating_leases": 96320,
+    "nonoperating_assets": 0,
+    "other_claims": 0,
+    "common_shares": 10786.313572,
+    "incremental_dilutive_awards": 134,
+    "known_debt_issuance": 25000,
+    "known_subsequent_investment_cash": 21300
+  },
+  "terminal_growth": 0.025
+}
