@@ -1,0 +1,1 @@
+2026-10-20: all 38662 pre-existing Lab 13 and Project 1 files matched pre-work SHA-256 hashes, including runtime files. No original modified or deleted. Published manifest contains 188 source/artifact hashes, omitting runtime/cache entries; full baseline retained in OS temporary storage.

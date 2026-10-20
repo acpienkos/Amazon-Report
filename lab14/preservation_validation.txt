@@ -1,0 +1,4 @@
+Command (from lab14): python -B verify_preservation.py
+Interpreter: C:\Users\acpie\Documents\Codex\amazon-report-upload\project1\.runtime\python.exe
+Exit: 0
+PASS: 188 preserved Lab 13 / Project 1 source and artifact files

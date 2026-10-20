@@ -1,0 +1,11 @@
+Command (from lab14): python -B portfolio.py
+Interpreter: C:\Users\acpie\Documents\Codex\amazon-report-upload\project1\.runtime\python.exe
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+Exit: 0
+Meridian: course-authored annual training inputs; objective 6.50%
+Weights order: Treasury bills / Treasury 10-year note / Investment-grade bond fund / Global equity index fund
+| Portfolio | Weights (%) | Return | Volatility | Reserve | Meets objective? |
+|---|---|---:|---:|---:|---|
+| Benchmark | 0.0 / 0.0 / 40.0 / 60.0 | 6.80% | 10.46% | 0.0% | Yes |
+| Equal weight | 25.0 / 25.0 / 25.0 / 25.0 | 5.20% | 5.21% | 50.0% | No |
+| Inverse volatility | 84.3 / 6.0 / 7.0 / 2.6 | 3.77% | 1.05% | 90.3% | No |

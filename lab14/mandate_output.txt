@@ -1,0 +1,50 @@
+Command (from lab14): python -B mandate.py
+Interpreter: C:\Users\acpie\Documents\Codex\amazon-report-upload\project1\.runtime\python.exe
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+Exit: 0
+Reserve minimum: 3.0%
+
+Candidate A
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 14.0 pass
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  passes every checkable rule
+
+Candidate B
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 1.0 FAIL
+  Redeemable in 5 days >= 90%: 85.0 FAIL
+  Largest single company <= 8%: 9.0 FAIL
+  Calendar-year loss: requires CIO clarification
+  fails 3 rule(s)
+
+Candidate C
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 2.0 FAIL
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 8.0 pass
+  Calendar-year loss: requires CIO clarification
+  fails 1 rule(s)
+
+Candidate D
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 100.0 pass
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  passes every checkable rule
+
+Candidate E
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 0.0 FAIL
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  fails 1 rule(s)
