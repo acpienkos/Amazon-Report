@@ -59,6 +59,6 @@ test_58_date_cash_bridge_known_transactions (__main__.ProjectTests.test_58_date_
 test_59_named_nonrecurring_cost_normalization (__main__.ProjectTests.test_59_named_nonrecurring_cost_normalization) ... ok
 
 ----------------------------------------------------------------------
-Ran 59 tests in 0.057s
+Ran 59 tests in 0.253s
 
 OK

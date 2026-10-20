@@ -1,0 +1,105 @@
+{
+  "completed_at_utc": "2026-10-19T21:14:35.241011+00:00",
+  "frozen_commit": "99b99d0141f9a52510d71494943864c8cf4b6f71",
+  "protected_before": {
+    "project1/evidence/student-only/changed-result.json": "39c796dc28df5022653690d34aee4785413b1e25a821531ff4a9c48329cc8a2c",
+    "project1/evidence/student-only/commit-receipt.md": "722600bb254b04589db0ed3b429427098b8e9b19f7ed7142ae87748f49c9398a",
+    "project1/evidence/student-only/prediction.md": "d04b1dfe969a6364a95c03ba7ff2244ea397d1fefb2dc24c08d0b849ba8ed617",
+    "project1/evidence/student-only/reconciliation.md": "68741933fb201985a5363ac4669b4e98738315cdab42a253e8bca26683ffe388",
+    "project1/evidence/student-only/restore-result.json": "0934e10d8154afea0910cf6e3955411a6905c8d4a455d8eb2f7e77be269a7e01",
+    "project1/data/student-change.json": "9138aa6c027798bd0255bfed6c3056f54fd58af43c119686ae9e639999f92d63"
+  },
+  "protected_after": {
+    "project1/evidence/student-only/changed-result.json": "39c796dc28df5022653690d34aee4785413b1e25a821531ff4a9c48329cc8a2c",
+    "project1/evidence/student-only/commit-receipt.md": "722600bb254b04589db0ed3b429427098b8e9b19f7ed7142ae87748f49c9398a",
+    "project1/evidence/student-only/prediction.md": "d04b1dfe969a6364a95c03ba7ff2244ea397d1fefb2dc24c08d0b849ba8ed617",
+    "project1/evidence/student-only/reconciliation.md": "68741933fb201985a5363ac4669b4e98738315cdab42a253e8bca26683ffe388",
+    "project1/evidence/student-only/restore-result.json": "0934e10d8154afea0910cf6e3955411a6905c8d4a455d8eb2f7e77be269a7e01",
+    "project1/data/student-change.json": "9138aa6c027798bd0255bfed6c3056f54fd58af43c119686ae9e639999f92d63"
+  },
+  "protected_unchanged": true,
+  "financial_output_unchanged_except_disclosure_metadata": true,
+  "tests": {
+    "executed_at_utc": "2026-10-19T21:12:53.024527+00:00",
+    "command": "python -B -m unittest discover -s project1/tests -p test*.py -v",
+    "tests_run": 65,
+    "passed": 65,
+    "failed": 0,
+    "errors": 0,
+    "notes": "59 model tests plus 6 memory-only evidence audit tests; no assessed runner execution."
+  },
+  "dashboard": {
+    "passed": 7,
+    "failed": 0
+  },
+  "package_audit": {
+    "passed": 40,
+    "failed": 0,
+    "submission_checks_incomplete": 8
+  },
+  "pdfs": [
+    {
+      "path": "project1/docs/decision-memo.pdf",
+      "pages": 2,
+      "matching_submission_copy": "project1/submission/Decision-Memo.pdf",
+      "visual_review": "PASS"
+    },
+    {
+      "path": "project1/docs/research-evolution.pdf",
+      "pages": 4,
+      "matching_submission_copy": "project1/submission/Research-Evolution.pdf",
+      "visual_review": "PASS"
+    },
+    {
+      "path": "project1/docs/validation-and-ai-use.pdf",
+      "pages": 6,
+      "matching_submission_copy": "project1/submission/Validation-and-AI-Use.pdf",
+      "visual_review": "PASS"
+    }
+  ],
+  "modified_or_added_files": [
+    "project1/.gitattributes",
+    "project1/README.md",
+    "project1/analysis.py",
+    "project1/audit_package.py",
+    "project1/build_documents.py",
+    "project1/docs/decision-memo.md",
+    "project1/docs/decision-memo.pdf",
+    "project1/docs/final-submission-checklist.md",
+    "project1/docs/recording-guide.md",
+    "project1/docs/research-evolution.pdf",
+    "project1/docs/step2-completion-report.md",
+    "project1/docs/student-ai-off-worksheet.md",
+    "project1/docs/validation-and-ai-use.md",
+    "project1/docs/validation-and-ai-use.pdf",
+    "project1/docs/video-1-recording-outline.md",
+    "project1/docs/video-1-script.md",
+    "project1/docs/video-2-recording-outline.md",
+    "project1/docs/video-2-script.md",
+    "project1/docs/video-3-recording-outline.md",
+    "project1/docs/video-3-script.md",
+    "project1/evidence/documentation_cleanup.json",
+    "project1/evidence/final_audit.json",
+    "project1/evidence/final_audit.md",
+    "project1/evidence/pdf_render_inventory.json",
+    "project1/evidence/step2_test_results.txt",
+    "project1/evidence/step2_test_summary.json",
+    "project1/evidence/validation_results.txt",
+    "project1/evidence/validation_summary.json",
+    "project1/exercise_audit.py",
+    "project1/outputs/valuation-report.md",
+    "project1/outputs/valuation.json",
+    "project1/outputs/visible_output.json",
+    "project1/review_documents.py",
+    "project1/submission/Decision-Memo.pdf",
+    "project1/submission/Research-Evolution.pdf",
+    "project1/submission/Validation-and-AI-Use.pdf",
+    "project1/submission/project-submission-manifest.csv",
+    "project1/tests/test_exercise_audit.py",
+    "project1/tests/test_project.py"
+  ],
+  "temporary_artifacts": "project1/tmp/step2/ snapshots/contact sheet and 12 page PNGs in project1/tmp/pdfs/; ignored QA artifacts",
+  "committed": false,
+  "pushed": false,
+  "submitted": false
+}

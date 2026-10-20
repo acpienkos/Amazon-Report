@@ -18,7 +18,7 @@ LIMITATIONS=[
  'Diluted shares use July22 common shares plus Q2 incremental awards; this is a proxy. Future compensation is cash-replaced, not actual Amazon policy.',
  'Beta 1.44 is the preserved September10 vendor observation; its historical estimation process could not be independently reconstructed. ERP 5% is a course assumption, not observed data.',
  'Full Brightspace assignment/rubric and the October19 announcement original posting were not accessed. Announcement is reproduced as user-supplied course evidence; early-AI recovery remains a separate clarification.',
- 'New outputs are AI-assisted. No human AI-off prediction, assessed execution, actual recording or corrected transcript is claimed.'
+ 'Financial output development is AI-assisted. The completed student-reported independent changed-input record is documented separately in docs/validation-and-ai-use.md; automated checks do not certify AI-OFF conduct. The student confirmed on October 20, 2026 that all three videos and transcripts were submitted directly through Brightspace. No public URLs or submission timestamps were supplied; receipts and instructor access were not independently inspected.'
 ]
 
 def write_json(path,obj):

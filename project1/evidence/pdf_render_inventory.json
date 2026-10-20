@@ -9,7 +9,7 @@
     "file": "decision-memo",
     "page": 2,
     "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\decision-memo-2.png",
-    "text_length": 2107
+    "text_length": 2168
   },
   {
     "file": "research-evolution",
@@ -39,12 +39,36 @@
     "file": "validation-and-ai-use",
     "page": 1,
     "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-1.png",
-    "text_length": 3055
+    "text_length": 2977
   },
   {
     "file": "validation-and-ai-use",
     "page": 2,
     "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-2.png",
-    "text_length": 1991
+    "text_length": 3630
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 3,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-3.png",
+    "text_length": 2620
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 4,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-4.png",
+    "text_length": 2402
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 5,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-5.png",
+    "text_length": 944
+  },
+  {
+    "file": "validation-and-ai-use",
+    "page": 6,
+    "image": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\tmp\\pdfs\\validation-and-ai-use-6.png",
+    "text_length": 2326
   }
 ]

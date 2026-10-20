@@ -6,9 +6,8 @@
   "skipped": 0,
   "command": "python -B project1/tests/test_project.py",
   "unresolved": [
-    "Student AI-off Locked Changed-Input Record",
     "Actual recordings/corrected transcripts",
-    "Human independent verification",
+    "Human independent source verification",
     "Brightspace rubric and early-AI recovery clarification"
   ]
 }

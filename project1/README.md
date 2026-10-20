@@ -31,7 +31,7 @@ Open http://127.0.0.1:8501. The dashboard reads saved JSON; it does not fetch pr
 
 ## Reproduce documents
 
-After analysis and tests, run `project1/.runtime/python.exe -B project1/build_documents.py`. This refreshes PDFs and local submission copies from the same saved figures. Re-render and review PDFs after changes. The committee memo must stay at two pages or less. Run `project1/.runtime/python.exe -B project1/audit_package.py` last.
+After analysis and tests, run `project1/.runtime/python.exe -B project1/build_documents.py`. This renders the reviewed Markdown into PDFs and matching local submission copies without regenerating authored prose or student evidence. The review_documents.py compatibility command uses the same renderer; neither command regenerates prose. Re-render and review PDFs after changes. The committee memo must stay at two pages or less. Run `project1/.runtime/python.exe -B project1/audit_package.py` last.
 
 ## Repository map
 
@@ -40,7 +40,7 @@ After analysis and tests, run `project1/.runtime/python.exe -B project1/build_do
 - `analysis.py`: output generation; `data/` contains inherited history and generated assumption/source/normalization registers.
 - `outputs/`: statements, FCFF reconciliation, scenarios, sensitivity, bridge, comparables and visible JSON/Markdown.
 - `sources/`: public downloaded evidence; `evidence/source_downloads.json` records successful and failed retrievals.
-- `tests/`: deterministic regression, identity, boundary and fault-injection tests.
+- `tests/`: deterministic regression, identity, boundary and fault-injection tests. `exercise_audit.py` checks frozen evidence without executing the assessed runner.
 - `docs/`: research evolution, memo, validation/AI record, video outlines and explicitly incomplete transcript templates.
 - `docs/historical/`: byte-identical original Edition A, later completed copy and checkout disclosure.
 - `submission/`: local PDF drafts and the official 12-row manifest; no upload or submission is implied.
@@ -49,7 +49,9 @@ After analysis and tests, run `project1/.runtime/python.exe -B project1/build_do
 
 Read `docs/financial-review.md` before recording. The prior $40.74 headline is superseded. The corrected core subtotal is $39.05 and the base fails funding after known investment uses and July issuance are included. A sourced FTC-settlement normalization is separately attributed. Strategic carrying references are $57.06-$61.59 under explicit diagnostic haircut cases; these are not verified fair-value bounds. The reviewed committee action is **do not initiate at the dated comparison price**. There is no comprehensive verified point value or complete investable scenario range.
 
-Use `docs/student-ai-off-worksheet.md` for your independent exercise. Codex has not executed its runner or supplied your new input, prediction, precommit or assessed results. Do not confuse ordinary automated tests with that exercise. Complete your own actual recording/transcript evidence before submission.
+The independent Locked Changed-Input Record is complete as reported by the student. The original prediction and `data/student-change.json` are frozen in commit `99b99d0141f9a52510d71494943864c8cf4b6f71`; the five preserved files in `evidence/student-only/` contain prediction, receipt, changed output, restoration output and completed reconciliation. The input increased from 0.09447165947855003 to 0.15; core value declined from $39.0450 to $35.0730 and the action remains DO NOT INITIATE. Restoration matches exactly. Codex audited technical consistency after completion; automated checks do not certify AI-OFF conduct. See `docs/validation-and-ai-use.md` and its PDF for the compiled record. Do not rerun the assessed runner or edit its artifacts during recording.
+
+The pre-run worksheet and empty template retain historical instructions; they are not current completion reports. The source model, input and original prediction remain frozen; later documentation and audit improvements remain local and uncommitted. Current post-run evidence is not yet in a final committed package; the public repository was verified October 20, 2026. Final local revisions await approval to commit and push.
 
 ## Finance conventions and limitations
 
@@ -61,10 +63,14 @@ The original Edition A is not represented as AI-free or submitted. Dr. Z's Octob
 
 ## Student-only work before submission
 
-1. Complete the genuinely AI-off Locked Changed-Input Record; do not copy ordinary AI-executed tests into it.
+1. Review the compiled Locked Changed-Input Record in the validation PDF against your preserved independent work; no new assessed run is needed.
 2. Personally review sources, definitions, major judgments and the final decision. Obtain the full Brightspace brief/rubric and clarify any remaining early-AI recovery requirements.
 3. Perform or obtain any required human README-only cold-run observation. The included technical cold run is AI-executed and labeled.
-4. Record three videos; replace transcript templates with corrected actual transcripts; add real URLs, durations, timestamps and access checks.
-5. Review final PDFs, approve any Git commit/push, and submit personally only after the package is actually ready.
+4. The student confirms all three videos and transcripts were submitted directly through Brightspace. No public URLs or submission timestamps were provided; receipts and instructor access were not independently inspected. Repository transcript templates remain historical preparation files.
+5. Review final PDFs and the completed manifest, approve the final Git commit/push, then submit remaining PDF/repository/output/manifest deliverables personally and retain receipts. See `docs/final-submission-checklist.md`.
 
 No credentials are required. No deployment is required by the inspected shared architecture. No trades, commits, pushes or submissions are performed by these commands.
+
+## October 20 finalization status
+
+See `docs/finalization-review.md` for the current delivery review. October 19 audit/checklist and recording scripts describe their historical inspection state; they are not evidence that the already-submitted Brightspace videos or transcripts must be repeated. No final commit or push has been performed.

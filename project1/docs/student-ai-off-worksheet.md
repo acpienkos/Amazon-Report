@@ -1,4 +1,6 @@
-# Student-only Locked Changed-Input Record | not completed
+# Student-only Locked Changed-Input Record | archived pre-run instructions
+
+Current status: the student independently completed the exercise. The preserved evidence is in project1/evidence/student-only/ and the compiled record is in project1/docs/validation-and-ai-use.md and its PDF. The original pre-run instructions below describe the earlier workflow; do not rerun or overwrite the completed experiment. Statements about an unfilled PDF below refer to that earlier stage.
 
 This is a mechanical worksheet, not your prediction. **Codex has not executed this exercise, selected a new value, or written your expected direction or decision effect.** Turn off AI assistance before choosing the new value, writing the prediction, and executing the assessed run. If your instructor assigns a different perturbation, follow that instruction instead.
 

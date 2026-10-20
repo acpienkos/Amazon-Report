@@ -1,5 +1,5 @@
 {
-  "audited_at_utc": "2026-10-19T19:48:52.546564+00:00",
+  "audited_at_utc": "2026-10-19T21:13:08.353416+00:00",
   "checks": [
     {
       "check": "Historical preservation",
@@ -18,7 +18,7 @@
       "passed": true
     },
     {
-      "check": "Fresh environment technical cold run",
+      "check": "Recorded isolated-environment technical cold run",
       "passed": true
     },
     {
@@ -42,7 +42,7 @@
       "passed": true
     },
     {
-      "check": "Unrecorded transcripts clearly labeled",
+      "check": "Transcript state is explicit",
       "passed": true
     },
     {
@@ -62,26 +62,189 @@
       "passed": true
     },
     {
-      "check": "Student exercise not fabricated",
+      "check": "Five student evidence files exist and are nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Both runs and receipt identify the frozen commit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Freeze precedes changed run and restore check",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recorded source inventory is complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/model.py",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/statements.py",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/config.py",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/student_exercise.py",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/data/legacy_assumptions.csv",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: lab10/amazon_proforma.py",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: lab10/amazon_assumptions.csv",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/data/student-change.json",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Frozen content and recorded hash: project1/evidence/student-only/prediction.md",
+      "passed": true,
+      "detail": "Commit content normalized for LF/CRLF; recorded working-file hashes compared byte-for-byte."
+    },
+    {
+      "check": "Input and execution modes match preserved plan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Restoration is an exact baseline match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Saved baseline reproduces without assessed runner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Saved changed result reproduces with in-memory override",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Baseline saved output matches restored model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Validation PDF includes completed record and frozen commit",
+      "passed": true
+    },
+    {
+      "check": "Validation source includes verbatim prediction.md",
+      "passed": true
+    },
+    {
+      "check": "Validation PDF includes student text: prediction.md",
+      "passed": true
+    },
+    {
+      "check": "Validation source includes verbatim commit-receipt.md",
+      "passed": true
+    },
+    {
+      "check": "Validation PDF includes student text: commit-receipt.md",
+      "passed": true
+    },
+    {
+      "check": "Validation source includes verbatim reconciliation.md",
+      "passed": true
+    },
+    {
+      "check": "Validation PDF includes student text: reconciliation.md",
       "passed": true
     }
   ],
-  "passed": 16,
+  "passed": 40,
   "failed": 0,
+  "submission_checks": [
+    {
+      "check": "Actual Video 1 and access metadata",
+      "passed": false,
+      "path": "project1/submission/project-submission-manifest.csv"
+    },
+    {
+      "check": "Corrected actual transcript 1",
+      "passed": false,
+      "path": "project1/docs/transcript-video-1.txt"
+    },
+    {
+      "check": "Actual Video 2 and access metadata",
+      "passed": false,
+      "path": "project1/submission/project-submission-manifest.csv"
+    },
+    {
+      "check": "Corrected actual transcript 2",
+      "passed": false,
+      "path": "project1/docs/transcript-video-2.txt"
+    },
+    {
+      "check": "Actual Video 3 and access metadata",
+      "passed": false,
+      "path": "project1/submission/project-submission-manifest.csv"
+    },
+    {
+      "check": "Corrected actual transcript 3",
+      "passed": false,
+      "path": "project1/docs/transcript-video-3.txt"
+    },
+    {
+      "check": "Final repository access confirmed",
+      "passed": false,
+      "path": "project1/submission/project-submission-manifest.csv"
+    },
+    {
+      "check": "Final package version frozen",
+      "passed": false,
+      "path": "project1/submission/project-submission-manifest.csv"
+    }
+  ],
+  "submission_checks_failed": 8,
+  "student_exercise": {
+    "status": "COMPLETE: student-reported independent work; technically verified",
+    "frozen_commit": "99b99d0141f9a52510d71494943864c8cf4b6f71",
+    "ai_off_conduct_certified": false,
+    "student_files_modified": false
+  },
   "student_tasks": [
-    "Student AI-off Locked Changed-Input Record and actual execution",
-    "Personal source/definition verification and review of provisional financial judgments",
-    "Actual recordings, corrected transcripts, stable video links and evidence timestamps",
-    "Full Brightspace assignment/rubric/access requirements; precise separate early-AI recovery clarification",
-    "Human independently observed cold run if required",
-    "Final PDF review, permission for commit/push, grader access and personal submission"
+    "Personally review sources, financial judgments and the compiled validation PDF against preserved student evidence",
+    "Record Videos 1/2/3, create corrected actual transcripts, supply stable URLs, durations and evidence timestamps",
+    "Verify full Brightspace brief, rubric, filename prefixes, deadline and instructional-team access identity",
+    "Resolve any separate historical early-AI recovery requirement with instructor; do not invent a checkpoint receipt",
+    "Arrange human README-only cold-run observation if the authoritative brief requires one",
+    "Verify grader access, authorize final commit/push separately, personally submit and retain actual receipt"
   ],
   "material_financial_limitations": [
     "Seasonal/actual-period stub reconciliation",
     "Exact valuation-date balance and diluted-share bridge",
-    "Separate strategic-investment value and related taxes/commitments",
-    "Evidence for terminal capital-turnover transition"
+    "Strategic-investment economic value and related taxes/commitments",
+    "Evidence for terminal capital-turnover transition and segment profitability"
   ],
   "submission_ready": false,
-  "conclusion": "Technical local draft built and tested; provisional financial results and essential student evidence prevent a claim of submission readiness."
+  "conclusion": "Completed independent experiment preserved and incorporated. Technical checks are separate from missing recordings, transcripts, access, final version freeze and personal submission. No submission is claimed."
 }

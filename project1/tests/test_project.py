@@ -193,6 +193,6 @@ if __name__=='__main__':
     summary=dict(tests_run=result.testsRun,passed=result.testsRun-len(result.failures)-len(result.errors)-len(result.skipped),
                  failed=len(result.failures),errors=len(result.errors),skipped=len(result.skipped),
                  command='python -B project1/tests/test_project.py',
-                 unresolved=['Student AI-off Locked Changed-Input Record','Actual recordings/corrected transcripts','Human independent verification','Brightspace rubric and early-AI recovery clarification'])
+                 unresolved=['Actual recordings/corrected transcripts','Human independent source verification','Brightspace rubric and early-AI recovery clarification'])
     (HERE/'evidence/validation_summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     raise SystemExit(0 if result.wasSuccessful() else 1)

@@ -32,4 +32,4 @@ Uniform remaining-year accrual rather than seasonal actual/forecast split; June3
 
 ## Validation
 
-59 model tests passed, 0 failed, 0 errors and 0 skipped. Seven dashboard pages execute. Technical clean-environment status: PASS. Human AI-off assessment and recordings remain incomplete. Historical64-file preservation verified; nothing committed, pushed or submitted.
+59 model tests passed, 0 failed, 0 errors and 0 skipped. Seven dashboard pages execute. Technical clean-environment status: PASS. The completed student-reported independent Locked Changed-Input Record is compiled in docs/validation-and-ai-use.md and its PDF; technical checks do not prove AI-OFF conduct. The student confirms all three videos and transcripts were submitted directly through Brightspace; receipts and instructor access were not independently inspected. Historical 64-file preservation verified. Experiment frozen at commit 99b99d0141f9a52510d71494943864c8cf4b6f71; final local revisions await approval to commit and push. Public GitHub access was verified October 20, 2026; no remaining-deliverable Brightspace upload is claimed.

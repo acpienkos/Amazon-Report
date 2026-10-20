@@ -1,0 +1,42 @@
+{
+  "review_date": "2026-10-20",
+  "checks": {
+    "research-evolution_copy_equal": true,
+    "research-evolution_source_paragraphs_match": true,
+    "decision-memo_copy_equal": true,
+    "decision-memo_source_paragraphs_match": true,
+    "validation-and-ai-use_copy_equal": true,
+    "validation-and-ai-use_source_paragraphs_match": true,
+    "memo_two_pages": true,
+    "visible_json_equal": true,
+    "financial_output_unchanged": true,
+    "protected_files_unchanged": true,
+    "historical_manifest_preserved": true
+  },
+  "protected_sha256": {
+    "evidence\\student-only\\changed-result.json": "39c796dc28df5022653690d34aee4785413b1e25a821531ff4a9c48329cc8a2c",
+    "evidence\\student-only\\commit-receipt.md": "722600bb254b04589db0ed3b429427098b8e9b19f7ed7142ae87748f49c9398a",
+    "evidence\\student-only\\prediction.md": "d04b1dfe969a6364a95c03ba7ff2244ea397d1fefb2dc24c08d0b849ba8ed617",
+    "evidence\\student-only\\reconciliation.md": "68741933fb201985a5363ac4669b4e98738315cdab42a253e8bca26683ffe388",
+    "evidence\\student-only\\restore-result.json": "0934e10d8154afea0910cf6e3955411a6905c8d4a455d8eb2f7e77be269a7e01",
+    "data\\student-change.json": "9138aa6c027798bd0255bfed6c3056f54fd58af43c119686ae9e639999f92d63",
+    "student_exercise.py": "d0bee2a35eee3009cbc82ffb324d68848ff983b31f8ed15fe2dab6de81385bf3",
+    "model.py": "85b7be73d829688328a352fdd9bcd01f3ea822d3f5d2018d4fd1c452489c6a2b",
+    "config.py": "6e63287fb0897fb5d6ea7727e6f6751945611bbe80a26a28b7b96549e19dcabc",
+    "statements.py": "38a4f64fbb3609788e42f4569d87efff69512ed9ff45da06a81a7a88746a3097",
+    "docs\\historical\\amazon-edition-a-completed.md": "a308054d44e8345a7669707d489d75eda928592b147790e15570167962b1deea",
+    "docs\\historical\\amazon-edition-a.md": "1e8dd21be31176eec18adb2580396595bd9eb274a23e11cd6ea0698b522a88e6",
+    "docs\\historical\\lab-03-checkout-draft.md": "18f1a9c0e7616fb2f3d1d72a65bdb4e558657cf37fb50af68b6e224ad6dff9ec"
+  },
+  "exercise_rerun": false,
+  "committed": false,
+  "pushed": false,
+  "model_tests": {
+    "passed": 59,
+    "failed": 0,
+    "exercise_rerun": false
+  },
+  "pdf_visual_review": "PASS",
+  "remote_public": true,
+  "remote_and_local_head": "a4ef16bdcd61030132dac5fccb079f2ac0f33d4d"
+}

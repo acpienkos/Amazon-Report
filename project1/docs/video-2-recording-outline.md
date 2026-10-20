@@ -1,15 +1,7 @@
-# Video 2 | Code and validation
+# Video 2 recording outline
 
-AI-assisted speaking draft, NOT an actual transcript. 293 approximate spoken words; about 3.2 minutes at 125 wpm including transitions; hard limit 5:00. Review and use your own words. Do not claim checks not personally performed.
+Use project1/docs/video-2-script.md for the complete speaking script, exact commands, screen directions and rehearsal timestamps. These are preparation notes, not a recording or transcript.
 
-## Display sequence
+README -> financial logic -> live read-only baseline reproduction -> injected-failure tests -> full model tests -> limitations
 
-README -> model.py/statements.py -> statements/CFI -> FCFF/terminal -> actual tests/log -> student worksheet
-
-## Committee questions and defensible answers
-
-Do passing tests validate economics? No; source and definition checks found omissions after49 tests passed. Is22% actual cash tax? No; normalized provision-as-cash proxy. Did AI perform your assessment? No assessed run is claimed.
-
-## Numbers
-
-Core$39.05is diagnostic; strategic carrying references$57.06-$61.59are not fair-value bounds; price251.89as ofSeptember10; WACC11.67%; g2.5%; base funding fails2028-2029. Only high passes funding. Show values in the current application rather than memorizing stale figures.
+Review the current figures: $39.05 core diagnostic; $57.06-$61.59 carrying references (not fair-value bounds); $251.89 dated September 10 close; 11.67% WACC; 2.5% terminal growth. Base funding fails in 2028-2029. Independent student record is completed and preserved.
