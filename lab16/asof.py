@@ -1,6 +1,6 @@
 """FIN 43900 Lab 16: auditable point-in-time filtering (standard library only)."""
 
-# Editable assignment inputs: (original row, ticker, month measured, published, index).
+# Editable inputs: (original row, ticker, month measured, published, price).
 DECISION_DATE = "2026-03-31"
 DATA = [
     (1, "AAA", "2026-01", "2026-02-10", 101.0),
@@ -105,7 +105,7 @@ def filter_panel(rows, decision_date):
 
 
 def calculate_signals(panel):
-    """Use the immediately preceding calendar month, never bridge a missing month."""
+    """Compare the latest measured month with the preceding available month."""
     by_ticker = {}
     for row in panel:
         monthly = by_ticker.setdefault(row.ticker, {})
@@ -115,16 +115,43 @@ def calculate_signals(panel):
     signals, unavailable = {}, {}
     for ticker, monthly in sorted(by_ticker.items()):
         latest_month = max(monthly)
-        previous = (date(latest_month.year - 1, 12, 1) if latest_month.month == 1
-                    else date(latest_month.year, latest_month.month - 1, 1))
-        if previous not in monthly:
-            unavailable[ticker] = "previous calendar month unavailable"
+        prior_months = sorted(month for month in monthly if month < latest_month)
+        previous = prior_months[-1] if prior_months else None
+        if previous is None:
+            unavailable[ticker] = "previous available month unavailable"
         elif monthly[previous].value == 0:
             unavailable[ticker] = "previous index is zero"
         else:
             percent = (monthly[latest_month].value / monthly[previous].value - 1) * 100
             signals[ticker] = Signal(ticker, latest_month, previous, percent)
     return signals, unavailable
+
+
+def zero_coupon_yield(price, face_value=Decimal("100")):
+    """One-year zero-coupon percentage yield; a nonpositive price is undefined."""
+    if price <= 0:
+        raise ValueError("Yield requires a positive price")
+    return (face_value / price - 1) * 100
+
+
+def economic_checks(panel, credit_order=("AAA", "BBB", "CCC")):
+    """Report warnings separately; credit_order runs from safer to riskier."""
+    checks = []
+    rank = {ticker: i for i, ticker in enumerate(credit_order)}
+    for row in panel:
+        yield_percent = zero_coupon_yield(row.value)
+        concerns = []
+        if yield_percent < 0:
+            concerns.append("Negative yield")
+        cheaper_safer = sorted({other.ticker for other in panel
+                                if other.month == row.month
+                                and other.ticker in rank and row.ticker in rank
+                                and rank[other.ticker] < rank[row.ticker]
+                                and other.value < row.value})
+        if cheaper_safer:
+            concerns.append(f"{row.ticker} priced above " + " and ".join(cheaper_safer))
+        checks.append((row, yield_percent, concerns))
+    return checks
 
 
 def print_signals(label, panel):
@@ -154,13 +181,35 @@ def main(argv=None):
         numbers = ", ".join(str(row.row) for row in removed) or "none"
         print(f"{label}: removed {len(removed)} (rows {numbers}); remaining {count}")
     print("As-of panel (original input order):")
-    print("Row  Ticker  Month    Published   Index")
+    print("Row  Ticker  Month    Published   Price")
     for row in panel:
         print(f"{row.row:>3}  {row.ticker:<6}  {row.month:%Y-%m}  "
               f"{row.published}  {row.value:.1f}")
     print_signals("As-of signals:", panel)
     naive_panel, _ = filter_panel(rows, None)
     print_signals("Naive signals (latest vintage, publication cutoff ignored):", naive_panel)
+    asof_signals, _ = calculate_signals(panel)
+    naive_signals, _ = calculate_signals(naive_panel)
+    print("Side-by-side comparison:")
+    print(f"{'Ticker':<8} {'As-of (month)':<25} Naive (month)")
+    def display(signal):
+        return (f"{signal.percent:+.2f}% ({signal.month:%Y-%m})"
+                if signal else "unavailable")
+    for ticker in sorted(set(asof_signals) | set(naive_signals)):
+        print(f"{ticker:<8} {display(asof_signals.get(ticker)):<25} "
+              f"{display(naive_signals.get(ticker))}")
+    print("Fixed-income extension: one-year zero-coupon bonds, maturity payment 100")
+    print("Row  Price    Yield    Concern")
+    for row, yield_percent, concerns in economic_checks(panel):
+        print(f"{row.row:>3}  {row.value:>5.1f}  {yield_percent:+7.2f}%  "
+              + ("; ".join(concerns) or "None"))
+    flagged = [str(row.row) for row, y, _ in economic_checks(panel) if y < 0]
+    print("Proposed fifth rule (not applied): quarantine negative yields; rows "
+          + (", ".join(flagged) or "none"))
+    print("Negative yields can occur in real markets; here they are planted warnings.")
+    print("At equal maturities, this extension assumes riskier credit has lower price/higher yield.")
+    print("Economic warnings do not change the four-rule provenance panel.")
+    print("As-of signals equal naive signals: " + str(asof_signals == naive_signals))
 
 
 if __name__ == "__main__":

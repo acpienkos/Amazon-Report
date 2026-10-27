@@ -2,7 +2,7 @@
 
 ## Computational package
 
-Implementation, tests and execution evidence are in this folder. See README and validation.txt for verified results. GitHub publication is reported in the delivery message; this checklist does not itself certify a push.
+Implementation, tests and execution evidence are in this folder. See README, validation.txt and april15_validation.txt for verified results. GitHub publication is reported in the delivery message; this checklist does not itself certify a push.
 
 ## Student and partner activities - pending
 
@@ -26,6 +26,7 @@ Supporting evidence and preparation:
 
 - [test_asof.py](https://github.com/acpienkos/Amazon-Report/blob/main/lab16/test_asof.py)
 - [validation.txt](https://github.com/acpienkos/Amazon-Report/blob/main/lab16/validation.txt)
+- [april15_validation.txt](https://github.com/acpienkos/Amazon-Report/blob/main/lab16/april15_validation.txt)
 - [WALKTHROUGH.md](https://github.com/acpienkos/Amazon-Report/blob/main/lab16/WALKTHROUGH.md)
 - [SUBMISSION_CHECKLIST.md](https://github.com/acpienkos/Amazon-Report/blob/main/lab16/SUBMISSION_CHECKLIST.md)
 

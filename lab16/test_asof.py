@@ -84,9 +84,7 @@ class ProvenanceTests(unittest.TestCase):
 
     def test_unavailable_previous_month_and_zero(self):
         for data, reason in [
-            ([(1, "X", "2026-01", "2026-02-01", 1)], "previous calendar month unavailable"),
-            ([(1, "X", "2026-01", "2026-02-01", 1),
-              (2, "X", "2026-03", "2026-03-31", 2)], "previous calendar month unavailable"),
+            ([(1, "X", "2026-01", "2026-02-01", 1)], "previous available month unavailable"),
             ([(1, "X", "2026-12", "2027-01-01", 0),
               (2, "X", "2027-01", "2027-02-01", 2)], "previous index is zero")]:
             with self.subTest(reason=reason, data=data):
@@ -99,6 +97,34 @@ class ProvenanceTests(unittest.TestCase):
                                 (2, "X", "2027-01", "2027-02-01", 105)])
         signals, _ = asof.calculate_signals(rows)
         self.assertEqual(signals["X"].percent, Decimal("5"))
+
+    def test_preceding_available_month_and_dynamic_inputs(self):
+        rows = asof.parse_rows([(81, "NEW", "2025-01", "2025-02-01", 20),
+                                (82, "NEW", "2025-03", "2025-03-31", 25),
+                                (83, "NEW", "2025-03", "2025-04-01", 30)])
+        panel, funnel = asof.filter_panel(rows, date(2025, 3, 31))
+        self.assertEqual([r.row for r in panel], [81, 82])
+        self.assertEqual([r.row for r in funnel[2][1]], [83])
+        self.assertEqual(asof.calculate_signals(panel)[0]["NEW"].percent, Decimal(25))
+        naive, _ = asof.filter_panel(rows, None)
+        self.assertEqual(asof.calculate_signals(naive)[0]["NEW"].percent, Decimal(50))
+
+    def test_yields_and_separate_economic_warnings(self):
+        before = list(self.panel)
+        checks = asof.economic_checks(self.panel)
+        self.assertEqual({r.row: f"{y:+.2f}" for r, y, _ in checks},
+                         {1: "-0.99", 4: "-2.91", 5: "+2.04", 6: "+3.09",
+                          9: "-9.09", 12: "-9.91"})
+        self.assertEqual([r.row for r, y, _ in checks if y < 0], [1, 4, 9, 12])
+        for row, _, concerns in checks:
+            if row.ticker == "CCC":
+                self.assertEqual(len(concerns), 2)
+            elif row.ticker == "BBB":
+                self.assertEqual(concerns, [])
+        self.assertEqual(self.panel, before)
+        self.assertEqual(asof.zero_coupon_yield(Decimal(80)), Decimal(25))
+        with self.assertRaises(ValueError):
+            asof.zero_coupon_yield(Decimal(0))
 
     def test_ambiguous_or_invalid_inputs(self):
         with self.assertRaises(ValueError):
