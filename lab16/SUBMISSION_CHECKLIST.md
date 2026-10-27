@@ -4,6 +4,10 @@
 
 Implementation, tests and execution evidence are in this folder. See README, validation.txt and april15_validation.txt for verified results. GitHub publication is reported in the delivery message; this checklist does not itself certify a push.
 
+## Written reflection and pending personal activities
+
+The README now contains **Partner Discussion and Reflection**, an AI-assisted written reflection and discussion preparation. It does not certify a completed partner conversation, no-AI explanation or actual partner code swap. Review it and supply actual partner questions/observations when available.
+
 ## Student and partner activities - pending
 
 - [ ] Bring the Course/Work Folder, Lab 15 chat and partner; complete the assigned ALFRED prework reading. Paste the lab's D question into the Lab 15 chat.

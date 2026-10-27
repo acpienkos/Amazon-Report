@@ -1,4 +1,4 @@
-﻿# Lab 16 - Provenance Gate
+# Lab 16 - Provenance Gate
 
 Purdue FIN 43900, Fall 2026 - Professor Cinder Zhang
 
@@ -123,16 +123,24 @@ The CLI override leaves the default March 31 date unchanged. By April 15 all pub
 
 All 13 tests pass. Coverage includes the ordered funnel, six-row panel, full-precision and rounded signals, revisions, inclusive cutoff, duplicate identity, April panel and equivalence, yields, separation of economic warnings, empty inputs, missing/zero denominators, year boundaries and conflicting/invalid inputs. A changed NEW ticker with different dates, prices and row numbers checks dynamic filtering and signals. Production calculation functions contain no known-answer tables or row-ID exceptions; expected results are confined to tests and documentation. Both logs record actual program/test output and exit codes.
 
-## Learning and reflection preparation: activities not completed
+## Partner Discussion and Reflection
 
-- **Look-ahead bias:** Explain event time, publication time and revisions using AAA's March observation and CCC's February revision.
-- **Most important rule (proposed explanation):** Latest admissible vintage matters because row 4 changes February AAA from 104 to 103. The cutoff also matters because it excludes future releases. This is preparation, not a completed personal reflection.
-- **Naive backtest (proposed explanation):** Future publications change historical signals and could change trading decisions. A backtest using them gives investors information they did not have.
-- **Fifth rule:** Flag negative yields separately, catching rows 1, 4, 9 and 12.
-- **Partner question for preparation:** Why use ticker and measured month as the dictionary key instead of publication date? **Suggested answer:** Those fields group revisions of the same observation; publication dates then choose the latest admissible version.
+Written reflection and discussion preparation, based on the supplied conceptual review. This section does not certify a completed partner conversation, no-AI explanation or partner file swap.
 
-Actual partner question: **unanswered; student to supply**. Actual partner observations and personal reflection: **unanswered; student to supply**.
+The observation month tells me what period a value measures, while the publication date tells me when investors could use it. AAA's February price of $104, for example, was published March 10. A historical decision needs the publication date so that a value describing an earlier month does not enter the backtest before it was available.
 
-Personally complete the AI quiz (answer before explanation), the no-AI code explanation, partner question and role swap, the changed-date exercise on the partner's actual file, partner discussion and personal reflection. Complete assigned reading and individual checkout; confirm Brightspace fields/deadline and submit individually. Automated local testing does not fulfill partner participation. No quiz, conversation, attendance or Brightspace submission is claimed.
+The four rules establish what investors could have known: first quarantine missing tickers, then remove exact duplicates, exclude publications after the decision date, and finally keep the latest eligible publication for each ticker and month. I would emphasize the last rule because an available value may already have been revised. AAA row 2 reports February at $104 on March 10; row 4 revises it to $103 on March 25. Both were available by March 31, but row 4 is newer and must replace row 2. Using the original release would give an inaccurate historical signal even though it passes the publication cutoff.
 
-Takeaway: use the version available at the decision date, then assess economic plausibility separately.
+Look-ahead bias occurs when future information influences a historical investment decision. AAA's March 31 as-of signal is +1.98%, using February, while the naive signal is +5.83%, using March. The March observation was published April 10, so using it on March 31 would give the backtest information no investor had then. The distortion can work in either direction: BBB's naive signal is -5.15%, compared with its admissible -1.02%. Future information can raise or lower signals and distort reported returns in either direction, depending on the strategy; it does not necessarily improve performance.
+
+The local April 15 test helps confirm the timing logic. AAA moves from +1.98% on March 31 to +5.83%, BBB from -1.02% to -5.15%, and CCC from +0.91% to +1.82%. All April 15 as-of signals equal the naive signals because every relevant publication was available by then. This is program validation, not evidence that I completed the exercise on my partner's file.
+
+For the fixed-income extension, I interpret the fictional instruments as one-year zero-coupon bond funds paying $100 at maturity. Using `Yield = (100 / Price - 1) * 100`, February AAA at $103 yields -2.91%, and CCC at $111 yields -9.91%. Both prices exceed the maturity payoff. CCC also costs more than AAA and BBB despite being the riskiest credit in this exercise. These are economic warnings under the stated assumptions; negative yields are possible in real markets. The four provenance rules do not catch them because those rules check identifiers, duplicates, publication timing and revisions, rather than economic plausibility.
+
+My proposed fifth rule would quarantine zero-coupon prices above the $100 maturity payoff for review. Applied to the March 31 panel, it flags exactly rows 1, 4, 9 and 12. A separate credit-risk ordering check would flag CCC's higher price than AAA and BBB at equal maturities. These checks remain separate proposals and do not change the original four-rule filter or its six-row panel.
+
+My takeaway is that a historical strategy must use the information available at the decision date, including only revisions already published. Passing the provenance gate does not guarantee that a value makes economic sense. Reliable backtesting needs both point-in-time accuracy and economic sanity checks.
+
+Partner question for preparation: Why group by ticker and measured month rather than publication date? Suggested answer: Those fields identify versions of the same observation; comparing publication dates within the group selects the latest admissible version. Actual partner question and observations remain **unanswered; student to supply**.
+
+The AI quiz, no-AI code explanation, partner question and role swap, actual partner-file changed-date exercise, and partner discussion remain to be completed or confirmed personally. Review this AI-assisted written reflection and complete any required personal reflection. Finish assigned reading and individual checkout, confirm Brightspace fields/deadline, and submit individually. No attendance or submission is claimed.
