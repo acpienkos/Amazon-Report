@@ -1,5 +1,7 @@
 # FIN 43900 — Lab 17: Point-in-Time Audit
 
+**Selected FRED series: BAA — Moody's Seasoned Baa Corporate Bond Yield.** Selection confirmed October 29, 2026 for Lab 17 and the current Project 2 data-card evaluation; no earlier prework selection is claimed.
+
 Andrew Pienkos · Fall 2026 · Professor Cinder Zhang
 
 [Official assignment](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-10/lab-17-point-in-time.md); frozen Week 10 assignment, prework, README and handout are in `sources/`.
@@ -50,11 +52,11 @@ Using today's lower December value in a January 15, 2025 decision would supply a
 
 See [DATA_CARD.md](DATA_CARD.md) and [ANSWERS.md](ANSWERS.md) for all written answers, timing limits, personal activities and reflection.
 
-**Provisional decision: Quarantine BAA for Project 2 model use pending timing and selection confirmation.** BAA is economically relevant to borrowing costs and credit conditions. The audit detects no revisions in 1,292 matching dates, but the September value was not available on September 30 and date-level CSVs do not establish intraday source release times. The Week 10 handout says to quarantine when a publication date cannot be found; the limited availability bracket is insufficient for a complete trading-time policy across the backtest.
+**Decision: Quarantine BAA for Project 2 model use pending sufficient publication-timing and trading-time verification.** BAA is economically relevant to borrowing costs and credit conditions. The audit detects no revisions in 1,292 matching dates, but the September value was not available on September 30 and date-level CSVs do not establish intraday source release times. The Week 10 handout says to quarantine when a publication date cannot be found; the limited availability bracket is insufficient for a complete trading-time policy across the backtest.
 
 **Exact proposed as-of rule:** for a trade on date D, use the ALFRED vintage dated D−1 calendar day and select the latest nonmissing observation in that vintage, retaining its measured date and provenance. D−1 is a conservative whole-day buffer for daily trading; it is not a fixed lag applied to today's values. Never backfill from current FRED. A failed download, unavailable vintage, missing usable observation or unverified availability keeps that decision's signal quarantined. This rule would still require an explicit trading calendar and time-zone policy before admission. Archive the downloaded vintage and retrieval timestamp for each decision.
 
-**What would change my call:** confirm BAA as the intended prework series, independently check the three values, document release/archival timing across the actual test period and trading time, and verify the rule on each decision date. If those checks pass, admit BAA as a contextual input under the vintage rule. Reject it if reliable historical availability cannot be established or it does not serve the eventual model. No predictive stock-return claim is needed for this decision.
+**What would change my call:** independently check the three values, document release/archival timing across the actual test period and trading time, and verify the rule on each decision date. If those checks pass, admit BAA as a contextual input under the vintage rule. Reject it if reliable historical availability cannot be established or it does not serve the eventual model. No predictive stock-return claim is needed for this decision.
 
 ## Testing
 
@@ -64,7 +66,7 @@ Live checks reproduce all four known answers and PAYEMS, with no errors in `evid
 
 ## Remaining personal requirements
 
-- Confirm BAA or supply the actual prework-selected series; if different, repeat its audit and data card.
+- Series selection completed: BAA is confirmed for Lab 17 and the current Project 2 data-card evaluation. Its model admission remains quarantined pending timing verification.
 - Personally read July 6.19, August 6.32 and September 6.47 on FRED, recording the check date. Codex's separate-table checks do not satisfy the hand-verification requirement.
 - Complete the opening no-screen explanation and partner-written reason, then swap.
 - Explain the actual vintage function line by line without AI; answer the partner's code question and swap roles.

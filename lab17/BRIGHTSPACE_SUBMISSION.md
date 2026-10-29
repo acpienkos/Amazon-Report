@@ -1,8 +1,10 @@
 Andrew Pienkos — FIN 43900 Lab 17: Point-in-Time Audit
 
+**Selected FRED series: BAA — Moody's Seasoned Baa Corporate Bond Yield.** Selection confirmed October 29, 2026 for Lab 17 and the current Project 2 data-card evaluation; no earlier prework selection is claimed.
+
 My [Lab 17 package](https://github.com/acpienkos/Amazon-Report/tree/main/lab17) includes a Streamlit app for BAA, FEDFUNDS, DGS10 and MORTGAGE30US, additional FRED IDs, current charts and historical ALFRED comparisons with separate late and revised counts. All four October 5, 2026 known-answer checks match. The PAYEMS probe reproduces December 2024 at 159,536 thousand historically versus 158,316 currently, with 381 overlapping observations revised.
 
-The provisional BAA data card finds August 6.32% available September 30, September 6.47% present October 1, and no changed values in 1,292 overlapping observations. My provisional decision is quarantine pending confirmation of the prework series and release/trading-time policy. The proposed rule uses the previous calendar day's ALFRED vintage for each trade date, never today's finalized values.
+My selected series is BAA. The data card finds August 6.32% available September 30, September 6.47% present October 1, and no changed values in 1,292 overlapping observations. My decision is to quarantine BAA for Project 2 model use pending sufficient publication-timing and trading-time verification. Confirming the series choice does not admit it to the model. The proposed rule uses the previous calendar day's ALFRED vintage for each trade date, never today's finalized values.
 
 The package contains 17 passing deterministic tests, live integration evidence and Streamlit app-harness checks. Codex assisted with implementation, research, testing and writing. The three personal FRED checks, no-AI explanation, actual partner challenge/response and individual quiz checkout remain pending until I complete them; no partner work is claimed here.
 
