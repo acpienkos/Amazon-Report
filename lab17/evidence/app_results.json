@@ -1,0 +1,119 @@
+{
+  "browser_available": false,
+  "server_health": "ok",
+  "default_rows": 4,
+  "known_answer_table": [
+    {
+      "Series": "https://fred.stlouisfed.org/series/BAA",
+      "historical_date": "2026-09-01",
+      "historical_value": 6.47,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 1293,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "historical_date": "2026-09-01",
+      "historical_value": 3.75,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 867,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/DGS10",
+      "historical_date": "2026-10-02",
+      "historical_value": 5.28,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 17,
+      "revised": 0,
+      "overlap": 16174,
+      "newly_available_dates": 17,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+      "historical_date": "2026-10-01",
+      "historical_value": 7.28,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 4,
+      "revised": 0,
+      "overlap": 2897,
+      "newly_available_dates": 4,
+      "filled_earlier_dates": 0
+    }
+  ],
+  "invalid_id_isolated": true,
+  "payems_table": [
+    {
+      "Series": "https://fred.stlouisfed.org/series/BAA",
+      "historical_date": "2024-12-01",
+      "historical_value": 5.8,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 21,
+      "revised": 0,
+      "overlap": 1272,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "historical_date": "2024-12-01",
+      "historical_value": 4.48,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 21,
+      "revised": 0,
+      "overlap": 846,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/DGS10",
+      "historical_date": "2025-01-14",
+      "historical_value": 4.78,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 447,
+      "revised": 0,
+      "overlap": 15744,
+      "newly_available_dates": 447,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+      "historical_date": "2025-01-09",
+      "historical_value": 6.93,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 94,
+      "revised": 0,
+      "overlap": 2807,
+      "newly_available_dates": 94,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/PAYEMS",
+      "historical_date": "2024-12-01",
+      "historical_value": 159536.0,
+      "current_date": "2026-09-01",
+      "current_value": 159044.0,
+      "new_after_last_known": 21,
+      "revised": 381,
+      "overlap": 1032,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    }
+  ],
+  "exceptions": 0
+}

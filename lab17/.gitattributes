@@ -1,0 +1,2 @@
+# Preserve downloaded source responses, including their original whitespace.
+evidence/* -whitespace

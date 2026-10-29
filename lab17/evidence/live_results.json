@@ -1,0 +1,139 @@
+{
+  "retrieved_at_utc": "2026-10-29T21:36:20.196250+00:00",
+  "local_download_date": "2026-10-29",
+  "known": [
+    {
+      "historical_date": "2026-09-01",
+      "historical_value": 6.47,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 1293,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0,
+      "series": "BAA",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-09-01",
+      "expected_value": 6.47,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-09-01",
+      "historical_value": 3.75,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 867,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0,
+      "series": "FEDFUNDS",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-09-01",
+      "expected_value": 3.75,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=FEDFUNDS&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-10-02",
+      "historical_value": 5.28,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 17,
+      "revised": 0,
+      "overlap": 16174,
+      "newly_available_dates": 17,
+      "filled_earlier_dates": 0,
+      "series": "DGS10",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-10-02",
+      "expected_value": 5.28,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-10-01",
+      "historical_value": 7.28,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 4,
+      "revised": 0,
+      "overlap": 2897,
+      "newly_available_dates": 4,
+      "filled_earlier_dates": 0,
+      "series": "MORTGAGE30US",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-10-01",
+      "expected_value": 7.28,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=MORTGAGE30US&vintage_date=2026-10-05",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "payems": {
+    "historical_date": "2024-12-01",
+    "historical_value": 159536.0,
+    "current_date": "2026-09-01",
+    "current_value": 159044.0,
+    "new_after_last_known": 21,
+    "revised": 381,
+    "overlap": 1032,
+    "newly_available_dates": 21,
+    "filled_earlier_dates": 0,
+    "december_historical": 159536.0,
+    "december_current": 158316.0,
+    "difference": -1220.0,
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=PAYEMS&vintage_date=2025-01-15",
+    "passed": true
+  },
+  "baa": {
+    "historical_date": "2026-08-01",
+    "historical_value": 6.32,
+    "current_date": "2026-09-01",
+    "current_value": 6.47,
+    "new_after_last_known": 1,
+    "revised": 0,
+    "overlap": 1292,
+    "newly_available_dates": 1,
+    "filled_earlier_dates": 0,
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-09-30",
+    "current_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA",
+    "current_missing": 0,
+    "historical_missing": 0,
+    "three_values": [
+      {
+        "date": "2026-07-01",
+        "value": 6.19
+      },
+      {
+        "date": "2026-08-01",
+        "value": 6.32
+      },
+      {
+        "date": "2026-09-01",
+        "value": 6.47
+      }
+    ]
+  },
+  "baa_availability_probes": [
+    {
+      "cutoff": "2026-10-01",
+      "latest": [
+        "2026-09-01",
+        6.47
+      ],
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-01"
+    },
+    {
+      "cutoff": "2026-10-02",
+      "latest": [
+        "2026-09-01",
+        6.47
+      ],
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-02"
+    }
+  ],
+  "baa_table_url": "https://fred.stlouisfed.org/data/BAA"
+}

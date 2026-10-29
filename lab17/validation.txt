@@ -1,0 +1,291 @@
+2026-10-29 17:43:13.398 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 17:43:13.398 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+test_cutoff (test_asof_app.AuditTests.test_cutoff) ... 2026-10-29 17:43:13.399 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 17:43:13.400 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ok
+test_empty (test_asof_app.AuditTests.test_empty) ... ok
+test_filled_missing_not_revision (test_asof_app.AuditTests.test_filled_missing_not_revision) ... ok
+test_frequencies (test_asof_app.AuditTests.test_frequencies) ... ok
+test_future_leak (test_asof_app.AuditTests.test_future_leak) ... ok
+test_historical_url_and_parse (test_asof_app.AuditTests.test_historical_url_and_parse) ... ok
+test_http_error (test_asof_app.AuditTests.test_http_error) ... ok
+test_invalid_ids (test_asof_app.AuditTests.test_invalid_ids) ... ok
+test_malformed (test_asof_app.AuditTests.test_malformed) ... ok
+test_missing (test_asof_app.AuditTests.test_missing) ... ok
+test_no_current_substitution (test_asof_app.AuditTests.test_no_current_substitution) ... ok
+test_parse_sort (test_asof_app.AuditTests.test_parse_sort) ... ok
+test_redirect_rejected (test_asof_app.AuditTests.test_redirect_rejected) ... ok
+test_revisions_and_new (test_asof_app.AuditTests.test_revisions_and_new) ... ok
+test_timeout (test_asof_app.AuditTests.test_timeout) ... ok
+test_tolerance (test_asof_app.AuditTests.test_tolerance) ... ok
+test_unavailable_vintage (test_asof_app.AuditTests.test_unavailable_vintage) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.080s
+
+OK
+
+Actual live integration results (2026-10-29):
+{
+  "retrieved_at_utc": "2026-10-29T21:36:20.196250+00:00",
+  "local_download_date": "2026-10-29",
+  "known": [
+    {
+      "historical_date": "2026-09-01",
+      "historical_value": 6.47,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 1293,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0,
+      "series": "BAA",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-09-01",
+      "expected_value": 6.47,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-09-01",
+      "historical_value": 3.75,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 867,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0,
+      "series": "FEDFUNDS",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-09-01",
+      "expected_value": 3.75,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=FEDFUNDS&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-10-02",
+      "historical_value": 5.28,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 17,
+      "revised": 0,
+      "overlap": 16174,
+      "newly_available_dates": 17,
+      "filled_earlier_dates": 0,
+      "series": "DGS10",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-10-02",
+      "expected_value": 5.28,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-05",
+      "passed": true
+    },
+    {
+      "historical_date": "2026-10-01",
+      "historical_value": 7.28,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 4,
+      "revised": 0,
+      "overlap": 2897,
+      "newly_available_dates": 4,
+      "filled_earlier_dates": 0,
+      "series": "MORTGAGE30US",
+      "cutoff": "2026-10-05",
+      "expected_date": "2026-10-01",
+      "expected_value": 7.28,
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=MORTGAGE30US&vintage_date=2026-10-05",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "payems": {
+    "historical_date": "2024-12-01",
+    "historical_value": 159536.0,
+    "current_date": "2026-09-01",
+    "current_value": 159044.0,
+    "new_after_last_known": 21,
+    "revised": 381,
+    "overlap": 1032,
+    "newly_available_dates": 21,
+    "filled_earlier_dates": 0,
+    "december_historical": 159536.0,
+    "december_current": 158316.0,
+    "difference": -1220.0,
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=PAYEMS&vintage_date=2025-01-15",
+    "passed": true
+  },
+  "baa": {
+    "historical_date": "2026-08-01",
+    "historical_value": 6.32,
+    "current_date": "2026-09-01",
+    "current_value": 6.47,
+    "new_after_last_known": 1,
+    "revised": 0,
+    "overlap": 1292,
+    "newly_available_dates": 1,
+    "filled_earlier_dates": 0,
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-09-30",
+    "current_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA",
+    "current_missing": 0,
+    "historical_missing": 0,
+    "three_values": [
+      {
+        "date": "2026-07-01",
+        "value": 6.19
+      },
+      {
+        "date": "2026-08-01",
+        "value": 6.32
+      },
+      {
+        "date": "2026-09-01",
+        "value": 6.47
+      }
+    ]
+  },
+  "baa_availability_probes": [
+    {
+      "cutoff": "2026-10-01",
+      "latest": [
+        "2026-09-01",
+        6.47
+      ],
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-01"
+    },
+    {
+      "cutoff": "2026-10-02",
+      "latest": [
+        "2026-09-01",
+        6.47
+      ],
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-02"
+    }
+  ],
+  "baa_table_url": "https://fred.stlouisfed.org/data/BAA"
+}
+
+Streamlit startup: Uvicorn server started on :::8517; Local URL http://localhost:8517. Browser inventory: apps=[], browsers=[]; visual verification unavailable. Actual live AppTest results:
+{
+  "browser_available": false,
+  "server_health": "ok",
+  "default_rows": 4,
+  "known_answer_table": [
+    {
+      "Series": "https://fred.stlouisfed.org/series/BAA",
+      "historical_date": "2026-09-01",
+      "historical_value": 6.47,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 1293,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "historical_date": "2026-09-01",
+      "historical_value": 3.75,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 0,
+      "revised": 0,
+      "overlap": 867,
+      "newly_available_dates": 0,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/DGS10",
+      "historical_date": "2026-10-02",
+      "historical_value": 5.28,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 17,
+      "revised": 0,
+      "overlap": 16174,
+      "newly_available_dates": 17,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+      "historical_date": "2026-10-01",
+      "historical_value": 7.28,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 4,
+      "revised": 0,
+      "overlap": 2897,
+      "newly_available_dates": 4,
+      "filled_earlier_dates": 0
+    }
+  ],
+  "invalid_id_isolated": true,
+  "payems_table": [
+    {
+      "Series": "https://fred.stlouisfed.org/series/BAA",
+      "historical_date": "2024-12-01",
+      "historical_value": 5.8,
+      "current_date": "2026-09-01",
+      "current_value": 6.47,
+      "new_after_last_known": 21,
+      "revised": 0,
+      "overlap": 1272,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "historical_date": "2024-12-01",
+      "historical_value": 4.48,
+      "current_date": "2026-09-01",
+      "current_value": 3.75,
+      "new_after_last_known": 21,
+      "revised": 0,
+      "overlap": 846,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/DGS10",
+      "historical_date": "2025-01-14",
+      "historical_value": 4.78,
+      "current_date": "2026-10-28",
+      "current_value": 5.05,
+      "new_after_last_known": 447,
+      "revised": 0,
+      "overlap": 15744,
+      "newly_available_dates": 447,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+      "historical_date": "2025-01-09",
+      "historical_value": 6.93,
+      "current_date": "2026-10-29",
+      "current_value": 7.24,
+      "new_after_last_known": 94,
+      "revised": 0,
+      "overlap": 2807,
+      "newly_available_dates": 94,
+      "filled_earlier_dates": 0
+    },
+    {
+      "Series": "https://fred.stlouisfed.org/series/PAYEMS",
+      "historical_date": "2024-12-01",
+      "historical_value": 159536.0,
+      "current_date": "2026-09-01",
+      "current_value": 159044.0,
+      "new_after_last_known": 21,
+      "revised": 381,
+      "overlap": 1032,
+      "newly_available_dates": 21,
+      "filled_earlier_dates": 0
+    }
+  ],
+  "exceptions": 0
+}
+Syntax validation passed for 5 Python files
+
+Verified installed versions: Python 3.13.7; streamlit 1.66.0; pandas 3.0.6; numpy 2.5.4; requests 2.34.2. requirements.txt supports this tested environment. Unit-test exit code 0; syntax-check exit code 0; live audit errors=[]; AppTest exceptions=0. Cache warnings are expected when importing Streamlit outside its server runtime.
