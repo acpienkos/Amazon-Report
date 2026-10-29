@@ -6,7 +6,7 @@ My [Lab 17 package](https://github.com/acpienkos/Amazon-Report/tree/main/lab17) 
 
 My selected series is BAA. The data card finds August 6.32% available September 30, September 6.47% present October 1, and no changed values in 1,292 overlapping observations. My decision is to quarantine BAA for Project 2 model use pending sufficient publication-timing and trading-time verification. Confirming the series choice does not admit it to the model. The proposed rule uses the previous calendar day's ALFRED vintage for each trade date, never today's finalized values.
 
-The package contains 17 passing deterministic tests, live integration evidence and Streamlit app-harness checks. Codex assisted with implementation, research, testing and writing. The three personal FRED checks, no-AI explanation, actual partner challenge/response and individual quiz checkout remain pending until I complete them; no partner work is claimed here.
+The package contains 17 passing deterministic tests, live integration evidence and Streamlit app-harness checks. Codex assisted with implementation, research, testing and writing. On October 29, I completed the partner discussion, code explanation exercise, exchanged questions and role swaps with John (surname to confirm). John challenged publication timing; I answered using the September 30 and October 1 ALFRED vintages and retained quarantine because the snapshots do not establish Moody's original release time. I also explained why validating the vintage-specific column prevents an unexpected CSV from entering the analysis. The personal three-value FRED checks and individual Brightspace checkout remain pending. This partner record is based on my supplied discussion notes.
 
 Deliverables:
 
@@ -20,7 +20,3 @@ Deliverables:
 - [SUBMISSION_CHECKLIST.md](https://github.com/acpienkos/Amazon-Report/blob/main/lab17/SUBMISSION_CHECKLIST.md)
 - [verify_live.py](https://github.com/acpienkos/Amazon-Report/blob/main/lab17/verify_live.py)
 - [verify_app.py](https://github.com/acpienkos/Amazon-Report/blob/main/lab17/verify_app.py)
-
-Partner confirmation paragraph — **use only after completing the work, fill all brackets and update pending statements above**:
-
-On [date], I explained the historical-vintage function to [partner] without AI and answered [actual code question]. My partner challenged [actual data-card field/question]; I responded: “[actual two-sentence answer supported by specific app/FRED evidence].” We completed the required role swaps and discussion, and I recorded the evidence in DATA_CARD.md.

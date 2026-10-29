@@ -9,16 +9,16 @@ Andrew Pienkos · Fall 2026 · Professor Cinder Zhang
 | Known answer reproduced | 5 | Completed and live-verified: all four match, PAYEMS probe passes; evidence/live_results.json. |
 | The app | 5 | Implemented; startup and live AppTest verified; no browser visual check available. |
 | Data card | 5 | Research/card prepared, three Codex-assisted matches; BAA selection confirmed; student hand checks pending. |
-| Fresh eyes | 5 | Prepared only; actual partner attack, evidence response, no-AI explanation and role swaps pending. |
+| Fresh eyes | 5 | Completed per Andrew's October 29 discussion notes: John's timing challenge, evidence-based response, code question, explanation exercise and role swaps recorded. John's surname is unconfirmed. |
 | The call | 5 | BAA selection confirmed; evidence-based quarantine with exact as-of rule and condition documented; publication/trading-time verification pending. |
 | Total possible | 25 | This is a completion tracker, not a grade claim. |
 
 - Series selection completed: BAA is confirmed for Lab 17 and the current Project 2 data-card evaluation. Its model admission remains quarantined pending timing verification.
 - Personally read July 6.19, August 6.32 and September 6.47 on FRED, recording the check date. Codex's separate-table checks do not satisfy the hand-verification requirement.
-- Complete the opening no-screen explanation and partner-written reason, then swap.
-- Explain the actual vintage function line by line without AI; answer the partner's code question and swap roles.
-- Obtain the actual data-card challenge, write an evidence-based two-sentence response in the card, and fill the partner/date fields. Do not reuse a hypothetical question as an actual interaction.
-- Explain publication lag and what today's values would overstate to the partner; explain why cleaning is not a data card. Review the written reflection in your own words.
+- Partner opening rate explanation and role swaps: completed October 29, 2026, per Andrew's notes. No separate partner-written opening reason is claimed; confirm that record if independently required.
+- Partner code explanation, exchanged questions and role swaps: completed per Andrew's notes; the actual code question and answer are recorded in DATA_CARD.md and ANSWERS.md.
+- Partner challenge and evidence-based two-sentence response: completed and recorded. Partner is John; surname remains for confirmation. Discussion date: October 29, 2026 (session context).
+- Publication-timing challenge discussion: completed as documented. Review the reflection in your own words; complete any separately required explanation of why cleaning is not a data card and any personal reflection not covered by the supplied notes.
 - Open Brightspace → Quizzes → Lab 17 at the instructed time, answer the actual private quiz/checkout prompts, and submit individually with GitHub links. No access to private quiz questions or submission is claimed.
 - Complete or confirm the assigned ALFRED reading and publication/trading-time policy before admitting BAA to a model. Confirm any private deadline and instructions.
 

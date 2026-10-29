@@ -52,7 +52,7 @@ A data card records what a dataset measures and how it can be used responsibly: 
 
 ## Historical download function: line-by-line preparation
 
-This is study preparation. Andrew must explain it to his partner without AI during the actual six-minute exercise, answer the partner's code question, and swap roles.
+The walkthrough below is study reference material. Andrew reports completing the partner code explanation, exchanged questions and role swaps; the actual discussion record appears below.
 
 | Actual code | Explanation |
 |---|---|
@@ -79,14 +79,45 @@ The function downloads the historical frame; it does not itself select the final
 
 ## Partner Challenge and Response
 
-- Actual partner name: **[pending; do not assume John Heins]**
-- Actual challenge / least trusted field: **[pending]**
-- Two-sentence response: **[write after the actual challenge]**
-- Supporting app/FRED evidence: **[pending]**
-- Date completed: **[pending]**
-- Partner's code question and answer: **[pending]**
+**Completed October 29, 2026, based on Andrew's supplied discussion notes and session date. Partner: John; surname requires confirmation because local Lab 16 records and their Git history do not establish it.** The opening rate explanation, code explanation exercise, exchanged questions, BAA data-card challenge and role swaps are complete as reported by Andrew. These are student-supplied records, not activities independently observed by Codex.
 
-Also complete the opening five-minute no-screen explanation of one rate and why it matters, have the partner write the reason, and swap. The weekly instructions say to work with the same partner, but this package does not certify who participated. No partner interaction, role swap, or independent explanation is claimed.
+### Opening discussion
+
+**Andrew asked John:** "Pick one of the four rates. What does it measure, and why would it matter to an investor?"
+
+**John answered:** "I would choose FEDFUNDS. It measures the federal funds rate, which is the interest rate banks charge each other for overnight lending. Investors care because it affects borrowing costs throughout the economy and influences stock valuations, bond yields, and economic growth expectations. When the federal funds rate rises, financing generally becomes more expensive and investors may require higher returns from risky assets."
+
+This is John's explanation, not Andrew's. [Official FEDFUNDS page](https://fred.stlouisfed.org/series/FEDFUNDS).
+
+### Code discussion
+
+**Andrew asked John:** "Can you explain how the download_vintage() function retrieves historical data and prevents future information from entering a backtest?"
+
+**John answered:** "The function sends a request to ALFRED using a specific vintage date rather than downloading the current FRED dataset. Because the request is tied to a historical snapshot, it retrieves only the information that was available on that date. The function validates the response and rejects observations after the cutoff date. If the historical data are unavailable, it raises an error instead of substituting current values, which prevents look-ahead bias."
+
+**Follow-up question:** "What happens if the historical vintage is unavailable?"
+
+**John answered:** "The program reports an error and stops processing that historical request. It never replaces the missing vintage with today's data because doing so would introduce future information into the backtest."
+
+### Actual BAA data-card challenge
+
+**Andrew asked John:** "Looking at my BAA data card, which field do you trust the least, and what evidence would you need to trust it?"
+
+**John challenged:** "The publication-timing section is the field I trust the least. The ALFRED snapshots show when the value appears in the archive, but they do not prove the exact time Moody's originally released the data. I would want additional evidence about publication timing before allowing the series into a trading model."
+
+**Andrew's final two-sentence response:** "The September 30 ALFRED vintage contains August's BAA value of 6.32%, while September's 6.47% first appears in the October 1 vintage, confirming that September's value should not be used for a September 30 investment decision. However, these snapshots do not establish Moody's exact original publication time, so I would keep BAA quarantined until that timing is verified."
+
+Supporting evidence: [September 30 ALFRED vintage](https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-09-30), [October 1 ALFRED vintage](https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-01), and the preserved CSV downloads in `evidence/`. "First appears" refers to the checked snapshots, not proof of Moody's original release time.
+
+### John's question to Andrew
+
+**John asked:** "Why does the code validate the vintage-specific column name instead of simply reading whatever column appears in the CSV?"
+
+**Andrew answered:** "Validating the vintage-specific column confirms that ALFRED returned the exact historical snapshot requested. Without that check, an unexpected response, redirect, or malformed file could allow incorrect data to enter the analysis and potentially introduce look-ahead bias."
+
+### Role swaps
+
+Andrew reports that both partners completed the opening rate explanation, code explanation exercise, exchanged questions, discussed the BAA data-card challenge and swapped roles. No additional dialogue or separate activity is inferred from these notes.
 
 ## Reflection
 
@@ -94,4 +125,4 @@ BAA measures the yield on seasoned Baa corporate bonds. It is a monthly series i
 
 I found no changed values among the 1,292 overlapping BAA observations in this comparison, but that does not prove the series can never be corrected. PAYEMS makes the revision risk clearer: December 2024 was 159,536 thousand jobs in the January 15, 2025 vintage and is now 158,316. A historical model using today's file would give past decisions information that arrived later.
 
-A backtest using the finalized file would overstate how much information was available at the time. It could change signals and trades; whether it raises or lowers reported returns depends on the rule, so these checks do not prove a profit bias of a particular size. My takeaway from the audit is that I need the source, units, measured period, historical availability and revision evidence before using a dataset. BAA is my confirmed selected series, and I would keep it quarantined until its publication-timing and trading-time policy is sufficiently verified. This is an AI-assisted research reflection for review, not a claim that I completed the personal discussions.
+A backtest using the finalized file would overstate how much information was available at the time. It could change signals and trades; whether it raises or lowers reported returns depends on the rule, so these checks do not prove a profit bias of a particular size. My takeaway from the audit is that I need the source, units, measured period, historical availability and revision evidence before using a dataset. BAA is my confirmed selected series, and I would keep it quarantined until its publication-timing and trading-time policy is sufficiently verified. This is an AI-assisted research reflection for review. The completed partner discussion is recorded above from my supplied notes.

@@ -50,7 +50,7 @@ Using today's lower December value in a January 15, 2025 decision would supply a
 
 ## Data card and call
 
-See [DATA_CARD.md](DATA_CARD.md) and [ANSWERS.md](ANSWERS.md) for all written answers, timing limits, personal activities and reflection.
+See [DATA_CARD.md](DATA_CARD.md) and [ANSWERS.md](ANSWERS.md) for all written answers, timing limits, the completed October 29 partner discussion with John (surname unconfirmed), actual challenge/response, code question, role swaps and reflection.
 
 **Decision: Quarantine BAA for Project 2 model use pending sufficient publication-timing and trading-time verification.** BAA is economically relevant to borrowing costs and credit conditions. The audit detects no revisions in 1,292 matching dates, but the September value was not available on September 30 and date-level CSVs do not establish intraday source release times. The Week 10 handout says to quarantine when a publication date cannot be found; the limited availability bracket is insufficient for a complete trading-time policy across the backtest.
 
@@ -68,11 +68,11 @@ Live checks reproduce all four known answers and PAYEMS, with no errors in `evid
 
 - Series selection completed: BAA is confirmed for Lab 17 and the current Project 2 data-card evaluation. Its model admission remains quarantined pending timing verification.
 - Personally read July 6.19, August 6.32 and September 6.47 on FRED, recording the check date. Codex's separate-table checks do not satisfy the hand-verification requirement.
-- Complete the opening no-screen explanation and partner-written reason, then swap.
-- Explain the actual vintage function line by line without AI; answer the partner's code question and swap roles.
-- Obtain the actual data-card challenge, write an evidence-based two-sentence response in the card, and fill the partner/date fields. Do not reuse a hypothetical question as an actual interaction.
-- Explain publication lag and what today's values would overstate to the partner; explain why cleaning is not a data card. Review the written reflection in your own words.
+- Partner opening rate explanation and role swaps: completed October 29, 2026, per Andrew's notes. No separate partner-written opening reason is claimed; confirm that record if independently required.
+- Partner code explanation, exchanged questions and role swaps: completed per Andrew's notes; the actual code question and answer are recorded in DATA_CARD.md and ANSWERS.md.
+- Partner challenge and evidence-based two-sentence response: completed and recorded. Partner is John; surname remains for confirmation. Discussion date: October 29, 2026 (session context).
+- Publication-timing challenge discussion: completed as documented. Review the reflection in your own words; complete any separately required explanation of why cleaning is not a data card and any personal reflection not covered by the supplied notes.
 - Open Brightspace → Quizzes → Lab 17 at the instructed time, answer the actual private quiz/checkout prompts, and submit individually with GitHub links. No access to private quiz questions or submission is claimed.
 - Complete or confirm the assigned ALFRED reading and publication/trading-time policy before admitting BAA to a model. Confirm any private deadline and instructions.
 
-[Brightspace text](BRIGHTSPACE_SUBMISSION.md). AI disclosure: Codex implemented, researched, tested and drafted this package; student review and in-person work remain necessary.
+[Brightspace text](BRIGHTSPACE_SUBMISSION.md). AI disclosure: Codex implemented, researched, tested and drafted this package; student review, personal FRED checks and individual checkout remain necessary; partner activities are recorded from Andrew's supplied notes.
