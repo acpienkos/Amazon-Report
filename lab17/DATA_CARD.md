@@ -30,7 +30,7 @@ The following is **Codex-assisted verification**, independently comparing the gr
 | 2026-08-01 | 6.32 | 6.32 | Codex-assisted match | 2026-10-29 |
 | 2026-09-01 | 6.47 | 6.47 | Codex-assisted match | 2026-10-29 |
 
-For every row: [official FRED page](https://fred.stlouisfed.org/series/BAA), [official table](https://fred.stlouisfed.org/data/BAA), and [download CSV](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA), verified October 29, 2026. The official table response is saved as `evidence/BAA_official_table.txt` (HTML despite the requested `.txt` endpoint). Andrew must personally read these three months on FRED and record his check; automation does not fulfill “yourself.”
+For every row: [official FRED page](https://fred.stlouisfed.org/series/BAA), [official table](https://fred.stlouisfed.org/data/BAA), and [download CSV](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA), verified October 29, 2026. The official table response is saved as `evidence/BAA_official_table.txt` (HTML despite the requested `.txt` endpoint). Andrew must personally read these three months on FRED and record his check; automation does not fulfill “yourself.” Codex independently rechecked both official URLs on October 29, 2026: July 6.19%, August 6.32% and September 6.47% all match on the FRED table and series page. This remains Codex-assisted verification; the student hand check is pending.
 
 ## Economic relevance and point-in-time risks
 

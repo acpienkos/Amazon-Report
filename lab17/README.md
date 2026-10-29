@@ -72,7 +72,7 @@ Live checks reproduce all four known answers and PAYEMS, with no errors in `evid
 - Partner code explanation, exchanged questions and role swaps: completed per Andrew's notes; the actual code question and answer are recorded in DATA_CARD.md and ANSWERS.md.
 - Partner challenge and evidence-based two-sentence response: completed and recorded. Partner is John; surname remains for confirmation. Discussion date: October 29, 2026 (session context).
 - Publication-timing challenge discussion: completed as documented. Review the reflection in your own words; complete any separately required explanation of why cleaning is not a data card and any personal reflection not covered by the supplied notes.
-- Open Brightspace → Quizzes → Lab 17 at the instructed time, answer the actual private quiz/checkout prompts, and submit individually with GitHub links. No access to private quiz questions or submission is claimed.
+- GitHub links: **student-reported submitted to Brightspace**, reported October 29, 2026. Individual Lab 17 quiz/checkout completion is **unconfirmed**; check its submitted/completed status yourself. The links may be part of that quiz workflow, but submitting links alone does not establish quiz completion. Codex did not access Brightspace.
 - Complete or confirm the assigned ALFRED reading and publication/trading-time policy before admitting BAA to a model. Confirm any private deadline and instructions.
 
 [Brightspace text](BRIGHTSPACE_SUBMISSION.md). AI disclosure: Codex implemented, researched, tested and drafted this package; student review, personal FRED checks and individual checkout remain necessary; partner activities are recorded from Andrew's supplied notes.

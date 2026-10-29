@@ -65,7 +65,7 @@ The following is **Codex-assisted verification**, independently comparing the gr
 | 2026-08-01 | 6.32 | 6.32 | Codex-assisted match | 2026-10-29 |
 | 2026-09-01 | 6.47 | 6.47 | Codex-assisted match | 2026-10-29 |
 
-For every row: [official FRED page](https://fred.stlouisfed.org/series/BAA), [official table](https://fred.stlouisfed.org/data/BAA), and [download CSV](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA), verified October 29, 2026. The official table response is saved as `evidence/BAA_official_table.txt` (HTML despite the requested `.txt` endpoint). Andrew must personally read these three months on FRED and record his check; automation does not fulfill “yourself.”
+For every row: [official FRED page](https://fred.stlouisfed.org/series/BAA), [official table](https://fred.stlouisfed.org/data/BAA), and [download CSV](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA), verified October 29, 2026. The official table response is saved as `evidence/BAA_official_table.txt` (HTML despite the requested `.txt` endpoint). Andrew must personally read these three months on FRED and record his check; automation does not fulfill “yourself.” Codex independently rechecked both official URLs on October 29, 2026: July 6.19%, August 6.32% and September 6.47% all match on the FRED table and series page. This remains Codex-assisted verification; the student hand check is pending.
 
 ## Economic relevance and point-in-time risks
 
@@ -172,5 +172,5 @@ A backtest using the finalized file would overstate how much information was ava
 - Partner code explanation, exchanged questions and role swaps: completed per Andrew's notes; the actual code question and answer are recorded in DATA_CARD.md and ANSWERS.md.
 - Partner challenge and evidence-based two-sentence response: completed and recorded. Partner is John; surname remains for confirmation. Discussion date: October 29, 2026 (session context).
 - Publication-timing challenge discussion: completed as documented. Review the reflection in your own words; complete any separately required explanation of why cleaning is not a data card and any personal reflection not covered by the supplied notes.
-- Open Brightspace → Quizzes → Lab 17 at the instructed time, answer the actual private quiz/checkout prompts, and submit individually with GitHub links. No access to private quiz questions or submission is claimed.
+- GitHub links: **student-reported submitted to Brightspace**, reported October 29, 2026. Individual Lab 17 quiz/checkout completion is **unconfirmed**; check its submitted/completed status yourself. The links may be part of that quiz workflow, but submitting links alone does not establish quiz completion. Codex did not access Brightspace.
 - Complete or confirm the assigned ALFRED reading and publication/trading-time policy before admitting BAA to a model. Confirm any private deadline and instructions.
