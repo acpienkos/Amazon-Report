@@ -1,0 +1,291 @@
+{
+  "ticker": "JPM",
+  "company": "JPMORGAN CHASE & CO",
+  "rows": [
+    {
+      "fiscal_year_end": "2021-12-31",
+      "revenue": {
+        "value": 121649000000,
+        "tag": "us-gaap:Revenues",
+        "filed": "2024-02-16",
+        "accession": "0000019617-24-000225",
+        "start": "2021-01-01"
+      },
+      "net_income": {
+        "value": 48334000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2024-02-16",
+        "accession": "0000019617-24-000225",
+        "start": "2021-01-01"
+      },
+      "operating_cash_flow": {
+        "value": 78084000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2024-02-16",
+        "accession": "0000019617-24-000225",
+        "start": "2021-01-01"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": "not found"
+      },
+      "equity": {
+        "value": 294127000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2024-02-16",
+        "accession": "0000019617-24-000225",
+        "start": null
+      },
+      "liabilities": {
+        "value": 3449440000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2023-02-21",
+        "accession": "0000019617-23-000231",
+        "start": null
+      },
+      "roe": {
+        "value": 0.16433037429409744,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": null,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - not found"
+      },
+      "liabilities_to_equity": {
+        "value": 11.727723058406742,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      }
+    },
+    {
+      "fiscal_year_end": "2022-12-31",
+      "revenue": {
+        "value": 128695000000,
+        "tag": "us-gaap:Revenues",
+        "filed": "2025-02-14",
+        "accession": "0000019617-25-000270",
+        "start": "2022-01-01"
+      },
+      "net_income": {
+        "value": 37676000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2025-02-14",
+        "accession": "0000019617-25-000270",
+        "start": "2022-01-01"
+      },
+      "operating_cash_flow": {
+        "value": 107119000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2025-02-14",
+        "accession": "0000019617-25-000270",
+        "start": "2022-01-01"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": "not found"
+      },
+      "equity": {
+        "value": 292332000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2025-02-14",
+        "accession": "0000019617-25-000270",
+        "start": null
+      },
+      "liabilities": {
+        "value": 3373411000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2024-02-16",
+        "accession": "0000019617-24-000225",
+        "start": null
+      },
+      "roe": {
+        "value": 0.12888086148625535,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": null,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - not found"
+      },
+      "liabilities_to_equity": {
+        "value": 11.539656965368144,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      }
+    },
+    {
+      "fiscal_year_end": "2023-12-31",
+      "revenue": {
+        "value": 158104000000,
+        "tag": "us-gaap:Revenues",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2023-01-01"
+      },
+      "net_income": {
+        "value": 49552000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2023-01-01"
+      },
+      "operating_cash_flow": {
+        "value": 12974000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2023-01-01"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": "not found"
+      },
+      "equity": {
+        "value": 327878000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": null
+      },
+      "liabilities": {
+        "value": 3547515000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2025-02-14",
+        "accession": "0000019617-25-000270",
+        "start": null
+      },
+      "roe": {
+        "value": 0.15112938349020064,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": null,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - not found"
+      },
+      "liabilities_to_equity": {
+        "value": 10.819618882633174,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      }
+    },
+    {
+      "fiscal_year_end": "2024-12-31",
+      "revenue": {
+        "value": 177556000000,
+        "tag": "us-gaap:Revenues",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2024-01-01"
+      },
+      "net_income": {
+        "value": 58471000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2024-01-01"
+      },
+      "operating_cash_flow": {
+        "value": -42012000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2024-01-01"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": "not found"
+      },
+      "equity": {
+        "value": 344758000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": null
+      },
+      "liabilities": {
+        "value": 3658056000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": null
+      },
+      "roe": {
+        "value": 0.16960012530528662,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": null,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - not found"
+      },
+      "liabilities_to_equity": {
+        "value": 10.610503599626405,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      }
+    },
+    {
+      "fiscal_year_end": "2025-12-31",
+      "revenue": {
+        "value": 182447000000,
+        "tag": "us-gaap:Revenues",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2025-01-01"
+      },
+      "net_income": {
+        "value": 57048000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2025-01-01"
+      },
+      "operating_cash_flow": {
+        "value": -147782000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": "2025-01-01"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": "not found"
+      },
+      "equity": {
+        "value": 362438000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": null
+      },
+      "liabilities": {
+        "value": 4062462000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2026-02-13",
+        "accession": "0001628280-26-008131",
+        "start": null
+      },
+      "roe": {
+        "value": 0.1574007140531622,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": null,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - not found"
+      },
+      "liabilities_to_equity": {
+        "value": 11.208708799849905,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      }
+    }
+  ],
+  "checks": {
+    "ROE at least 15% every year": "fail",
+    "Owner earnings positive every year": "not known",
+    "Owner earnings grew first to last": "not known"
+  }
+}

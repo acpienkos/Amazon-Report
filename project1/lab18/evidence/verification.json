@@ -1,0 +1,16 @@
+{
+  "executed_utc": "2026-11-03T21:06:14.663601+00:00",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "source_sha256": {
+    "company_tickers.json": "de59c00edabfb8b540c61ea4805446763bc9ba6aa8b42fa2955f5439556558d2",
+    "COST.json": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff",
+    "COST.provenance.json": "e7982b8e1fb2904821693ddc38654f7f2250187e873550b5091cfb4c99407a88",
+    "JPM.json": "5ac757b3a5dcabd0c439d568a0e102d77ac5a46cec63dd933a03607e4266a33f",
+    "JPM.provenance.json": "d73b8996c8396f6621572b1277db760d5aed25780adc10f6393449b42b045dca",
+    "lab18.md": "83ab680e219dd6a19eeddc1d3f93b2df3ed2e106969139501864860170c81423",
+    "warren_buffett.md": "6c3bd4281933091a9dff6faa20e3cc9e992b3c98357354071815c438c5dd7b86"
+  }
+}
