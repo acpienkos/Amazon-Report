@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "COST",
+    "skill": "buffett-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "COST",
+    "skill": "cathie-wood-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "COST",
+    "skill": "burry-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "NVDA",
+    "skill": "buffett-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "NVDA",
+    "skill": "cathie-wood-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "NVDA",
+    "skill": "burry-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "JPM",
+    "skill": "buffett-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "JPM",
+    "skill": "cathie-wood-panel",
+    "exit_code": 0
+  },
+  {
+    "ticker": "JPM",
+    "skill": "burry-panel",
+    "exit_code": 0
+  }
+]

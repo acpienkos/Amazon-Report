@@ -1,0 +1,363 @@
+{
+  "ticker": "COST",
+  "company": "COSTCO WHOLESALE CORP /NEW",
+  "rows": [
+    {
+      "fiscal_year_end": "2022-08-28",
+      "revenue": {
+        "value": 226954000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "filed": "2024-10-09",
+        "accession": "0000909832-24-000049",
+        "start": "2021-08-30"
+      },
+      "net_income": {
+        "value": 5844000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2024-10-09",
+        "accession": "0000909832-24-000049",
+        "start": "2021-08-30"
+      },
+      "operating_cash_flow": {
+        "value": 7392000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2024-10-09",
+        "accession": "0000909832-24-000049",
+        "start": "2021-08-30"
+      },
+      "capital_spending": {
+        "value": 3891000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "filed": "2024-10-09",
+        "accession": "0000909832-24-000049",
+        "start": "2021-08-30"
+      },
+      "equity": {
+        "value": 20642000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2023-10-11",
+        "accession": "0000909832-23-000042",
+        "start": null
+      },
+      "liabilities": {
+        "value": 43519000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2023-10-11",
+        "accession": "0000909832-23-000042",
+        "start": null
+      },
+      "research_and_development": {
+        "value": null,
+        "tag": "not found"
+      },
+      "roe": {
+        "value": 0.2831121015405484,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": 3501000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      },
+      "liabilities_to_equity": {
+        "value": 2.1082743920162774,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "rd_to_revenue": {
+        "value": null,
+        "tag": "not found / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    {
+      "fiscal_year_end": "2023-09-03",
+      "revenue": {
+        "value": 242290000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "filed": "2025-10-08",
+        "accession": "0000909832-25-000101",
+        "start": "2022-08-29"
+      },
+      "net_income": {
+        "value": 6292000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2025-10-08",
+        "accession": "0000909832-25-000101",
+        "start": "2022-08-29"
+      },
+      "operating_cash_flow": {
+        "value": 11068000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2025-10-08",
+        "accession": "0000909832-25-000101",
+        "start": "2022-08-29"
+      },
+      "capital_spending": {
+        "value": 4323000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "filed": "2025-10-08",
+        "accession": "0000909832-25-000101",
+        "start": "2022-08-29"
+      },
+      "equity": {
+        "value": 25058000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "liabilities": {
+        "value": 43936000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2024-10-09",
+        "accession": "0000909832-24-000049",
+        "start": null
+      },
+      "research_and_development": {
+        "value": null,
+        "tag": "not found"
+      },
+      "roe": {
+        "value": 0.2510974539069359,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": 6745000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      },
+      "liabilities_to_equity": {
+        "value": 1.7533721765504031,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "rd_to_revenue": {
+        "value": null,
+        "tag": "not found / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    {
+      "fiscal_year_end": "2024-09-01",
+      "revenue": {
+        "value": 254453000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2023-09-04"
+      },
+      "net_income": {
+        "value": 7367000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2023-09-04"
+      },
+      "operating_cash_flow": {
+        "value": 11339000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2023-09-04"
+      },
+      "capital_spending": {
+        "value": 4710000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2023-09-04"
+      },
+      "equity": {
+        "value": 23622000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "liabilities": {
+        "value": 46209000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2025-10-08",
+        "accession": "0000909832-25-000101",
+        "start": null
+      },
+      "research_and_development": {
+        "value": null,
+        "tag": "not found"
+      },
+      "roe": {
+        "value": 0.3118702904072475,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": 6629000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      },
+      "liabilities_to_equity": {
+        "value": 1.9561849123698247,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "rd_to_revenue": {
+        "value": null,
+        "tag": "not found / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    {
+      "fiscal_year_end": "2025-08-31",
+      "revenue": {
+        "value": 275235000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2024-09-02"
+      },
+      "net_income": {
+        "value": 8099000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2024-09-02"
+      },
+      "operating_cash_flow": {
+        "value": 13335000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2024-09-02"
+      },
+      "capital_spending": {
+        "value": 5498000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2024-09-02"
+      },
+      "equity": {
+        "value": 29164000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "liabilities": {
+        "value": 47935000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "research_and_development": {
+        "value": null,
+        "tag": "not found"
+      },
+      "roe": {
+        "value": 0.27770539020710466,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": 7837000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      },
+      "liabilities_to_equity": {
+        "value": 1.6436359895761898,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "rd_to_revenue": {
+        "value": null,
+        "tag": "not found / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    {
+      "fiscal_year_end": "2026-08-30",
+      "revenue": {
+        "value": 303154000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2025-09-01"
+      },
+      "net_income": {
+        "value": 9226000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2025-09-01"
+      },
+      "operating_cash_flow": {
+        "value": 15817000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2025-09-01"
+      },
+      "capital_spending": {
+        "value": 6435000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": "2025-09-01"
+      },
+      "equity": {
+        "value": 35803000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "liabilities": {
+        "value": 53242000000,
+        "tag": "us-gaap:Liabilities",
+        "filed": "2026-10-07",
+        "accession": "0000909832-26-000093",
+        "start": null
+      },
+      "research_and_development": {
+        "value": null,
+        "tag": "not found"
+      },
+      "roe": {
+        "value": 0.25768790324833113,
+        "tag": "us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "owner_earnings": {
+        "value": 9382000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      },
+      "liabilities_to_equity": {
+        "value": 1.4870820880931765,
+        "tag": "us-gaap:Liabilities / us-gaap:StockholdersEquity",
+        "missing": "not known"
+      },
+      "rd_to_revenue": {
+        "value": null,
+        "tag": "not found / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    }
+  ],
+  "checks": {
+    "ROE at least 15% every year": "pass",
+    "Owner earnings positive every year": "pass",
+    "Owner earnings grew first to last": "pass"
+  },
+  "growth": 0.07505668815961197,
+  "growth_threshold": 0.05,
+  "panel": {
+    "Buffett": {
+      "ROE at least 15% every year": "pass",
+      "Owner earnings positive every year": "pass",
+      "Owner earnings grew first to last": "pass"
+    },
+    "Cathie Wood": {
+      "Revenue growth at least 5% a year": "pass",
+      "Latest R&D at least 5% of revenue": "not known"
+    },
+    "Burry": {
+      "Operating cash flow at least net income every year": "pass",
+      "Latest liabilities no more than twice equity": "pass"
+    }
+  }
+}

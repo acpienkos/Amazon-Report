@@ -1,0 +1,24 @@
+test_invalid_ticker_and_missing_saved_snapshot (test_panel.AppTests.test_invalid_ticker_and_missing_saved_snapshot) ... 2026-11-05 17:07:30.218 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_probe_nvda_and_jpm_in_app (test_panel.AppTests.test_probe_nvda_and_jpm_in_app) ... 2026-11-05 17:07:31.411 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_three_columns_verdicts_chart_table_and_flags (test_panel.AppTests.test_three_columns_verdicts_chart_table_and_flags) ... 2026-11-05 17:07:32.008 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_lab18_cost_values_from_official_table (test_panel.PanelTests.test_all_lab18_cost_values_from_official_table) ... ok
+test_all_nine_memos_and_three_injections (test_panel.PanelTests.test_all_nine_memos_and_three_injections) ... ok
+test_annual_not_quarterly (test_panel.PanelTests.test_annual_not_quarterly) ... ok
+test_jpm_gaps_preserved (test_panel.PanelTests.test_jpm_gaps_preserved) ... ok
+test_latest_filing_10k_and_rd_fallback (test_panel.PanelTests.test_latest_filing_10k_and_rd_fallback) ... ok
+test_missing_revenue_and_incomplete_history (test_panel.PanelTests.test_missing_revenue_and_incomplete_history) ... ok
+test_new_cost_ratios_from_official_table (test_panel.PanelTests.test_new_cost_ratios_from_official_table) ... ok
+test_nonpositive_equity (test_panel.PanelTests.test_nonpositive_equity) ... ok
+test_nvda_cash_check_and_growth_recomputed (test_panel.PanelTests.test_nvda_cash_check_and_growth_recomputed) ... ok
+test_probe_from_actual_skill_execution (test_panel.PanelTests.test_probe_from_actual_skill_execution) ... ok
+test_script_executions_and_shared_snapshot (test_panel.PanelTests.test_script_executions_and_shared_snapshot) ... ok
+test_seven_cost_checks (test_panel.PanelTests.test_seven_cost_checks) ... ok
+test_threshold_boundaries_unrounded (test_panel.PanelTests.test_threshold_boundaries_unrounded) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.203s
+
+OK

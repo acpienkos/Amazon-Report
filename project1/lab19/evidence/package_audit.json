@@ -1,0 +1,40 @@
+{
+  "executed_utc": "2026-11-05T22:06:42.386848+00:00",
+  "source_hashes_verified": 19,
+  "verified_sources": [
+    "README.md",
+    "student-prework.md",
+    "student-handout.md",
+    "lab-18-legend-investor-as-skill.md",
+    "lab-19-legend-panel.md",
+    "slides-session-19.md",
+    "open-ended-challenge.md",
+    "FAskills-README.md",
+    "warren_buffett.md",
+    "cathie_wood.md",
+    "michael_burry.md",
+    "codex-skills.html",
+    "sec-api.html",
+    "streamlit.html",
+    "VT-vanguard.html",
+    "VT-schwab-holdings.html",
+    "COST.json",
+    "NVDA.json",
+    "JPM.json"
+  ],
+  "prior_lab18_tests": 7,
+  "prior_lab18_exit_code": 0,
+  "tracked_changes_outside_lab19": [],
+  "preexisting_untracked_preserved": [
+    "lab13/SUBMISSION_CHECKLIST.md",
+    "lab13/preservation_manifest.json",
+    "lab13/sources/"
+  ],
+  "credential_pattern_hits": [],
+  "credential_scan_scope": "Private-key headers, AWS access-key IDs, GitHub token formats; heuristic, not a proof of absence.",
+  "packages": {
+    "streamlit": "1.66.0",
+    "pandas": "3.0.6",
+    "PyYAML": "6.0.3"
+  }
+}

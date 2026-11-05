@@ -1,0 +1,74 @@
+NVDA | NVIDIA CORP
+Amounts: USD millions; ROE and R&D/revenue: percent; liabilities/equity: ratio
+2022-01-30
+  revenue: 26,914 [us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax] filed=2022-03-18 accession=0001045810-22-000036
+  net_income: 9,752 [us-gaap:NetIncomeLoss] filed=2024-02-21 accession=0001045810-24-000029
+  operating_cash_flow: 9,108 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2024-02-21 accession=0001045810-24-000029
+  capital_spending: 976 [us-gaap:PaymentsToAcquireProductiveAssets] filed=2024-02-21 accession=0001045810-24-000029
+  equity: 26,612 [us-gaap:StockholdersEquity] filed=2025-02-26 accession=0001045810-25-000023
+  liabilities: 17,575 [us-gaap:Liabilities] filed=2023-02-24 accession=0001045810-23-000017
+  research_and_development: 5,268 [us-gaap:ResearchAndDevelopmentExpense] filed=2024-02-21 accession=0001045810-24-000029
+  roe: 36.6% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: 8,132 [us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets]
+  liabilities_to_equity: 0.66 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: 19.57% [us-gaap:ResearchAndDevelopmentExpense / us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax]
+2023-01-29
+  revenue: 26,974 [us-gaap:Revenues] filed=2025-02-26 accession=0001045810-25-000023
+  net_income: 4,368 [us-gaap:NetIncomeLoss] filed=2025-02-26 accession=0001045810-25-000023
+  operating_cash_flow: 5,641 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2025-02-26 accession=0001045810-25-000023
+  capital_spending: 1,833 [us-gaap:PaymentsToAcquireProductiveAssets] filed=2025-02-26 accession=0001045810-25-000023
+  equity: 22,101 [us-gaap:StockholdersEquity] filed=2026-02-25 accession=0001045810-26-000021
+  liabilities: 19,081 [us-gaap:Liabilities] filed=2024-02-21 accession=0001045810-24-000029
+  research_and_development: 7,339 [us-gaap:ResearchAndDevelopmentExpense] filed=2025-02-26 accession=0001045810-25-000023
+  roe: 19.8% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: 3,808 [us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets]
+  liabilities_to_equity: 0.86 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: 27.21% [us-gaap:ResearchAndDevelopmentExpense / us-gaap:Revenues]
+2024-01-28
+  revenue: 60,922 [us-gaap:Revenues] filed=2026-02-25 accession=0001045810-26-000021
+  net_income: 29,760 [us-gaap:NetIncomeLoss] filed=2026-02-25 accession=0001045810-26-000021
+  operating_cash_flow: 28,090 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-25 accession=0001045810-26-000021
+  capital_spending: 1,069 [us-gaap:PaymentsToAcquireProductiveAssets] filed=2026-02-25 accession=0001045810-26-000021
+  equity: 42,978 [us-gaap:StockholdersEquity] filed=2026-02-25 accession=0001045810-26-000021
+  liabilities: 22,750 [us-gaap:Liabilities] filed=2025-02-26 accession=0001045810-25-000023
+  research_and_development: 8,675 [us-gaap:ResearchAndDevelopmentExpense] filed=2026-02-25 accession=0001045810-26-000021
+  roe: 69.2% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: 27,021 [us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets]
+  liabilities_to_equity: 0.53 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: 14.24% [us-gaap:ResearchAndDevelopmentExpense / us-gaap:Revenues]
+2025-01-26
+  revenue: 130,497 [us-gaap:Revenues] filed=2026-02-25 accession=0001045810-26-000021
+  net_income: 72,880 [us-gaap:NetIncomeLoss] filed=2026-02-25 accession=0001045810-26-000021
+  operating_cash_flow: 64,089 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-25 accession=0001045810-26-000021
+  capital_spending: 3,236 [us-gaap:PaymentsToAcquireProductiveAssets] filed=2026-02-25 accession=0001045810-26-000021
+  equity: 79,327 [us-gaap:StockholdersEquity] filed=2026-02-25 accession=0001045810-26-000021
+  liabilities: 32,274 [us-gaap:Liabilities] filed=2026-02-25 accession=0001045810-26-000021
+  research_and_development: 12,914 [us-gaap:ResearchAndDevelopmentExpense] filed=2026-02-25 accession=0001045810-26-000021
+  roe: 91.9% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: 60,853 [us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets]
+  liabilities_to_equity: 0.41 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: 9.90% [us-gaap:ResearchAndDevelopmentExpense / us-gaap:Revenues]
+2026-01-25
+  revenue: 215,938 [us-gaap:Revenues] filed=2026-02-25 accession=0001045810-26-000021
+  net_income: 120,067 [us-gaap:NetIncomeLoss] filed=2026-02-25 accession=0001045810-26-000021
+  operating_cash_flow: 102,718 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-25 accession=0001045810-26-000021
+  capital_spending: 6,042 [us-gaap:PaymentsToAcquireProductiveAssets] filed=2026-02-25 accession=0001045810-26-000021
+  equity: 157,293 [us-gaap:StockholdersEquity] filed=2026-02-25 accession=0001045810-26-000021
+  liabilities: 49,510 [us-gaap:Liabilities] filed=2026-02-25 accession=0001045810-26-000021
+  research_and_development: 18,497 [us-gaap:ResearchAndDevelopmentExpense] filed=2026-02-25 accession=0001045810-26-000021
+  roe: 76.3% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: 96,676 [us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets]
+  liabilities_to_equity: 0.31 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: 8.57% [us-gaap:ResearchAndDevelopmentExpense / us-gaap:Revenues]
+Revenue growth a year: 68.30%
+Growth threshold: 15%
+R&D threshold: 5%
+Buffett | ROE at least 15% every year | pass
+Buffett | Owner earnings positive every year | pass
+Buffett | Owner earnings grew first to last | pass
+Cathie Wood | Revenue growth at least 15% a year | pass
+Cathie Wood | Latest R&D at least 5% of revenue | pass
+Burry | Operating cash flow at least net income every year | fail
+Burry | Latest liabilities no more than twice equity | pass
+
+Memo task: Burry — read the printed facts, apply SKILL.md, save an AI-authored memo. No scripted verdict.

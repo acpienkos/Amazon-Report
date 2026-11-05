@@ -1,0 +1,5 @@
+# Preserve the exact bytes hashed in provenance and verification artifacts.
+* -text whitespace=cr-at-eol
+# Upstream source whitespace is preserved deliberately, not rewritten as ours.
+sources/** whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+evidence/** whitespace=cr-at-eol,-blank-at-eof

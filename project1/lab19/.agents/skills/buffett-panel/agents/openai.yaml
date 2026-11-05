@@ -1,0 +1,3 @@
+interface:
+  display_name: "Buffett SEC panel"
+  short_description: "Run deterministic checks and write a grounded business memo"

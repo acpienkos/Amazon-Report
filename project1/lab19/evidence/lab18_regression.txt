@@ -1,0 +1,13 @@
+test_cost_chart_table_checks_and_memo_probe (test_lab18.AppTests.test_cost_chart_table_checks_and_memo_probe) ... 2026-11-05 17:06:37.278 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_cost_rows_against_official_table (test_lab18.ExtractionTests.test_all_cost_rows_against_official_table) ... ok
+test_annual_filter (test_lab18.ExtractionTests.test_annual_filter) ... ok
+test_invalid_equity_and_missing_checks (test_lab18.ExtractionTests.test_invalid_equity_and_missing_checks) ... ok
+test_jpm_missing_not_zero (test_lab18.ExtractionTests.test_jpm_missing_not_zero) ... ok
+test_latest_filing_fallback_and_10k_only (test_lab18.ExtractionTests.test_latest_filing_fallback_and_10k_only) ... ok
+test_memo_and_injected_number (test_lab18.ExtractionTests.test_memo_and_injected_number) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.189s
+
+OK

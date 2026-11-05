@@ -1,0 +1,82 @@
+{
+  "README.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/README.md",
+    "retrieved_utc": "2026-11-05T21:59:13.770082+00:00",
+    "sha256": "9930f1fcf28fe9a5b6cc36714ab031f2e792dceb22bf3f74fedc29172bcf557d"
+  },
+  "student-prework.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/student-prework.md",
+    "retrieved_utc": "2026-11-05T21:59:14.081498+00:00",
+    "sha256": "7f2e742446f6f81e4992a700ee471f04823da695a8ebaadba82c70563619cff8"
+  },
+  "student-handout.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/student-handout.md",
+    "retrieved_utc": "2026-11-05T21:59:14.403737+00:00",
+    "sha256": "db99dd18e23d3b875d143166eeda1bb20cd32f018edd2cef5ec828a2f0862167"
+  },
+  "lab-18-legend-investor-as-skill.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/lab-18-legend-investor-as-skill.md",
+    "retrieved_utc": "2026-11-05T21:59:14.715334+00:00",
+    "sha256": "cab75d51fa5277ad3aa0902ae4b305f9283d45680686ee157c69f3a008abac56"
+  },
+  "lab-19-legend-panel.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/lab-19-legend-panel.md",
+    "retrieved_utc": "2026-11-05T21:59:15.036281+00:00",
+    "sha256": "f4d68c0117f22c605aa6f86baa2ea9cdf39b6318d197898e384ad50b4a868824"
+  },
+  "slides-session-19.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/slides-session-19.md",
+    "retrieved_utc": "2026-11-05T21:59:15.350783+00:00",
+    "sha256": "13425aeeffb98f45c5871b1c6c393a41a859d513c1028ce2e19556c3ae8b38d3"
+  },
+  "open-ended-challenge.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-11/open-ended-challenge.md",
+    "retrieved_utc": "2026-11-05T21:59:15.643278+00:00",
+    "sha256": "0d5cd16be700d51509163660bc3fee123904890f021897f32346769a54ea6f4d"
+  },
+  "FAskills-README.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FAskills/main/README.md",
+    "retrieved_utc": "2026-11-05T21:59:16.065505+00:00",
+    "sha256": "27ba6ab07d7e038ccbc6aba3d9ac9659d0f59d5306dc24235712a9f177760c99"
+  },
+  "warren_buffett.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FAskills/main/financial-researcher/experts/warren_buffett.md",
+    "retrieved_utc": "2026-11-05T21:59:16.400059+00:00",
+    "sha256": "6c3bd4281933091a9dff6faa20e3cc9e992b3c98357354071815c438c5dd7b86"
+  },
+  "cathie_wood.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FAskills/main/financial-researcher/experts/cathie_wood.md",
+    "retrieved_utc": "2026-11-05T21:59:16.698409+00:00",
+    "sha256": "c3ae0d73d2da1dd96ef75031d0ff5b4e5d3e405fda142c48a3b49cd8319a2233"
+  },
+  "michael_burry.md": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FAskills/main/financial-researcher/experts/michael_burry.md",
+    "retrieved_utc": "2026-11-05T21:59:16.994247+00:00",
+    "sha256": "2145c5ec26c16d7db238351090b85e33a6a42eaf3f57b77c027254b287649489"
+  },
+  "codex-skills.html": {
+    "url": "https://developers.openai.com/codex/skills",
+    "retrieved_utc": "2026-11-05T21:59:17.511700+00:00",
+    "sha256": "9a54bd7813d915782ac43bc93e0fdcd2d78794268c6c749fc0f706dd34ed7c9b"
+  },
+  "sec-api.html": {
+    "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+    "retrieved_utc": "2026-11-05T21:59:17.815609+00:00",
+    "sha256": "a7999ece02302a29386dffdb9731faa036c50363a0658a2c3261f29e008a8ea6"
+  },
+  "streamlit.html": {
+    "url": "https://docs.streamlit.io/",
+    "retrieved_utc": "2026-11-05T21:59:18.300657+00:00",
+    "sha256": "e402ba536f010f9fd4a87e047f86b82881cf1fece453abdbc375723ce241798b"
+  },
+  "VT-vanguard.html": {
+    "url": "https://advisors.vanguard.com/investments/products/vt/vanguard-total-world-stock-etf",
+    "retrieved_utc": "2026-11-05T21:59:20.273241+00:00",
+    "sha256": "14d7a9d7ae4f50f7adb94de674cac86d06cb49e4f72e3e82a8ed567addf5f62f"
+  },
+  "VT-schwab-holdings.html": {
+    "url": "https://www.schwab.wallst.com/Prospect/Research/etfs/portfolio.asp?symbol=vt",
+    "retrieved_utc": "2026-11-05T21:59:20.981001+00:00",
+    "sha256": "6e1cbc5323ab2857effcbca9780a379c2163d737e1244ee1d02bc09b032b80fc"
+  }
+}

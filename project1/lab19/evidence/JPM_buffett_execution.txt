@@ -1,0 +1,74 @@
+JPM | JPMORGAN CHASE & CO
+Amounts: USD millions; ROE and R&D/revenue: percent; liabilities/equity: ratio
+2021-12-31
+  revenue: 121,649 [us-gaap:Revenues] filed=2024-02-16 accession=0000019617-24-000225
+  net_income: 48,334 [us-gaap:NetIncomeLoss] filed=2024-02-16 accession=0000019617-24-000225
+  operating_cash_flow: 78,084 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2024-02-16 accession=0000019617-24-000225
+  capital_spending: not found [not found]
+  equity: 294,127 [us-gaap:StockholdersEquity] filed=2024-02-16 accession=0000019617-24-000225
+  liabilities: 3,449,440 [us-gaap:Liabilities] filed=2023-02-21 accession=0000019617-23-000231
+  research_and_development: not found [not found]
+  roe: 16.4% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: not found [us-gaap:NetCashProvidedByUsedInOperatingActivities - not found]
+  liabilities_to_equity: 11.73 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: not found [not found / us-gaap:Revenues]
+2022-12-31
+  revenue: 128,695 [us-gaap:Revenues] filed=2025-02-14 accession=0000019617-25-000270
+  net_income: 37,676 [us-gaap:NetIncomeLoss] filed=2025-02-14 accession=0000019617-25-000270
+  operating_cash_flow: 107,119 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2025-02-14 accession=0000019617-25-000270
+  capital_spending: not found [not found]
+  equity: 292,332 [us-gaap:StockholdersEquity] filed=2025-02-14 accession=0000019617-25-000270
+  liabilities: 3,373,411 [us-gaap:Liabilities] filed=2024-02-16 accession=0000019617-24-000225
+  research_and_development: not found [not found]
+  roe: 12.9% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: not found [us-gaap:NetCashProvidedByUsedInOperatingActivities - not found]
+  liabilities_to_equity: 11.54 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: not found [not found / us-gaap:Revenues]
+2023-12-31
+  revenue: 158,104 [us-gaap:Revenues] filed=2026-02-13 accession=0001628280-26-008131
+  net_income: 49,552 [us-gaap:NetIncomeLoss] filed=2026-02-13 accession=0001628280-26-008131
+  operating_cash_flow: 12,974 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-13 accession=0001628280-26-008131
+  capital_spending: not found [not found]
+  equity: 327,878 [us-gaap:StockholdersEquity] filed=2026-02-13 accession=0001628280-26-008131
+  liabilities: 3,547,515 [us-gaap:Liabilities] filed=2025-02-14 accession=0000019617-25-000270
+  research_and_development: not found [not found]
+  roe: 15.1% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: not found [us-gaap:NetCashProvidedByUsedInOperatingActivities - not found]
+  liabilities_to_equity: 10.82 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: not found [not found / us-gaap:Revenues]
+2024-12-31
+  revenue: 177,556 [us-gaap:Revenues] filed=2026-02-13 accession=0001628280-26-008131
+  net_income: 58,471 [us-gaap:NetIncomeLoss] filed=2026-02-13 accession=0001628280-26-008131
+  operating_cash_flow: -42,012 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-13 accession=0001628280-26-008131
+  capital_spending: not found [not found]
+  equity: 344,758 [us-gaap:StockholdersEquity] filed=2026-02-13 accession=0001628280-26-008131
+  liabilities: 3,658,056 [us-gaap:Liabilities] filed=2026-02-13 accession=0001628280-26-008131
+  research_and_development: not found [not found]
+  roe: 17.0% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: not found [us-gaap:NetCashProvidedByUsedInOperatingActivities - not found]
+  liabilities_to_equity: 10.61 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: not found [not found / us-gaap:Revenues]
+2025-12-31
+  revenue: 182,447 [us-gaap:Revenues] filed=2026-02-13 accession=0001628280-26-008131
+  net_income: 57,048 [us-gaap:NetIncomeLoss] filed=2026-02-13 accession=0001628280-26-008131
+  operating_cash_flow: -147,782 [us-gaap:NetCashProvidedByUsedInOperatingActivities] filed=2026-02-13 accession=0001628280-26-008131
+  capital_spending: not found [not found]
+  equity: 362,438 [us-gaap:StockholdersEquity] filed=2026-02-13 accession=0001628280-26-008131
+  liabilities: 4,062,462 [us-gaap:Liabilities] filed=2026-02-13 accession=0001628280-26-008131
+  research_and_development: not found [not found]
+  roe: 15.7% [us-gaap:NetIncomeLoss / us-gaap:StockholdersEquity]
+  owner_earnings: not found [us-gaap:NetCashProvidedByUsedInOperatingActivities - not found]
+  liabilities_to_equity: 11.21 [us-gaap:Liabilities / us-gaap:StockholdersEquity]
+  rd_to_revenue: not found [not found / us-gaap:Revenues]
+Revenue growth a year: 10.66%
+Growth threshold: 15%
+R&D threshold: 5%
+Buffett | ROE at least 15% every year | fail
+Buffett | Owner earnings positive every year | not known
+Buffett | Owner earnings grew first to last | not known
+Cathie Wood | Revenue growth at least 15% a year | fail
+Cathie Wood | Latest R&D at least 5% of revenue | not known
+Burry | Operating cash flow at least net income every year | fail
+Burry | Latest liabilities no more than twice equity | fail
+
+Memo task: Buffett — read the printed facts, apply SKILL.md, save an AI-authored memo. No scripted verdict.

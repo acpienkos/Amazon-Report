@@ -1,0 +1,61 @@
+{
+  "method": "skills/list",
+  "cwd": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\lab19",
+  "skills": [
+    {
+      "name": "buffett-panel",
+      "description": "Run the FIN43900 Lab 19 Buffett business screen on SEC EDGAR facts and write a number-audited memo. Use for this panel persona, not price targets or stock valuation.",
+      "interface": {
+        "displayName": "Buffett SEC panel",
+        "shortDescription": "Run deterministic checks and write a grounded business memo",
+        "iconSmall": null,
+        "iconLarge": null,
+        "iconSmallUrl": null,
+        "iconLargeUrl": null,
+        "brandColor": null,
+        "defaultPrompt": null
+      },
+      "path": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\lab19\\.agents\\skills\\buffett-panel\\SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "burry-panel",
+      "description": "Run the FIN43900 Lab 19 Burry business screen on SEC EDGAR facts and write a number-audited memo. Use for this panel persona, not price targets or stock valuation.",
+      "interface": {
+        "displayName": "Burry SEC panel",
+        "shortDescription": "Run deterministic checks and write a grounded business memo",
+        "iconSmall": null,
+        "iconLarge": null,
+        "iconSmallUrl": null,
+        "iconLargeUrl": null,
+        "brandColor": null,
+        "defaultPrompt": null
+      },
+      "path": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\lab19\\.agents\\skills\\burry-panel\\SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    },
+    {
+      "name": "cathie-wood-panel",
+      "description": "Run the FIN43900 Lab 19 Cathie Wood business screen on SEC EDGAR facts and write a number-audited memo. Use for this panel persona, not price targets or stock valuation.",
+      "interface": {
+        "displayName": "Cathie Wood SEC panel",
+        "shortDescription": "Run deterministic checks and write a grounded business memo",
+        "iconSmall": null,
+        "iconLarge": null,
+        "iconSmallUrl": null,
+        "iconLargeUrl": null,
+        "brandColor": null,
+        "defaultPrompt": null
+      },
+      "path": "C:\\Users\\acpie\\Documents\\Codex\\amazon-report-upload\\project1\\lab19\\.agents\\skills\\cathie-wood-panel\\SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    }
+  ],
+  "errors": []
+}
