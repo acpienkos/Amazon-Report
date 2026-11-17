@@ -1,0 +1,19 @@
+2026-11-17 | Codex-assisted check from a fresh copy of project1/lab20
+Python 3.13.7, Streamlit 1.66.0, preinstalled dependencies
+Command: python -B -c "import sys,runpy; sys.path.insert(0,'.'); runpy.run_path('verify.py',run_name='__main__')"
+Elapsed: 1.55 seconds excluding folder copy
+Result: 6/6 passed
+
+PASS  Frozen price and vintage file hashes
+PASS  All 1,771 grid weights are unique and fully invested
+PASS  Base allocation, direct net-return arithmetic, and the 39/40 bp boundary
+PASS  Frozen JSON matches regenerated results, with one input changed per scenario
+PASS  Streamlit app renders and displays no feasible mix when the cost control moves to 50 bp
+PASS  Vintage gate refuses same-day and missing snapshots
+
+First failure during development: check parsed a truncated table display rather than
+the precise net estimate cell. The assertion now reads the table cell directly.
+The frozen input hash check also normalizes line endings across Git checkouts.
+Final run: no failures. Output: docs/visible-output.json.
+This run used the existing Python runtime and Streamlit's app test harness.
+The partner cold-run note and student-owned AI-off evidence remain unresolved.

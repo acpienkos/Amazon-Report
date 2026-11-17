@@ -1,0 +1,561 @@
+{
+  "base": {
+    "decision_date": "2026-10-20",
+    "ticker_order": [
+      "BIL",
+      "IEF",
+      "LQD",
+      "VT"
+    ],
+    "inputs": {
+      "months": 59,
+      "cost_bps": 20,
+      "equity_shock_pp": 0,
+      "reserve_pct": 20,
+      "years_remaining": 5
+    },
+    "signal": {
+      "vintage": "2026-09-30",
+      "month": "2026-08-01",
+      "yield_pct": 6.32
+    },
+    "volatility_cap_pct": 4.0,
+    "equity_cap_pct": 25.0,
+    "gross_estimates_pct": [
+      3.6574119509079903,
+      -1.7289390174296828,
+      -0.927642167900725,
+      11.050234519269315
+    ],
+    "rows": {
+      "Equal weight": {
+        "weights": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "net_pct": 2.8127663212117247,
+        "vol_pct": 7.548225201133234,
+        "failures": [
+          "4% net objective",
+          "corporate issuer bound",
+          "volatility cap"
+        ]
+      },
+      "Inverse volatility": {
+        "weights": [
+          0.872416013537781,
+          0.05548837741918557,
+          0.04339828615860203,
+          0.02869732288443149
+        ],
+        "net_pct": 3.1717028010355133,
+        "vol_pct": 1.3697772880717596,
+        "failures": [
+          "4% net objective"
+        ]
+      },
+      "BIL benchmark": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "net_pct": 3.45741195090799,
+        "vol_pct": 0.49091207846111934,
+        "failures": [
+          "4% net objective"
+        ]
+      },
+      "Lowest-risk qualifying mix": {
+        "weights": [
+          0.9,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "net_pct": 4.196694207744123,
+        "vol_pct": 1.6615110978430472,
+        "failures": []
+      }
+    },
+    "best_net_under_modeled_risk_limits": {
+      "weights": [
+        0.9,
+        0.0,
+        0.0,
+        0.1
+      ],
+      "net_pct": 4.196694207744123,
+      "vol_pct": 1.6615110978430472,
+      "failures": []
+    },
+    "feasible_count": 1,
+    "action": "Reject live allocation"
+  },
+  "AI-assisted stress runs": {
+    "equity estimate \u22121 pp": {
+      "decision_date": "2026-10-20",
+      "ticker_order": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "inputs": {
+        "months": 59,
+        "cost_bps": 20,
+        "equity_shock_pp": -1,
+        "reserve_pct": 20,
+        "years_remaining": 5
+      },
+      "signal": {
+        "vintage": "2026-09-30",
+        "month": "2026-08-01",
+        "yield_pct": 6.32
+      },
+      "volatility_cap_pct": 4.0,
+      "equity_cap_pct": 25.0,
+      "gross_estimates_pct": [
+        3.6574119509079903,
+        -1.7289390174296828,
+        -0.927642167900725,
+        10.050234519269315
+      ],
+      "rows": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "net_pct": 2.562766321211725,
+          "vol_pct": 7.548225201133234,
+          "failures": [
+            "4% net objective",
+            "corporate issuer bound",
+            "volatility cap"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.872416013537781,
+            0.05548837741918557,
+            0.04339828615860203,
+            0.02869732288443149
+          ],
+          "net_pct": 3.143005478151082,
+          "vol_pct": 1.3697772880717596,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "BIL benchmark": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 3.45741195090799,
+          "vol_pct": 0.49091207846111934,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "Lowest-risk qualifying mix": {
+          "weights": [
+            0.9,
+            0.0,
+            0.0,
+            0.1
+          ],
+          "net_pct": 4.096694207744123,
+          "vol_pct": 1.6615110978430472,
+          "failures": []
+        }
+      },
+      "best_net_under_modeled_risk_limits": {
+        "weights": [
+          0.9,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "net_pct": 4.096694207744123,
+        "vol_pct": 1.6615110978430472,
+        "failures": []
+      },
+      "feasible_count": 1,
+      "action": "Reject live allocation"
+    },
+    "last 36 months": {
+      "decision_date": "2026-10-20",
+      "ticker_order": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "inputs": {
+        "months": 36,
+        "cost_bps": 20,
+        "equity_shock_pp": 0,
+        "reserve_pct": 20,
+        "years_remaining": 5
+      },
+      "signal": {
+        "vintage": "2026-09-30",
+        "month": "2026-08-01",
+        "yield_pct": 6.32
+      },
+      "volatility_cap_pct": 4.0,
+      "equity_cap_pct": 25.0,
+      "gross_estimates_pct": [
+        4.365960612983437,
+        3.0695521914255397,
+        4.842841012969656,
+        20.247148344745625
+      ],
+      "rows": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "net_pct": 7.931375540531064,
+          "vol_pct": 5.884332231063649,
+          "failures": [
+            "corporate issuer bound",
+            "volatility cap"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.9280078198952251,
+            0.02974602897854428,
+            0.025326257356544556,
+            0.016919893769685997
+          ],
+          "net_pct": 4.408183215603946,
+          "vol_pct": 0.6089598759692484,
+          "failures": []
+        },
+        "BIL benchmark": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 4.165960612983437,
+          "vol_pct": 0.2134826837099056,
+          "failures": []
+        },
+        "Lowest-risk qualifying mix": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 4.165960612983437,
+          "vol_pct": 0.2134826837099056,
+          "failures": []
+        }
+      },
+      "best_net_under_modeled_risk_limits": {
+        "weights": [
+          0.9,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "net_pct": 5.754079386159656,
+        "vol_pct": 1.2142020757217242,
+        "failures": []
+      },
+      "feasible_count": 41,
+      "action": "Reject live allocation"
+    },
+    "annual drag 50 bp": {
+      "decision_date": "2026-10-20",
+      "ticker_order": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "inputs": {
+        "months": 59,
+        "cost_bps": 50,
+        "equity_shock_pp": 0,
+        "reserve_pct": 20,
+        "years_remaining": 5
+      },
+      "signal": {
+        "vintage": "2026-09-30",
+        "month": "2026-08-01",
+        "yield_pct": 6.32
+      },
+      "volatility_cap_pct": 4.0,
+      "equity_cap_pct": 25.0,
+      "gross_estimates_pct": [
+        3.6574119509079903,
+        -1.7289390174296828,
+        -0.927642167900725,
+        11.050234519269315
+      ],
+      "rows": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "net_pct": 2.5127663212117244,
+          "vol_pct": 7.548225201133234,
+          "failures": [
+            "4% net objective",
+            "corporate issuer bound",
+            "volatility cap"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.872416013537781,
+            0.05548837741918557,
+            0.04339828615860203,
+            0.02869732288443149
+          ],
+          "net_pct": 2.8717028010355135,
+          "vol_pct": 1.3697772880717596,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "BIL benchmark": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 3.1574119509079908,
+          "vol_pct": 0.49091207846111934,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "Lowest-risk qualifying mix": null
+      },
+      "best_net_under_modeled_risk_limits": {
+        "weights": [
+          0.9,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "net_pct": 3.8966942077441233,
+        "vol_pct": 1.6615110978430472,
+        "failures": [
+          "4% net objective"
+        ]
+      },
+      "feasible_count": 0,
+      "action": "Reject live allocation"
+    },
+    "reserve 40%": {
+      "decision_date": "2026-10-20",
+      "ticker_order": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "inputs": {
+        "months": 59,
+        "cost_bps": 20,
+        "equity_shock_pp": 0,
+        "reserve_pct": 40,
+        "years_remaining": 5
+      },
+      "signal": {
+        "vintage": "2026-09-30",
+        "month": "2026-08-01",
+        "yield_pct": 6.32
+      },
+      "volatility_cap_pct": 4.0,
+      "equity_cap_pct": 25.0,
+      "gross_estimates_pct": [
+        3.6574119509079903,
+        -1.7289390174296828,
+        -0.927642167900725,
+        11.050234519269315
+      ],
+      "rows": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "net_pct": 2.8127663212117247,
+          "vol_pct": 7.548225201133234,
+          "failures": [
+            "4% net objective",
+            "BIL reserve",
+            "corporate issuer bound",
+            "volatility cap"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.872416013537781,
+            0.05548837741918557,
+            0.04339828615860203,
+            0.02869732288443149
+          ],
+          "net_pct": 3.1717028010355133,
+          "vol_pct": 1.3697772880717596,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "BIL benchmark": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 3.45741195090799,
+          "vol_pct": 0.49091207846111934,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "Lowest-risk qualifying mix": {
+          "weights": [
+            0.9,
+            0.0,
+            0.0,
+            0.1
+          ],
+          "net_pct": 4.196694207744123,
+          "vol_pct": 1.6615110978430472,
+          "failures": []
+        }
+      },
+      "best_net_under_modeled_risk_limits": {
+        "weights": [
+          0.9,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "net_pct": 4.196694207744123,
+        "vol_pct": 1.6615110978430472,
+        "failures": []
+      },
+      "feasible_count": 1,
+      "action": "Reject live allocation"
+    },
+    "one year to purchase": {
+      "decision_date": "2026-10-20",
+      "ticker_order": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "inputs": {
+        "months": 59,
+        "cost_bps": 20,
+        "equity_shock_pp": 0,
+        "reserve_pct": 20,
+        "years_remaining": 1
+      },
+      "signal": {
+        "vintage": "2026-09-30",
+        "month": "2026-08-01",
+        "yield_pct": 6.32
+      },
+      "volatility_cap_pct": 4.0,
+      "equity_cap_pct": 5.0,
+      "gross_estimates_pct": [
+        3.6574119509079903,
+        -1.7289390174296828,
+        -0.927642167900725,
+        11.050234519269315
+      ],
+      "rows": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "net_pct": 2.8127663212117247,
+          "vol_pct": 7.548225201133234,
+          "failures": [
+            "4% net objective",
+            "corporate issuer bound",
+            "equity glide-path cap",
+            "volatility cap"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.872416013537781,
+            0.05548837741918557,
+            0.04339828615860203,
+            0.02869732288443149
+          ],
+          "net_pct": 3.1717028010355133,
+          "vol_pct": 1.3697772880717596,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "BIL benchmark": {
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_pct": 3.45741195090799,
+          "vol_pct": 0.49091207846111934,
+          "failures": [
+            "4% net objective"
+          ]
+        },
+        "Lowest-risk qualifying mix": null
+      },
+      "best_net_under_modeled_risk_limits": {
+        "weights": [
+          0.95,
+          0.0,
+          0.0,
+          0.05
+        ],
+        "net_pct": 3.8270530793260567,
+        "vol_pct": 0.9761050809044775,
+        "failures": [
+          "4% net objective"
+        ]
+      },
+      "feasible_count": 0,
+      "action": "Reject live allocation"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "BIL": {
+    "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/BIL?range=10y&interval=1mo",
+    "retrieved_utc": "2026-10-20T20:46:50.549971+00:00",
+    "rows": 60
+  },
+  "IEF": {
+    "name": "iShares 7-10 Year Treasury Bond ETF",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/IEF?range=10y&interval=1mo",
+    "retrieved_utc": "2026-10-20T20:46:50.680651+00:00",
+    "rows": 60
+  },
+  "LQD": {
+    "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LQD?range=10y&interval=1mo",
+    "retrieved_utc": "2026-10-20T20:46:50.797122+00:00",
+    "rows": 60
+  },
+  "VT": {
+    "name": "Vanguard Total World Stock Index Fund ETF Shares",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VT?range=10y&interval=1mo",
+    "retrieved_utc": "2026-10-20T20:46:50.957642+00:00",
+    "rows": 60
+  }
+}

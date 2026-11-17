@@ -1,0 +1,23 @@
+FIN 43900 Lab 20 — Project 2 Readiness
+Andrew Pienkos
+
+Readiness record and open items
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/docs/lab20-readiness.md
+
+README and app
+https://github.com/acpienkos/Amazon-Report/tree/main/project1/lab20
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/app.py
+
+Executed output and automated verification
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/docs/visible-output.json
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/docs/verification.txt
+
+Decision memo and validation record
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/docs/decision-memo.md
+https://github.com/acpienkos/Amazon-Report/blob/main/project1/lab20/docs/validation-and-ai-use.md
+
+Decision: Reject live allocation through this process (0%). Reconsider a 0–5% VT pilot only after the client confirms timing and loss tolerance, fund exposures and five-business-day cash availability are verified, and an independent holdout supports the 4% net objective under realistic costs and the nearer-purchase glide path.
+
+Evidence: The October 20, 2026 snapshot has one modeled pass, 90% BIL and 10% VT, at a 4.20% net estimate and 1.66% annualized volatility. At 50 bp of incremental annual costs, no allocation meets the modeled mandate. Six automated checks passed, including a Streamlit control test for this scenario.
+
+Unresolved: Partner cold run, any resulting fix/retest or partner confirmation of a clean run, AI-off prediction and pre-run GitHub commit, student before/after execution, and the partner explanation and reflection. The automated run and stress results are Codex-assisted. The Project 2 videos and transcripts are also unresolved.
